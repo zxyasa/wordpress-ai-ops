@@ -1,0 +1,1103 @@
+{
+  "generated_at": "2026-02-18",
+  "base_url": "https://newcastlehub.info",
+  "checked": 67,
+  "issues_total": 123,
+  "issues": [
+    {
+      "url": "/",
+      "issue": "error",
+      "detail": "unknown url type: '/'"
+    },
+    {
+      "url": "/about/",
+      "issue": "error",
+      "detail": "unknown url type: '/about/'"
+    },
+    {
+      "url": "/contact/",
+      "issue": "error",
+      "detail": "unknown url type: '/contact/'"
+    },
+    {
+      "url": "/free-newcastle-business-audit/",
+      "issue": "error",
+      "detail": "unknown url type: '/free-newcastle-business-audit/'"
+    },
+    {
+      "url": "/services/",
+      "issue": "error",
+      "detail": "unknown url type: '/services/'"
+    },
+    {
+      "url": "https://newcastlehub.info/",
+      "issue": "title_len",
+      "detail": 85
+    },
+    {
+      "url": "https://newcastlehub.info/",
+      "issue": "missing_meta_desc"
+    },
+    {
+      "url": "https://newcastlehub.info/2021/09/06/hello-world/",
+      "issue": "missing_meta_desc"
+    },
+    {
+      "url": "https://newcastlehub.info/2021/09/06/how-to-install-zend-optimizer-on-windows/",
+      "issue": "title_len",
+      "detail": 67
+    },
+    {
+      "url": "https://newcastlehub.info/2021/09/06/how-to-install-zend-optimizer-on-windows/",
+      "issue": "missing_meta_desc"
+    },
+    {
+      "url": "https://newcastlehub.info/2021/09/06/importance-of-firewall-in-internet-world/",
+      "issue": "title_len",
+      "detail": 70
+    },
+    {
+      "url": "https://newcastlehub.info/2021/09/06/importance-of-firewall-in-internet-world/",
+      "issue": "missing_meta_desc"
+    },
+    {
+      "url": "https://newcastlehub.info/2021/09/06/layer-2-vs-layer-3-networks/",
+      "issue": "missing_meta_desc"
+    },
+    {
+      "url": "https://newcastlehub.info/2021/09/06/types-of-ip-address-and-its-requirements/",
+      "issue": "title_len",
+      "detail": 67
+    },
+    {
+      "url": "https://newcastlehub.info/2021/09/06/types-of-ip-address-and-its-requirements/",
+      "issue": "missing_meta_desc"
+    },
+    {
+      "url": "https://newcastlehub.info/about/",
+      "issue": "missing_meta_desc"
+    },
+    {
+      "url": "https://newcastlehub.info/about/",
+      "issue": "missing_h1"
+    },
+    {
+      "url": "https://newcastlehub.info/ai-service-implementation-pack/",
+      "issue": "missing_meta_desc"
+    },
+    {
+      "url": "https://newcastlehub.info/ai-service/",
+      "issue": "missing_meta_desc"
+    },
+    {
+      "url": "https://newcastlehub.info/author/admin/",
+      "issue": "missing_meta_desc"
+    },
+    {
+      "url": "https://newcastlehub.info/author/admin/",
+      "issue": "missing_canonical"
+    },
+    {
+      "url": "https://newcastlehub.info/beauty-salon-solutions/",
+      "issue": "title_len",
+      "detail": 77
+    },
+    {
+      "url": "https://newcastlehub.info/beauty-salon-solutions/",
+      "issue": "missing_meta_desc"
+    },
+    {
+      "url": "https://newcastlehub.info/blocks/footer-main/",
+      "issue": "title_len",
+      "detail": 0
+    },
+    {
+      "url": "https://newcastlehub.info/blocks/footer-main/",
+      "issue": "missing_meta_desc"
+    },
+    {
+      "url": "https://newcastlehub.info/blocks/footer-main/",
+      "issue": "missing_h1"
+    },
+    {
+      "url": "https://newcastlehub.info/blocks/footer-main/",
+      "issue": "missing_canonical"
+    },
+    {
+      "url": "https://newcastlehub.info/blocks/footer/",
+      "issue": "title_len",
+      "detail": 0
+    },
+    {
+      "url": "https://newcastlehub.info/blocks/footer/",
+      "issue": "missing_meta_desc"
+    },
+    {
+      "url": "https://newcastlehub.info/blocks/footer/",
+      "issue": "missing_h1"
+    },
+    {
+      "url": "https://newcastlehub.info/blocks/footer/",
+      "issue": "missing_canonical"
+    },
+    {
+      "url": "https://newcastlehub.info/blog/",
+      "issue": "missing_meta_desc"
+    },
+    {
+      "url": "https://newcastlehub.info/blog/",
+      "issue": "missing_h1"
+    },
+    {
+      "url": "https://newcastlehub.info/blog/",
+      "issue": "missing_canonical"
+    },
+    {
+      "url": "https://newcastlehub.info/booking-system-newcastle/",
+      "issue": "title_len",
+      "detail": 73
+    },
+    {
+      "url": "https://newcastlehub.info/booking-system-newcastle/",
+      "issue": "missing_meta_desc"
+    },
+    {
+      "url": "https://newcastlehub.info/cart/",
+      "issue": "error",
+      "detail": "HTTP Error 500: Internal Server Error"
+    },
+    {
+      "url": "https://newcastlehub.info/category/firewall/",
+      "issue": "missing_meta_desc"
+    },
+    {
+      "url": "https://newcastlehub.info/category/firewall/",
+      "issue": "missing_canonical"
+    },
+    {
+      "url": "https://newcastlehub.info/category/ip-address/",
+      "issue": "missing_meta_desc"
+    },
+    {
+      "url": "https://newcastlehub.info/category/ip-address/",
+      "issue": "missing_canonical"
+    },
+    {
+      "url": "https://newcastlehub.info/category/layer/",
+      "issue": "missing_meta_desc"
+    },
+    {
+      "url": "https://newcastlehub.info/category/layer/",
+      "issue": "missing_canonical"
+    },
+    {
+      "url": "https://newcastlehub.info/category/uncategorized/",
+      "issue": "missing_meta_desc"
+    },
+    {
+      "url": "https://newcastlehub.info/category/uncategorized/",
+      "issue": "missing_canonical"
+    },
+    {
+      "url": "https://newcastlehub.info/category/zend-optimizer/",
+      "issue": "missing_meta_desc"
+    },
+    {
+      "url": "https://newcastlehub.info/category/zend-optimizer/",
+      "issue": "missing_canonical"
+    },
+    {
+      "url": "https://newcastlehub.info/category/zend/",
+      "issue": "missing_meta_desc"
+    },
+    {
+      "url": "https://newcastlehub.info/category/zend/",
+      "issue": "missing_canonical"
+    },
+    {
+      "url": "https://newcastlehub.info/checkout/",
+      "issue": "error",
+      "detail": "HTTP Error 500: Internal Server Error"
+    },
+    {
+      "url": "https://newcastlehub.info/contact/",
+      "issue": "missing_meta_desc"
+    },
+    {
+      "url": "https://newcastlehub.info/contact/",
+      "issue": "missing_h1"
+    },
+    {
+      "url": "https://newcastlehub.info/create-an-ai-avatar/",
+      "issue": "missing_meta_desc"
+    },
+    {
+      "url": "https://newcastlehub.info/ecommerce-setup-newcastle/",
+      "issue": "title_len",
+      "detail": 68
+    },
+    {
+      "url": "https://newcastlehub.info/ecommerce-setup-newcastle/",
+      "issue": "missing_meta_desc"
+    },
+    {
+      "url": "https://newcastlehub.info/facebook-page-setup-for-restaurants-newcastle/",
+      "issue": "title_len",
+      "detail": 72
+    },
+    {
+      "url": "https://newcastlehub.info/facebook-page-setup-for-restaurants-newcastle/",
+      "issue": "missing_meta_desc"
+    },
+    {
+      "url": "https://newcastlehub.info/free-newcastle-business-audit/",
+      "issue": "title_len",
+      "detail": 72
+    },
+    {
+      "url": "https://newcastlehub.info/free-newcastle-business-audit/",
+      "issue": "missing_meta_desc"
+    },
+    {
+      "url": "https://newcastlehub.info/google-business-optimisation-newcastle/",
+      "issue": "title_len",
+      "detail": 84
+    },
+    {
+      "url": "https://newcastlehub.info/google-business-optimisation-newcastle/",
+      "issue": "missing_meta_desc"
+    },
+    {
+      "url": "https://newcastlehub.info/google-business-profile-for-restaurants-newcastle/",
+      "issue": "title_len",
+      "detail": 89
+    },
+    {
+      "url": "https://newcastlehub.info/google-business-profile-for-restaurants-newcastle/",
+      "issue": "missing_meta_desc"
+    },
+    {
+      "url": "https://newcastlehub.info/home-2/",
+      "issue": "missing_meta_desc"
+    },
+    {
+      "url": "https://newcastlehub.info/home-2/",
+      "issue": "missing_h1"
+    },
+    {
+      "url": "https://newcastlehub.info/home/",
+      "issue": "missing_meta_desc"
+    },
+    {
+      "url": "https://newcastlehub.info/home/",
+      "issue": "missing_h1"
+    },
+    {
+      "url": "https://newcastlehub.info/hosting-plan/",
+      "issue": "missing_meta_desc"
+    },
+    {
+      "url": "https://newcastlehub.info/hosting-plan/",
+      "issue": "missing_h1"
+    },
+    {
+      "url": "https://newcastlehub.info/lp-test/",
+      "issue": "missing_meta_desc"
+    },
+    {
+      "url": "https://newcastlehub.info/lp-test/",
+      "issue": "missing_h1"
+    },
+    {
+      "url": "https://newcastlehub.info/lp-test/home-style/",
+      "issue": "missing_meta_desc"
+    },
+    {
+      "url": "https://newcastlehub.info/lp-test/new-template/",
+      "issue": "missing_meta_desc"
+    },
+    {
+      "url": "https://newcastlehub.info/marketing-service/",
+      "issue": "missing_meta_desc"
+    },
+    {
+      "url": "https://newcastlehub.info/marketing-service/",
+      "issue": "missing_h1"
+    },
+    {
+      "url": "https://newcastlehub.info/mechanic-solutions/",
+      "issue": "title_len",
+      "detail": 79
+    },
+    {
+      "url": "https://newcastlehub.info/mechanic-solutions/",
+      "issue": "missing_meta_desc"
+    },
+    {
+      "url": "https://newcastlehub.info/my-account/",
+      "issue": "error",
+      "detail": "HTTP Error 500: Internal Server Error"
+    },
+    {
+      "url": "https://newcastlehub.info/newcastle-demo-conversion/",
+      "issue": "missing_meta_desc"
+    },
+    {
+      "url": "https://newcastlehub.info/newcastle-growth-hub/",
+      "issue": "missing_meta_desc"
+    },
+    {
+      "url": "https://newcastlehub.info/newcastle-restaurant-square-setup/",
+      "issue": "title_len",
+      "detail": 104
+    },
+    {
+      "url": "https://newcastlehub.info/newcastle-restaurant-square-setup/",
+      "issue": "missing_meta_desc"
+    },
+    {
+      "url": "https://newcastlehub.info/online-ordering-newcastle/",
+      "issue": "title_len",
+      "detail": 77
+    },
+    {
+      "url": "https://newcastlehub.info/online-ordering-newcastle/",
+      "issue": "missing_meta_desc"
+    },
+    {
+      "url": "https://newcastlehub.info/portfolio/",
+      "issue": "missing_meta_desc"
+    },
+    {
+      "url": "https://newcastlehub.info/portfolio/",
+      "issue": "missing_h1"
+    },
+    {
+      "url": "https://newcastlehub.info/pos-setup-newcastle/",
+      "issue": "title_len",
+      "detail": 84
+    },
+    {
+      "url": "https://newcastlehub.info/pos-setup-newcastle/",
+      "issue": "missing_meta_desc"
+    },
+    {
+      "url": "https://newcastlehub.info/qr-table-ordering-newcastle/",
+      "issue": "title_len",
+      "detail": 80
+    },
+    {
+      "url": "https://newcastlehub.info/qr-table-ordering-newcastle/",
+      "issue": "missing_meta_desc"
+    },
+    {
+      "url": "https://newcastlehub.info/restaurant-solutions/",
+      "issue": "title_len",
+      "detail": 75
+    },
+    {
+      "url": "https://newcastlehub.info/restaurant-solutions/",
+      "issue": "missing_meta_desc"
+    },
+    {
+      "url": "https://newcastlehub.info/restaurant-solutions/",
+      "issue": "missing_h1"
+    },
+    {
+      "url": "https://newcastlehub.info/retail-solutions/",
+      "issue": "title_len",
+      "detail": 78
+    },
+    {
+      "url": "https://newcastlehub.info/retail-solutions/",
+      "issue": "missing_meta_desc"
+    },
+    {
+      "url": "https://newcastlehub.info/services/",
+      "issue": "missing_meta_desc"
+    },
+    {
+      "url": "https://newcastlehub.info/services/",
+      "issue": "missing_h1"
+    },
+    {
+      "url": "https://newcastlehub.info/shop/",
+      "issue": "missing_meta_desc"
+    },
+    {
+      "url": "https://newcastlehub.info/shop/",
+      "issue": "missing_h1"
+    },
+    {
+      "url": "https://newcastlehub.info/tag/firewall/",
+      "issue": "missing_meta_desc"
+    },
+    {
+      "url": "https://newcastlehub.info/tag/firewall/",
+      "issue": "missing_canonical"
+    },
+    {
+      "url": "https://newcastlehub.info/tag/ipaddress/",
+      "issue": "missing_meta_desc"
+    },
+    {
+      "url": "https://newcastlehub.info/tag/ipaddress/",
+      "issue": "missing_canonical"
+    },
+    {
+      "url": "https://newcastlehub.info/tag/layer/",
+      "issue": "missing_meta_desc"
+    },
+    {
+      "url": "https://newcastlehub.info/tag/layer/",
+      "issue": "missing_canonical"
+    },
+    {
+      "url": "https://newcastlehub.info/tag/layer2/",
+      "issue": "missing_meta_desc"
+    },
+    {
+      "url": "https://newcastlehub.info/tag/layer2/",
+      "issue": "missing_canonical"
+    },
+    {
+      "url": "https://newcastlehub.info/tag/layer3/",
+      "issue": "missing_meta_desc"
+    },
+    {
+      "url": "https://newcastlehub.info/tag/layer3/",
+      "issue": "missing_canonical"
+    },
+    {
+      "url": "https://newcastlehub.info/tag/optimizer/",
+      "issue": "missing_meta_desc"
+    },
+    {
+      "url": "https://newcastlehub.info/tag/optimizer/",
+      "issue": "missing_canonical"
+    },
+    {
+      "url": "https://newcastlehub.info/trades-solutions/",
+      "issue": "title_len",
+      "detail": 75
+    },
+    {
+      "url": "https://newcastlehub.info/trades-solutions/",
+      "issue": "missing_meta_desc"
+    },
+    {
+      "url": "https://newcastlehub.info/web-hosting-freedom/",
+      "issue": "missing_meta_desc"
+    },
+    {
+      "url": "https://newcastlehub.info/web-hosting-freedom/",
+      "issue": "missing_h1"
+    },
+    {
+      "url": "https://newcastlehub.info/web-hosting-premier/",
+      "issue": "missing_meta_desc"
+    },
+    {
+      "url": "https://newcastlehub.info/web-hosting-premier/",
+      "issue": "missing_h1"
+    },
+    {
+      "url": "https://newcastlehub.info/web-hosting-starter/",
+      "issue": "missing_meta_desc"
+    },
+    {
+      "url": "https://newcastlehub.info/web-hosting-starter/",
+      "issue": "missing_h1"
+    },
+    {
+      "url": "https://newcastlehub.info/website-service/",
+      "issue": "missing_meta_desc"
+    },
+    {
+      "url": "https://newcastlehub.info/website-service/",
+      "issue": "missing_h1"
+    },
+    {
+      "url": "https://newcastlehub.info/why-choose-newcastle-hub/",
+      "issue": "title_len",
+      "detail": 68
+    },
+    {
+      "url": "https://newcastlehub.info/why-choose-newcastle-hub/",
+      "issue": "missing_meta_desc"
+    }
+  ],
+  "pages": [
+    {
+      "url": "/",
+      "status": "error",
+      "error": "unknown url type: '/'"
+    },
+    {
+      "url": "/about/",
+      "status": "error",
+      "error": "unknown url type: '/about/'"
+    },
+    {
+      "url": "/contact/",
+      "status": "error",
+      "error": "unknown url type: '/contact/'"
+    },
+    {
+      "url": "/free-newcastle-business-audit/",
+      "status": "error",
+      "error": "unknown url type: '/free-newcastle-business-audit/'"
+    },
+    {
+      "url": "/services/",
+      "status": "error",
+      "error": "unknown url type: '/services/'"
+    },
+    {
+      "url": "https://newcastlehub.info/",
+      "status": 200,
+      "title_len": 85,
+      "has_meta_desc": false,
+      "h1_count": 1,
+      "noindex": false,
+      "has_canonical": true
+    },
+    {
+      "url": "https://newcastlehub.info/2021/09/06/hello-world/",
+      "status": 200,
+      "title_len": 39,
+      "has_meta_desc": false,
+      "h1_count": 1,
+      "noindex": false,
+      "has_canonical": true
+    },
+    {
+      "url": "https://newcastlehub.info/2021/09/06/how-to-install-zend-optimizer-on-windows/",
+      "status": 200,
+      "title_len": 67,
+      "has_meta_desc": false,
+      "h1_count": 1,
+      "noindex": false,
+      "has_canonical": true
+    },
+    {
+      "url": "https://newcastlehub.info/2021/09/06/importance-of-firewall-in-internet-world/",
+      "status": 200,
+      "title_len": 70,
+      "has_meta_desc": false,
+      "h1_count": 1,
+      "noindex": false,
+      "has_canonical": true
+    },
+    {
+      "url": "https://newcastlehub.info/2021/09/06/layer-2-vs-layer-3-networks/",
+      "status": 200,
+      "title_len": 55,
+      "has_meta_desc": false,
+      "h1_count": 1,
+      "noindex": false,
+      "has_canonical": true
+    },
+    {
+      "url": "https://newcastlehub.info/2021/09/06/types-of-ip-address-and-its-requirements/",
+      "status": 200,
+      "title_len": 67,
+      "has_meta_desc": false,
+      "h1_count": 1,
+      "noindex": false,
+      "has_canonical": true
+    },
+    {
+      "url": "https://newcastlehub.info/about/",
+      "status": 200,
+      "title_len": 32,
+      "has_meta_desc": false,
+      "h1_count": 0,
+      "noindex": false,
+      "has_canonical": true
+    },
+    {
+      "url": "https://newcastlehub.info/ai-service-implementation-pack/",
+      "status": 200,
+      "title_len": 57,
+      "has_meta_desc": false,
+      "h1_count": 1,
+      "noindex": false,
+      "has_canonical": true
+    },
+    {
+      "url": "https://newcastlehub.info/ai-service/",
+      "status": 200,
+      "title_len": 37,
+      "has_meta_desc": false,
+      "h1_count": 1,
+      "noindex": false,
+      "has_canonical": true
+    },
+    {
+      "url": "https://newcastlehub.info/author/admin/",
+      "status": 200,
+      "title_len": 32,
+      "has_meta_desc": false,
+      "h1_count": 1,
+      "noindex": false,
+      "has_canonical": false
+    },
+    {
+      "url": "https://newcastlehub.info/beauty-salon-solutions/",
+      "status": 200,
+      "title_len": 77,
+      "has_meta_desc": false,
+      "h1_count": 1,
+      "noindex": false,
+      "has_canonical": true
+    },
+    {
+      "url": "https://newcastlehub.info/blocks/footer-main/",
+      "status": 200,
+      "title_len": 0,
+      "has_meta_desc": false,
+      "h1_count": 0,
+      "noindex": false,
+      "has_canonical": false
+    },
+    {
+      "url": "https://newcastlehub.info/blocks/footer/",
+      "status": 200,
+      "title_len": 0,
+      "has_meta_desc": false,
+      "h1_count": 0,
+      "noindex": false,
+      "has_canonical": false
+    },
+    {
+      "url": "https://newcastlehub.info/blog/",
+      "status": 200,
+      "title_len": 31,
+      "has_meta_desc": false,
+      "h1_count": 0,
+      "noindex": false,
+      "has_canonical": false
+    },
+    {
+      "url": "https://newcastlehub.info/booking-system-newcastle/",
+      "status": 200,
+      "title_len": 73,
+      "has_meta_desc": false,
+      "h1_count": 1,
+      "noindex": false,
+      "has_canonical": true
+    },
+    {
+      "url": "https://newcastlehub.info/cart/",
+      "status": "error",
+      "error": "HTTP Error 500: Internal Server Error"
+    },
+    {
+      "url": "https://newcastlehub.info/category/firewall/",
+      "status": 200,
+      "title_len": 35,
+      "has_meta_desc": false,
+      "h1_count": 1,
+      "noindex": false,
+      "has_canonical": false
+    },
+    {
+      "url": "https://newcastlehub.info/category/ip-address/",
+      "status": 200,
+      "title_len": 37,
+      "has_meta_desc": false,
+      "h1_count": 1,
+      "noindex": false,
+      "has_canonical": false
+    },
+    {
+      "url": "https://newcastlehub.info/category/layer/",
+      "status": 200,
+      "title_len": 32,
+      "has_meta_desc": false,
+      "h1_count": 1,
+      "noindex": false,
+      "has_canonical": false
+    },
+    {
+      "url": "https://newcastlehub.info/category/uncategorized/",
+      "status": 200,
+      "title_len": 40,
+      "has_meta_desc": false,
+      "h1_count": 1,
+      "noindex": false,
+      "has_canonical": false
+    },
+    {
+      "url": "https://newcastlehub.info/category/zend-optimizer/",
+      "status": 200,
+      "title_len": 41,
+      "has_meta_desc": false,
+      "h1_count": 1,
+      "noindex": false,
+      "has_canonical": false
+    },
+    {
+      "url": "https://newcastlehub.info/category/zend/",
+      "status": 200,
+      "title_len": 31,
+      "has_meta_desc": false,
+      "h1_count": 1,
+      "noindex": false,
+      "has_canonical": false
+    },
+    {
+      "url": "https://newcastlehub.info/checkout/",
+      "status": "error",
+      "error": "HTTP Error 500: Internal Server Error"
+    },
+    {
+      "url": "https://newcastlehub.info/contact/",
+      "status": 200,
+      "title_len": 34,
+      "has_meta_desc": false,
+      "h1_count": 0,
+      "noindex": false,
+      "has_canonical": true
+    },
+    {
+      "url": "https://newcastlehub.info/create-an-ai-avatar/",
+      "status": 200,
+      "title_len": 46,
+      "has_meta_desc": false,
+      "h1_count": 1,
+      "noindex": false,
+      "has_canonical": true
+    },
+    {
+      "url": "https://newcastlehub.info/ecommerce-setup-newcastle/",
+      "status": 200,
+      "title_len": 68,
+      "has_meta_desc": false,
+      "h1_count": 1,
+      "noindex": false,
+      "has_canonical": true
+    },
+    {
+      "url": "https://newcastlehub.info/facebook-page-setup-for-restaurants-newcastle/",
+      "status": 200,
+      "title_len": 72,
+      "has_meta_desc": false,
+      "h1_count": 1,
+      "noindex": false,
+      "has_canonical": true
+    },
+    {
+      "url": "https://newcastlehub.info/free-newcastle-business-audit/",
+      "status": 200,
+      "title_len": 72,
+      "has_meta_desc": false,
+      "h1_count": 1,
+      "noindex": false,
+      "has_canonical": true
+    },
+    {
+      "url": "https://newcastlehub.info/google-business-optimisation-newcastle/",
+      "status": 200,
+      "title_len": 84,
+      "has_meta_desc": false,
+      "h1_count": 1,
+      "noindex": false,
+      "has_canonical": true
+    },
+    {
+      "url": "https://newcastlehub.info/google-business-profile-for-restaurants-newcastle/",
+      "status": 200,
+      "title_len": 89,
+      "has_meta_desc": false,
+      "h1_count": 1,
+      "noindex": false,
+      "has_canonical": true
+    },
+    {
+      "url": "https://newcastlehub.info/home-2/",
+      "status": 200,
+      "title_len": 35,
+      "has_meta_desc": false,
+      "h1_count": 0,
+      "noindex": false,
+      "has_canonical": true
+    },
+    {
+      "url": "https://newcastlehub.info/home/",
+      "status": 200,
+      "title_len": 31,
+      "has_meta_desc": false,
+      "h1_count": 0,
+      "noindex": false,
+      "has_canonical": true
+    },
+    {
+      "url": "https://newcastlehub.info/hosting-plan/",
+      "status": 200,
+      "title_len": 39,
+      "has_meta_desc": false,
+      "h1_count": 0,
+      "noindex": false,
+      "has_canonical": true
+    },
+    {
+      "url": "https://newcastlehub.info/lp-test/",
+      "status": 200,
+      "title_len": 34,
+      "has_meta_desc": false,
+      "h1_count": 0,
+      "noindex": false,
+      "has_canonical": true
+    },
+    {
+      "url": "https://newcastlehub.info/lp-test/home-style/",
+      "status": 200,
+      "title_len": 53,
+      "has_meta_desc": false,
+      "h1_count": 1,
+      "noindex": false,
+      "has_canonical": true
+    },
+    {
+      "url": "https://newcastlehub.info/lp-test/new-template/",
+      "status": 200,
+      "title_len": 55,
+      "has_meta_desc": false,
+      "h1_count": 1,
+      "noindex": false,
+      "has_canonical": true
+    },
+    {
+      "url": "https://newcastlehub.info/marketing-service/",
+      "status": 200,
+      "title_len": 44,
+      "has_meta_desc": false,
+      "h1_count": 0,
+      "noindex": false,
+      "has_canonical": true
+    },
+    {
+      "url": "https://newcastlehub.info/mechanic-solutions/",
+      "status": 200,
+      "title_len": 79,
+      "has_meta_desc": false,
+      "h1_count": 1,
+      "noindex": false,
+      "has_canonical": true
+    },
+    {
+      "url": "https://newcastlehub.info/my-account/",
+      "status": "error",
+      "error": "HTTP Error 500: Internal Server Error"
+    },
+    {
+      "url": "https://newcastlehub.info/newcastle-demo-conversion/",
+      "status": 200,
+      "title_len": 55,
+      "has_meta_desc": false,
+      "h1_count": 1,
+      "noindex": false,
+      "has_canonical": true
+    },
+    {
+      "url": "https://newcastlehub.info/newcastle-growth-hub/",
+      "status": 200,
+      "title_len": 47,
+      "has_meta_desc": false,
+      "h1_count": 1,
+      "noindex": false,
+      "has_canonical": true
+    },
+    {
+      "url": "https://newcastlehub.info/newcastle-restaurant-square-setup/",
+      "status": 200,
+      "title_len": 104,
+      "has_meta_desc": false,
+      "h1_count": 1,
+      "noindex": false,
+      "has_canonical": true
+    },
+    {
+      "url": "https://newcastlehub.info/online-ordering-newcastle/",
+      "status": 200,
+      "title_len": 77,
+      "has_meta_desc": false,
+      "h1_count": 1,
+      "noindex": false,
+      "has_canonical": true
+    },
+    {
+      "url": "https://newcastlehub.info/portfolio/",
+      "status": 200,
+      "title_len": 37,
+      "has_meta_desc": false,
+      "h1_count": 0,
+      "noindex": false,
+      "has_canonical": true
+    },
+    {
+      "url": "https://newcastlehub.info/pos-setup-newcastle/",
+      "status": 200,
+      "title_len": 84,
+      "has_meta_desc": false,
+      "h1_count": 1,
+      "noindex": false,
+      "has_canonical": true
+    },
+    {
+      "url": "https://newcastlehub.info/qr-table-ordering-newcastle/",
+      "status": 200,
+      "title_len": 80,
+      "has_meta_desc": false,
+      "h1_count": 1,
+      "noindex": false,
+      "has_canonical": true
+    },
+    {
+      "url": "https://newcastlehub.info/restaurant-solutions/",
+      "status": 200,
+      "title_len": 75,
+      "has_meta_desc": false,
+      "h1_count": 0,
+      "noindex": false,
+      "has_canonical": true
+    },
+    {
+      "url": "https://newcastlehub.info/retail-solutions/",
+      "status": 200,
+      "title_len": 78,
+      "has_meta_desc": false,
+      "h1_count": 1,
+      "noindex": false,
+      "has_canonical": true
+    },
+    {
+      "url": "https://newcastlehub.info/services/",
+      "status": 200,
+      "title_len": 35,
+      "has_meta_desc": false,
+      "h1_count": 0,
+      "noindex": false,
+      "has_canonical": true
+    },
+    {
+      "url": "https://newcastlehub.info/shop/",
+      "status": 200,
+      "title_len": 31,
+      "has_meta_desc": false,
+      "h1_count": 0,
+      "noindex": false,
+      "has_canonical": true
+    },
+    {
+      "url": "https://newcastlehub.info/tag/firewall/",
+      "status": 200,
+      "title_len": 36,
+      "has_meta_desc": false,
+      "h1_count": 1,
+      "noindex": false,
+      "has_canonical": false
+    },
+    {
+      "url": "https://newcastlehub.info/tag/ipaddress/",
+      "status": 200,
+      "title_len": 37,
+      "has_meta_desc": false,
+      "h1_count": 1,
+      "noindex": false,
+      "has_canonical": false
+    },
+    {
+      "url": "https://newcastlehub.info/tag/layer/",
+      "status": 200,
+      "title_len": 33,
+      "has_meta_desc": false,
+      "h1_count": 1,
+      "noindex": false,
+      "has_canonical": false
+    },
+    {
+      "url": "https://newcastlehub.info/tag/layer2/",
+      "status": 200,
+      "title_len": 34,
+      "has_meta_desc": false,
+      "h1_count": 1,
+      "noindex": false,
+      "has_canonical": false
+    },
+    {
+      "url": "https://newcastlehub.info/tag/layer3/",
+      "status": 200,
+      "title_len": 34,
+      "has_meta_desc": false,
+      "h1_count": 1,
+      "noindex": false,
+      "has_canonical": false
+    },
+    {
+      "url": "https://newcastlehub.info/tag/optimizer/",
+      "status": 200,
+      "title_len": 37,
+      "has_meta_desc": false,
+      "h1_count": 1,
+      "noindex": false,
+      "has_canonical": false
+    },
+    {
+      "url": "https://newcastlehub.info/trades-solutions/",
+      "status": 200,
+      "title_len": 75,
+      "has_meta_desc": false,
+      "h1_count": 1,
+      "noindex": false,
+      "has_canonical": true
+    },
+    {
+      "url": "https://newcastlehub.info/web-hosting-freedom/",
+      "status": 200,
+      "title_len": 47,
+      "has_meta_desc": false,
+      "h1_count": 0,
+      "noindex": false,
+      "has_canonical": true
+    },
+    {
+      "url": "https://newcastlehub.info/web-hosting-premier/",
+      "status": 200,
+      "title_len": 47,
+      "has_meta_desc": false,
+      "h1_count": 0,
+      "noindex": false,
+      "has_canonical": true
+    },
+    {
+      "url": "https://newcastlehub.info/web-hosting-starter/",
+      "status": 200,
+      "title_len": 47,
+      "has_meta_desc": false,
+      "h1_count": 0,
+      "noindex": false,
+      "has_canonical": true
+    },
+    {
+      "url": "https://newcastlehub.info/website-service/",
+      "status": 200,
+      "title_len": 42,
+      "has_meta_desc": false,
+      "h1_count": 0,
+      "noindex": false,
+      "has_canonical": true
+    },
+    {
+      "url": "https://newcastlehub.info/why-choose-newcastle-hub/",
+      "status": 200,
+      "title_len": 68,
+      "has_meta_desc": false,
+      "h1_count": 1,
+      "noindex": false,
+      "has_canonical": true
+    }
+  ]
+}

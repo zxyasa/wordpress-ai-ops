@@ -1,0 +1,80 @@
+{
+  "task_id": "rs-main-faq-002",
+  "created_at": "2026-02-16T15:00:00Z",
+  "mode": "execute",
+  "site": { "base_url": "https://newcastlehub.info" },
+  "task_type": "inject_schema_faq",
+  "requires_confirmation": true,
+  "limits": { "cooldown_hours": 0, "max_write_per_target": 10 },
+  "targets": [
+    {
+      "type": "page",
+      "match": { "by": "id", "value": 683 }
+    }
+  ],
+  "operations": [
+    {
+      "op": "replace",
+      "scope": "content",
+      "selector": { "kind": "html_comment", "value": "AI_SLOT:FAQ" },
+      "content": {
+        "format": "json",
+        "value": {
+          "faqs": [
+            {
+              "question": "Do you provide Square hardware (iPad, printers)?",
+              "answer": "We don't sell hardware directly. We provide a recommended hardware list and can guide you through purchasing from Square or authorised Australian retailers. If you need on-site installation, that's available as an add-on."
+            },
+            {
+              "question": "Can you migrate our menu from another POS to Square?",
+              "answer": "Yes. We'll map your existing menu items, modifiers, and pricing into Square during the discovery phase. Most migrations from Lightspeed, Clover, or paper menus take 1–2 days."
+            },
+            {
+              "question": "How does QR table ordering work with Square?",
+              "answer": "Each table gets a unique QR code. Customers scan it on their phone, browse the menu, and place orders directly. Orders appear on your Square POS and kitchen printer instantly — no app download required."
+            },
+            {
+              "question": "Can this help us reduce UberEats and DoorDash fees?",
+              "answer": "Square Online Ordering lets you take pickup and delivery orders directly through your own website — no 30% marketplace commission. We can set it up alongside your existing marketplace listings so you gradually shift customers to direct ordering."
+            },
+            {
+              "question": "What do we need to prepare before you start?",
+              "answer": "Your full menu with prices, trading hours, logo, contact details, and bank account for Square payouts. We provide a detailed checklist after the discovery call."
+            },
+            {
+              "question": "Do you do on-site visits in Newcastle?",
+              "answer": "Yes. We're based in Newcastle and can do on-site hardware setup and staff training. Most of the configuration work is done remotely, with on-site visits for go-live and training."
+            },
+            {
+              "question": "How long does the full setup take?",
+              "answer": "Typically 7–10 business days from discovery call to go-live. Complex menus with many modifiers may take slightly longer."
+            },
+            {
+              "question": "Is this a one-off fee or ongoing?",
+              "answer": "The setup is a one-off fixed fee ($3,500–$5,000). We also offer an optional monthly support plan ($199–$399/month) for ongoing menu updates, monitoring, and priority support."
+            },
+            {
+              "question": "What if we already have a Square account?",
+              "answer": "No problem. We'll audit your existing setup, clean up the menu structure, and configure the features you're not yet using — like online ordering or QR table ordering."
+            },
+            {
+              "question": "Do you handle our website or just Square?",
+              "answer": "This package focuses on Square (POS, online ordering, QR). If you need a website built or redesigned, we offer that as a separate service. We can connect Square Online to your existing domain."
+            },
+            {
+              "question": "What results can we expect?",
+              "answer": "A fully configured Square POS, live online ordering page, and QR table ordering — all tested and ready for service. Many restaurants see a reduction in order errors and faster table turnover within the first month. We don't guarantee specific revenue increases."
+            },
+            {
+              "question": "Can we add more locations later?",
+              "answer": "Yes. Square supports multi-location setups. Each additional venue follows the same standardised process and is quoted separately."
+            }
+          ],
+          "inject_json_ld": true,
+          "schema_slot": "AI_SLOT:SCHEMA"
+        }
+      },
+      "safety": { "max_chars_change": 5000, "dry_run_diff": true, "allow_full_replace": false }
+    }
+  ]
+}

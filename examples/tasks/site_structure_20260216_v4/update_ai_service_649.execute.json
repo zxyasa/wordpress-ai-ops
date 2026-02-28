@@ -1,0 +1,151 @@
+{
+  "task_id": "update-ai-service-649-002",
+  "created_at": "2026-02-16T23:08:00Z",
+  "mode": "execute",
+  "site_profile_ref": "../../site_profiles/newcastlehub.info.json",
+  "site": {
+    "base_url": "{{site.base_url}}"
+  },
+  "task_type": "update_post_or_page",
+  "requires_confirmation": true,
+  "priority": "high",
+  "limits": {
+    "cooldown_hours": 0,
+    "max_write_per_target": 30
+  },
+  "notes": "Reposition create-an-ai-avatar page into practical AI Service offering for Newcastle local businesses while preserving page shell tokens.",
+  "targets": [
+    {
+      "type": "page",
+      "match": {
+        "by": "id",
+        "value": 649
+      }
+    }
+  ],
+  "operations": [
+    {
+      "op": "set_fields",
+      "scope": "fields",
+      "selector": {
+        "kind": "regex",
+        "value": "unused"
+      },
+      "content": {
+        "format": "json",
+        "value": {
+          "title": "AI Service",
+          "slug": "ai-service",
+          "excerpt": "AI Service for Newcastle local businesses: lead capture assistant, enquiry triage, workflow automation, and monthly optimisation."
+        }
+      },
+      "safety": {
+        "max_chars_change": 500,
+        "dry_run_diff": true,
+        "allow_full_replace": true
+      }
+    },
+    {
+      "op": "replace",
+      "scope": "content",
+      "selector": {
+        "kind": "regex",
+        "value": "Create your AI Avatar"
+      },
+      "content": {
+        "format": "html",
+        "value": "AI Service"
+      },
+      "safety": {
+        "max_chars_change": 200,
+        "dry_run_diff": true,
+        "allow_full_replace": false
+      }
+    },
+    {
+      "op": "replace",
+      "scope": "content",
+      "selector": {
+        "kind": "regex",
+        "value": "Choose the best plan for your needs and get started with your own AI avatar today!"
+      },
+      "content": {
+        "format": "html",
+        "value": "Built for Newcastle service businesses: deploy practical AI to answer enquiries faster, qualify leads, and reduce manual admin." 
+      },
+      "safety": {
+        "max_chars_change": 400,
+        "dry_run_diff": true,
+        "allow_full_replace": false
+      }
+    },
+    {
+      "op": "replace",
+      "scope": "content",
+      "selector": {
+        "kind": "regex",
+        "value": "(?s)<div class=\\\"pricing-tier\\\">\\s*<h2>Starter</h2>.*?<a href=\\\"#\\\" class=\\\"cta\\\">Get Started</a>\\s*</div>"
+      },
+      "content": {
+        "format": "html",
+        "value": "<div class=\"pricing-tier\">\n                <h2>Foundation</h2>\n                <p class=\"price\">AI Lead Capture Setup</p>\n                <p>For new local businesses</p>\n                <ul>\n                    <li>Website AI assistant setup</li>\n                    <li>Service-aware FAQ and response flow</li>\n                    <li>Lead capture form optimisation</li>\n                </ul>\n                <a href=\"{{site.base_url}}{{site.contact_path}}\" class=\"cta\">Book a Strategy Call</a>\n            </div>"
+      },
+      "safety": {
+        "max_chars_change": 3000,
+        "dry_run_diff": true,
+        "allow_full_replace": false
+      }
+    },
+    {
+      "op": "replace",
+      "scope": "content",
+      "selector": {
+        "kind": "regex",
+        "value": "(?s)<div class=\\\"pricing-tier\\\">\\s*<h2>Creator</h2>.*?<a href=\\\"#\\\" class=\\\"cta\\\">Get Started</a>\\s*</div>"
+      },
+      "content": {
+        "format": "html",
+        "value": "<div class=\"pricing-tier\">\n                <h2>Growth</h2>\n                <p class=\"price\">AI Workflow + Triage</p>\n                <p>For teams ready to scale</p>\n                <ul>\n                    <li>Lead triage by service type and urgency</li>\n                    <li>Booking or quote pre-qualification flow</li>\n                    <li>Monthly prompt and conversion optimisation</li>\n                </ul>\n                <a href=\"{{site.base_url}}/free-newcastle-business-audit/\" class=\"cta\">Get Free Business Audit</a>\n            </div>"
+      },
+      "safety": {
+        "max_chars_change": 3000,
+        "dry_run_diff": true,
+        "allow_full_replace": false
+      }
+    },
+    {
+      "op": "replace",
+      "scope": "content",
+      "selector": {
+        "kind": "regex",
+        "value": "(?s)<div class=\\\"pricing-tier\\\">\\s*<h2>Enterprise</h2>.*?<a href=\\\"#\\\" class=\\\"cta\\\">Get Started</a>\\s*</div>"
+      },
+      "content": {
+        "format": "html",
+        "value": "<div class=\"pricing-tier\">\n                <h2>Scale</h2>\n                <p class=\"price\">Integrated AI Operations</p>\n                <p>For established operations</p>\n                <ul>\n                    <li>Multi-page AI conversion flow rollout</li>\n                    <li>CRM and team handoff integration support</li>\n                    <li>Ongoing monitoring and optimisation roadmap</li>\n                </ul>\n                <a href=\"{{site.base_url}}{{site.contact_path}}\" class=\"cta\">Request Implementation Plan</a>\n            </div>"
+      },
+      "safety": {
+        "max_chars_change": 3500,
+        "dry_run_diff": true,
+        "allow_full_replace": false
+      }
+    },
+    {
+      "op": "replace",
+      "scope": "content",
+      "selector": {
+        "kind": "regex",
+        "value": "<p><\\/p>"
+      },
+      "content": {
+        "format": "html",
+        "value": "<p>Call <a href=\"tel:{{site.phone_tel}}\">{{site.phone_display}}</a> or email <a href=\"mailto:{{site.email}}\">{{site.email}}</a> to discuss your AI roadmap.</p>"
+      },
+      "safety": {
+        "max_chars_change": 500,
+        "dry_run_diff": true,
+        "allow_full_replace": false
+      }
+    }
+  ]
+}

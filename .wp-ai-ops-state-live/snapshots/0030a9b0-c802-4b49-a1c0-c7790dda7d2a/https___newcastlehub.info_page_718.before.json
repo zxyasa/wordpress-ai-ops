@@ -1,0 +1,121 @@
+{
+  "id": 718,
+  "date": "2026-02-16T05:06:48",
+  "date_gmt": "2026-02-16T05:06:48",
+  "guid": {
+    "rendered": "https://newcastlehub.info/free-newcastle-business-audit/",
+    "raw": "https://newcastlehub.info/free-newcastle-business-audit/"
+  },
+  "modified": "2026-02-16T05:06:48",
+  "modified_gmt": "2026-02-16T05:06:48",
+  "password": "",
+  "slug": "free-newcastle-business-audit",
+  "status": "publish",
+  "type": "page",
+  "link": "https://newcastlehub.info/free-newcastle-business-audit/",
+  "title": {
+    "raw": "Free Newcastle Business Audit | Newcastle Hub",
+    "rendered": "Free Newcastle Business Audit | Newcastle Hub"
+  },
+  "content": {
+    "raw": "<!-- wp:html --><section class=\"section\" style=\"padding-top:56px;padding-bottom:56px;\"><div class=\"section-content relative\"><div class=\"row\"><div class=\"col small-12 large-12\"><div class=\"col-inner\"><!-- AI_SLOT:INTRO --><h1>Free Newcastle Business Audit</h1><p><strong>Tell us your current setup and we will send a practical growth roadmap.</strong></p><!-- /AI_SLOT:INTRO --><h2>Audit form fields</h2><ul><li>Industry</li><li>Current POS</li><li>Do you have a website?</li><li>Do you have online ordering?</li><li>Monthly revenue range</li><li>Name, phone, email</li></ul><p>After submission, we call you for a strategy follow-up.</p><!-- AI_SLOT:CTA --><p><a class=\"button primary is-large\" href=\"https://newcastlehub.info/contact/\">Submit Audit Request</a></p><!-- /AI_SLOT:CTA --><!-- AI_SLOT:SCHEMA --><script type=\"application/ld+json\">{\"@context\":\"https://schema.org\",\"@type\":\"Service\",\"name\":\"Free Newcastle Business Audit\",\"provider\":{\"@type\":\"Organization\",\"name\":\"Newcastle Hub\"},\"areaServed\":\"Newcastle\"}</script><!-- /AI_SLOT:SCHEMA --></div></div></div></div></div></section><!-- /wp:html -->",
+    "rendered": "<section class=\"section\" style=\"padding-top:56px;padding-bottom:56px;\">\n<div class=\"section-content relative\">\n<div class=\"row\">\n<div class=\"col small-12 large-12\">\n<div class=\"col-inner\"><!-- AI_SLOT:INTRO --></p>\n<h1>Free Newcastle Business Audit</h1>\n<p><strong>Tell us your current setup and we will send a practical growth roadmap.</strong></p>\n<p><!-- /AI_SLOT:INTRO --></p>\n<h2>Audit form fields</h2>\n<ul>\n<li>Industry</li>\n<li>Current POS</li>\n<li>Do you have a website?</li>\n<li>Do you have online ordering?</li>\n<li>Monthly revenue range</li>\n<li>Name, phone, email</li>\n</ul>\n<p>After submission, we call you for a strategy follow-up.</p>\n<p><!-- AI_SLOT:CTA --></p>\n<p><a class=\"button primary is-large\" href=\"https://newcastlehub.info/contact/\">Submit Audit Request</a></p>\n<p><!-- /AI_SLOT:CTA --><!-- AI_SLOT:SCHEMA --><script type=\"application/ld+json\">{\"@context\":\"https://schema.org\",\"@type\":\"Service\",\"name\":\"Free Newcastle Business Audit\",\"provider\":{\"@type\":\"Organization\",\"name\":\"Newcastle Hub\"},\"areaServed\":\"Newcastle\"}</script><!-- /AI_SLOT:SCHEMA --></div>\n</div>\n</div>\n</div>\n</div>\n</section>\n",
+    "protected": false,
+    "block_version": 0
+  },
+  "excerpt": {
+    "raw": "",
+    "rendered": "<p>Free Newcastle Business Audit Tell us your current setup and we will send a practical growth roadmap. Audit form fields Industry Current POS Do you have a website? Do you have online ordering? Monthly revenue range Name, phone, email After submission, we call you for a strategy follow-up. Submit Audit Request</p>\n",
+    "protected": false
+  },
+  "author": 4,
+  "featured_media": 0,
+  "parent": 0,
+  "menu_order": 0,
+  "comment_status": "closed",
+  "ping_status": "closed",
+  "template": "",
+  "meta": {
+    "footnotes": ""
+  },
+  "permalink_template": "https://newcastlehub.info/%pagename%/",
+  "generated_slug": "free-newcastle-business-audit-newcastle-hub",
+  "class_list": [
+    "post-718",
+    "page",
+    "type-page",
+    "status-publish",
+    "hentry"
+  ],
+  "_links": {
+    "self": [
+      {
+        "href": "https://newcastlehub.info/wp-json/wp/v2/pages/718",
+        "targetHints": {
+          "allow": [
+            "GET",
+            "POST",
+            "PUT",
+            "PATCH",
+            "DELETE"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://newcastlehub.info/wp-json/wp/v2/pages"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://newcastlehub.info/wp-json/wp/v2/types/page"
+      }
+    ],
+    "author": [
+      {
+        "embeddable": true,
+        "href": "https://newcastlehub.info/wp-json/wp/v2/users/4"
+      }
+    ],
+    "replies": [
+      {
+        "embeddable": true,
+        "href": "https://newcastlehub.info/wp-json/wp/v2/comments?post=718"
+      }
+    ],
+    "version-history": [
+      {
+        "count": 0,
+        "href": "https://newcastlehub.info/wp-json/wp/v2/pages/718/revisions"
+      }
+    ],
+    "wp:attachment": [
+      {
+        "href": "https://newcastlehub.info/wp-json/wp/v2/media?parent=718"
+      }
+    ],
+    "wp:action-publish": [
+      {
+        "href": "https://newcastlehub.info/wp-json/wp/v2/pages/718"
+      }
+    ],
+    "wp:action-unfiltered-html": [
+      {
+        "href": "https://newcastlehub.info/wp-json/wp/v2/pages/718"
+      }
+    ],
+    "wp:action-assign-author": [
+      {
+        "href": "https://newcastlehub.info/wp-json/wp/v2/pages/718"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  }
+}

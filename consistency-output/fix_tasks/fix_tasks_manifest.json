@@ -1,0 +1,28 @@
+{
+  "generated_at": "2026-02-16T21:50:12.954262+00:00",
+  "site": {
+    "base_url": "https://newcastlehub.info",
+    "wp_api_base": "https://newcastlehub.info/wp-json/wp/v2"
+  },
+  "source_report_timestamp": "2026-02-16T21:50:00.303559+00:00",
+  "tasks_count": 17,
+  "tasks": [
+    "consistency-output/fix_tasks/tasks/consistency-fix-pages-27.json",
+    "consistency-output/fix_tasks/tasks/consistency-fix-pages-30.json",
+    "consistency-output/fix_tasks/tasks/consistency-fix-pages-110.json",
+    "consistency-output/fix_tasks/tasks/consistency-fix-pages-598.json",
+    "consistency-output/fix_tasks/tasks/consistency-fix-pages-599.json",
+    "consistency-output/fix_tasks/tasks/consistency-fix-pages-600.json",
+    "consistency-output/fix_tasks/tasks/consistency-fix-pages-601.json",
+    "consistency-output/fix_tasks/tasks/consistency-fix-pages-649.json",
+    "consistency-output/fix_tasks/tasks/consistency-fix-pages-684.json",
+    "consistency-output/fix_tasks/tasks/consistency-fix-pages-685.json",
+    "consistency-output/fix_tasks/tasks/consistency-fix-pages-686.json",
+    "consistency-output/fix_tasks/tasks/consistency-fix-pages-719.json",
+    "consistency-output/fix_tasks/tasks/consistency-fix-pages-721.json",
+    "consistency-output/fix_tasks/tasks/consistency-fix-pages-722.json",
+    "consistency-output/fix_tasks/tasks/consistency-fix-pages-723.json",
+    "consistency-output/fix_tasks/tasks/consistency-fix-pages-728.json",
+    "consistency-output/fix_tasks/tasks/consistency-fix-pages-729.json"
+  ]
+}

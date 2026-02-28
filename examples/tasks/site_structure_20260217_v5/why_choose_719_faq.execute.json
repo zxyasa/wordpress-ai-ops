@@ -1,0 +1,26 @@
+{
+  "task_id": "4ce84b97-4937-4ce4-ac5d-c81f01fe75e3",
+  "created_at": "2026-02-17T05:20:00Z",
+  "mode": "execute",
+  "site": { "base_url": "https://newcastlehub.info" },
+  "task_type": "update_post_or_page",
+  "requires_confirmation": true,
+  "priority": "high",
+  "limits": { "cooldown_hours": 0, "max_write_per_target": 10 },
+  "notes": "Append trust FAQ and conversion CTA to why-choose page",
+  "targets": [
+    { "type": "page", "match": { "by": "id", "value": 719 } }
+  ],
+  "operations": [
+    {
+      "op": "append",
+      "scope": "content",
+      "selector": { "kind": "regex", "value": "$" },
+      "content": {
+        "format": "html",
+        "value": "\n\n<section class=\"section\" id=\"ai-why-choose-faq\" style=\"padding-top:48px;padding-bottom:48px;background:#f6f8fb;\"><div class=\"section-content relative\"><div class=\"row\"><div class=\"col small-12 large-12\"><div class=\"col-inner\"><!-- AI_SLOT:FAQ --><h2>Why Local Businesses Choose Newcastle Hub</h2><h3>Do you provide local support in Newcastle?</h3><p>Yes. We work with local businesses and can support implementation with practical, local-market context.</p><h3>Do you only build websites?</h3><p>No. We help with website, ordering, Google growth, and conversion-focused execution as one system.</p><h3>How do we start?</h3><p>Start with a free audit. We identify quick wins and map a staged execution plan.</p><!-- /AI_SLOT:FAQ --><!-- AI_SLOT:CTA --><p><a class=\"button primary is-large\" href=\"https://newcastlehub.info/free-newcastle-business-audit/\">Start with a Free Audit</a></p><p>Related: <a href=\"https://newcastlehub.info/services/\">Our Services</a> | <a href=\"https://newcastlehub.info/contact/\">Book a Strategy Call</a></p><!-- /AI_SLOT:CTA --><!-- AI_SLOT:SCHEMA --><script type=\"application/ld+json\">{\"@context\":\"https://schema.org\",\"@type\":\"FAQPage\",\"mainEntity\":[{\"@type\":\"Question\",\"name\":\"Do you provide local support in Newcastle?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"Yes. We work with local businesses and can support implementation with practical, local-market context.\"}},{\"@type\":\"Question\",\"name\":\"Do you only build websites?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"No. We help with website, ordering, Google growth, and conversion-focused execution as one system.\"}},{\"@type\":\"Question\",\"name\":\"How do we start?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"Start with a free audit. We identify quick wins and map a staged execution plan.\"}}]}</script><!-- /AI_SLOT:SCHEMA --></div></div></div></div></div></section>\n"
+      },
+      "safety": { "max_chars_change": 10000, "dry_run_diff": true, "allow_full_replace": true }
+    }
+  ]
+}

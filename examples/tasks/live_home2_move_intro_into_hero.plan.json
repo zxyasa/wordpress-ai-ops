@@ -1,0 +1,57 @@
+{
+  "task_id": "a7d2d4f0-8b82-4d2f-bb79-b9dddc8f2528",
+  "created_at": "2026-02-15T04:10:00Z",
+  "mode": "execute",
+  "site": {
+    "base_url": "https://newcastlehub.info"
+  },
+  "task_type": "update_post_or_page",
+  "requires_confirmation": false,
+  "priority": "critical",
+  "limits": {
+    "cooldown_hours": 0,
+    "max_write_per_target": 10
+  },
+  "notes": "Fix: move INTRO slot from top-of-page into hero text container to avoid visible line above the first section. Removes the slot block at the very beginning and inserts it right after <div id=\"text-1241645277\" class=\"text\">.",
+  "targets": [
+    {
+      "type": "page",
+      "match": { "by": "id", "value": 403 }
+    }
+  ],
+  "operations": [
+    {
+      "op": "replace",
+      "scope": "content",
+      "selector": {
+        "kind": "regex",
+        "value": "<!--\\s*AI_SLOT:INTRO\\s*-->.*?<!--\\s*/AI_SLOT:SCHEMA\\s*-->\\s*"
+      },
+      "content": { "format": "text", "value": "" },
+      "safety": {
+        "max_chars_change": 6000,
+        "dry_run_diff": true,
+        "allow_full_replace": true,
+        "forbid_remove": ["ux_", "<script", "<style"]
+      }
+    },
+    {
+      "op": "append",
+      "scope": "content",
+      "selector": {
+        "kind": "regex",
+        "value": "<div id=\"text-1241645277\" class=\"text\">"
+      },
+      "content": {
+        "format": "html",
+        "value": "\n<!-- AI_SLOT:INTRO --><p><strong>Newcastle Hub</strong> builds fast, conversion-focused websites and measurable marketing for local businesses in Newcastle.</p><!-- /AI_SLOT:INTRO --><!-- AI_SLOT:FAQ --><!-- /AI_SLOT:FAQ --><!-- AI_SLOT:CTA --><!-- /AI_SLOT:CTA --><!-- AI_SLOT:SCHEMA --><!-- /AI_SLOT:SCHEMA -->\n"
+      },
+      "safety": {
+        "max_chars_change": 6000,
+        "dry_run_diff": true,
+        "allow_full_replace": true,
+        "forbid_remove": ["ux_", "<script", "<style"]
+      }
+    }
+  ]
+}

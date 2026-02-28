@@ -1,0 +1,78 @@
+{
+  "task_id": "c2d7b1f1-6c34-4a66-8d90-0c8d8bdbfdd3",
+  "created_at": "2026-02-15T00:00:00Z",
+  "mode": "execute",
+  "site": {
+    "base_url": "https://newcastlehub.info"
+  },
+  "task_type": "update_post_or_page",
+  "priority": "high",
+  "requires_confirmation": true,
+  "targets": [
+    {
+      "type": "page",
+      "match": {
+        "by": "id",
+        "value": 403
+      }
+    }
+  ],
+  "operations": [
+    {
+      "op": "ensure_slots",
+      "scope": "content",
+      "selector": {
+        "kind": "html_comment",
+        "value": "AI_SLOT:INTRO"
+      },
+      "content": {
+        "format": "json",
+        "value": {
+          "slots": [
+            "AI_SLOT:INTRO",
+            "AI_SLOT:FAQ",
+            "AI_SLOT:CTA",
+            "AI_SLOT:SCHEMA"
+          ]
+        }
+      },
+      "safety": {
+        "max_chars_change": 320,
+        "dry_run_diff": true,
+        "allow_full_replace": false,
+        "forbid_remove": [
+          "ux_",
+          "<script",
+          "<style"
+        ]
+      }
+    },
+    {
+      "op": "replace",
+      "scope": "content",
+      "selector": {
+        "kind": "html_comment",
+        "value": "AI_SLOT:INTRO"
+      },
+      "content": {
+        "format": "html",
+        "value": "<p><strong>Newcastle Hub</strong> builds fast, conversion-focused websites and measurable marketing for local businesses in Newcastle.</p>"
+      },
+      "safety": {
+        "max_chars_change": 900,
+        "dry_run_diff": true,
+        "allow_full_replace": false,
+        "forbid_remove": [
+          "ux_",
+          "<script",
+          "<style"
+        ]
+      }
+    }
+  ],
+  "limits": {
+    "cooldown_hours": 24,
+    "max_write_per_target": 3
+  },
+  "notes": "Bootstrap AI_SLOT markers and update INTRO slot on the front page (Home 2, page id 403) in one write."
+}

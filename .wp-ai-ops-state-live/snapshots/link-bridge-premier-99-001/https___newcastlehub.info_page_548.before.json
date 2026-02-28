@@ -1,0 +1,127 @@
+{
+  "id": 548,
+  "date": "2023-08-23T15:02:36",
+  "date_gmt": "2023-08-23T15:02:36",
+  "guid": {
+    "rendered": "https://newcastlehub.info/?page_id=548",
+    "raw": "https://newcastlehub.info/?page_id=548"
+  },
+  "modified": "2026-02-16T04:17:25",
+  "modified_gmt": "2026-02-16T04:17:25",
+  "password": "",
+  "slug": "marketing-service",
+  "status": "publish",
+  "type": "page",
+  "link": "https://newcastlehub.info/marketing-service/",
+  "title": {
+    "raw": "Marketing Service",
+    "rendered": "Marketing Service"
+  },
+  "content": {
+    "raw": "<!-- wp:flatsome/uxbuilder -->\n[section bg=\"496\" bg_size=\"original\" bg_overlay=\"rgba(255, 255, 255, 0.68)\" padding=\"70px\"]\n\n[row style=\"collapse\" padding__sm=\"0px 10px 0px 10px\"]\n\n[col span__sm=\"12\"]\n\n[ux_text font_size=\"1.7\" text_align=\"center\" text_color=\"rgb(19, 19, 19)\"]\n\n<h2>Digital Marketing</h2>\n[/ux_text]\n[ux_text font_size=\"1.2\" text_align=\"center\" text_color=\"rgb(19, 19, 19)\"]\n\n<p class=\"margin-bottom-0\">\n<p>In today's fast-paced digital landscape, establishing a strong online presence is crucial for businesses to reach their target audience effectively. Our Digital Marketing Services are designed to elevate your brand's visibility, engagement, and conversion rates across various online platforms. Our expert team of digital marketers employs cutting-edge strategies to craft a tailored approach that aligns with your business goals. Whether you're looking to enhance brand awareness, drive website traffic, or increase sales, we've got you covered.</p>\n</p>\n[/ux_text]\n\n[/col]\n\n[/row]\n\n[/section]\n[section padding=\"27px\"]\n\n[row h_align=\"center\"]\n\n[col span__sm=\"12\"]\n\n<h2>Our Service Includes: </h2>\n<ol>\n<li>\n<p><strong>Search Engine Optimization (SEO):</strong> We optimize your website to rank higher on search engine results pages (SERPs), improving organic visibility and attracting relevant, high-intent traffic.</p>\n</li>\n<li>\n<p><strong>Pay-Per-Click Advertising (PPC):</strong> Our team creates and manages targeted PPC campaigns on platforms like Google Ads and social media, ensuring maximum ROI through strategic keyword targeting and compelling ad copy.</p>\n</li>\n<li>\n<p><strong>Social Media Marketing:</strong> We devise and execute tailored social media strategies across major platforms (Facebook, Instagram, Twitter, LinkedIn, etc.), building a strong brand presence, engaging with your audience, and driving conversions.</p>\n</li>\n<li>\n<p><strong>Content Marketing:</strong> Our content experts produce high-quality, relevant content that resonates with your target audience. This includes blog posts, articles, infographics, videos, and more, enhancing your brand's authority and driving traffic.</p>\n</li>\n<li>\n<p><strong>Email Marketing:</strong> We create personalized email campaigns to nurture leads, retain customers, and drive sales. Our strategies encompass segmentation, automation, engaging content, and measurable results.</p>\n</li>\n<li>\n<p><strong>Influencer Marketing:</strong> Collaborating with relevant influencers in your industry, we amplify brand exposure and credibility, reaching wider audiences through authentic recommendations.</p>\n</li>\n<li>\n<p><strong>Online PR and Reputation Management:</strong> We monitor your online reputation, address any negative feedback, and promote positive reviews to build trust among potential customers.</p>\n</li>\n<li>\n<p><strong>Conversion Rate Optimization (CRO):</strong> Our experts analyze user behavior on your website, identifying areas for improvement and implementing changes to increase the percentage of visitors who take desired actions.</p>\n</li>\n<li>\n<p><strong>Analytics and Reporting:</strong> We provide regular performance reports, tracking key metrics and demonstrating the impact of our strategies. This helps refine our approach and ensure continuous growth.</p>\n</li>\n<li>\n<p><strong>E-commerce Solutions:</strong> For online businesses, we offer tailored e-commerce strategies to boost sales, optimize product listings, and enhance user experience.</p>\n</li>\n</ol>\n[row_inner]\n\n[col_inner span__sm=\"12\" align=\"center\"]\n\n[button text=\"Get a quote\"]\n\n\n[/col_inner]\n\n[/row_inner]\n\n[/col]\n\n[/row]\n\n[/section]\n\n<!-- /wp:flatsome/uxbuilder -->\n\n[section padding=\"60px\" bg_color=\"rgb(243, 243, 243)\"]\n  [row]\n    [col span__sm=\"12\"]\n      [ux_text]\n        <!-- AI_SLOT:INTRO -->\n        <p><strong>Digital Marketing</strong> for Newcastle businesses: local SEO, content, and conversion improvements that turn traffic into leads.</p>\n        <!-- /AI_SLOT:INTRO -->\n\n        <!-- AI_SLOT:FAQ -->\n        <h2>Digital Marketing FAQ</h2>\n        <h3>What channels do you focus on?</h3>\n        <p>We start with on-page SEO and site performance, then expand into content and campaigns based on ROI.</p>\n        <h3>How long until we see results?</h3>\n        <p>Some improvements show quickly (speed and conversion), while SEO typically takes weeks to months.</p>\n        <h3>Do you provide reporting?</h3>\n        <p>Yes. We track leads and key page metrics and adjust the plan each month.</p>\n        <h3>Can you help improve existing pages?</h3>\n        <p>Yes. We can rewrite key sections, add FAQs, and improve internal linking without rebuilding the site.</p>\n        <!-- /AI_SLOT:FAQ -->\n\n        <!-- AI_SLOT:CTA -->\n<h2>Get a marketing plan</h2>\n        <p><a class=\"button primary is-large\" href=\"https://newcastlehub.info/contact/\">Request a consultation</a></p>\n        <p>Related: <a href=\"https://newcastlehub.info/website-service/\">Website Service</a> | <a href=\"https://newcastlehub.info/hosting-plan/\">Web Hosting</a></p>\n<p>Related reads: <a href=\"https://newcastlehub.info/newcastle-growth-hub/\">Newcastle Growth Hub</a> | <a href=\"https://newcastlehub.info/web-hosting-starter/\">Web Hosting Starter</a> | <a href=\"https://newcastlehub.info/web-hosting-freedom/\">Web Hosting Freedom</a></p>\n<!-- /AI_SLOT:CTA -->\n\n        <!-- AI_SLOT:SCHEMA -->\n        <script type=\"application/ld+json\">{\"@context\":\"https://schema.org\",\"@type\":\"FAQPage\",\"mainEntity\":[{\"@type\":\"Question\",\"name\":\"What channels do you focus on?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"We start with on-page SEO and site performance, then expand into content and campaigns based on ROI.\"}},{\"@type\":\"Question\",\"name\":\"How long until we see results?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"Some improvements show quickly (speed and conversion), while SEO typically takes weeks to months.\"}},{\"@type\":\"Question\",\"name\":\"Do you provide reporting?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"Yes. We track leads and key page metrics and adjust the plan each month.\"}},{\"@type\":\"Question\",\"name\":\"Can you help improve existing pages?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"Yes. We can rewrite key sections, add FAQs, and improve internal linking without rebuilding the site.\"}}]}</script>\n        <!-- /AI_SLOT:SCHEMA -->\n      [/ux_text]\n    [/col]\n  [/row]\n[/section]\n",
+    "rendered": "\n\n\t<section class=\"section\" id=\"section_245064311\">\n\t\t<div class=\"section-bg fill\" >\n\t\t\t<img loading=\"lazy\" decoding=\"async\" width=\"1280\" height=\"853\" src=\"https://newcastlehub.info/wp-content/uploads/2023/08/services-bg.jpg\" class=\"bg attachment-original size-original\" alt=\"\" />\t\t\t\t\t\t<div class=\"section-bg-overlay absolute fill\"></div>\n\t\t\t\n\n\t\t</div>\n\n\t\t\n\n\t\t<div class=\"section-content relative\">\n\t\t\t\n\n<div class=\"row row-collapse\"  id=\"row-479059395\">\n\n\n\t<div id=\"col-1816851069\" class=\"col small-12 large-12\"  >\n\t\t\t\t<div class=\"col-inner\"  >\n\t\t\t\n\t\t\t\n\n\t<div id=\"text-373893751\" class=\"text\">\n\t\t\n\n<h2>Digital Marketing</h2>\n\t\t\n<style>\n#text-373893751 {\n  font-size: 1.7rem;\n  text-align: center;\n  color: rgb(19, 19, 19);\n}\n#text-373893751 > * {\n  color: rgb(19, 19, 19);\n}\n</style>\n\t</div>\n\t\n\t<div id=\"text-1863697591\" class=\"text\">\n\t\t\n\n<p class=\"margin-bottom-0\">\n<p>In today&#8217;s fast-paced digital landscape, establishing a strong online presence is crucial for businesses to reach their target audience effectively. Our Digital Marketing Services are designed to elevate your brand&#8217;s visibility, engagement, and conversion rates across various online platforms. Our expert team of digital marketers employs cutting-edge strategies to craft a tailored approach that aligns with your business goals. Whether you&#8217;re looking to enhance brand awareness, drive website traffic, or increase sales, we&#8217;ve got you covered.</p>\n</p>\n\t\t\n<style>\n#text-1863697591 {\n  font-size: 1.2rem;\n  text-align: center;\n  color: rgb(19, 19, 19);\n}\n#text-1863697591 > * {\n  color: rgb(19, 19, 19);\n}\n</style>\n\t</div>\n\t\n\n\t\t</div>\n\t\t\t\t\t</div>\n\n\t\n\n</div>\n\n\t\t</div>\n\n\t\t\n<style>\n#section_245064311 {\n  padding-top: 70px;\n  padding-bottom: 70px;\n}\n#section_245064311 .section-bg-overlay {\n  background-color: rgba(255, 255, 255, 0.68);\n}\n</style>\n\t</section>\n\t\n\n\t<section class=\"section\" id=\"section_1936877296\">\n\t\t<div class=\"section-bg fill\" >\n\t\t\t\t\t\t\t\t\t\n\t\t\t\n\n\t\t</div>\n\n\t\t\n\n\t\t<div class=\"section-content relative\">\n\t\t\t\n\n<div class=\"row align-center\"  id=\"row-919567779\">\n\n\n\t<div id=\"col-2117611746\" class=\"col small-12 large-12\"  >\n\t\t\t\t<div class=\"col-inner\"  >\n\t\t\t\n\t\t\t\n\n<h2>Our Service Includes: </h2>\n<ol>\n<li>\n<p><strong>Search Engine Optimization (SEO):</strong> We optimize your website to rank higher on search engine results pages (SERPs), improving organic visibility and attracting relevant, high-intent traffic.</p>\n</li>\n<li>\n<p><strong>Pay-Per-Click Advertising (PPC):</strong> Our team creates and manages targeted PPC campaigns on platforms like Google Ads and social media, ensuring maximum ROI through strategic keyword targeting and compelling ad copy.</p>\n</li>\n<li>\n<p><strong>Social Media Marketing:</strong> We devise and execute tailored social media strategies across major platforms (Facebook, Instagram, Twitter, LinkedIn, etc.), building a strong brand presence, engaging with your audience, and driving conversions.</p>\n</li>\n<li>\n<p><strong>Content Marketing:</strong> Our content experts produce high-quality, relevant content that resonates with your target audience. This includes blog posts, articles, infographics, videos, and more, enhancing your brand&#8217;s authority and driving traffic.</p>\n</li>\n<li>\n<p><strong>Email Marketing:</strong> We create personalized email campaigns to nurture leads, retain customers, and drive sales. Our strategies encompass segmentation, automation, engaging content, and measurable results.</p>\n</li>\n<li>\n<p><strong>Influencer Marketing:</strong> Collaborating with relevant influencers in your industry, we amplify brand exposure and credibility, reaching wider audiences through authentic recommendations.</p>\n</li>\n<li>\n<p><strong>Online PR and Reputation Management:</strong> We monitor your online reputation, address any negative feedback, and promote positive reviews to build trust among potential customers.</p>\n</li>\n<li>\n<p><strong>Conversion Rate Optimization (CRO):</strong> Our experts analyze user behavior on your website, identifying areas for improvement and implementing changes to increase the percentage of visitors who take desired actions.</p>\n</li>\n<li>\n<p><strong>Analytics and Reporting:</strong> We provide regular performance reports, tracking key metrics and demonstrating the impact of our strategies. This helps refine our approach and ensure continuous growth.</p>\n</li>\n<li>\n<p><strong>E-commerce Solutions:</strong> For online businesses, we offer tailored e-commerce strategies to boost sales, optimize product listings, and enhance user experience.</p>\n</li>\n</ol>\n<div class=\"row\"  id=\"row-1353394574\">\n\n\n\t<div id=\"col-1922679644\" class=\"col small-12 large-12\"  >\n\t\t\t\t<div class=\"col-inner text-center\"  >\n\t\t\t\n\t\t\t\n\n<a class=\"button primary\" >\n\t\t<span>Get a quote</span>\n\t</a>\n\n\n\n\t\t</div>\n\t\t\t\t\t</div>\n\n\t\n\n</div>\n\n\t\t</div>\n\t\t\t\t\t</div>\n\n\t\n\n</div>\n\n\t\t</div>\n\n\t\t\n<style>\n#section_1936877296 {\n  padding-top: 27px;\n  padding-bottom: 27px;\n}\n</style>\n\t</section>\n\t\n\n\n\n\n\t<section class=\"section\" id=\"section_1328918697\">\n\t\t<div class=\"section-bg fill\" >\n\t\t\t\t\t\t\t\t\t\n\t\t\t\n\n\t\t</div>\n\n\t\t\n\n\t\t<div class=\"section-content relative\">\n\t\t\t\n  <div class=\"row\"  id=\"row-1732850266\">\n    \n\t<div id=\"col-1374885702\" class=\"col small-12 large-12\"  >\n\t\t\t\t<div class=\"col-inner\"  >\n\t\t\t\n\t\t\t\n      \t<div id=\"text-2495581074\" class=\"text\">\n\t\t\n        <!-- AI_SLOT:INTRO -->\n        <p><strong>Digital Marketing</strong> for Newcastle businesses: local SEO, content, and conversion improvements that turn traffic into leads.</p>\n        <!-- /AI_SLOT:INTRO -->\n\n        <!-- AI_SLOT:FAQ -->\n        <h2>Digital Marketing FAQ</h2>\n        <h3>What channels do you focus on?</h3>\n        <p>We start with on-page SEO and site performance, then expand into content and campaigns based on ROI.</p>\n        <h3>How long until we see results?</h3>\n        <p>Some improvements show quickly (speed and conversion), while SEO typically takes weeks to months.</p>\n        <h3>Do you provide reporting?</h3>\n        <p>Yes. We track leads and key page metrics and adjust the plan each month.</p>\n        <h3>Can you help improve existing pages?</h3>\n        <p>Yes. We can rewrite key sections, add FAQs, and improve internal linking without rebuilding the site.</p>\n        <!-- /AI_SLOT:FAQ -->\n\n        <!-- AI_SLOT:CTA -->\n<h2>Get a marketing plan</h2>\n        <p><a class=\"button primary is-large\" href=\"https://newcastlehub.info/contact/\">Request a consultation</a></p>\n        <p>Related: <a href=\"https://newcastlehub.info/website-service/\">Website Service</a> | <a href=\"https://newcastlehub.info/hosting-plan/\">Web Hosting</a></p>\n<p>Related reads: <a href=\"https://newcastlehub.info/newcastle-growth-hub/\">Newcastle Growth Hub</a> | <a href=\"https://newcastlehub.info/web-hosting-starter/\">Web Hosting Starter</a> | <a href=\"https://newcastlehub.info/web-hosting-freedom/\">Web Hosting Freedom</a></p>\n<!-- /AI_SLOT:CTA -->\n\n        <!-- AI_SLOT:SCHEMA -->\n        <script type=\"application/ld+json\">{\"@context\":\"https://schema.org\",\"@type\":\"FAQPage\",\"mainEntity\":[{\"@type\":\"Question\",\"name\":\"What channels do you focus on?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"We start with on-page SEO and site performance, then expand into content and campaigns based on ROI.\"}},{\"@type\":\"Question\",\"name\":\"How long until we see results?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"Some improvements show quickly (speed and conversion), while SEO typically takes weeks to months.\"}},{\"@type\":\"Question\",\"name\":\"Do you provide reporting?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"Yes. We track leads and key page metrics and adjust the plan each month.\"}},{\"@type\":\"Question\",\"name\":\"Can you help improve existing pages?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"Yes. We can rewrite key sections, add FAQs, and improve internal linking without rebuilding the site.\"}}]}</script>\n        <!-- /AI_SLOT:SCHEMA -->\n      \t\t\t</div>\n\t\n    \t\t</div>\n\t\t\t\t\t</div>\n\n\t\n  </div>\n\t\t</div>\n\n\t\t\n<style>\n#section_1328918697 {\n  padding-top: 60px;\n  padding-bottom: 60px;\n  background-color: rgb(243, 243, 243);\n}\n</style>\n\t</section>\n\t\n",
+    "protected": false,
+    "block_version": 1
+  },
+  "excerpt": {
+    "raw": "",
+    "rendered": "",
+    "protected": false
+  },
+  "author": 1,
+  "featured_media": 0,
+  "parent": 0,
+  "menu_order": 0,
+  "comment_status": "closed",
+  "ping_status": "closed",
+  "template": "page-blank.php",
+  "meta": {
+    "footnotes": ""
+  },
+  "permalink_template": "https://newcastlehub.info/%pagename%/",
+  "generated_slug": "marketing-service",
+  "class_list": [
+    "post-548",
+    "page",
+    "type-page",
+    "status-publish",
+    "hentry"
+  ],
+  "_links": {
+    "self": [
+      {
+        "href": "https://newcastlehub.info/wp-json/wp/v2/pages/548",
+        "targetHints": {
+          "allow": [
+            "GET",
+            "POST",
+            "PUT",
+            "PATCH",
+            "DELETE"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://newcastlehub.info/wp-json/wp/v2/pages"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://newcastlehub.info/wp-json/wp/v2/types/page"
+      }
+    ],
+    "author": [
+      {
+        "embeddable": true,
+        "href": "https://newcastlehub.info/wp-json/wp/v2/users/1"
+      }
+    ],
+    "replies": [
+      {
+        "embeddable": true,
+        "href": "https://newcastlehub.info/wp-json/wp/v2/comments?post=548"
+      }
+    ],
+    "version-history": [
+      {
+        "count": 5,
+        "href": "https://newcastlehub.info/wp-json/wp/v2/pages/548/revisions"
+      }
+    ],
+    "predecessor-version": [
+      {
+        "id": 698,
+        "href": "https://newcastlehub.info/wp-json/wp/v2/pages/548/revisions/698"
+      }
+    ],
+    "wp:attachment": [
+      {
+        "href": "https://newcastlehub.info/wp-json/wp/v2/media?parent=548"
+      }
+    ],
+    "wp:action-publish": [
+      {
+        "href": "https://newcastlehub.info/wp-json/wp/v2/pages/548"
+      }
+    ],
+    "wp:action-unfiltered-html": [
+      {
+        "href": "https://newcastlehub.info/wp-json/wp/v2/pages/548"
+      }
+    ],
+    "wp:action-assign-author": [
+      {
+        "href": "https://newcastlehub.info/wp-json/wp/v2/pages/548"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  }
+}

@@ -1,0 +1,552 @@
+{
+  "generated_at": "2026-02-17T06:20:32.892727+00:00",
+  "inputs": {
+    "gsc_csv": "examples/csv/newcastle_baseline_gsc.csv",
+    "ga_csv": "examples/csv/newcastle_baseline_ga.csv"
+  },
+  "site": {
+    "base_url": "https://newcastlehub.info"
+  },
+  "selected_pages": [
+    {
+      "url": "https://newcastlehub.info/",
+      "score": 7,
+      "reasons": [
+        "high_impressions_low_ctr",
+        "rank_5_15",
+        "high_bounce"
+      ],
+      "impressions": 3200.0,
+      "clicks": 42.0,
+      "ctr": 0.013,
+      "position": 9.1,
+      "bounce_rate": 0.72
+    },
+    {
+      "url": "https://newcastlehub.info/services/",
+      "score": 7,
+      "reasons": [
+        "high_impressions_low_ctr",
+        "rank_5_15",
+        "high_bounce"
+      ],
+      "impressions": 1450.0,
+      "clicks": 18.0,
+      "ctr": 0.012,
+      "position": 10.4,
+      "bounce_rate": 0.78
+    },
+    {
+      "url": "https://newcastlehub.info/online-ordering-newcastle/",
+      "score": 7,
+      "reasons": [
+        "high_impressions_low_ctr",
+        "rank_5_15",
+        "high_bounce"
+      ],
+      "impressions": 1020.0,
+      "clicks": 13.0,
+      "ctr": 0.013,
+      "position": 8.2,
+      "bounce_rate": 0.73
+    },
+    {
+      "url": "https://newcastlehub.info/restaurant-solutions/",
+      "score": 7,
+      "reasons": [
+        "high_impressions_low_ctr",
+        "rank_5_15",
+        "high_bounce"
+      ],
+      "impressions": 980.0,
+      "clicks": 9.0,
+      "ctr": 0.009,
+      "position": 11.2,
+      "bounce_rate": 0.81
+    },
+    {
+      "url": "https://newcastlehub.info/trades-solutions/",
+      "score": 7,
+      "reasons": [
+        "high_impressions_low_ctr",
+        "rank_5_15",
+        "high_bounce"
+      ],
+      "impressions": 910.0,
+      "clicks": 11.0,
+      "ctr": 0.012,
+      "position": 8.9,
+      "bounce_rate": 0.75
+    }
+  ],
+  "generated_tasks": [
+    {
+      "task_id": "a08a33fb-6535-4fc5-9cb4-aefa56d87f81",
+      "task_type": "update_post_or_page",
+      "target_url": "https://newcastlehub.info/",
+      "reasons": [
+        "high_impressions_low_ctr",
+        "rank_5_15",
+        "high_bounce"
+      ]
+    },
+    {
+      "task_id": "5f2a39d3-c26d-4eb4-aa8a-91f9ef7dc089",
+      "task_type": "inject_schema_faq",
+      "target_url": "https://newcastlehub.info/",
+      "reasons": [
+        "high_impressions_low_ctr",
+        "rank_5_15",
+        "high_bounce"
+      ]
+    },
+    {
+      "task_id": "6acb19c9-9aea-47c9-afa8-e156aefccea5",
+      "task_type": "append_internal_links",
+      "target_url": "https://newcastlehub.info/",
+      "reasons": [
+        "high_impressions_low_ctr",
+        "rank_5_15",
+        "high_bounce"
+      ]
+    },
+    {
+      "task_id": "bbcc37b7-0fa0-4434-9d7b-1a2f1cb50d4f",
+      "task_type": "update_post_or_page",
+      "target_url": "https://newcastlehub.info/services/",
+      "reasons": [
+        "high_impressions_low_ctr",
+        "rank_5_15",
+        "high_bounce"
+      ]
+    },
+    {
+      "task_id": "53aa3ca7-2e33-4de4-a4aa-9717e150fa31",
+      "task_type": "inject_schema_faq",
+      "target_url": "https://newcastlehub.info/services/",
+      "reasons": [
+        "high_impressions_low_ctr",
+        "rank_5_15",
+        "high_bounce"
+      ]
+    },
+    {
+      "task_id": "5917f31b-fd2f-40a2-a6a1-d3dddc18ca28",
+      "task_type": "append_internal_links",
+      "target_url": "https://newcastlehub.info/services/",
+      "reasons": [
+        "high_impressions_low_ctr",
+        "rank_5_15",
+        "high_bounce"
+      ]
+    },
+    {
+      "task_id": "9f7135c3-da61-4739-9b60-5046e8116880",
+      "task_type": "update_post_or_page",
+      "target_url": "https://newcastlehub.info/online-ordering-newcastle/",
+      "reasons": [
+        "high_impressions_low_ctr",
+        "rank_5_15",
+        "high_bounce"
+      ]
+    },
+    {
+      "task_id": "300d1e04-be88-4e59-bddf-5e0308c2ce33",
+      "task_type": "inject_schema_faq",
+      "target_url": "https://newcastlehub.info/online-ordering-newcastle/",
+      "reasons": [
+        "high_impressions_low_ctr",
+        "rank_5_15",
+        "high_bounce"
+      ]
+    },
+    {
+      "task_id": "9d4d12e9-d042-4dee-b2af-a7ec2788aaa9",
+      "task_type": "append_internal_links",
+      "target_url": "https://newcastlehub.info/online-ordering-newcastle/",
+      "reasons": [
+        "high_impressions_low_ctr",
+        "rank_5_15",
+        "high_bounce"
+      ]
+    },
+    {
+      "task_id": "cef15a72-d115-465c-a1a3-863febbe2ea9",
+      "task_type": "update_post_or_page",
+      "target_url": "https://newcastlehub.info/restaurant-solutions/",
+      "reasons": [
+        "high_impressions_low_ctr",
+        "rank_5_15",
+        "high_bounce"
+      ]
+    },
+    {
+      "task_id": "1c3557c7-8fa2-47a3-9784-20f2b5455550",
+      "task_type": "inject_schema_faq",
+      "target_url": "https://newcastlehub.info/restaurant-solutions/",
+      "reasons": [
+        "high_impressions_low_ctr",
+        "rank_5_15",
+        "high_bounce"
+      ]
+    },
+    {
+      "task_id": "be7eaa66-6a76-47bb-949c-d6ffedd292bb",
+      "task_type": "append_internal_links",
+      "target_url": "https://newcastlehub.info/restaurant-solutions/",
+      "reasons": [
+        "high_impressions_low_ctr",
+        "rank_5_15",
+        "high_bounce"
+      ]
+    },
+    {
+      "task_id": "c0a437d3-0378-48fe-93e9-e53e88252b2f",
+      "task_type": "update_post_or_page",
+      "target_url": "https://newcastlehub.info/trades-solutions/",
+      "reasons": [
+        "high_impressions_low_ctr",
+        "rank_5_15",
+        "high_bounce"
+      ]
+    },
+    {
+      "task_id": "0de98b8a-0a12-47e9-8ef3-cfdb341568e4",
+      "task_type": "inject_schema_faq",
+      "target_url": "https://newcastlehub.info/trades-solutions/",
+      "reasons": [
+        "high_impressions_low_ctr",
+        "rank_5_15",
+        "high_bounce"
+      ]
+    },
+    {
+      "task_id": "49910129-6eda-456e-9bee-b3c708892364",
+      "task_type": "append_internal_links",
+      "target_url": "https://newcastlehub.info/trades-solutions/",
+      "reasons": [
+        "high_impressions_low_ctr",
+        "rank_5_15",
+        "high_bounce"
+      ]
+    }
+  ],
+  "tasks_dir": "weekly-output-newcastle-baseline-exec/tasks",
+  "execution_results": [
+    {
+      "task_id": "0de98b8a-0a12-47e9-8ef3-cfdb341568e4",
+      "status": "failed",
+      "mode": "execute",
+      "results": [],
+      "errors": [
+        {
+          "target": {
+            "type": "page",
+            "match": {
+              "by": "url",
+              "value": "https://newcastlehub.info/trades-solutions/"
+            }
+          },
+          "error": "GET https://newcastlehub.info/wp-json/wp/v2/pages?slug=trades-solutions&per_page=1&context=edit failed: [Errno 8] nodename nor servname provided, or not known"
+        }
+      ],
+      "duration_ms": 2236,
+      "timestamp": "2026-02-17T06:19:59.483717+00:00",
+      "task_file": "weekly-output-newcastle-baseline-exec/tasks/0de98b8a-0a12-47e9-8ef3-cfdb341568e4.json"
+    },
+    {
+      "task_id": "1c3557c7-8fa2-47a3-9784-20f2b5455550",
+      "status": "failed",
+      "mode": "execute",
+      "results": [],
+      "errors": [
+        {
+          "target": {
+            "type": "page",
+            "match": {
+              "by": "url",
+              "value": "https://newcastlehub.info/restaurant-solutions/"
+            }
+          },
+          "error": "GET https://newcastlehub.info/wp-json/wp/v2/pages?slug=restaurant-solutions&per_page=1&context=edit failed: [Errno 8] nodename nor servname provided, or not known"
+        }
+      ],
+      "duration_ms": 2223,
+      "timestamp": "2026-02-17T06:20:01.722172+00:00",
+      "task_file": "weekly-output-newcastle-baseline-exec/tasks/1c3557c7-8fa2-47a3-9784-20f2b5455550.json"
+    },
+    {
+      "task_id": "300d1e04-be88-4e59-bddf-5e0308c2ce33",
+      "status": "failed",
+      "mode": "execute",
+      "results": [],
+      "errors": [
+        {
+          "target": {
+            "type": "page",
+            "match": {
+              "by": "url",
+              "value": "https://newcastlehub.info/online-ordering-newcastle/"
+            }
+          },
+          "error": "GET https://newcastlehub.info/wp-json/wp/v2/pages?slug=online-ordering-newcastle&per_page=1&context=edit failed: [Errno 8] nodename nor servname provided, or not known"
+        }
+      ],
+      "duration_ms": 2219,
+      "timestamp": "2026-02-17T06:20:03.947478+00:00",
+      "task_file": "weekly-output-newcastle-baseline-exec/tasks/300d1e04-be88-4e59-bddf-5e0308c2ce33.json"
+    },
+    {
+      "task_id": "49910129-6eda-456e-9bee-b3c708892364",
+      "status": "failed",
+      "mode": "execute",
+      "results": [],
+      "errors": [
+        {
+          "target": {
+            "type": "page",
+            "match": {
+              "by": "url",
+              "value": "https://newcastlehub.info/trades-solutions/"
+            }
+          },
+          "error": "GET https://newcastlehub.info/wp-json/wp/v2/pages?slug=trades-solutions&per_page=1&context=edit failed: [Errno 8] nodename nor servname provided, or not known"
+        }
+      ],
+      "duration_ms": 2227,
+      "timestamp": "2026-02-17T06:20:06.167926+00:00",
+      "task_file": "weekly-output-newcastle-baseline-exec/tasks/49910129-6eda-456e-9bee-b3c708892364.json"
+    },
+    {
+      "task_id": "53aa3ca7-2e33-4de4-a4aa-9717e150fa31",
+      "status": "failed",
+      "mode": "execute",
+      "results": [],
+      "errors": [
+        {
+          "target": {
+            "type": "page",
+            "match": {
+              "by": "url",
+              "value": "https://newcastlehub.info/services/"
+            }
+          },
+          "error": "GET https://newcastlehub.info/wp-json/wp/v2/pages?slug=services&per_page=1&context=edit failed: [Errno 8] nodename nor servname provided, or not known"
+        }
+      ],
+      "duration_ms": 2220,
+      "timestamp": "2026-02-17T06:20:08.397221+00:00",
+      "task_file": "weekly-output-newcastle-baseline-exec/tasks/53aa3ca7-2e33-4de4-a4aa-9717e150fa31.json"
+    },
+    {
+      "task_id": "5917f31b-fd2f-40a2-a6a1-d3dddc18ca28",
+      "status": "failed",
+      "mode": "execute",
+      "results": [],
+      "errors": [
+        {
+          "target": {
+            "type": "page",
+            "match": {
+              "by": "url",
+              "value": "https://newcastlehub.info/services/"
+            }
+          },
+          "error": "GET https://newcastlehub.info/wp-json/wp/v2/pages?slug=services&per_page=1&context=edit failed: [Errno 8] nodename nor servname provided, or not known"
+        }
+      ],
+      "duration_ms": 2230,
+      "timestamp": "2026-02-17T06:20:10.618682+00:00",
+      "task_file": "weekly-output-newcastle-baseline-exec/tasks/5917f31b-fd2f-40a2-a6a1-d3dddc18ca28.json"
+    },
+    {
+      "task_id": "5f2a39d3-c26d-4eb4-aa8a-91f9ef7dc089",
+      "status": "failed",
+      "mode": "execute",
+      "results": [],
+      "errors": [
+        {
+          "target": {
+            "type": "page",
+            "match": {
+              "by": "url",
+              "value": "https://newcastlehub.info/"
+            }
+          },
+          "error": "GET https://newcastlehub.info/wp-json/wp/v2/pages?slug=&per_page=1&context=edit failed: [Errno 8] nodename nor servname provided, or not known"
+        }
+      ],
+      "duration_ms": 2227,
+      "timestamp": "2026-02-17T06:20:12.850433+00:00",
+      "task_file": "weekly-output-newcastle-baseline-exec/tasks/5f2a39d3-c26d-4eb4-aa8a-91f9ef7dc089.json"
+    },
+    {
+      "task_id": "6acb19c9-9aea-47c9-afa8-e156aefccea5",
+      "status": "failed",
+      "mode": "execute",
+      "results": [],
+      "errors": [
+        {
+          "target": {
+            "type": "page",
+            "match": {
+              "by": "url",
+              "value": "https://newcastlehub.info/"
+            }
+          },
+          "error": "GET https://newcastlehub.info/wp-json/wp/v2/pages?slug=&per_page=1&context=edit failed: [Errno 8] nodename nor servname provided, or not known"
+        }
+      ],
+      "duration_ms": 2227,
+      "timestamp": "2026-02-17T06:20:15.078714+00:00",
+      "task_file": "weekly-output-newcastle-baseline-exec/tasks/6acb19c9-9aea-47c9-afa8-e156aefccea5.json"
+    },
+    {
+      "task_id": "9d4d12e9-d042-4dee-b2af-a7ec2788aaa9",
+      "status": "failed",
+      "mode": "execute",
+      "results": [],
+      "errors": [
+        {
+          "target": {
+            "type": "page",
+            "match": {
+              "by": "url",
+              "value": "https://newcastlehub.info/online-ordering-newcastle/"
+            }
+          },
+          "error": "GET https://newcastlehub.info/wp-json/wp/v2/pages?slug=online-ordering-newcastle&per_page=1&context=edit failed: [Errno 8] nodename nor servname provided, or not known"
+        }
+      ],
+      "duration_ms": 2230,
+      "timestamp": "2026-02-17T06:20:17.307277+00:00",
+      "task_file": "weekly-output-newcastle-baseline-exec/tasks/9d4d12e9-d042-4dee-b2af-a7ec2788aaa9.json"
+    },
+    {
+      "task_id": "9f7135c3-da61-4739-9b60-5046e8116880",
+      "status": "failed",
+      "mode": "execute",
+      "results": [],
+      "errors": [
+        {
+          "target": {
+            "type": "page",
+            "match": {
+              "by": "url",
+              "value": "https://newcastlehub.info/online-ordering-newcastle/"
+            }
+          },
+          "error": "GET https://newcastlehub.info/wp-json/wp/v2/pages?slug=online-ordering-newcastle&per_page=1&context=edit failed: [Errno 8] nodename nor servname provided, or not known"
+        }
+      ],
+      "duration_ms": 2230,
+      "timestamp": "2026-02-17T06:20:19.538896+00:00",
+      "task_file": "weekly-output-newcastle-baseline-exec/tasks/9f7135c3-da61-4739-9b60-5046e8116880.json"
+    },
+    {
+      "task_id": "a08a33fb-6535-4fc5-9cb4-aefa56d87f81",
+      "status": "failed",
+      "mode": "execute",
+      "results": [],
+      "errors": [
+        {
+          "target": {
+            "type": "page",
+            "match": {
+              "by": "url",
+              "value": "https://newcastlehub.info/"
+            }
+          },
+          "error": "GET https://newcastlehub.info/wp-json/wp/v2/pages?slug=&per_page=1&context=edit failed: [Errno 8] nodename nor servname provided, or not known"
+        }
+      ],
+      "duration_ms": 2224,
+      "timestamp": "2026-02-17T06:20:21.771068+00:00",
+      "task_file": "weekly-output-newcastle-baseline-exec/tasks/a08a33fb-6535-4fc5-9cb4-aefa56d87f81.json"
+    },
+    {
+      "task_id": "bbcc37b7-0fa0-4434-9d7b-1a2f1cb50d4f",
+      "status": "failed",
+      "mode": "execute",
+      "results": [],
+      "errors": [
+        {
+          "target": {
+            "type": "page",
+            "match": {
+              "by": "url",
+              "value": "https://newcastlehub.info/services/"
+            }
+          },
+          "error": "GET https://newcastlehub.info/wp-json/wp/v2/pages?slug=services&per_page=1&context=edit failed: [Errno 8] nodename nor servname provided, or not known"
+        }
+      ],
+      "duration_ms": 2226,
+      "timestamp": "2026-02-17T06:20:23.997180+00:00",
+      "task_file": "weekly-output-newcastle-baseline-exec/tasks/bbcc37b7-0fa0-4434-9d7b-1a2f1cb50d4f.json"
+    },
+    {
+      "task_id": "be7eaa66-6a76-47bb-949c-d6ffedd292bb",
+      "status": "failed",
+      "mode": "execute",
+      "results": [],
+      "errors": [
+        {
+          "target": {
+            "type": "page",
+            "match": {
+              "by": "url",
+              "value": "https://newcastlehub.info/restaurant-solutions/"
+            }
+          },
+          "error": "GET https://newcastlehub.info/wp-json/wp/v2/pages?slug=restaurant-solutions&per_page=1&context=edit failed: [Errno 8] nodename nor servname provided, or not known"
+        }
+      ],
+      "duration_ms": 2222,
+      "timestamp": "2026-02-17T06:20:26.223619+00:00",
+      "task_file": "weekly-output-newcastle-baseline-exec/tasks/be7eaa66-6a76-47bb-949c-d6ffedd292bb.json"
+    },
+    {
+      "task_id": "c0a437d3-0378-48fe-93e9-e53e88252b2f",
+      "status": "failed",
+      "mode": "execute",
+      "results": [],
+      "errors": [
+        {
+          "target": {
+            "type": "page",
+            "match": {
+              "by": "url",
+              "value": "https://newcastlehub.info/trades-solutions/"
+            }
+          },
+          "error": "GET https://newcastlehub.info/wp-json/wp/v2/pages?slug=trades-solutions&per_page=1&context=edit failed: [Errno 8] nodename nor servname provided, or not known"
+        }
+      ],
+      "duration_ms": 2222,
+      "timestamp": "2026-02-17T06:20:28.447456+00:00",
+      "task_file": "weekly-output-newcastle-baseline-exec/tasks/c0a437d3-0378-48fe-93e9-e53e88252b2f.json"
+    },
+    {
+      "task_id": "cef15a72-d115-465c-a1a3-863febbe2ea9",
+      "status": "failed",
+      "mode": "execute",
+      "results": [],
+      "errors": [
+        {
+          "target": {
+            "type": "page",
+            "match": {
+              "by": "url",
+              "value": "https://newcastlehub.info/restaurant-solutions/"
+            }
+          },
+          "error": "GET https://newcastlehub.info/wp-json/wp/v2/pages?slug=restaurant-solutions&per_page=1&context=edit failed: [Errno 8] nodename nor servname provided, or not known"
+        }
+      ],
+      "duration_ms": 2222,
+      "timestamp": "2026-02-17T06:20:30.670569+00:00",
+      "task_file": "weekly-output-newcastle-baseline-exec/tasks/cef15a72-d115-465c-a1a3-863febbe2ea9.json"
+    }
+  ]
+}

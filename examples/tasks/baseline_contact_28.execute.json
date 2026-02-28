@@ -1,0 +1,27 @@
+{
+  "task_id": "c79262d3-83bd-4d7b-bdc2-5c4c04fe2f0f",
+  "created_at": "2026-02-15T04:40:00Z",
+  "mode": "execute",
+  "site": { "base_url": "https://newcastlehub.info" },
+  "task_type": "update_post_or_page",
+  "requires_confirmation": true,
+  "priority": "high",
+  "limits": { "cooldown_hours": 0, "max_write_per_target": 10 },
+  "notes": "Baseline SEO: add AI slots + FAQ/CTA/Schema block to Contact page without touching existing Flatsome shortcodes.",
+  "targets": [
+    { "type": "page", "match": { "by": "id", "value": 28 } }
+  ],
+  "operations": [
+    {
+      "op": "append",
+      "scope": "content",
+      "selector": { "kind": "regex", "value": "$" },
+      "content": {
+        "format": "html",
+        "value": "\n\n[section padding=\"60px\" bg_color=\"rgb(243, 243, 243)\"]\n  [row]\n    [col span__sm=\"12\"]\n      [ux_text]\n        <!-- AI_SLOT:INTRO -->\n        <p><strong>Contact Newcastle Hub</strong> for website design, local SEO, hosting, and digital marketing support in Newcastle.</p>\n        <!-- /AI_SLOT:INTRO -->\n\n        <!-- AI_SLOT:FAQ -->\n        <h2>Contact FAQ</h2>\n        <h3>How fast do you respond?</h3>\n        <p>We usually reply within 1 business day.</p>\n        <h3>Do you work with local businesses in Newcastle?</h3>\n        <p>Yes. We focus on practical improvements that drive calls, bookings, and leads.</p>\n        <h3>What should I send to get a quote?</h3>\n        <p>Your website (if you have one), what you need help with, and your preferred timeline.</p>\n        <!-- /AI_SLOT:FAQ -->\n\n        <!-- AI_SLOT:CTA -->\n        <h2>Ready to talk?</h2>\n        <p><a class=\"button primary is-large\" href=\"https://newcastlehub.info/contact/\">Send a message</a></p>\n        <p>Related: <a href=\"https://newcastlehub.info/website-service/\">Website Service</a> | <a href=\"https://newcastlehub.info/marketing-service/\">Digital Marketing</a> | <a href=\"https://newcastlehub.info/hosting-plan/\">Web Hosting</a></p>\n        <!-- /AI_SLOT:CTA -->\n\n        <!-- AI_SLOT:SCHEMA -->\n        <script type=\"application/ld+json\">{\"@context\":\"https://schema.org\",\"@type\":\"FAQPage\",\"mainEntity\":[{\"@type\":\"Question\",\"name\":\"How fast do you respond?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"We usually reply within 1 business day.\"}},{\"@type\":\"Question\",\"name\":\"Do you work with local businesses in Newcastle?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"Yes. We focus on practical improvements that drive calls, bookings, and leads.\"}},{\"@type\":\"Question\",\"name\":\"What should I send to get a quote?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"Your website (if you have one), what you need help with, and your preferred timeline.\"}}]}</script>\n        <!-- /AI_SLOT:SCHEMA -->\n      [/ux_text]\n    [/col]\n  [/row]\n[/section]\n"
+      },
+      "safety": { "max_chars_change": 9000, "dry_run_diff": true, "allow_full_replace": true }
+    }
+  ]
+}
+

@@ -1,0 +1,66 @@
+{
+  "task_id": "consistency-fix-pages-684",
+  "created_at": "2026-02-16T21:50:12.931787+00:00",
+  "mode": "execute",
+  "site": {
+    "base_url": "https://newcastlehub.info"
+  },
+  "task_type": "update_post_or_page",
+  "requires_confirmation": true,
+  "priority": "high",
+  "limits": {
+    "cooldown_hours": 0,
+    "max_write_per_target": 10
+  },
+  "notes": "Auto-generated consistency fixes for pages:684:google-business-profile-for-restaurants-newcastle",
+  "targets": [
+    {
+      "type": "page",
+      "match": {
+        "by": "id",
+        "value": 684
+      }
+    }
+  ],
+  "operations": [
+    {
+      "op": "ensure_slots",
+      "scope": "content",
+      "selector": {
+        "kind": "html_comment",
+        "value": "AI_SLOT:INTRO"
+      },
+      "content": {
+        "format": "json",
+        "value": {
+          "slots": [
+            "AI_SLOT:CTA",
+            "AI_SLOT:SCHEMA"
+          ]
+        }
+      },
+      "safety": {
+        "max_chars_change": 1600,
+        "dry_run_diff": true,
+        "allow_full_replace": true
+      }
+    },
+    {
+      "op": "replace",
+      "scope": "content",
+      "selector": {
+        "kind": "html_comment",
+        "value": "AI_SLOT:SCHEMA"
+      },
+      "content": {
+        "format": "html",
+        "value": "<script type=\"application/ld+json\">{\"@context\": \"https://schema.org\", \"@type\": \"WebSite\", \"name\": \"newcastlehub.info\", \"url\": \"https://newcastlehub.info/\"}</script>"
+      },
+      "safety": {
+        "max_chars_change": 1800,
+        "dry_run_diff": true,
+        "allow_full_replace": false
+      }
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "task_id": "adjust-services-39-services-block-v2-001",
+  "created_at": "2026-02-16T22:25:00Z",
+  "mode": "execute",
+  "site_profile_ref": "../../site_profiles/newcastlehub.info.json",
+  "site": {
+    "base_url": "{{site.base_url}}"
+  },
+  "task_type": "update_post_or_page",
+  "requires_confirmation": true,
+  "priority": "high",
+  "limits": {
+    "cooldown_hours": 0,
+    "max_write_per_target": 20
+  },
+  "notes": "Refine services structure section into cleaner card layout and tighter copy for readability and conversion.",
+  "targets": [
+    {
+      "type": "page",
+      "match": {
+        "by": "id",
+        "value": 39
+      }
+    }
+  ],
+  "operations": [
+    {
+      "op": "replace",
+      "scope": "content",
+      "selector": {
+        "kind": "regex",
+        "value": "(?s)<section class=\\\"section\\\" id=\\\"ai-services-structure\\\".*?</section>"
+      },
+      "content": {
+        "format": "html",
+        "value": "<section class=\"section\" id=\"ai-services-structure\" style=\"padding-top:56px;padding-bottom:56px;background:#f6f8fb;\"><div class=\"section-content relative\"><div class=\"row\"><div class=\"col small-12 large-12\"><div class=\"col-inner\"><div class=\"text\"><h2>Our Services</h2><p><strong>Everything you need to turn traffic into bookings and sales.</strong></p><p>We build practical systems for Newcastle businesses, then keep improving them each month.</p></div></div></div></div><div class=\"row row-small\"><div class=\"col small-12 medium-4\"><div class=\"col-inner\" style=\"background:#fff;border:1px solid #e6ebf2;border-radius:14px;padding:22px;height:100%;\"><h3>POS Setup &amp; Integration</h3><ul><li>Square or Lightspeed setup</li><li>Inventory and menu sync</li><li>Staff workflow and training</li><li>Launch checklist and handover</li></ul></div></div><div class=\"col small-12 medium-4\"><div class=\"col-inner\" style=\"background:#fff;border:1px solid #e6ebf2;border-radius:14px;padding:22px;height:100%;\"><h3>Website &amp; Online Ordering</h3><ul><li>Conversion-focused website build</li><li>Online payment and checkout flow</li><li>QR ordering and booking systems</li><li>Mobile-first speed optimisation</li></ul></div></div><div class=\"col small-12 medium-4\"><div class=\"col-inner\" style=\"background:#fff;border:1px solid #e6ebf2;border-radius:14px;padding:22px;height:100%;\"><h3>Growth Channels</h3><ul><li>Google Business Profile setup</li><li>Review and reputation management</li><li>Local SEO improvements</li><li>Social media setup and baseline plan</li></ul></div></div></div><div class=\"row row-small\" style=\"margin-top:14px;\"><div class=\"col small-12 medium-4\"><div class=\"col-inner\" style=\"background:#fff;border:1px solid #d7e5ff;border-radius:16px;padding:24px;height:100%;\"><h3>Starter Package</h3><p><em>For new small businesses.</em></p><ul><li>POS setup</li><li>Basic website</li><li>Google profile setup</li></ul></div></div><div class=\"col small-12 medium-4\"><div class=\"col-inner\" style=\"background:#fff;border:2px solid #2f6df6;border-radius:16px;padding:24px;height:100%;\"><h3>Growth Package</h3><p><em>For businesses ready to scale.</em></p><ul><li>Online ordering flow</li><li>SEO optimisation</li><li>Social setup</li><li>Review strategy</li></ul></div></div><div class=\"col small-12 medium-4\"><div class=\"col-inner\" style=\"background:#fff;border:1px solid #d7e5ff;border-radius:16px;padding:24px;height:100%;\"><h3>Pro Package</h3><p><em>For established businesses.</em></p><ul><li>Full system integration</li><li>Ads management</li><li>CRM workflow support</li><li>Monthly optimisation</li></ul></div></div></div><div class=\"row\" style=\"margin-top:18px;\"><div class=\"col small-12 large-12\"><div class=\"col-inner\"><p><a class=\"button primary is-large\" href=\"{{site.base_url}}/free-newcastle-business-audit/\">Start With a Free Business Audit</a></p><p>Need help now? Call <a href=\"tel:{{site.phone_tel}}\">{{site.phone_display}}</a> or email <a href=\"mailto:{{site.email}}\">{{site.email}}</a>.</p></div></div></div></div></section>"
+      },
+      "safety": {
+        "max_chars_change": 9000,
+        "dry_run_diff": true,
+        "allow_full_replace": false
+      }
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "task_id": "033caff9-507c-4231-9b3e-18e382b2ca35",
+  "created_at": "2026-02-16T05:00:00Z",
+  "mode": "execute",
+  "site": {
+    "base_url": "https://newcastlehub.info"
+  },
+  "task_type": "update_post_or_page",
+  "requires_confirmation": true,
+  "priority": "high",
+  "limits": {
+    "cooldown_hours": 0,
+    "max_write_per_target": 10
+  },
+  "notes": "Expand services page with package structure",
+  "targets": [
+    {
+      "type": "page",
+      "match": {
+        "by": "id",
+        "value": 39
+      }
+    }
+  ],
+  "operations": [
+    {
+      "op": "append",
+      "scope": "content",
+      "selector": {
+        "kind": "regex",
+        "value": "$"
+      },
+      "content": {
+        "format": "html",
+        "value": "\n\n<section class=\"section\" id=\"ai-services-structure\" style=\"padding-top:56px;padding-bottom:56px;background-color:#f3f3f3;\"><div class=\"section-content relative\"><div class=\"row\"><div class=\"col small-12 large-12\"><div class=\"col-inner\"><div class=\"text\"><h2>Our Services</h2><h3>POS Setup &amp; Integration</h3><ul><li>Square</li><li>Lightspeed</li><li>Inventory sync</li><li>Staff training</li></ul><h3>Website &amp; Online Ordering</h3><ul><li>Custom website</li><li>Online payment</li><li>QR ordering</li><li>Booking systems</li></ul><h3>Google Growth</h3><ul><li>Google Business Profile setup</li><li>Review management</li><li>Local SEO</li></ul><h3>Social Media Setup</h3><ul><li>Facebook page setup</li><li>Instagram optimisation</li><li>Basic content plan</li></ul><h3>Monthly Support</h3><ul><li>System maintenance</li><li>Updates</li><li>Ongoing SEO</li><li>Growth advice</li></ul><h2>Packages</h2><h3>Starter Package</h3><p>For new small businesses.</p><ul><li>POS setup</li><li>Basic website</li><li>Google profile setup</li></ul><h3>Growth Package</h3><p>For businesses ready to scale.</p><ul><li>Online ordering</li><li>SEO optimisation</li><li>Social media setup</li><li>Review strategy</li></ul><h3>Pro Package</h3><p>For established businesses.</p><ul><li>Full system integration</li><li>Ads management</li><li>CRM</li><li>Monthly optimisation</li></ul><p><a class=\"button primary is-large\" href=\"https://newcastlehub.info/free-newcastle-business-audit/\">Start With a Free Business Audit</a></p></div></div></div></div></div></section>\n"
+      },
+      "safety": {
+        "max_chars_change": 20000,
+        "dry_run_diff": true,
+        "allow_full_replace": true
+      }
+    }
+  ]
+}

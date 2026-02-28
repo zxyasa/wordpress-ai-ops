@@ -1,0 +1,304 @@
+# WordPress AI Ops (API-First)
+
+本项目是你给定规格的通用实现骨架，目标是让本地 AutoGen 直接通过 WordPress REST API 安全执行内容与 SEO 运维任务。
+
+## 已实现范围
+
+- 阶段 1 MVP
+- `resolve_target`（`id/slug/title/url/search`）
+- `update_post_or_page`（仅 `AI_SLOT` 注释插槽变更）
+- 幂等（`task_id` 去重）
+- 频控（默认 24h/1 次，7d/3 次）
+- `snapshot_store`（before/after payload + rendered）
+- `audit_log`（jsonl）
+
+- 阶段 2 MVP
+- `set_meta` operation
+- 最小 WP 插件模板：开放 RankMath/Yoast 常用 meta key 的 REST 可写并限制 `api-bot`
+
+- 阶段 3 MVP
+- `append_internal_links`
+- `inject_schema_faq`（可选 JSON-LD 到 `AI_SLOT:SCHEMA`）
+- `generate_topic_hub`
+- `publish_post`
+- `upload_media`（支持上传后设为指定文章特色图）
+- GSC/GA CSV 驱动的周循环规划：`report_only/plan/execute` 任务批量生成
+- `run-batch`（批量执行任务目录）
+- `requires_ui=true` 自动入队 `openclaw_queue.jsonl`（默认强制确认与截图回传）
+- `rollback`（基于 before 快照一键回滚）
+
+## 目录
+
+- `src/wp_ai_ops/wp_client.py`: WP REST 封装（认证/重试/错误格式化）
+- `src/wp_ai_ops/task_runner.py`: 任务编排、幂等/频控/确认、审计
+- `src/wp_ai_ops/handlers.py`: `update_post_or_page`/`append_internal_links`/`inject_schema_faq`/`generate_topic_hub`/`set_meta`
+- `src/wp_ai_ops/weekly_cycle.py`: 本地 CSV 机会页识别与任务生成/周报
+- `src/wp_ai_ops/reporting.py`: 生成 Markdown 周报
+- `src/wp_ai_ops/openclaw_consumer.py`: OpenClaw 队列消费器（工单准备）
+- `src/wp_ai_ops/rollback.py`: 根据快照执行回滚
+- `src/wp_ai_ops/safety.py`: 插槽替换、diff 与安全规则
+- `src/wp_ai_ops/storage.py`: 快照与审计存储
+- `wordpress-plugin/wp-aiops-meta-bridge/wp-aiops-meta-bridge.php`: 最小插件
+- `examples/tasks/*.json`: 任务示例
+- `examples/csv/*.csv`: 周循环示例数据
+
+## 安装
+
+```bash
+cd wordpress-ai-ops
+python3 -m venv .venv
+source .venv/bin/activate
+pip install -e .
+```
+
+当前代码可直接用标准库运行：
+
+```bash
+PYTHONPATH=src python3 -m wp_ai_ops.cli run --task examples/tasks/report_only.json
+```
+
+## 环境变量
+
+复制 `.env.example`，设置认证：
+
+- 默认：`WP_USERNAME` + `WP_APP_PASSWORD`
+- 按站点别名：例如 `auth_ref=WP_MAIN`，则用 `WP_MAIN_USERNAME` + `WP_MAIN_APP_PASSWORD`
+
+程序会自动读取当前工作目录 `.env`（不覆盖已存在的系统环境变量）。
+
+## 任务执行
+
+```bash
+PYTHONPATH=src python3 -m wp_ai_ops.cli run --task examples/tasks/update_intro_slot.json --state-dir .wp-ai-ops-state
+```
+
+仅计划不落库（dry-run execute）：
+
+```bash
+PYTHONPATH=src python3 -m wp_ai_ops.cli run --task examples/tasks/update_intro_slot.json --state-dir .wp-ai-ops-state --plan-only
+```
+
+需要人工确认的任务：
+
+```bash
+PYTHONPATH=src python3 -m wp_ai_ops.cli run --task your-task.json --confirm
+```
+
+发布与媒体示例：
+
+```bash
+PYTHONPATH=src python3 -m wp_ai_ops.cli run --task examples/tasks/publish_post.json
+PYTHONPATH=src python3 -m wp_ai_ops.cli run --task examples/tasks/upload_media.json
+```
+
+## Site Profile 变量化（配置中心）
+
+任务 JSON 可通过 `site_profile_ref` 或内联 `site_profile` 引入站点配置，并在任意字符串字段中使用模板变量：
+
+```json
+{
+  "site_profile_ref": "../../site_profiles/newcastlehub.info.json",
+  "site": { "base_url": "{{site.base_url}}" },
+  "operations": [
+    {
+      "content": { "format": "text", "value": "tel:{{site.phone_tel}}" }
+    }
+  ]
+}
+```
+
+说明：
+
+- 占位符格式：`{{site.xxx}}`（支持点路径）
+- `site_profile_ref` 路径默认相对任务文件目录解析
+- 若同时存在 `site_profile_ref` 与 `site_profile`，内联 `site_profile` 会覆盖同名字段
+- 未定义变量会直接报错，避免静默错误写入
+
+示例配置见：`examples/site_profiles/newcastlehub.info.json`
+
+## 周循环（自进化系统 1.0）
+
+根据本地 GSC/GA CSV 自动生成机会页任务与周报：
+
+```bash
+PYTHONPATH=src python3 -m wp_ai_ops.cli plan-weekly \
+  --gsc-csv examples/csv/gsc_sample.csv \
+  --ga-csv examples/csv/ga_sample.csv \
+  --base-url https://example.com \
+  --site-profile examples/site_profiles/newcastlehub.info.json \
+  --auth-ref WP_MAIN \
+  --top-n 3 \
+  --mode plan \
+  --out-dir weekly-output
+```
+
+直接生成并执行（`mode=execute` + `--execute`）：
+
+```bash
+PYTHONPATH=src python3 -m wp_ai_ops.cli plan-weekly \
+  --gsc-csv examples/csv/gsc_sample.csv \
+  --ga-csv examples/csv/ga_sample.csv \
+  --base-url https://example.com \
+  --site-profile examples/site_profiles/newcastlehub.info.json \
+  --auth-ref WP_MAIN \
+  --top-n 3 \
+  --mode execute \
+  --include-meta \
+  --execute \
+  --out-dir weekly-output
+```
+
+批量执行已生成任务目录：
+
+```bash
+PYTHONPATH=src python3 -m wp_ai_ops.cli run-batch \
+  --tasks-dir weekly-output/tasks \
+  --state-dir .wp-ai-ops-state \
+  --continue-on-error
+```
+
+输出：
+
+- `weekly-output/tasks/*.json`
+- `weekly-output/weekly_report.json`
+- `weekly-output/weekly_report.md`
+
+`--site-profile` 可注入分级限流策略（`weekly_limits`），按 URL 分组动态设置 `cooldown_hours/max_write_per_target`，减少关键页面长期被统一限流规则跳过。
+
+冷启动支持：当 GSC 数据不足导致 `selected_pages=0` 时，若 `site_profile` 中配置了 `bootstrap_urls`，系统会自动选取这些核心页面生成任务（reason=`no_gsc_data_bootstrap`），避免自动流程空跑。
+
+## 全站一致性巡检（report-only）
+
+扫描 `pages/posts/ux-blocks/template-parts`，检查：
+
+- 旧联系方式是否残留（基于 `site_profile` 的 `deprecated_emails/deprecated_phones`）
+- `AI_SLOT` 标记缺失
+- JSON-LD schema 缺失
+- （可选）内部死链
+
+```bash
+PYTHONPATH=src python3 -m wp_ai_ops.cli consistency-scan \
+  --base-url https://newcastlehub.info \
+  --site-profile examples/site_profiles/newcastlehub.info.json \
+  --out-dir consistency-output
+```
+
+可选死链检查：
+
+```bash
+PYTHONPATH=src python3 -m wp_ai_ops.cli consistency-scan \
+  --base-url https://newcastlehub.info \
+  --site-profile examples/site_profiles/newcastlehub.info.json \
+  --check-links \
+  --max-link-checks 200 \
+  --out-dir consistency-output
+```
+
+从巡检结果自动生成修复任务（仅产出任务 JSON，不直接执行）：
+
+```bash
+PYTHONPATH=src python3 -m wp_ai_ops.cli consistency-scan \
+  --base-url https://newcastlehub.info \
+  --site-profile examples/site_profiles/newcastlehub.info.json \
+  --emit-fix-tasks \
+  --out-dir consistency-output
+```
+
+输出产物：
+
+- `consistency-output/consistency_scan_<timestamp>.json`
+- `consistency-output/consistency_scan_<timestamp>.md`
+- `consistency-output/fix_tasks/fix_tasks_manifest.json`
+- `consistency-output/fix_tasks/tasks/*.json`
+
+`scan_policy` 支持按资源类型配置规则（见 `examples/site_profiles/newcastlehub.info.json`）：
+
+- `required_slots`: 哪些资源必须包含哪些 `AI_SLOT`
+- `require_schema`: 哪些资源必须包含 JSON-LD
+- `email_check_resource_bases` / `phone_check_resource_bases`
+- `link_check_resource_bases`
+- `ignored_resources`
+
+从 JSON 重新渲染 Markdown 周报：
+
+```bash
+PYTHONPATH=src python3 -m wp_ai_ops.cli report-markdown \
+  --weekly-report-json weekly-output/weekly_report.json
+```
+
+## 回滚
+
+按 `task_id` 从 before 快照回滚：
+
+```bash
+PYTHONPATH=src python3 -m wp_ai_ops.cli rollback \
+  --original-task-id <task_id> \
+  --state-dir .wp-ai-ops-state \
+  --base-url https://example.com \
+  --auth-ref WP_MAIN
+```
+
+## OpenClaw 兜底入口
+
+当任务设置 `requires_ui=true` 时，不直接调用 API 执行，而是写入队列文件：
+
+- `.wp-ai-ops-state/openclaw_queue.jsonl`
+
+队列项包含：
+
+- 任务内容
+- 强制确认标记（`requires_confirmation=true`）
+- 必需回传物（`step_screenshots`、`change_summary`）
+
+将队列转换为 OpenClaw 待确认工单：
+
+```bash
+PYTHONPATH=src python3 -m wp_ai_ops.cli prepare-openclaw-jobs \
+  --state-dir .wp-ai-ops-state \
+  --out-dir openclaw-jobs \
+  --limit 20 \
+  --mark-claimed
+```
+
+## Flatsome 安全插槽规范
+
+在页面内容中预先插入注释锚点：
+
+```html
+<!-- AI_SLOT:INTRO -->
+<!-- AI_SLOT:FAQ -->
+<!-- AI_SLOT:CTA -->
+<!-- AI_SLOT:SCHEMA -->
+```
+
+执行器行为：
+
+- 只在插槽内替换/追加
+- 默认禁止全量覆盖 `content`
+- `max_chars_change` 超限直接失败
+- 丢失 `ux_` / `<script` / `<style` 关键片段直接失败
+
+目标类型支持：
+
+- 标准：`post/page/category/tag/media`
+- 扩展：`ux-blocks/menu-items/template-parts`（可直接作为 `targets[].type`）
+
+## 审计与回滚
+
+- 审计：`.wp-ai-ops-state/audit_log.jsonl`
+- 快照：`.wp-ai-ops-state/snapshots/<task_id>/...`
+- 回滚：读取 `before` 快照并执行对应字段 PATCH（当前可由新任务触发）
+
+## 最小插件（SEO Meta 可写）
+
+插件路径：`wordpress-plugin/wp-aiops-meta-bridge/wp-aiops-meta-bridge.php`
+
+作用：
+
+- `register_post_meta(... show_in_rest=true)` 仅开放白名单字段
+- 仅允许用户名为 `api-bot`（可过滤器改名）且具备 `edit_post` 的用户写入
+
+建议：
+
+- 先只开放 `rank_math_title/rank_math_description/rank_math_focus_keyword`
+- Yoast key 按站点实际版本调整白名单

@@ -1,0 +1,27 @@
+{
+  "task_id": "3b3e1f9b-fb63-4f25-9d31-29e99f30f5b5",
+  "created_at": "2026-02-15T04:32:00Z",
+  "mode": "execute",
+  "site": { "base_url": "https://newcastlehub.info" },
+  "task_type": "update_post_or_page",
+  "requires_confirmation": true,
+  "priority": "high",
+  "limits": { "cooldown_hours": 0, "max_write_per_target": 10 },
+  "notes": "Services page SEO: add dedicated FAQ/CTA/Schema section at bottom (page uses Flatsome shortcodes).",
+  "targets": [
+    { "type": "page", "match": { "by": "id", "value": 39 } }
+  ],
+  "operations": [
+    {
+      "op": "append",
+      "scope": "content",
+      "selector": { "kind": "regex", "value": "$" },
+      "content": {
+        "format": "html",
+        "value": "\n\n<section class=\"section\" id=\"ai-ops-seo-services\">\n  <div class=\"section-content relative\">\n    <div class=\"row\">\n      <div class=\"col small-12 large-12\">\n        <div class=\"col-inner\">\n          <div class=\"text\">\n            <!-- AI_SLOT:FAQ -->\n            <h2>Services FAQ</h2>\n            <h3>What services do you offer?</h3>\n            <p>Website design, hosting, and digital marketing, including SEO and conversion improvements.</p>\n            <h3>Do you handle copywriting?</h3>\n            <p>Yes. We can rewrite key pages to match search intent and improve clarity and conversions.</p>\n            <h3>Can you support ongoing updates?</h3>\n            <p>Yes. We can manage content updates, speed checks, and SEO improvements over time.</p>\n            <!-- /AI_SLOT:FAQ -->\n\n            <!-- AI_SLOT:CTA -->\n            <h2>Get a quote</h2>\n            <p><a class=\"button primary is-large\" href=\"https://newcastlehub.info/contact/\">Request a quote</a></p>\n            <!-- /AI_SLOT:CTA -->\n\n            <!-- AI_SLOT:SCHEMA -->\n            <script type=\"application/ld+json\">{\"@context\":\"https://schema.org\",\"@type\":\"FAQPage\",\"mainEntity\":[{\"@type\":\"Question\",\"name\":\"What services do you offer?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"Website design, hosting, and digital marketing, including SEO and conversion improvements.\"}},{\"@type\":\"Question\",\"name\":\"Do you handle copywriting?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"Yes. We can rewrite key pages to match search intent and improve clarity and conversions.\"}},{\"@type\":\"Question\",\"name\":\"Can you support ongoing updates?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"Yes. We can manage content updates, speed checks, and SEO improvements over time.\"}}]}</script>\n            <!-- /AI_SLOT:SCHEMA -->\n          </div>\n        </div>\n      </div>\n    </div>\n  </div>\n</section>\n"
+      },
+      "safety": { "max_chars_change": 8000, "dry_run_diff": true, "allow_full_replace": true }
+    }
+  ]
+}
+

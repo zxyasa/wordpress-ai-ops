@@ -1,0 +1,55 @@
+{
+  "task_id": "3374c3d6-f460-4b3f-b872-a4ca1f6ddffd",
+  "created_at": "2026-02-15T00:00:00Z",
+  "mode": "execute",
+  "site": {
+    "base_url": "https://example.com",
+    "auth_ref": "WP_MAIN"
+  },
+  "task_type": "inject_schema_faq",
+  "targets": [
+    {
+      "type": "page",
+      "match": {
+        "by": "slug",
+        "value": "best-dessert-recipes"
+      }
+    }
+  ],
+  "operations": [
+    {
+      "op": "replace",
+      "scope": "content",
+      "selector": {
+        "kind": "html_comment",
+        "value": "AI_SLOT:FAQ"
+      },
+      "content": {
+        "format": "json",
+        "value": {
+          "faqs": [
+            {
+              "question": "What recipes are best for beginners?",
+              "answer": "Start with 5-ingredient recipes and simple no-bake options."
+            },
+            {
+              "question": "How many recipes should I prep for a party?",
+              "answer": "Choose 3-4 recipes with different textures and serving formats."
+            },
+            {
+              "question": "Can I make these ahead of time?",
+              "answer": "Yes. Most desserts can be prepared 1-2 days ahead with proper storage."
+            }
+          ],
+          "inject_json_ld": true,
+          "schema_slot": "AI_SLOT:SCHEMA"
+        }
+      },
+      "safety": {
+        "max_chars_change": 1500,
+        "dry_run_diff": true,
+        "allow_full_replace": false
+      }
+    }
+  ]
+}

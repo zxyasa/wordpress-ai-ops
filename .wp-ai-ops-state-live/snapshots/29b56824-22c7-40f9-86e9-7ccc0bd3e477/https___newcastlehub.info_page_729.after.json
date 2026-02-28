@@ -1,0 +1,121 @@
+{
+  "id": 729,
+  "date": "2026-02-16T05:46:16",
+  "date_gmt": "2026-02-16T05:46:16",
+  "guid": {
+    "rendered": "https://newcastlehub.info/ecommerce-setup-newcastle/",
+    "raw": "https://newcastlehub.info/ecommerce-setup-newcastle/"
+  },
+  "modified": "2026-02-16T05:46:16",
+  "modified_gmt": "2026-02-16T05:46:16",
+  "password": "",
+  "slug": "ecommerce-setup-newcastle",
+  "status": "publish",
+  "type": "page",
+  "link": "https://newcastlehub.info/ecommerce-setup-newcastle/",
+  "title": {
+    "raw": "Ecommerce Setup Newcastle | Newcastle Hub",
+    "rendered": "Ecommerce Setup Newcastle | Newcastle Hub"
+  },
+  "content": {
+    "raw": "<!-- wp:html --><section class=\"section\" style=\"padding-top:56px;padding-bottom:56px;\"><div class=\"section-content relative\"><div class=\"row\"><div class=\"col small-12 large-12\"><div class=\"col-inner\"><!-- AI_SLOT:INTRO --><h1>Ecommerce Setup for Product-Based Businesses</h1><p><strong>For stores selling products: website storefront, payments, stock sync, and order workflows.</strong></p><!-- /AI_SLOT:INTRO --><h2>Best for</h2><ul><li>Retail and local shops</li><li>Brands moving from offline-only to online sales</li><li>Businesses needing POS + ecommerce stock sync</li></ul><h2>Core setup</h2><ul><li>Product catalog and category architecture</li><li>Payment, shipping and pickup logic</li><li>Inventory sync with POS</li><li>Google Shopping readiness</li></ul><!-- AI_SLOT:CTA --><p><a class=\"button primary is-large\" href=\"https://newcastlehub.info/free-newcastle-business-audit/\">Get Ecommerce Audit</a></p><p>Related: <a href=\"https://newcastlehub.info/retail-solutions/\">Retail Solutions</a> | <a href=\"https://newcastlehub.info/pos-setup-newcastle/\">POS Setup</a></p><!-- /AI_SLOT:CTA --></div></div></div></div></div></section><!-- /wp:html -->",
+    "rendered": "<section class=\"section\" style=\"padding-top:56px;padding-bottom:56px;\">\n<div class=\"section-content relative\">\n<div class=\"row\">\n<div class=\"col small-12 large-12\">\n<div class=\"col-inner\"><!-- AI_SLOT:INTRO --></p>\n<h1>Ecommerce Setup for Product-Based Businesses</h1>\n<p><strong>For stores selling products: website storefront, payments, stock sync, and order workflows.</strong></p>\n<p><!-- /AI_SLOT:INTRO --></p>\n<h2>Best for</h2>\n<ul>\n<li>Retail and local shops</li>\n<li>Brands moving from offline-only to online sales</li>\n<li>Businesses needing POS + ecommerce stock sync</li>\n</ul>\n<h2>Core setup</h2>\n<ul>\n<li>Product catalog and category architecture</li>\n<li>Payment, shipping and pickup logic</li>\n<li>Inventory sync with POS</li>\n<li>Google Shopping readiness</li>\n</ul>\n<p><!-- AI_SLOT:CTA --></p>\n<p><a class=\"button primary is-large\" href=\"https://newcastlehub.info/free-newcastle-business-audit/\">Get Ecommerce Audit</a></p>\n<p>Related: <a href=\"https://newcastlehub.info/retail-solutions/\">Retail Solutions</a> | <a href=\"https://newcastlehub.info/pos-setup-newcastle/\">POS Setup</a></p>\n<p><!-- /AI_SLOT:CTA --></div>\n</div>\n</div>\n</div>\n</div>\n</section>\n",
+    "protected": false,
+    "block_version": 0
+  },
+  "excerpt": {
+    "raw": "",
+    "rendered": "<p>Ecommerce Setup for Product-Based Businesses For stores selling products: website storefront, payments, stock sync, and order workflows. Best for Retail and local shops Brands moving from offline-only to online sales Businesses needing POS + ecommerce stock sync Core setup Product catalog and category architecture Payment, shipping and pickup logic Inventory sync with POS Google Shopping [&#8230;]\n",
+    "protected": false
+  },
+  "author": 4,
+  "featured_media": 0,
+  "parent": 0,
+  "menu_order": 0,
+  "comment_status": "closed",
+  "ping_status": "closed",
+  "template": "",
+  "meta": {
+    "footnotes": ""
+  },
+  "permalink_template": "https://newcastlehub.info/%pagename%/",
+  "generated_slug": "ecommerce-setup-newcastle-newcastle-hub",
+  "class_list": [
+    "post-729",
+    "page",
+    "type-page",
+    "status-publish",
+    "hentry"
+  ],
+  "_links": {
+    "self": [
+      {
+        "href": "https://newcastlehub.info/wp-json/wp/v2/pages/729",
+        "targetHints": {
+          "allow": [
+            "GET",
+            "POST",
+            "PUT",
+            "PATCH",
+            "DELETE"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://newcastlehub.info/wp-json/wp/v2/pages"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://newcastlehub.info/wp-json/wp/v2/types/page"
+      }
+    ],
+    "author": [
+      {
+        "embeddable": true,
+        "href": "https://newcastlehub.info/wp-json/wp/v2/users/4"
+      }
+    ],
+    "replies": [
+      {
+        "embeddable": true,
+        "href": "https://newcastlehub.info/wp-json/wp/v2/comments?post=729"
+      }
+    ],
+    "version-history": [
+      {
+        "count": 0,
+        "href": "https://newcastlehub.info/wp-json/wp/v2/pages/729/revisions"
+      }
+    ],
+    "wp:attachment": [
+      {
+        "href": "https://newcastlehub.info/wp-json/wp/v2/media?parent=729"
+      }
+    ],
+    "wp:action-publish": [
+      {
+        "href": "https://newcastlehub.info/wp-json/wp/v2/pages/729"
+      }
+    ],
+    "wp:action-unfiltered-html": [
+      {
+        "href": "https://newcastlehub.info/wp-json/wp/v2/pages/729"
+      }
+    ],
+    "wp:action-assign-author": [
+      {
+        "href": "https://newcastlehub.info/wp-json/wp/v2/pages/729"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  }
+}

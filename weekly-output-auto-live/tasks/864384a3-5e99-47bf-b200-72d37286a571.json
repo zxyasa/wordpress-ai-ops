@@ -1,0 +1,47 @@
+{
+  "task_id": "864384a3-5e99-47bf-b200-72d37286a571",
+  "created_at": "2026-02-18T05:11:20.776392+00:00",
+  "mode": "execute",
+  "site": {
+    "base_url": "https://newcastlehub.info"
+  },
+  "task_type": "set_meta",
+  "priority": "medium",
+  "targets": [
+    {
+      "type": "page",
+      "match": {
+        "by": "url",
+        "value": "https://newcastlehub.info/restaurant-solutions/"
+      }
+    }
+  ],
+  "operations": [
+    {
+      "op": "set_meta",
+      "scope": "meta",
+      "selector": {
+        "kind": "html_comment",
+        "value": "AI_SLOT:SCHEMA"
+      },
+      "content": {
+        "format": "json",
+        "value": {
+          "rank_math_title": "Restaurant Solutions | Updated Guide",
+          "rank_math_description": "Updated quick guide for restaurant solutions. Clear answers, better structure, and next-step resources.",
+          "rank_math_focus_keyword": "restaurant solutions"
+        }
+      },
+      "safety": {
+        "max_chars_change": 500,
+        "dry_run_diff": true,
+        "allow_full_replace": false
+      }
+    }
+  ],
+  "limits": {
+    "cooldown_hours": 24,
+    "max_write_per_target": 3
+  },
+  "notes": "auto-cycle meta refresh for https://newcastlehub.info/restaurant-solutions/"
+}

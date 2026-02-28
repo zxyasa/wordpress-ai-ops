@@ -1,0 +1,65 @@
+{
+  "task_id": "update-ai-service-649-conversion-tracking-001",
+  "created_at": "2026-02-16T23:13:00Z",
+  "mode": "execute",
+  "site_profile_ref": "../../site_profiles/newcastlehub.info.json",
+  "site": { "base_url": "{{site.base_url}}" },
+  "task_type": "update_post_or_page",
+  "requires_confirmation": true,
+  "priority": "high",
+  "limits": { "cooldown_hours": 0, "max_write_per_target": 40 },
+  "notes": "Upgrade AI service page for conversion: target-customer clarity, UTM CTAs, lightweight click tracking, and quote-pack section.",
+  "targets": [
+    { "type": "page", "match": { "by": "id", "value": 649 } }
+  ],
+  "operations": [
+    {
+      "op": "replace",
+      "scope": "content",
+      "selector": { "kind": "regex", "value": "<h1>Create your AI Avatar</h1>" },
+      "content": { "format": "html", "value": "<h1>AI Service for Local Business Growth</h1>" },
+      "safety": { "max_chars_change": 300, "dry_run_diff": true, "allow_full_replace": false }
+    },
+    {
+      "op": "replace",
+      "scope": "content",
+      "selector": { "kind": "regex", "value": "href=\"https://newcastlehub.info/contact/\" class=\"cta\">Book a Strategy Call</a>" },
+      "content": { "format": "html", "value": "href=\"https://newcastlehub.info/contact/?utm_source=ai-service&utm_medium=cta&utm_campaign=ai-service-launch&utm_content=foundation\" class=\"cta\" data-track=\"ai_foundation\">Book a Strategy Call</a>" },
+      "safety": { "max_chars_change": 500, "dry_run_diff": true, "allow_full_replace": false }
+    },
+    {
+      "op": "replace",
+      "scope": "content",
+      "selector": { "kind": "regex", "value": "href=\"https://newcastlehub.info/free-newcastle-business-audit/\" class=\"cta\">Get Free Business Audit</a>" },
+      "content": { "format": "html", "value": "href=\"https://newcastlehub.info/free-newcastle-business-audit/?utm_source=ai-service&utm_medium=cta&utm_campaign=ai-service-launch&utm_content=growth\" class=\"cta\" data-track=\"ai_growth\">Get Free Business Audit</a>" },
+      "safety": { "max_chars_change": 500, "dry_run_diff": true, "allow_full_replace": false }
+    },
+    {
+      "op": "replace",
+      "scope": "content",
+      "selector": { "kind": "regex", "value": "href=\"https://newcastlehub.info/contact/\" class=\"cta\">Request Implementation Plan</a>" },
+      "content": { "format": "html", "value": "href=\"https://newcastlehub.info/contact/?utm_source=ai-service&utm_medium=cta&utm_campaign=ai-service-launch&utm_content=scale\" class=\"cta\" data-track=\"ai_scale\">Request Implementation Plan</a>" },
+      "safety": { "max_chars_change": 500, "dry_run_diff": true, "allow_full_replace": false }
+    },
+    {
+      "op": "replace",
+      "scope": "content",
+      "selector": { "kind": "regex", "value": "</main>" },
+      "content": {
+        "format": "html",
+        "value": "<section style=\"padding:32px 20px 12px;background:#f6f8fb;\"><div style=\"max-width:980px;margin:0 auto;\"><h2 style=\"margin:0 0 12px;\">Implementation Scope & Quote Pack</h2><p style=\"margin:0 0 10px;\">We define scope, rollout milestones, handoff rules, and monthly optimisation before implementation starts.</p><ul style=\"margin:0 0 14px;\"><li>Target industries: trades, retail, hospitality, and local service businesses</li><li>Deliverables: AI lead flow setup, handoff logic, content scripts, tracking baseline</li><li>Commercial model: setup + monthly optimisation plan</li></ul><p><a href=\"{{site.base_url}}/ai-service-implementation-pack/\" class=\"cta\" data-track=\"ai_pack\" style=\"display:inline-block;padding:10px 18px;background:#1f5edb;color:#fff;border-radius:6px;text-decoration:none;\">View Standard Quote Pack</a></p></div></section></main>"
+      },
+      "safety": { "max_chars_change": 4000, "dry_run_diff": true, "allow_full_replace": false }
+    },
+    {
+      "op": "replace",
+      "scope": "content",
+      "selector": { "kind": "regex", "value": "</body>" },
+      "content": {
+        "format": "html",
+        "value": "<script>(function(){var links=document.querySelectorAll('[data-track]');if(!links.length)return;links.forEach(function(a){a.addEventListener('click',function(){var k=a.getAttribute('data-track')||'ai_cta';if(window.dataLayer&&Array.isArray(window.dataLayer)){window.dataLayer.push({event:'ai_cta_click',cta:k,page:'ai-service'});}if(typeof window.gtag==='function'){window.gtag('event','ai_cta_click',{cta:k,page_path:'/ai-service/'});}});});})();</script></body>"
+      },
+      "safety": { "max_chars_change": 3000, "dry_run_diff": true, "allow_full_replace": false }
+    }
+  ]
+}

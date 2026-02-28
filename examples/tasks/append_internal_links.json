@@ -1,0 +1,49 @@
+{
+  "task_id": "519666e9-3f71-441d-ad31-4d8279029207",
+  "created_at": "2026-02-15T00:00:00Z",
+  "mode": "execute",
+  "site": {
+    "base_url": "https://example.com",
+    "auth_ref": "WP_MAIN"
+  },
+  "task_type": "append_internal_links",
+  "targets": [
+    {
+      "type": "page",
+      "match": {
+        "by": "slug",
+        "value": "best-dessert-recipes"
+      }
+    }
+  ],
+  "operations": [
+    {
+      "op": "append",
+      "scope": "content",
+      "selector": {
+        "kind": "html_comment",
+        "value": "AI_SLOT:CTA"
+      },
+      "content": {
+        "format": "json",
+        "value": {
+          "links": [
+            {
+              "url": "https://example.com/chocolate-frosting-guide",
+              "anchor": "Chocolate Frosting Guide"
+            },
+            {
+              "url": "https://example.com/baking-tools-checklist",
+              "anchor": "Baking Tools Checklist"
+            }
+          ]
+        }
+      },
+      "safety": {
+        "max_chars_change": 900,
+        "dry_run_diff": true,
+        "allow_full_replace": false
+      }
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "status": "ok",
+  "timestamp": "2026-02-18T04:28:45.059404+00:00",
+  "site": {
+    "base_url": "https://newcastlehub.info",
+    "wp_api_base": "https://newcastlehub.info/wp-json/wp/v2"
+  },
+  "policy": {
+    "required_slots": {
+      "pages": [
+        "AI_SLOT:INTRO",
+        "AI_SLOT:CTA",
+        "AI_SLOT:SCHEMA"
+      ],
+      "posts": [],
+      "ux-blocks": [],
+      "template-parts": []
+    },
+    "require_schema": {
+      "pages": true,
+      "posts": false,
+      "ux-blocks": false,
+      "template-parts": false
+    },
+    "link_check_resource_bases": [
+      "pages",
+      "posts",
+      "ux-blocks",
+      "template-parts"
+    ],
+    "email_check_resource_bases": [
+      "pages",
+      "ux-blocks"
+    ],
+    "phone_check_resource_bases": [
+      "pages",
+      "ux-blocks"
+    ],
+    "resource_bases": [
+      "pages",
+      "posts",
+      "ux-blocks",
+      "template-parts"
+    ],
+    "ignored_resources": []
+  },
+  "summary": {
+    "findings_total": 0,
+    "errors": 0,
+    "warnings": 0,
+    "link_checks": 0
+  },
+  "findings": []
+}

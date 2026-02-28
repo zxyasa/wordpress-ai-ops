@@ -1,0 +1,127 @@
+{
+  "id": 85,
+  "date": "2021-09-07T13:01:01",
+  "date_gmt": "2021-09-07T13:01:01",
+  "guid": {
+    "rendered": "https://newcastlehub.info/?page_id=85",
+    "raw": "https://newcastlehub.info/?page_id=85"
+  },
+  "modified": "2026-02-16T04:17:26",
+  "modified_gmt": "2026-02-16T04:17:26",
+  "password": "",
+  "slug": "hosting-plan",
+  "status": "publish",
+  "type": "page",
+  "link": "https://newcastlehub.info/hosting-plan/",
+  "title": {
+    "raw": "Hosting Plan",
+    "rendered": "Hosting Plan"
+  },
+  "content": {
+    "raw": "<!-- wp:flatsome/uxbuilder -->\n[section bg=\"496\" bg_size=\"original\" bg_overlay=\"rgba(255, 255, 255, 0.68)\" padding=\"70px\"]\n\n[row style=\"collapse\"]\n\n[col span__sm=\"12\"]\n\n[ux_text font_size=\"1.7\" text_align=\"center\" text_color=\"rgb(19, 19, 19)\"]\n\n<h2>Web Hosting</h2>\n\n[/ux_text]\n[ux_text font_size=\"1.2\" text_align=\"center\" text_color=\"rgb(19, 19, 19)\"]\n\n<p>Experience seamless online presence with our Reliable Web Hosting Solutions. Our cutting-edge hosting services ensure that your website operates smoothly, loading quickly and securely for visitors around the clock. With top-tier data centers, advanced security measures, and 24/7 technical support, we provide the foundation for your digital success. Choose from a range of hosting options tailored to your needs, whether you're a small business, a growing e-commerce store, or a dynamic corporate entity. Trust us to keep your website accessible and responsive, so you can focus on what matters most – your content and customers.</p>\n\n[/ux_text]\n\n[/col]\n\n[/row]\n\n[/section]\n[row h_align=\"center\"]\n\n[col span=\"8\" span__sm=\"12\"]\n\n[ux_text font_size=\"1.25\" text_align=\"center\" text_color=\"rgb(0,0,0)\"]\n\n<p>Our Featured Plans 5GB SSD Cloud Storage Unlimited Premium Bandwidth 200% CPU Allowance 2GB Memory Allowance 15GB SSD Cloud Storage Unlimited Premium Bandwidth 300% CPU Allowance</p>\n<div class=\"product-shared-hosting-price-item__features-item clearfix\">\n<div class=\"product-shared-hosting-price-item__features-item-text product-shared-hosting-price-item__features-item-text--dashed\">6GB Memory Allowance</div>\n</div>\n<p>25GB SSD Cloud Storage Unlimited Premium Bandwidth 400% CPU Allowance 8GB Memory Allowance</p>\n[/ux_text]\n\n[/col]\n\n[/row]\n[row]\n\n[col span__sm=\"12\" align=\"center\"]\n\n[button text=\"Contact us\"]\n\n\n[/col]\n\n[/row]\n\n<!-- /wp:flatsome/uxbuilder -->\n\n[section padding=\"60px\" bg_color=\"rgb(243, 243, 243)\"]\n  [row]\n    [col span__sm=\"12\"]\n      [ux_text]\n        <!-- AI_SLOT:INTRO -->\n        <p><strong>Web Hosting</strong> built for speed and reliability, with support when you need it. Ideal for Newcastle small business sites.</p>\n        <!-- /AI_SLOT:INTRO -->\n\n        <!-- AI_SLOT:FAQ -->\n        <h2>Hosting FAQ</h2>\n        <h3>Can you migrate my existing website?</h3>\n        <p>Yes. We can help move your site with minimal downtime.</p>\n        <h3>Do you provide backups and security?</h3>\n        <p>We focus on secure hosting, updates, and best-practice hardening depending on your plan.</p>\n        <h3>Is email included?</h3>\n        <p>It depends on your setup. We can recommend the best option for your business email.</p>\n        <h3>What support do you offer?</h3>\n        <p>We provide technical support and can offer ongoing maintenance packages.</p>\n        <!-- /AI_SLOT:FAQ -->\n\n        <!-- AI_SLOT:CTA -->\n<h2>Choose a hosting plan</h2>\n        <p><a class=\"button primary is-large\" href=\"https://newcastlehub.info/contact/\">Ask about hosting</a></p>\n        <p>Related: <a href=\"https://newcastlehub.info/website-service/\">Website Service</a> | <a href=\"https://newcastlehub.info/marketing-service/\">Digital Marketing</a></p>\n<p>Related reads: <a href=\"https://newcastlehub.info/newcastle-growth-hub/\">Newcastle Growth Hub</a> | <a href=\"https://newcastlehub.info/web-hosting-starter/\">Web Hosting Starter</a> | <a href=\"https://newcastlehub.info/web-hosting-freedom/\">Web Hosting Freedom</a></p>\n<!-- /AI_SLOT:CTA -->\n\n        <!-- AI_SLOT:SCHEMA -->\n        <script type=\"application/ld+json\">{\"@context\":\"https://schema.org\",\"@type\":\"FAQPage\",\"mainEntity\":[{\"@type\":\"Question\",\"name\":\"Can you migrate my existing website?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"Yes. We can help move your site with minimal downtime.\"}},{\"@type\":\"Question\",\"name\":\"Do you provide backups and security?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"We focus on secure hosting, updates, and best-practice hardening depending on your plan.\"}},{\"@type\":\"Question\",\"name\":\"Is email included?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"It depends on your setup. We can recommend the best option for your business email.\"}},{\"@type\":\"Question\",\"name\":\"What support do you offer?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"We provide technical support and can offer ongoing maintenance packages.\"}}]}</script>\n        <!-- /AI_SLOT:SCHEMA -->\n      [/ux_text]\n    [/col]\n  [/row]\n[/section]\n",
+    "rendered": "\n\n\t<section class=\"section\" id=\"section_1164778014\">\n\t\t<div class=\"section-bg fill\" >\n\t\t\t<img loading=\"lazy\" decoding=\"async\" width=\"1280\" height=\"853\" src=\"https://newcastlehub.info/wp-content/uploads/2023/08/services-bg.jpg\" class=\"bg attachment-original size-original\" alt=\"\" />\t\t\t\t\t\t<div class=\"section-bg-overlay absolute fill\"></div>\n\t\t\t\n\n\t\t</div>\n\n\t\t\n\n\t\t<div class=\"section-content relative\">\n\t\t\t\n\n<div class=\"row row-collapse\"  id=\"row-812769691\">\n\n\n\t<div id=\"col-1153887714\" class=\"col small-12 large-12\"  >\n\t\t\t\t<div class=\"col-inner\"  >\n\t\t\t\n\t\t\t\n\n\t<div id=\"text-2569485412\" class=\"text\">\n\t\t\n\n<h2>Web Hosting</h2>\n\n\t\t\n<style>\n#text-2569485412 {\n  font-size: 1.7rem;\n  text-align: center;\n  color: rgb(19, 19, 19);\n}\n#text-2569485412 > * {\n  color: rgb(19, 19, 19);\n}\n</style>\n\t</div>\n\t\n\t<div id=\"text-1653160399\" class=\"text\">\n\t\t\n\n<p>Experience seamless online presence with our Reliable Web Hosting Solutions. Our cutting-edge hosting services ensure that your website operates smoothly, loading quickly and securely for visitors around the clock. With top-tier data centers, advanced security measures, and 24/7 technical support, we provide the foundation for your digital success. Choose from a range of hosting options tailored to your needs, whether you&#8217;re a small business, a growing e-commerce store, or a dynamic corporate entity. Trust us to keep your website accessible and responsive, so you can focus on what matters most – your content and customers.</p>\n\n\t\t\n<style>\n#text-1653160399 {\n  font-size: 1.2rem;\n  text-align: center;\n  color: rgb(19, 19, 19);\n}\n#text-1653160399 > * {\n  color: rgb(19, 19, 19);\n}\n</style>\n\t</div>\n\t\n\n\t\t</div>\n\t\t\t\t\t</div>\n\n\t\n\n</div>\n\n\t\t</div>\n\n\t\t\n<style>\n#section_1164778014 {\n  padding-top: 70px;\n  padding-bottom: 70px;\n}\n#section_1164778014 .section-bg-overlay {\n  background-color: rgba(255, 255, 255, 0.68);\n}\n</style>\n\t</section>\n\t\n<div class=\"row align-center\"  id=\"row-852568191\">\n\n\n\t<div id=\"col-1492649201\" class=\"col medium-8 small-12 large-8\"  >\n\t\t\t\t<div class=\"col-inner\"  >\n\t\t\t\n\t\t\t\n\n\t<div id=\"text-107476393\" class=\"text\">\n\t\t\n\n<p>Our Featured Plans 5GB SSD Cloud Storage Unlimited Premium Bandwidth 200% CPU Allowance 2GB Memory Allowance 15GB SSD Cloud Storage Unlimited Premium Bandwidth 300% CPU Allowance</p>\n<div class=\"product-shared-hosting-price-item__features-item clearfix\">\n<div class=\"product-shared-hosting-price-item__features-item-text product-shared-hosting-price-item__features-item-text--dashed\">6GB Memory Allowance</div>\n</div>\n<p>25GB SSD Cloud Storage Unlimited Premium Bandwidth 400% CPU Allowance 8GB Memory Allowance</p>\n\t\t\n<style>\n#text-107476393 {\n  font-size: 1.25rem;\n  text-align: center;\n  color: rgb(0,0,0);\n}\n#text-107476393 > * {\n  color: rgb(0,0,0);\n}\n</style>\n\t</div>\n\t\n\n\t\t</div>\n\t\t\t\t\t</div>\n\n\t\n\n</div>\n<div class=\"row\"  id=\"row-1066446873\">\n\n\n\t<div id=\"col-87353500\" class=\"col small-12 large-12\"  >\n\t\t\t\t<div class=\"col-inner text-center\"  >\n\t\t\t\n\t\t\t\n\n<a class=\"button primary\" >\n\t\t<span>Contact us</span>\n\t</a>\n\n\n\n\t\t</div>\n\t\t\t\t\t</div>\n\n\t\n\n</div>\n\n\n\n\n\t<section class=\"section\" id=\"section_478752468\">\n\t\t<div class=\"section-bg fill\" >\n\t\t\t\t\t\t\t\t\t\n\t\t\t\n\n\t\t</div>\n\n\t\t\n\n\t\t<div class=\"section-content relative\">\n\t\t\t\n  <div class=\"row\"  id=\"row-2009046506\">\n    \n\t<div id=\"col-1981028961\" class=\"col small-12 large-12\"  >\n\t\t\t\t<div class=\"col-inner\"  >\n\t\t\t\n\t\t\t\n      \t<div id=\"text-1193094181\" class=\"text\">\n\t\t\n        <!-- AI_SLOT:INTRO -->\n        <p><strong>Web Hosting</strong> built for speed and reliability, with support when you need it. Ideal for Newcastle small business sites.</p>\n        <!-- /AI_SLOT:INTRO -->\n\n        <!-- AI_SLOT:FAQ -->\n        <h2>Hosting FAQ</h2>\n        <h3>Can you migrate my existing website?</h3>\n        <p>Yes. We can help move your site with minimal downtime.</p>\n        <h3>Do you provide backups and security?</h3>\n        <p>We focus on secure hosting, updates, and best-practice hardening depending on your plan.</p>\n        <h3>Is email included?</h3>\n        <p>It depends on your setup. We can recommend the best option for your business email.</p>\n        <h3>What support do you offer?</h3>\n        <p>We provide technical support and can offer ongoing maintenance packages.</p>\n        <!-- /AI_SLOT:FAQ -->\n\n        <!-- AI_SLOT:CTA -->\n<h2>Choose a hosting plan</h2>\n        <p><a class=\"button primary is-large\" href=\"https://newcastlehub.info/contact/\">Ask about hosting</a></p>\n        <p>Related: <a href=\"https://newcastlehub.info/website-service/\">Website Service</a> | <a href=\"https://newcastlehub.info/marketing-service/\">Digital Marketing</a></p>\n<p>Related reads: <a href=\"https://newcastlehub.info/newcastle-growth-hub/\">Newcastle Growth Hub</a> | <a href=\"https://newcastlehub.info/web-hosting-starter/\">Web Hosting Starter</a> | <a href=\"https://newcastlehub.info/web-hosting-freedom/\">Web Hosting Freedom</a></p>\n<!-- /AI_SLOT:CTA -->\n\n        <!-- AI_SLOT:SCHEMA -->\n        <script type=\"application/ld+json\">{\"@context\":\"https://schema.org\",\"@type\":\"FAQPage\",\"mainEntity\":[{\"@type\":\"Question\",\"name\":\"Can you migrate my existing website?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"Yes. We can help move your site with minimal downtime.\"}},{\"@type\":\"Question\",\"name\":\"Do you provide backups and security?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"We focus on secure hosting, updates, and best-practice hardening depending on your plan.\"}},{\"@type\":\"Question\",\"name\":\"Is email included?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"It depends on your setup. We can recommend the best option for your business email.\"}},{\"@type\":\"Question\",\"name\":\"What support do you offer?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"We provide technical support and can offer ongoing maintenance packages.\"}}]}</script>\n        <!-- /AI_SLOT:SCHEMA -->\n      \t\t\t</div>\n\t\n    \t\t</div>\n\t\t\t\t\t</div>\n\n\t\n  </div>\n\t\t</div>\n\n\t\t\n<style>\n#section_478752468 {\n  padding-top: 60px;\n  padding-bottom: 60px;\n  background-color: rgb(243, 243, 243);\n}\n</style>\n\t</section>\n\t\n",
+    "protected": false,
+    "block_version": 1
+  },
+  "excerpt": {
+    "raw": "",
+    "rendered": "",
+    "protected": false
+  },
+  "author": 1,
+  "featured_media": 0,
+  "parent": 0,
+  "menu_order": 0,
+  "comment_status": "closed",
+  "ping_status": "closed",
+  "template": "page-blank.php",
+  "meta": {
+    "footnotes": ""
+  },
+  "permalink_template": "https://newcastlehub.info/%pagename%/",
+  "generated_slug": "hosting-plan",
+  "class_list": [
+    "post-85",
+    "page",
+    "type-page",
+    "status-publish",
+    "hentry"
+  ],
+  "_links": {
+    "self": [
+      {
+        "href": "https://newcastlehub.info/wp-json/wp/v2/pages/85",
+        "targetHints": {
+          "allow": [
+            "GET",
+            "POST",
+            "PUT",
+            "PATCH",
+            "DELETE"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://newcastlehub.info/wp-json/wp/v2/pages"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://newcastlehub.info/wp-json/wp/v2/types/page"
+      }
+    ],
+    "author": [
+      {
+        "embeddable": true,
+        "href": "https://newcastlehub.info/wp-json/wp/v2/users/1"
+      }
+    ],
+    "replies": [
+      {
+        "embeddable": true,
+        "href": "https://newcastlehub.info/wp-json/wp/v2/comments?post=85"
+      }
+    ],
+    "version-history": [
+      {
+        "count": 13,
+        "href": "https://newcastlehub.info/wp-json/wp/v2/pages/85/revisions"
+      }
+    ],
+    "predecessor-version": [
+      {
+        "id": 699,
+        "href": "https://newcastlehub.info/wp-json/wp/v2/pages/85/revisions/699"
+      }
+    ],
+    "wp:attachment": [
+      {
+        "href": "https://newcastlehub.info/wp-json/wp/v2/media?parent=85"
+      }
+    ],
+    "wp:action-publish": [
+      {
+        "href": "https://newcastlehub.info/wp-json/wp/v2/pages/85"
+      }
+    ],
+    "wp:action-unfiltered-html": [
+      {
+        "href": "https://newcastlehub.info/wp-json/wp/v2/pages/85"
+      }
+    ],
+    "wp:action-assign-author": [
+      {
+        "href": "https://newcastlehub.info/wp-json/wp/v2/pages/85"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  }
+}

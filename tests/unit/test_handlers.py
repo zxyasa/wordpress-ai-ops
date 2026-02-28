@@ -340,10 +340,10 @@ class TestHelpers:
     def test_build_faq_html(self):
         faqs = [{"question": "Q1", "answer": "A1"}, {"question": "Q2", "answer": "A2"}]
         html = _build_faq_html(faqs)
-        assert "<h3>Q1</h3>" in html
+        assert "<details><summary><strong>Q1</strong></summary><p>A1</p></details>" in html
         assert "<p>A1</p>" in html
-        assert "<h3>Q2</h3>" in html
-        assert 'class="ai-faq"' in html
+        assert "<details><summary><strong>Q2</strong></summary><p>A2</p></details>" in html
+        assert 'class="ai-faq-accordion"' in html
 
     def test_build_faq_json_ld(self):
         faqs = [{"question": "Q1", "answer": "A1"}]

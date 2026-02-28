@@ -1,0 +1,38 @@
+{
+  "task_id": "d6f8c19f-6df0-4a0f-b2e4-ebea22ec5b5b",
+  "created_at": "2026-02-15T00:00:00Z",
+  "mode": "execute",
+  "site": {
+    "base_url": "https://example.com",
+    "auth_ref": "WP_MAIN"
+  },
+  "task_type": "publish_post",
+  "operations": [
+    {
+      "op": "set_fields",
+      "scope": "content",
+      "selector": {
+        "kind": "html_comment",
+        "value": "AI_SLOT:INTRO"
+      },
+      "content": {
+        "format": "json",
+        "value": {
+          "type": "post",
+          "status": "draft",
+          "title": "Dessert Prep Checklist",
+          "slug": "dessert-prep-checklist",
+          "content": "<p>Core content with AI slots.</p><!-- AI_SLOT:INTRO --><!-- /AI_SLOT:INTRO --><!-- AI_SLOT:FAQ --><!-- /AI_SLOT:FAQ -->",
+          "excerpt": "A compact dessert prep checklist.",
+          "categories": [1],
+          "tags": [2]
+        }
+      },
+      "safety": {
+        "max_chars_change": 5000,
+        "dry_run_diff": true,
+        "allow_full_replace": true
+      }
+    }
+  ]
+}

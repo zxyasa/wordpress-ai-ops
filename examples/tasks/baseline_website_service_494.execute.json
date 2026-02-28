@@ -1,0 +1,27 @@
+{
+  "task_id": "b53bfdd0-4f11-4fd6-9184-4b32e6f25d50",
+  "created_at": "2026-02-15T04:41:00Z",
+  "mode": "execute",
+  "site": { "base_url": "https://newcastlehub.info" },
+  "task_type": "update_post_or_page",
+  "requires_confirmation": true,
+  "priority": "high",
+  "limits": { "cooldown_hours": 0, "max_write_per_target": 10 },
+  "notes": "Baseline SEO: add AI slots + FAQ/CTA/Schema block to Website Service page at the bottom, preserving Flatsome shortcodes.",
+  "targets": [
+    { "type": "page", "match": { "by": "id", "value": 494 } }
+  ],
+  "operations": [
+    {
+      "op": "append",
+      "scope": "content",
+      "selector": { "kind": "regex", "value": "$" },
+      "content": {
+        "format": "html",
+        "value": "\n\n[section padding=\"60px\" bg_color=\"rgb(243, 243, 243)\"]\n  [row]\n    [col span__sm=\"12\"]\n      [ux_text]\n        <!-- AI_SLOT:INTRO -->\n        <p><strong>Website Service</strong> for Newcastle businesses: fast, mobile-friendly websites built to convert visitors into enquiries.</p>\n        <!-- /AI_SLOT:INTRO -->\n\n        <!-- AI_SLOT:FAQ -->\n        <h2>Website Service FAQ</h2>\n        <h3>How long does a website project take?</h3>\n        <p>Most small business sites take 2–4 weeks depending on pages, content, and approvals.</p>\n        <h3>Do you include on-page SEO?</h3>\n        <p>Yes. We structure pages for search intent, improve speed, and set clear internal links.</p>\n        <h3>Can you redesign an existing site?</h3>\n        <p>Yes. We can improve performance and conversions without a full rebuild when possible.</p>\n        <h3>What do you need from me?</h3>\n        <p>Your logo/brand assets (if any), business details, and examples of sites you like.</p>\n        <!-- /AI_SLOT:FAQ -->\n\n        <!-- AI_SLOT:CTA -->\n        <h2>Get a website quote</h2>\n        <p><a class=\"button primary is-large\" href=\"https://newcastlehub.info/contact/\">Request a quote</a></p>\n        <p>Related: <a href=\"https://newcastlehub.info/marketing-service/\">Digital Marketing</a> | <a href=\"https://newcastlehub.info/hosting-plan/\">Web Hosting</a></p>\n        <!-- /AI_SLOT:CTA -->\n\n        <!-- AI_SLOT:SCHEMA -->\n        <script type=\"application/ld+json\">{\"@context\":\"https://schema.org\",\"@type\":\"FAQPage\",\"mainEntity\":[{\"@type\":\"Question\",\"name\":\"How long does a website project take?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"Most small business sites take 2–4 weeks depending on pages, content, and approvals.\"}},{\"@type\":\"Question\",\"name\":\"Do you include on-page SEO?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"Yes. We structure pages for search intent, improve speed, and set clear internal links.\"}},{\"@type\":\"Question\",\"name\":\"Can you redesign an existing site?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"Yes. We can improve performance and conversions without a full rebuild when possible.\"}},{\"@type\":\"Question\",\"name\":\"What do you need from me?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"Your logo/brand assets (if any), business details, and examples of sites you like.\"}}]}</script>\n        <!-- /AI_SLOT:SCHEMA -->\n      [/ux_text]\n    [/col]\n  [/row]\n[/section]\n"
+      },
+      "safety": { "max_chars_change": 10000, "dry_run_diff": true, "allow_full_replace": true }
+    }
+  ]
+}
+

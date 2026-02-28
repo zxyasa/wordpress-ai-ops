@@ -1,0 +1,127 @@
+{
+  "id": 599,
+  "date": "2024-07-17T01:58:52",
+  "date_gmt": "2024-07-17T01:58:52",
+  "guid": {
+    "rendered": "https://newcastlehub.info/cart/",
+    "raw": "https://newcastlehub.info/cart/"
+  },
+  "modified": "2026-02-16T21:52:46",
+  "modified_gmt": "2026-02-16T21:52:46",
+  "password": "",
+  "slug": "cart",
+  "status": "publish",
+  "type": "page",
+  "link": "https://newcastlehub.info/cart/",
+  "title": {
+    "raw": "Cart",
+    "rendered": "Cart"
+  },
+  "content": {
+    "raw": "<!-- AI_SLOT:CTA --><!-- /AI_SLOT:CTA -->\n<!-- AI_SLOT:INTRO --><!-- /AI_SLOT:INTRO -->\n<!-- AI_SLOT:SCHEMA -->\n<script type=\"application/ld+json\">{\"@context\": \"https://schema.org\", \"@type\": \"WebSite\", \"name\": \"newcastlehub.info\", \"url\": \"https://newcastlehub.info/\"}</script>\n<!-- /AI_SLOT:SCHEMA -->\n<!-- wp:woocommerce/cart -->\n<div class=\"wp-block-woocommerce-cart alignwide is-loading\"><!-- wp:woocommerce/filled-cart-block -->\n<div class=\"wp-block-woocommerce-filled-cart-block\"><!-- wp:woocommerce/cart-items-block -->\n<div class=\"wp-block-woocommerce-cart-items-block\"><!-- wp:woocommerce/cart-line-items-block -->\n<div class=\"wp-block-woocommerce-cart-line-items-block\"></div>\n<!-- /wp:woocommerce/cart-line-items-block -->\n\n<!-- wp:woocommerce/cart-cross-sells-block -->\n<div class=\"wp-block-woocommerce-cart-cross-sells-block\"><!-- wp:heading {\"fontSize\":\"large\"} -->\n<h2 class=\"wp-block-heading has-large-font-size\">You may be interested in…</h2>\n<!-- /wp:heading -->\n\n<!-- wp:woocommerce/cart-cross-sells-products-block -->\n<div class=\"wp-block-woocommerce-cart-cross-sells-products-block\"></div>\n<!-- /wp:woocommerce/cart-cross-sells-products-block --></div>\n<!-- /wp:woocommerce/cart-cross-sells-block --></div>\n<!-- /wp:woocommerce/cart-items-block -->\n\n<!-- wp:woocommerce/cart-totals-block -->\n<div class=\"wp-block-woocommerce-cart-totals-block\"><!-- wp:woocommerce/cart-order-summary-block -->\n<div class=\"wp-block-woocommerce-cart-order-summary-block\"><!-- wp:woocommerce/cart-order-summary-heading-block -->\n<div class=\"wp-block-woocommerce-cart-order-summary-heading-block\"></div>\n<!-- /wp:woocommerce/cart-order-summary-heading-block -->\n\n<!-- wp:woocommerce/cart-order-summary-coupon-form-block -->\n<div class=\"wp-block-woocommerce-cart-order-summary-coupon-form-block\"></div>\n<!-- /wp:woocommerce/cart-order-summary-coupon-form-block -->\n\n<!-- wp:woocommerce/cart-order-summary-subtotal-block -->\n<div class=\"wp-block-woocommerce-cart-order-summary-subtotal-block\"></div>\n<!-- /wp:woocommerce/cart-order-summary-subtotal-block -->\n\n<!-- wp:woocommerce/cart-order-summary-fee-block -->\n<div class=\"wp-block-woocommerce-cart-order-summary-fee-block\"></div>\n<!-- /wp:woocommerce/cart-order-summary-fee-block -->\n\n<!-- wp:woocommerce/cart-order-summary-discount-block -->\n<div class=\"wp-block-woocommerce-cart-order-summary-discount-block\"></div>\n<!-- /wp:woocommerce/cart-order-summary-discount-block -->\n\n<!-- wp:woocommerce/cart-order-summary-shipping-block -->\n<div class=\"wp-block-woocommerce-cart-order-summary-shipping-block\"></div>\n<!-- /wp:woocommerce/cart-order-summary-shipping-block -->\n\n<!-- wp:woocommerce/cart-order-summary-taxes-block -->\n<div class=\"wp-block-woocommerce-cart-order-summary-taxes-block\"></div>\n<!-- /wp:woocommerce/cart-order-summary-taxes-block --></div>\n<!-- /wp:woocommerce/cart-order-summary-block -->\n\n<!-- wp:woocommerce/cart-express-payment-block -->\n<div class=\"wp-block-woocommerce-cart-express-payment-block\"></div>\n<!-- /wp:woocommerce/cart-express-payment-block -->\n\n<!-- wp:woocommerce/proceed-to-checkout-block -->\n<div class=\"wp-block-woocommerce-proceed-to-checkout-block\"></div>\n<!-- /wp:woocommerce/proceed-to-checkout-block -->\n\n<!-- wp:woocommerce/cart-accepted-payment-methods-block -->\n<div class=\"wp-block-woocommerce-cart-accepted-payment-methods-block\"></div>\n<!-- /wp:woocommerce/cart-accepted-payment-methods-block --></div>\n<!-- /wp:woocommerce/cart-totals-block --></div>\n<!-- /wp:woocommerce/filled-cart-block -->\n\n<!-- wp:woocommerce/empty-cart-block -->\n<div class=\"wp-block-woocommerce-empty-cart-block\"><!-- wp:heading {\"textAlign\":\"center\",\"className\":\"with-empty-cart-icon wc-block-cart__empty-cart__title\"} -->\n<h2 class=\"wp-block-heading has-text-align-center with-empty-cart-icon wc-block-cart__empty-cart__title\">Your cart is currently empty!</h2>\n<!-- /wp:heading -->\n\n<!-- wp:separator {\"className\":\"is-style-dots\"} -->\n<hr class=\"wp-block-separator has-alpha-channel-opacity is-style-dots\"/>\n<!-- /wp:separator -->\n\n<!-- wp:heading {\"textAlign\":\"center\"} -->\n<h2 class=\"wp-block-heading has-text-align-center\">New in store</h2>\n<!-- /wp:heading -->\n\n<!-- wp:woocommerce/product-new {\"columns\":4,\"rows\":1} /--></div>\n<!-- /wp:woocommerce/empty-cart-block --></div>\n<!-- /wp:woocommerce/cart -->",
+    "rendered": "<!-- AI_SLOT:CTA --><!-- /AI_SLOT:CTA -->\n<!-- AI_SLOT:INTRO --><!-- /AI_SLOT:INTRO -->\n<!-- AI_SLOT:SCHEMA -->\n<script type=\"application/ld+json\">{\"@context\": \"https://schema.org\", \"@type\": \"WebSite\", \"name\": \"newcastlehub.info\", \"url\": \"https://newcastlehub.info/\"}</script>\n<!-- /AI_SLOT:SCHEMA -->\n\n<div class=\"wp-block-woocommerce-cart alignwide is-loading\">\n<div class=\"wp-block-woocommerce-filled-cart-block\">\n<div class=\"wp-block-woocommerce-cart-items-block\">\n<div class=\"wp-block-woocommerce-cart-line-items-block\"></div>\n\n\n\n<div class=\"wp-block-woocommerce-cart-cross-sells-block\">\n<h2 class=\"wp-block-heading has-large-font-size\">You may be interested in…</h2>\n\n\n\n<div class=\"wp-block-woocommerce-cart-cross-sells-products-block\"></div>\n</div>\n</div>\n\n\n\n<div class=\"wp-block-woocommerce-cart-totals-block\">\n<div class=\"wp-block-woocommerce-cart-order-summary-block\">\n<div class=\"wp-block-woocommerce-cart-order-summary-heading-block\"></div>\n\n\n\n<div class=\"wp-block-woocommerce-cart-order-summary-coupon-form-block\"></div>\n\n\n\n<div class=\"wp-block-woocommerce-cart-order-summary-subtotal-block\"></div>\n\n\n\n<div class=\"wp-block-woocommerce-cart-order-summary-fee-block\"></div>\n\n\n\n<div class=\"wp-block-woocommerce-cart-order-summary-discount-block\"></div>\n\n\n\n<div class=\"wp-block-woocommerce-cart-order-summary-shipping-block\"></div>\n\n\n\n<div class=\"wp-block-woocommerce-cart-order-summary-taxes-block\"></div>\n</div>\n\n\n\n<div class=\"wp-block-woocommerce-cart-express-payment-block\"></div>\n\n\n\n<div class=\"wp-block-woocommerce-proceed-to-checkout-block\"></div>\n\n\n\n<div class=\"wp-block-woocommerce-cart-accepted-payment-methods-block\"></div>\n</div>\n</div>\n\n\n\n<div class=\"wp-block-woocommerce-empty-cart-block\">\n<h2 class=\"wp-block-heading has-text-align-center with-empty-cart-icon wc-block-cart__empty-cart__title\">Your cart is currently empty!</h2>\n\n\n\n<hr class=\"wp-block-separator has-alpha-channel-opacity is-style-dots\"/>\n\n\n\n<h2 class=\"wp-block-heading has-text-align-center\">New in store</h2>\n\n\n</div>\n</div>\n",
+    "protected": false,
+    "block_version": 1
+  },
+  "excerpt": {
+    "raw": "",
+    "rendered": "",
+    "protected": false
+  },
+  "author": 1,
+  "featured_media": 0,
+  "parent": 0,
+  "menu_order": 0,
+  "comment_status": "closed",
+  "ping_status": "closed",
+  "template": "",
+  "meta": {
+    "footnotes": ""
+  },
+  "permalink_template": "https://newcastlehub.info/%pagename%/",
+  "generated_slug": "cart",
+  "class_list": [
+    "post-599",
+    "page",
+    "type-page",
+    "status-publish",
+    "hentry"
+  ],
+  "_links": {
+    "self": [
+      {
+        "href": "https://newcastlehub.info/wp-json/wp/v2/pages/599",
+        "targetHints": {
+          "allow": [
+            "GET",
+            "POST",
+            "PUT",
+            "PATCH",
+            "DELETE"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://newcastlehub.info/wp-json/wp/v2/pages"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://newcastlehub.info/wp-json/wp/v2/types/page"
+      }
+    ],
+    "author": [
+      {
+        "embeddable": true,
+        "href": "https://newcastlehub.info/wp-json/wp/v2/users/1"
+      }
+    ],
+    "replies": [
+      {
+        "embeddable": true,
+        "href": "https://newcastlehub.info/wp-json/wp/v2/comments?post=599"
+      }
+    ],
+    "version-history": [
+      {
+        "count": 1,
+        "href": "https://newcastlehub.info/wp-json/wp/v2/pages/599/revisions"
+      }
+    ],
+    "predecessor-version": [
+      {
+        "id": 759,
+        "href": "https://newcastlehub.info/wp-json/wp/v2/pages/599/revisions/759"
+      }
+    ],
+    "wp:attachment": [
+      {
+        "href": "https://newcastlehub.info/wp-json/wp/v2/media?parent=599"
+      }
+    ],
+    "wp:action-publish": [
+      {
+        "href": "https://newcastlehub.info/wp-json/wp/v2/pages/599"
+      }
+    ],
+    "wp:action-unfiltered-html": [
+      {
+        "href": "https://newcastlehub.info/wp-json/wp/v2/pages/599"
+      }
+    ],
+    "wp:action-assign-author": [
+      {
+        "href": "https://newcastlehub.info/wp-json/wp/v2/pages/599"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  }
+}

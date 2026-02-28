@@ -1,0 +1,55 @@
+{
+  "task_id": "9c7ea8d9-0adf-4f03-8e58-09fbc0680b01",
+  "created_at": "2026-02-15T00:00:00Z",
+  "mode": "execute",
+  "site": {
+    "base_url": "https://example.com",
+    "auth_ref": "WP_MAIN"
+  },
+  "task_type": "update_post_or_page",
+  "priority": "high",
+  "requires_confirmation": false,
+  "requires_ui": false,
+  "targets": [
+    {
+      "type": "page",
+      "match": {
+        "by": "slug",
+        "value": "best-dessert-recipes"
+      }
+    }
+  ],
+  "operations": [
+    {
+      "op": "replace",
+      "scope": "content",
+      "selector": {
+        "kind": "html_comment",
+        "value": "AI_SLOT:INTRO"
+      },
+      "content": {
+        "format": "html",
+        "value": "<p>Updated intro paragraph from AI Ops. Keep shortcodes and layout untouched.</p>"
+      },
+      "safety": {
+        "max_chars_change": 1200,
+        "dry_run_diff": true,
+        "allow_full_replace": false,
+        "forbid_remove": [
+          "ux_",
+          "<script",
+          "<style"
+        ]
+      }
+    }
+  ],
+  "rollback": {
+    "enabled": true,
+    "strategy": "local_snapshot"
+  },
+  "limits": {
+    "cooldown_hours": 24,
+    "max_write_per_target": 3
+  },
+  "notes": "MVP stage-1 slot-safe intro update"
+}

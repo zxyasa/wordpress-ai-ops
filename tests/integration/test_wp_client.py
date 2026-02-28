@@ -120,3 +120,28 @@ class TestCreateResource:
         with patch("subprocess.run", return_value=mock_proc):
             result = client.create_resource("post", {"title": "New"})
             assert result["id"] == 99
+
+
+class TestContextFallback:
+    def test_list_resources_fallback_to_view_on_forbidden_context(self, client):
+        with patch.object(client, "_request") as mock_req:
+            mock_req.side_effect = [
+                WPClientError("GET https://example.com/wp-json/wp/v2/pages failed: 401 {\"code\":\"rest_forbidden_context\"}"),
+                [{"id": 1, "slug": "home"}],
+            ]
+            rows = client.list_resources("page", params={"slug": "home"})
+            assert rows == [{"id": 1, "slug": "home"}]
+            assert mock_req.call_count == 2
+            # Verify fallback happened by checking second call explicitly switched to view.
+            assert mock_req.call_args_list[1].kwargs["params"]["context"] == "view"
+
+    def test_get_resource_fallback_post_then_view(self, client):
+        with patch.object(client, "_request") as mock_req:
+            mock_req.side_effect = [
+                WPClientError("GET https://example.com/wp-json/wp/v2/pages/42 failed: 401 {\"code\":\"rest_forbidden_context\"}"),
+                {"id": 42, "content": {"raw": "<!-- AI_SLOT:INTRO --><!-- /AI_SLOT:INTRO -->"}},
+            ]
+            row = client.get_resource("page", 42)
+            assert row["id"] == 42
+            assert mock_req.call_args_list[0].args[:2] == ("GET", "pages/42")
+            assert mock_req.call_args_list[1].args[:2] == ("POST", "pages/42")

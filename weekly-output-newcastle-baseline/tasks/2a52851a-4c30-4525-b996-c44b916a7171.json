@@ -1,0 +1,58 @@
+{
+  "task_id": "2a52851a-4c30-4525-b996-c44b916a7171",
+  "created_at": "2026-02-17T06:19:47.707802+00:00",
+  "mode": "plan",
+  "site": {
+    "base_url": "https://newcastlehub.info"
+  },
+  "task_type": "append_internal_links",
+  "priority": "medium",
+  "targets": [
+    {
+      "type": "page",
+      "match": {
+        "by": "url",
+        "value": "https://newcastlehub.info/"
+      }
+    }
+  ],
+  "operations": [
+    {
+      "op": "append",
+      "scope": "content",
+      "selector": {
+        "kind": "html_comment",
+        "value": "AI_SLOT:CTA"
+      },
+      "content": {
+        "format": "json",
+        "value": {
+          "links": [
+            {
+              "url": "https://newcastlehub.info/services/",
+              "anchor": "Services"
+            },
+            {
+              "url": "https://newcastlehub.info/online-ordering-newcastle/",
+              "anchor": "Online Ordering Newcastle"
+            },
+            {
+              "url": "https://newcastlehub.info/restaurant-solutions/",
+              "anchor": "Restaurant Solutions"
+            }
+          ]
+        }
+      },
+      "safety": {
+        "max_chars_change": 1000,
+        "dry_run_diff": true,
+        "allow_full_replace": false
+      }
+    }
+  ],
+  "limits": {
+    "cooldown_hours": 24,
+    "max_write_per_target": 3
+  },
+  "notes": "auto-cycle internal links refresh for https://newcastlehub.info/"
+}

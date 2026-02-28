@@ -1,0 +1,44 @@
+{
+  "task_id": "7a24e007-b6d3-4754-bd7a-6a0616c99833",
+  "created_at": "2026-02-17T06:05:00Z",
+  "mode": "execute",
+  "site": {
+    "base_url": "https://newcastlehub.info"
+  },
+  "task_type": "update_post_or_page",
+  "requires_confirmation": true,
+  "priority": "high",
+  "limits": {
+    "cooldown_hours": 0,
+    "max_write_per_target": 10
+  },
+  "notes": "Convert FAQ slot to accordion on hosting-plan",
+  "targets": [
+    {
+      "type": "page",
+      "match": {
+        "by": "id",
+        "value": 85
+      }
+    }
+  ],
+  "operations": [
+    {
+      "op": "replace",
+      "scope": "content",
+      "selector": {
+        "kind": "html_comment",
+        "value": "AI_SLOT:FAQ"
+      },
+      "content": {
+        "format": "html",
+        "value": "<h2>Hosting Plan FAQ</h2><details><summary><strong>Which hosting plan is best for growth?</strong></summary><p>The right plan depends on traffic, speed requirements, and update frequency; we map this to your business stage.</p></details><details><summary><strong>Can you migrate my current website?</strong></summary><p>Yes. We can migrate with checklist-based validation to minimise downtime and risk.</p></details><details><summary><strong>Is hosting connected to SEO performance?</strong></summary><p>Yes. Speed, uptime, and technical stability support better crawling and conversion experience.</p></details>"
+      },
+      "safety": {
+        "max_chars_change": 5000,
+        "dry_run_diff": true,
+        "allow_full_replace": false
+      }
+    }
+  ]
+}

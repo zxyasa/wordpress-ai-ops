@@ -1,0 +1,95 @@
+{
+  "site": {
+    "base_url": "https://newcastlehub.info",
+    "phone_display": "02 40755307",
+    "phone_tel": "0240755307",
+    "email": "hello@newcastlehub.info",
+    "contact_path": "/contact/"
+  },
+  "deprecated_emails": [
+    "admin@newcastlehub.com",
+    "admin@newcastlehub.info"
+  ],
+  "deprecated_phones": [
+    "0493027766",
+    "01232356556"
+  ],
+  "scan_policy": {
+    "resource_bases": [
+      "pages",
+      "posts",
+      "ux-blocks",
+      "template-parts"
+    ],
+    "required_slots": {
+      "pages": [
+        "AI_SLOT:INTRO",
+        "AI_SLOT:CTA",
+        "AI_SLOT:SCHEMA"
+      ],
+      "posts": [],
+      "ux-blocks": [],
+      "template-parts": []
+    },
+    "require_schema": {
+      "pages": true,
+      "posts": false,
+      "ux-blocks": false,
+      "template-parts": false
+    },
+    "email_check_resource_bases": [
+      "pages",
+      "ux-blocks"
+    ],
+    "phone_check_resource_bases": [
+      "pages",
+      "ux-blocks"
+    ],
+    "link_check_resource_bases": [
+      "pages",
+      "posts"
+    ],
+    "ignored_resources": []
+  },
+  "weekly_limits": {
+    "default": {
+      "cooldown_hours": 24,
+      "max_write_per_target": 3
+    },
+    "groups": {
+      "homepage": {
+        "cooldown_hours": 12,
+        "max_write_per_target": 6
+      },
+      "core": {
+        "cooldown_hours": 16,
+        "max_write_per_target": 5
+      },
+      "service": {
+        "cooldown_hours": 18,
+        "max_write_per_target": 4
+      },
+      "other": {
+        "cooldown_hours": 24,
+        "max_write_per_target": 3
+      }
+    },
+    "core_paths": [
+      "/about/",
+      "/services/",
+      "/contact/",
+      "/free-newcastle-business-audit/"
+    ],
+    "service_path_patterns": [
+      ".*-solutions/?$",
+      ".*-newcastle/?$",
+      "^/services/.*"
+    ]
+  },
+  "bootstrap_urls": [
+    "https://newcastlehub.info/",
+    "https://newcastlehub.info/services/",
+    "https://newcastlehub.info/contact/",
+    "https://newcastlehub.info/free-newcastle-business-audit/"
+  ]
+}

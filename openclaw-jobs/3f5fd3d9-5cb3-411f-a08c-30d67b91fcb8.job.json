@@ -1,0 +1,54 @@
+{
+  "job_id": "openclaw-3f5fd3d9-5cb3-411f-a08c-30d67b91fcb8",
+  "prepared_at": "2026-02-15T01:14:54.127850+00:00",
+  "status": "pending_confirmation",
+  "requires_confirmation": true,
+  "requires_ui": true,
+  "task": {
+    "task_id": "3f5fd3d9-5cb3-411f-a08c-30d67b91fcb8",
+    "task_type": "update_post_or_page",
+    "site": {
+      "base_url": "https://example.com",
+      "auth_ref": "WP_MAIN"
+    },
+    "targets": [
+      {
+        "type": "page",
+        "match": {
+          "by": "slug",
+          "value": "complex-builder-page"
+        }
+      }
+    ],
+    "operations": [
+      {
+        "op": "replace",
+        "scope": "content",
+        "selector": {
+          "kind": "html_comment",
+          "value": "AI_SLOT:INTRO"
+        },
+        "content": {
+          "format": "html",
+          "value": "<p>Requires UI fallback.</p>"
+        },
+        "safety": {
+          "max_chars_change": 500,
+          "dry_run_diff": true,
+          "allow_full_replace": false
+        }
+      }
+    ]
+  },
+  "required_artifacts": [
+    "step_screenshots",
+    "change_summary"
+  ],
+  "checklist": [
+    "Open target and capture before screenshot",
+    "Apply requested UI changes",
+    "Capture after screenshot",
+    "Record change summary",
+    "Wait for confirmation before publish"
+  ]
+}

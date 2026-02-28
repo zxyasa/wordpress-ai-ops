@@ -1,0 +1,45 @@
+{
+  "task_id": "beautify-services-cards-39-002",
+  "created_at": "2026-02-16T22:50:00Z",
+  "mode": "execute",
+  "site_profile_ref": "../../site_profiles/newcastlehub.info.json",
+  "site": {
+    "base_url": "{{site.base_url}}"
+  },
+  "task_type": "update_post_or_page",
+  "requires_confirmation": true,
+  "priority": "high",
+  "limits": {
+    "cooldown_hours": 0,
+    "max_write_per_target": 30
+  },
+  "notes": "Beautify services top card cluster by fixing uneven 3+1 structure into a true 4-card layout and applying light visual polish.",
+  "targets": [
+    {
+      "type": "page",
+      "match": {
+        "by": "id",
+        "value": 39
+      }
+    }
+  ],
+  "operations": [
+    {
+      "op": "replace",
+      "scope": "content",
+      "selector": {
+        "kind": "regex",
+        "value": "(?s)<!-- wp:flatsome/uxbuilder -->.*?<!-- /wp:flatsome/uxbuilder -->"
+      },
+      "content": {
+        "format": "html",
+        "value": "<!-- wp:flatsome/uxbuilder -->\n[section bg_color=\"rgb(243, 243, 243)\" padding=\"60px\"]\n\n[row style=\"collapse\"]\n\n[col span__sm=\"12\"]\n\n[ux_text font_size=\"1.7\" text_align=\"center\" text_color=\"rgb(19, 19, 19)\"]\n\n<h2>Newcastlehub Services</h2>\n[/ux_text]\n[ux_text text_align=\"center\" text_color=\"rgb(41, 41, 41)\"]\n\n<p>Elevating brands through web design, hosting, marketing, and practical AI support. Choose the service lane you need now, then scale with a cleaner growth system.</p>\n[/ux_text]\n\n[/col]\n\n[/row]\n[gap]\n\n[row]\n\n[col span=\"3\" span__sm=\"12\"]\n\n[ux_image_box img=\"413\" image_overlay=\"rgba(18, 34, 79, 0.22)\" image_hover=\"overlay-add\" text_padding=\"0px 0px 0px 0px\" class=\"service_box service_box_v2\"]\n\n[button text=\"Website Service\" size=\"large\" padding=\"16px 0px 16px 0px\" expand=\"true\" icon=\"icon-angle-right\" link=\"{{site.base_url}}/website-service/\"]\n\n[/ux_image_box]\n\n[/col]\n[col span=\"3\" span__sm=\"12\"]\n\n[ux_image_box img=\"432\" image_overlay=\"rgba(18, 34, 79, 0.22)\" image_hover=\"overlay-add\" text_padding=\"0px 0px 0px 0px\" class=\"service_box service_box_v2\"]\n\n[button text=\"Web Hosting Service\" size=\"large\" padding=\"16px 0px 16px 0px\" expand=\"true\" icon=\"icon-angle-right\" link=\"{{site.base_url}}/hosting-plan/\"]\n\n[/ux_image_box]\n\n[/col]\n[col span=\"3\" span__sm=\"12\"]\n\n[ux_image_box img=\"405\" image_overlay=\"rgba(18, 34, 79, 0.22)\" image_hover=\"overlay-add\" text_padding=\"0px 0px 0px 0px\" class=\"service_box service_box_v2\"]\n\n[button text=\"Marketing Service\" size=\"large\" padding=\"16px 0px 16px 0px\" expand=\"true\" icon=\"icon-angle-right\" link=\"{{site.base_url}}/marketing-service/\"]\n\n[/ux_image_box]\n\n[/col]\n[col span=\"3\" span__sm=\"12\"]\n\n[ux_image_box img=\"658\" image_overlay=\"rgba(18, 34, 79, 0.22)\" image_hover=\"overlay-add\" text_padding=\"0px 0px 0px 0px\" class=\"service_box service_box_v2\"]\n\n[button text=\"AI Service\" size=\"large\" padding=\"16px 0px 16px 0px\" expand=\"true\" icon=\"icon-angle-right\" link=\"{{site.base_url}}/create-an-ai-avatar/\"]\n\n[/ux_image_box]\n\n[/col]\n\n[/row]\n\n[ux_text]\n<style>\n#section_1722912868 .service_box_v2{border-radius:14px;overflow:hidden;box-shadow:0 8px 24px rgba(12,35,84,.1);background:#fff;transition:transform .24s ease,box-shadow .24s ease} \n#section_1722912868 .service_box_v2:hover{transform:translateY(-4px);box-shadow:0 14px 30px rgba(12,35,84,.16)}\n#section_1722912868 .service_box_v2 .box-text{background:linear-gradient(90deg,#2b67ea,#4f79ff)}\n#section_1722912868 .service_box_v2 .button{border:0;background:transparent !important;text-transform:uppercase;font-weight:700;letter-spacing:.2px}\n#section_1722912868 .service_box_v2 .box-image img{aspect-ratio:4/3;object-fit:cover;width:100%;display:block}\n</style>\n[/ux_text]\n\n[/section]\n\n<!-- /wp:flatsome/uxbuilder -->"
+      },
+      "safety": {
+        "max_chars_change": 14000,
+        "dry_run_diff": true,
+        "allow_full_replace": false
+      }
+    }
+  ]
+}

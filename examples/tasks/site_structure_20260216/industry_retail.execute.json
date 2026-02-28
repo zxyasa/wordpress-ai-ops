@@ -1,0 +1,42 @@
+{
+  "task_id": "69fcc39c-40bc-4790-9353-527091b5329b",
+  "created_at": "2026-02-16T05:00:00Z",
+  "mode": "execute",
+  "site": {
+    "base_url": "https://newcastlehub.info"
+  },
+  "task_type": "publish_post",
+  "requires_confirmation": true,
+  "priority": "high",
+  "limits": {
+    "cooldown_hours": 0,
+    "max_write_per_target": 10
+  },
+  "notes": "Create page retail-solutions",
+  "targets": [],
+  "operations": [
+    {
+      "op": "set_fields",
+      "scope": "content",
+      "selector": {
+        "kind": "html_comment",
+        "value": "AI_SLOT:INTRO"
+      },
+      "content": {
+        "format": "json",
+        "value": {
+          "type": "page",
+          "status": "publish",
+          "slug": "retail-solutions",
+          "title": "Retail & Local Shops Solutions | Newcastle Hub",
+          "content": "<section class=\"section\" style=\"padding-top:56px;padding-bottom:56px;\"><div class=\"section-content relative\"><div class=\"row\"><div class=\"col small-12 large-12\"><div class=\"col-inner\"><!-- AI_SLOT:INTRO --><h1>Retail & Local Shops Solutions</h1><p><strong>Connect POS, ecommerce, and local search to recover footfall and sales.</strong></p><!-- /AI_SLOT:INTRO --><h2>Are you facing these issues?</h2><ul><li>Foot traffic is declining</li><li>No ecommerce channel</li><li>POS cannot sync stock across channels</li></ul><h2>How we help</h2><ul><li>POS integration and stock sync</li><li>Ecommerce setup</li><li>Google Shopping readiness</li><li>Local SEO optimisation</li></ul><h2>Expected outcomes</h2><ul><li>Better stock accuracy</li><li>New online revenue stream</li><li>Higher local intent traffic</li></ul><!-- AI_SLOT:CTA --><p><a class=\"button primary is-large\" href=\"https://newcastlehub.info/free-newcastle-business-audit/\">Get Free Business Audit</a> <a class=\"button secondary is-large\" href=\"https://newcastlehub.info/contact/\">Book a Strategy Call</a></p><p>Related: <a href=\"https://newcastlehub.info/pos-setup-newcastle/\">POS Setup Newcastle</a> | <a href=\"https://newcastlehub.info/website-service/\">Website Service</a> | <a href=\"https://newcastlehub.info/free-newcastle-business-audit/\">Free Audit</a></p><!-- /AI_SLOT:CTA --><!-- AI_SLOT:SCHEMA --><script type=\"application/ld+json\">{\"@context\":\"https://schema.org\",\"@type\":\"Service\",\"name\":\"Retail & Local Shops Solutions\",\"provider\":{\"@type\":\"Organization\",\"name\":\"Newcastle Hub\"},\"areaServed\":\"Newcastle\"}</script><!-- /AI_SLOT:SCHEMA --></div></div></div></div></div></section>"
+        }
+      },
+      "safety": {
+        "max_chars_change": 30000,
+        "dry_run_diff": true,
+        "allow_full_replace": true
+      }
+    }
+  ]
+}

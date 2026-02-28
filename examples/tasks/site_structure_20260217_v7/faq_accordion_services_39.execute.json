@@ -1,0 +1,44 @@
+{
+  "task_id": "17178446-5c11-4918-ab69-e85b8c250244",
+  "created_at": "2026-02-17T06:05:00Z",
+  "mode": "execute",
+  "site": {
+    "base_url": "https://newcastlehub.info"
+  },
+  "task_type": "update_post_or_page",
+  "requires_confirmation": true,
+  "priority": "high",
+  "limits": {
+    "cooldown_hours": 0,
+    "max_write_per_target": 10
+  },
+  "notes": "Convert FAQ slot to accordion on services",
+  "targets": [
+    {
+      "type": "page",
+      "match": {
+        "by": "id",
+        "value": 39
+      }
+    }
+  ],
+  "operations": [
+    {
+      "op": "replace",
+      "scope": "content",
+      "selector": {
+        "kind": "html_comment",
+        "value": "AI_SLOT:FAQ"
+      },
+      "content": {
+        "format": "html",
+        "value": "<h2>Services FAQ</h2><details><summary><strong>What services are included?</strong></summary><p>We provide website execution, local SEO, Google profile optimisation, booking or ordering flows, and ongoing support.</p></details><details><summary><strong>Can I start with one service first?</strong></summary><p>Yes. Most businesses start with the highest-impact bottleneck, then expand in phases.</p></details><details><summary><strong>Do you support both product and service businesses?</strong></summary><p>Yes. We run separate paths for ecommerce-led and booking-led businesses.</p></details>"
+      },
+      "safety": {
+        "max_chars_change": 5000,
+        "dry_run_diff": true,
+        "allow_full_replace": false
+      }
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "generated_at": "2026-02-15T01:14:47.346612+00:00",
+  "inputs": {
+    "gsc_csv": "examples/csv/gsc_sample.csv",
+    "ga_csv": "examples/csv/ga_sample.csv"
+  },
+  "site": {
+    "base_url": "https://example.com"
+  },
+  "selected_pages": [
+    {
+      "url": "https://example.com/best-cake-recipes",
+      "score": 7,
+      "reasons": [
+        "high_impressions_low_ctr",
+        "rank_5_15",
+        "high_bounce"
+      ],
+      "impressions": 12000.0,
+      "clicks": 120.0,
+      "ctr": 0.01,
+      "position": 8.4,
+      "bounce_rate": 0.78
+    }
+  ],
+  "generated_tasks": [
+    {
+      "task_id": "9b8099f6-80cb-4a26-a7d3-05c18ed7c005",
+      "task_type": "update_post_or_page",
+      "target_url": "https://example.com/best-cake-recipes",
+      "reasons": [
+        "high_impressions_low_ctr",
+        "rank_5_15",
+        "high_bounce"
+      ]
+    },
+    {
+      "task_id": "6d4e6e99-b9bb-4774-b587-d192ec72058e",
+      "task_type": "inject_schema_faq",
+      "target_url": "https://example.com/best-cake-recipes",
+      "reasons": [
+        "high_impressions_low_ctr",
+        "rank_5_15",
+        "high_bounce"
+      ]
+    },
+    {
+      "task_id": "72bbb41d-b985-4aff-b54b-034ed5dc7420",
+      "task_type": "append_internal_links",
+      "target_url": "https://example.com/best-cake-recipes",
+      "reasons": [
+        "high_impressions_low_ctr",
+        "rank_5_15",
+        "high_bounce"
+      ]
+    }
+  ],
+  "tasks_dir": "weekly-output-3/tasks",
+  "execution_results": []
+}

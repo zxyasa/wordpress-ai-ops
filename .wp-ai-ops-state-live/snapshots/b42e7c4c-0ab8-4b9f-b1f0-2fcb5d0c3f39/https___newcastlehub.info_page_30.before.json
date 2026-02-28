@@ -1,0 +1,111 @@
+{
+  "id": 30,
+  "date": "2021-09-06T13:46:18",
+  "date_gmt": "2021-09-06T13:46:18",
+  "guid": {
+    "rendered": "https://newcastlehub.info/home/"
+  },
+  "modified": "2021-09-07T07:33:46",
+  "modified_gmt": "2021-09-07T07:33:46",
+  "slug": "home",
+  "status": "publish",
+  "type": "page",
+  "link": "https://newcastlehub.info/home/",
+  "title": {
+    "rendered": "Home"
+  },
+  "content": {
+    "rendered": "\n\n\n\n<h2>Move faster than anyone with your business.</h2>\n\n<p style=\"text-align: justify\">Speed is often used as a differentiating factor in the business world, in large part because it is very easy to track. For example, when a company hires a web designer to give their website an overhaul, they’ll expect to get a rough timeline for how long the work will take.</p>\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n<h2>Drag and Drop Website Builder</h2>\n\n<p style=\"text-align: justify; color: rgb(0, 0, 0);\">Build design-forward sites &amp; sales-ready stores at breakneck speed, without compromising on your creativity.&nbsp;Create with our intuitive editor, equipped with rich features for SEO &amp; content management, to design websites that deliver better results.&nbsp;Manage a library of templates, site sections and widgets to speed future projects.&nbsp;</p>\n\n\n\n\n\n\n<h2>Include All Essential Installation Tools</h2>\n\n<p style=\"text-align: justify\">When people speak about web development tools (or devtools in the biz), they&#8217;re usually referring to the apps and software that allows web developers to test and debug the code and interface of a website or web application.</p>\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n",
+    "protected": false
+  },
+  "excerpt": {
+    "rendered": "",
+    "protected": false
+  },
+  "author": 1,
+  "featured_media": 60,
+  "parent": 0,
+  "menu_order": 0,
+  "comment_status": "closed",
+  "ping_status": "closed",
+  "template": "",
+  "meta": {
+    "footnotes": ""
+  },
+  "class_list": [
+    "post-30",
+    "page",
+    "type-page",
+    "status-publish",
+    "has-post-thumbnail",
+    "hentry"
+  ],
+  "_links": {
+    "self": [
+      {
+        "href": "https://newcastlehub.info/wp-json/wp/v2/pages/30",
+        "targetHints": {
+          "allow": [
+            "GET",
+            "POST",
+            "PUT",
+            "PATCH",
+            "DELETE"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://newcastlehub.info/wp-json/wp/v2/pages"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://newcastlehub.info/wp-json/wp/v2/types/page"
+      }
+    ],
+    "author": [
+      {
+        "embeddable": true,
+        "href": "https://newcastlehub.info/wp-json/wp/v2/users/1"
+      }
+    ],
+    "replies": [
+      {
+        "embeddable": true,
+        "href": "https://newcastlehub.info/wp-json/wp/v2/comments?post=30"
+      }
+    ],
+    "version-history": [
+      {
+        "count": 16,
+        "href": "https://newcastlehub.info/wp-json/wp/v2/pages/30/revisions"
+      }
+    ],
+    "predecessor-version": [
+      {
+        "id": 84,
+        "href": "https://newcastlehub.info/wp-json/wp/v2/pages/30/revisions/84"
+      }
+    ],
+    "wp:featuredmedia": [
+      {
+        "embeddable": true,
+        "href": "https://newcastlehub.info/wp-json/wp/v2/media/60"
+      }
+    ],
+    "wp:attachment": [
+      {
+        "href": "https://newcastlehub.info/wp-json/wp/v2/media?parent=30"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  }
+}

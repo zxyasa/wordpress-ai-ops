@@ -1,0 +1,127 @@
+{
+  "id": 721,
+  "date": "2026-02-16T05:06:50",
+  "date_gmt": "2026-02-16T05:06:50",
+  "guid": {
+    "rendered": "https://newcastlehub.info/google-business-optimisation-newcastle/",
+    "raw": "https://newcastlehub.info/google-business-optimisation-newcastle/"
+  },
+  "modified": "2026-02-16T21:52:52",
+  "modified_gmt": "2026-02-16T21:52:52",
+  "password": "",
+  "slug": "google-business-optimisation-newcastle",
+  "status": "publish",
+  "type": "page",
+  "link": "https://newcastlehub.info/google-business-optimisation-newcastle/",
+  "title": {
+    "raw": "Google Business Optimisation in Newcastle | Newcastle Hub",
+    "rendered": "Google Business Optimisation in Newcastle | Newcastle Hub"
+  },
+  "content": {
+    "raw": "<!-- AI_SLOT:SCHEMA -->\n<script type=\"application/ld+json\">{\"@context\": \"https://schema.org\", \"@type\": \"WebSite\", \"name\": \"newcastlehub.info\", \"url\": \"https://newcastlehub.info/\"}</script>\n<!-- /AI_SLOT:SCHEMA -->\n<!-- wp:html --><section class=\"section\" style=\"padding-top:56px;padding-bottom:56px;\"><div class=\"section-content relative\"><div class=\"row\"><div class=\"col small-12 large-12\"><div class=\"col-inner\"><!-- AI_SLOT:INTRO --><h1>Google Business Optimisation in Newcastle</h1><p><strong>Improve local map visibility, reviews, and profile conversion quality.</strong></p><!-- /AI_SLOT:INTRO --><h2>What we optimise</h2><ul><li>Google Business Profile setup and category fit</li><li>Service and location signals</li><li>Review generation and response process</li><li>Local SEO page alignment</li></ul><!-- AI_SLOT:CTA --><p><a class=\"button primary is-large\" href=\"https://newcastlehub.info/free-newcastle-business-audit/\">Get a Google Growth Audit</a></p><p>Related: <a href=\"https://newcastlehub.info/marketing-service/\">Marketing Service</a> | <a href=\"https://newcastlehub.info/restaurant-solutions/\">Restaurant Solutions</a></p><!-- /AI_SLOT:CTA --></div></div></div></div></div></section><!-- /wp:html -->",
+    "rendered": "<!-- AI_SLOT:SCHEMA -->\n<script type=\"application/ld+json\">{\"@context\": \"https://schema.org\", \"@type\": \"WebSite\", \"name\": \"newcastlehub.info\", \"url\": \"https://newcastlehub.info/\"}</script>\n<!-- /AI_SLOT:SCHEMA -->\n<section class=\"section\" style=\"padding-top:56px;padding-bottom:56px;\"><div class=\"section-content relative\"><div class=\"row\"><div class=\"col small-12 large-12\"><div class=\"col-inner\"><!-- AI_SLOT:INTRO --><h1>Google Business Optimisation in Newcastle</h1><p><strong>Improve local map visibility, reviews, and profile conversion quality.</strong></p><!-- /AI_SLOT:INTRO --><h2>What we optimise</h2><ul><li>Google Business Profile setup and category fit</li><li>Service and location signals</li><li>Review generation and response process</li><li>Local SEO page alignment</li></ul><!-- AI_SLOT:CTA --><p><a class=\"button primary is-large\" href=\"https://newcastlehub.info/free-newcastle-business-audit/\">Get a Google Growth Audit</a></p><p>Related: <a href=\"https://newcastlehub.info/marketing-service/\">Marketing Service</a> | <a href=\"https://newcastlehub.info/restaurant-solutions/\">Restaurant Solutions</a></p><!-- /AI_SLOT:CTA --></div></div></div></div></div></section>",
+    "protected": false,
+    "block_version": 1
+  },
+  "excerpt": {
+    "raw": "",
+    "rendered": "<p>Google Business Optimisation in Newcastle Improve local map visibility, reviews, and profile conversion quality. What we optimise Google Business Profile setup and category fit Service and location signals Review generation and response process Local SEO page alignment Get a Google Growth Audit Related: Marketing Service | Restaurant Solutions</p>\n",
+    "protected": false
+  },
+  "author": 4,
+  "featured_media": 0,
+  "parent": 0,
+  "menu_order": 0,
+  "comment_status": "closed",
+  "ping_status": "closed",
+  "template": "",
+  "meta": {
+    "footnotes": ""
+  },
+  "permalink_template": "https://newcastlehub.info/%pagename%/",
+  "generated_slug": "google-business-optimisation-in-newcastle-newcastle-hub",
+  "class_list": [
+    "post-721",
+    "page",
+    "type-page",
+    "status-publish",
+    "hentry"
+  ],
+  "_links": {
+    "self": [
+      {
+        "href": "https://newcastlehub.info/wp-json/wp/v2/pages/721",
+        "targetHints": {
+          "allow": [
+            "GET",
+            "POST",
+            "PUT",
+            "PATCH",
+            "DELETE"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://newcastlehub.info/wp-json/wp/v2/pages"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://newcastlehub.info/wp-json/wp/v2/types/page"
+      }
+    ],
+    "author": [
+      {
+        "embeddable": true,
+        "href": "https://newcastlehub.info/wp-json/wp/v2/users/4"
+      }
+    ],
+    "replies": [
+      {
+        "embeddable": true,
+        "href": "https://newcastlehub.info/wp-json/wp/v2/comments?post=721"
+      }
+    ],
+    "version-history": [
+      {
+        "count": 1,
+        "href": "https://newcastlehub.info/wp-json/wp/v2/pages/721/revisions"
+      }
+    ],
+    "predecessor-version": [
+      {
+        "id": 767,
+        "href": "https://newcastlehub.info/wp-json/wp/v2/pages/721/revisions/767"
+      }
+    ],
+    "wp:attachment": [
+      {
+        "href": "https://newcastlehub.info/wp-json/wp/v2/media?parent=721"
+      }
+    ],
+    "wp:action-publish": [
+      {
+        "href": "https://newcastlehub.info/wp-json/wp/v2/pages/721"
+      }
+    ],
+    "wp:action-unfiltered-html": [
+      {
+        "href": "https://newcastlehub.info/wp-json/wp/v2/pages/721"
+      }
+    ],
+    "wp:action-assign-author": [
+      {
+        "href": "https://newcastlehub.info/wp-json/wp/v2/pages/721"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  }
+}

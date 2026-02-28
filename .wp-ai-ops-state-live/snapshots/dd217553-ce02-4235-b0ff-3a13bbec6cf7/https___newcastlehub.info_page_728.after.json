@@ -1,0 +1,121 @@
+{
+  "id": 728,
+  "date": "2026-02-16T05:46:11",
+  "date_gmt": "2026-02-16T05:46:11",
+  "guid": {
+    "rendered": "https://newcastlehub.info/booking-system-newcastle/",
+    "raw": "https://newcastlehub.info/booking-system-newcastle/"
+  },
+  "modified": "2026-02-16T05:46:11",
+  "modified_gmt": "2026-02-16T05:46:11",
+  "password": "",
+  "slug": "booking-system-newcastle",
+  "status": "publish",
+  "type": "page",
+  "link": "https://newcastlehub.info/booking-system-newcastle/",
+  "title": {
+    "raw": "Booking System Setup Newcastle | Newcastle Hub",
+    "rendered": "Booking System Setup Newcastle | Newcastle Hub"
+  },
+  "content": {
+    "raw": "<!-- wp:html --><section class=\"section\" style=\"padding-top:56px;padding-bottom:56px;\"><div class=\"section-content relative\"><div class=\"row\"><div class=\"col small-12 large-12\"><div class=\"col-inner\"><!-- AI_SLOT:INTRO --><h1>Booking System Setup for Service-Based Businesses</h1><p><strong>For service businesses: online booking, reminders, calendar flow, and no-show reduction.</strong></p><!-- /AI_SLOT:INTRO --><h2>Best for</h2><ul><li>Beauty and hair salons</li><li>Mechanics and workshop services</li><li>Trades and appointment-led businesses</li></ul><h2>Core setup</h2><ul><li>Online booking flow and calendar structure</li><li>SMS / email reminders</li><li>Client data capture and rebooking workflow</li><li>Service pages + local SEO support</li></ul><!-- AI_SLOT:CTA --><p><a class=\"button primary is-large\" href=\"https://newcastlehub.info/free-newcastle-business-audit/\">Get Booking System Audit</a></p><p>Related: <a href=\"https://newcastlehub.info/beauty-salon-solutions/\">Beauty Solutions</a> | <a href=\"https://newcastlehub.info/mechanic-solutions/\">Mechanic Solutions</a></p><!-- /AI_SLOT:CTA --></div></div></div></div></div></section><!-- /wp:html -->",
+    "rendered": "<section class=\"section\" style=\"padding-top:56px;padding-bottom:56px;\">\n<div class=\"section-content relative\">\n<div class=\"row\">\n<div class=\"col small-12 large-12\">\n<div class=\"col-inner\"><!-- AI_SLOT:INTRO --></p>\n<h1>Booking System Setup for Service-Based Businesses</h1>\n<p><strong>For service businesses: online booking, reminders, calendar flow, and no-show reduction.</strong></p>\n<p><!-- /AI_SLOT:INTRO --></p>\n<h2>Best for</h2>\n<ul>\n<li>Beauty and hair salons</li>\n<li>Mechanics and workshop services</li>\n<li>Trades and appointment-led businesses</li>\n</ul>\n<h2>Core setup</h2>\n<ul>\n<li>Online booking flow and calendar structure</li>\n<li>SMS / email reminders</li>\n<li>Client data capture and rebooking workflow</li>\n<li>Service pages + local SEO support</li>\n</ul>\n<p><!-- AI_SLOT:CTA --></p>\n<p><a class=\"button primary is-large\" href=\"https://newcastlehub.info/free-newcastle-business-audit/\">Get Booking System Audit</a></p>\n<p>Related: <a href=\"https://newcastlehub.info/beauty-salon-solutions/\">Beauty Solutions</a> | <a href=\"https://newcastlehub.info/mechanic-solutions/\">Mechanic Solutions</a></p>\n<p><!-- /AI_SLOT:CTA --></div>\n</div>\n</div>\n</div>\n</div>\n</section>\n",
+    "protected": false,
+    "block_version": 0
+  },
+  "excerpt": {
+    "raw": "",
+    "rendered": "<p>Booking System Setup for Service-Based Businesses For service businesses: online booking, reminders, calendar flow, and no-show reduction. Best for Beauty and hair salons Mechanics and workshop services Trades and appointment-led businesses Core setup Online booking flow and calendar structure SMS / email reminders Client data capture and rebooking workflow Service pages + local SEO support [&#8230;]\n",
+    "protected": false
+  },
+  "author": 4,
+  "featured_media": 0,
+  "parent": 0,
+  "menu_order": 0,
+  "comment_status": "closed",
+  "ping_status": "closed",
+  "template": "",
+  "meta": {
+    "footnotes": ""
+  },
+  "permalink_template": "https://newcastlehub.info/%pagename%/",
+  "generated_slug": "booking-system-setup-newcastle-newcastle-hub",
+  "class_list": [
+    "post-728",
+    "page",
+    "type-page",
+    "status-publish",
+    "hentry"
+  ],
+  "_links": {
+    "self": [
+      {
+        "href": "https://newcastlehub.info/wp-json/wp/v2/pages/728",
+        "targetHints": {
+          "allow": [
+            "GET",
+            "POST",
+            "PUT",
+            "PATCH",
+            "DELETE"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://newcastlehub.info/wp-json/wp/v2/pages"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://newcastlehub.info/wp-json/wp/v2/types/page"
+      }
+    ],
+    "author": [
+      {
+        "embeddable": true,
+        "href": "https://newcastlehub.info/wp-json/wp/v2/users/4"
+      }
+    ],
+    "replies": [
+      {
+        "embeddable": true,
+        "href": "https://newcastlehub.info/wp-json/wp/v2/comments?post=728"
+      }
+    ],
+    "version-history": [
+      {
+        "count": 0,
+        "href": "https://newcastlehub.info/wp-json/wp/v2/pages/728/revisions"
+      }
+    ],
+    "wp:attachment": [
+      {
+        "href": "https://newcastlehub.info/wp-json/wp/v2/media?parent=728"
+      }
+    ],
+    "wp:action-publish": [
+      {
+        "href": "https://newcastlehub.info/wp-json/wp/v2/pages/728"
+      }
+    ],
+    "wp:action-unfiltered-html": [
+      {
+        "href": "https://newcastlehub.info/wp-json/wp/v2/pages/728"
+      }
+    ],
+    "wp:action-assign-author": [
+      {
+        "href": "https://newcastlehub.info/wp-json/wp/v2/pages/728"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "task_id": "phone-update-website-service-494-001",
+  "created_at": "2026-02-16T06:40:00Z",
+  "mode": "execute",
+  "site_profile_ref": "../../site_profiles/newcastlehub.info.json",
+  "site": { "base_url": "{{site.base_url}}" },
+  "task_type": "update_post_or_page",
+  "requires_confirmation": true,
+  "priority": "high",
+  "limits": { "cooldown_hours": 0, "max_write_per_target": 10 },
+  "notes": "Update phone occurrences on page 494 using site_profile phone variables.",
+  "targets": [
+    { "type": "page", "match": { "by": "id", "value": 494 } }
+  ],
+  "operations": [
+    {
+      "op": "replace",
+      "scope": "content",
+      "selector": { "kind": "regex", "value": "tel:0493027766" },
+      "content": { "format": "text", "value": "tel:{{site.phone_tel}}" },
+      "safety": { "max_chars_change": 120, "dry_run_diff": true, "allow_full_replace": true }
+    },
+    {
+      "op": "replace",
+      "scope": "content",
+      "selector": { "kind": "regex", "value": "0493027766" },
+      "content": { "format": "text", "value": "{{site.phone_display}}" },
+      "safety": { "max_chars_change": 120, "dry_run_diff": true, "allow_full_replace": true }
+    }
+  ]
+}

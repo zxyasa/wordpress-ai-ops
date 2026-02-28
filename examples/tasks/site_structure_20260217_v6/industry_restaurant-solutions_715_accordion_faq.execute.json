@@ -1,0 +1,44 @@
+{
+  "task_id": "6e3cb687-ec12-42ff-a07f-8ac1061a8f59",
+  "created_at": "2026-02-17T05:52:00Z",
+  "mode": "execute",
+  "site": {
+    "base_url": "https://newcastlehub.info"
+  },
+  "task_type": "update_post_or_page",
+  "requires_confirmation": true,
+  "priority": "high",
+  "limits": {
+    "cooldown_hours": 0,
+    "max_write_per_target": 10
+  },
+  "notes": "Append accordion FAQ block to restaurant-solutions",
+  "targets": [
+    {
+      "type": "page",
+      "match": {
+        "by": "id",
+        "value": 715
+      }
+    }
+  ],
+  "operations": [
+    {
+      "op": "append",
+      "scope": "content",
+      "selector": {
+        "kind": "regex",
+        "value": "$"
+      },
+      "content": {
+        "format": "html",
+        "value": "\\n\\n<section class=\"section\" id=\"ai-restaurant-solutions-faq\" style=\"padding-top:48px;padding-bottom:48px;background:#f6f8fb;\"><div class=\"section-content relative\"><div class=\"row\"><div class=\"col small-12 large-12\"><div class=\"col-inner\"><!-- AI_SLOT:FAQ --><h2>Restaurant & Cafe Solutions FAQ</h2><details><summary><strong>How can restaurants reduce delivery app commission pressure?</strong></summary><p>By building direct online ordering channels and improving repeat customer flow through your own website and Google presence.</p></details><details><summary><strong>Can this work with Square or Lightspeed?</strong></summary><p>Yes. We structure the setup around your current POS to reduce manual steps and improve operational consistency.</p></details><details><summary><strong>What is the fastest first win?</strong></summary><p>Usually a direct ordering path plus profile and review improvements that increase high-intent local traffic.</p></details><!-- /AI_SLOT:FAQ --><!-- AI_SLOT:CTA --><p><a class=\"button primary is-large\" href=\"https://newcastlehub.info/free-newcastle-business-audit/\">Get Restaurant Audit</a></p><p>Related: <a href=\"https://newcastlehub.info/services/\">Our Services</a> | <a href=\"https://newcastlehub.info/contact/\">Book a Strategy Call</a></p><!-- /AI_SLOT:CTA --><!-- AI_SLOT:SCHEMA --><script type=\"application/ld+json\">{\"@context\": \"https://schema.org\", \"@type\": \"FAQPage\", \"mainEntity\": [{\"@type\": \"Question\", \"name\": \"How can restaurants reduce delivery app commission pressure?\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"By building direct online ordering channels and improving repeat customer flow through your own website and Google presence.\"}}, {\"@type\": \"Question\", \"name\": \"Can this work with Square or Lightspeed?\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"Yes. We structure the setup around your current POS to reduce manual steps and improve operational consistency.\"}}, {\"@type\": \"Question\", \"name\": \"What is the fastest first win?\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"Usually a direct ordering path plus profile and review improvements that increase high-intent local traffic.\"}}]}</script><!-- /AI_SLOT:SCHEMA --></div></div></div></div></section>\\n"
+      },
+      "safety": {
+        "max_chars_change": 10000,
+        "dry_run_diff": true,
+        "allow_full_replace": true
+      }
+    }
+  ]
+}

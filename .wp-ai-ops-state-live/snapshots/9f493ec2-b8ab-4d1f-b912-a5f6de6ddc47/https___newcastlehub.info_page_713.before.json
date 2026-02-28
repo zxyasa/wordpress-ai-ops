@@ -1,0 +1,127 @@
+{
+  "id": 713,
+  "date": "2026-02-16T05:06:46",
+  "date_gmt": "2026-02-16T05:06:46",
+  "guid": {
+    "rendered": "https://newcastlehub.info/beauty-salon-solutions/",
+    "raw": "https://newcastlehub.info/beauty-salon-solutions/"
+  },
+  "modified": "2026-02-16T05:46:00",
+  "modified_gmt": "2026-02-16T05:46:00",
+  "password": "",
+  "slug": "beauty-salon-solutions",
+  "status": "publish",
+  "type": "page",
+  "link": "https://newcastlehub.info/beauty-salon-solutions/",
+  "title": {
+    "raw": "Beauty & Hair Salon Solutions | Newcastle Hub",
+    "rendered": "Beauty &#038; Hair Salon Solutions | Newcastle Hub"
+  },
+  "content": {
+    "raw": "<!-- wp:html --><section class=\"section\" style=\"padding-top:56px;padding-bottom:56px;\"><div class=\"section-content relative\"><div class=\"row\"><div class=\"col small-12 large-12\"><div class=\"col-inner\"><!-- AI_SLOT:INTRO --><h1>Beauty & Hair Salon Solutions</h1><p><strong>Convert DMs into a reliable booking and client-retention system.</strong></p><!-- /AI_SLOT:INTRO --><h2>Are you facing these issues?</h2><ul><li>Booking requests are scattered in DMs</li><li>No reminder workflow and high no-show risk</li><li>No structured client database</li></ul><h2>How we help</h2><ul><li>Booking system setup</li><li>SMS reminder flow</li><li>CRM setup for repeat clients</li><li>Google local SEO for salon search</li></ul><h2>Expected outcomes</h2><ul><li>Fewer no-shows</li><li>Higher rebooking rate</li><li>Better local visibility</li></ul><!-- AI_SLOT:CTA -->\n<p><a class=\"button primary is-large\" href=\"https://newcastlehub.info/booking-system-newcastle/\">I Provide Services — Build My Booking System</a> <a class=\"button secondary is-large\" href=\"https://newcastlehub.info/free-newcastle-business-audit/\">Get Free Business Audit</a></p><p>Service path: <a href=\"https://newcastlehub.info/booking-system-newcastle/\">Booking System</a> + <a href=\"https://newcastlehub.info/google-business-optimisation-newcastle/\">Google Growth</a> + <a href=\"https://newcastlehub.info/website-service/\">Website</a></p>\n<!-- /AI_SLOT:CTA --><!-- AI_SLOT:SCHEMA --><script type=\"application/ld+json\">{\"@context\":\"https://schema.org\",\"@type\":\"Service\",\"name\":\"Beauty & Hair Salon Solutions\",\"provider\":{\"@type\":\"Organization\",\"name\":\"Newcastle Hub\"},\"areaServed\":\"Newcastle\"}</script><!-- /AI_SLOT:SCHEMA --></div></div></div></div></div></section><!-- /wp:html -->",
+    "rendered": "<section class=\"section\" style=\"padding-top:56px;padding-bottom:56px;\"><div class=\"section-content relative\"><div class=\"row\"><div class=\"col small-12 large-12\"><div class=\"col-inner\"><!-- AI_SLOT:INTRO --><h1>Beauty &#038; Hair Salon Solutions</h1><p><strong>Convert DMs into a reliable booking and client-retention system.</strong></p><!-- /AI_SLOT:INTRO --><h2>Are you facing these issues?</h2><ul><li>Booking requests are scattered in DMs</li><li>No reminder workflow and high no-show risk</li><li>No structured client database</li></ul><h2>How we help</h2><ul><li>Booking system setup</li><li>SMS reminder flow</li><li>CRM setup for repeat clients</li><li>Google local SEO for salon search</li></ul><h2>Expected outcomes</h2><ul><li>Fewer no-shows</li><li>Higher rebooking rate</li><li>Better local visibility</li></ul><!-- AI_SLOT:CTA -->\n<p><a class=\"button primary is-large\" href=\"https://newcastlehub.info/booking-system-newcastle/\">I Provide Services — Build My Booking System</a> <a class=\"button secondary is-large\" href=\"https://newcastlehub.info/free-newcastle-business-audit/\">Get Free Business Audit</a></p><p>Service path: <a href=\"https://newcastlehub.info/booking-system-newcastle/\">Booking System</a> + <a href=\"https://newcastlehub.info/google-business-optimisation-newcastle/\">Google Growth</a> + <a href=\"https://newcastlehub.info/website-service/\">Website</a></p>\n<!-- /AI_SLOT:CTA --><!-- AI_SLOT:SCHEMA --><script type=\"application/ld+json\">{\"@context\":\"https://schema.org\",\"@type\":\"Service\",\"name\":\"Beauty & Hair Salon Solutions\",\"provider\":{\"@type\":\"Organization\",\"name\":\"Newcastle Hub\"},\"areaServed\":\"Newcastle\"}</script><!-- /AI_SLOT:SCHEMA --></div></div></div></div></div></section>",
+    "protected": false,
+    "block_version": 1
+  },
+  "excerpt": {
+    "raw": "",
+    "rendered": "<p>Beauty &#038; Hair Salon Solutions Convert DMs into a reliable booking and client-retention system. Are you facing these issues? Booking requests are scattered in DMs No reminder workflow and high no-show risk No structured client database How we help Booking system setup SMS reminder flow CRM setup for repeat clients Google local SEO for salon [&#8230;]\n",
+    "protected": false
+  },
+  "author": 4,
+  "featured_media": 0,
+  "parent": 0,
+  "menu_order": 0,
+  "comment_status": "closed",
+  "ping_status": "closed",
+  "template": "",
+  "meta": {
+    "footnotes": ""
+  },
+  "permalink_template": "https://newcastlehub.info/%pagename%/",
+  "generated_slug": "beauty-hair-salon-solutions-newcastle-hub",
+  "class_list": [
+    "post-713",
+    "page",
+    "type-page",
+    "status-publish",
+    "hentry"
+  ],
+  "_links": {
+    "self": [
+      {
+        "href": "https://newcastlehub.info/wp-json/wp/v2/pages/713",
+        "targetHints": {
+          "allow": [
+            "GET",
+            "POST",
+            "PUT",
+            "PATCH",
+            "DELETE"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://newcastlehub.info/wp-json/wp/v2/pages"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://newcastlehub.info/wp-json/wp/v2/types/page"
+      }
+    ],
+    "author": [
+      {
+        "embeddable": true,
+        "href": "https://newcastlehub.info/wp-json/wp/v2/users/4"
+      }
+    ],
+    "replies": [
+      {
+        "embeddable": true,
+        "href": "https://newcastlehub.info/wp-json/wp/v2/comments?post=713"
+      }
+    ],
+    "version-history": [
+      {
+        "count": 1,
+        "href": "https://newcastlehub.info/wp-json/wp/v2/pages/713/revisions"
+      }
+    ],
+    "predecessor-version": [
+      {
+        "id": 725,
+        "href": "https://newcastlehub.info/wp-json/wp/v2/pages/713/revisions/725"
+      }
+    ],
+    "wp:attachment": [
+      {
+        "href": "https://newcastlehub.info/wp-json/wp/v2/media?parent=713"
+      }
+    ],
+    "wp:action-publish": [
+      {
+        "href": "https://newcastlehub.info/wp-json/wp/v2/pages/713"
+      }
+    ],
+    "wp:action-unfiltered-html": [
+      {
+        "href": "https://newcastlehub.info/wp-json/wp/v2/pages/713"
+      }
+    ],
+    "wp:action-assign-author": [
+      {
+        "href": "https://newcastlehub.info/wp-json/wp/v2/pages/713"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  }
+}

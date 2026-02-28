@@ -1,0 +1,84 @@
+{
+  "task_id": "5a433358-9cdf-4166-a738-dbc65d00c484",
+  "created_at": "2026-02-22T22:10:08.284638+00:00",
+  "mode": "execute",
+  "site": {
+    "base_url": "https://newcastlehub.info",
+    "weekly_limits": {
+      "default": {
+        "cooldown_hours": 24,
+        "max_write_per_target": 3
+      },
+      "groups": {
+        "homepage": {
+          "cooldown_hours": 12,
+          "max_write_per_target": 6
+        },
+        "core": {
+          "cooldown_hours": 16,
+          "max_write_per_target": 5
+        },
+        "service": {
+          "cooldown_hours": 18,
+          "max_write_per_target": 4
+        },
+        "other": {
+          "cooldown_hours": 24,
+          "max_write_per_target": 3
+        }
+      },
+      "core_paths": [
+        "/about/",
+        "/services/",
+        "/contact/",
+        "/free-newcastle-business-audit/"
+      ],
+      "service_path_patterns": [
+        ".*-solutions/?$",
+        ".*-newcastle/?$",
+        "^/services/.*"
+      ]
+    },
+    "bootstrap_urls": [
+      "https://newcastlehub.info/",
+      "https://newcastlehub.info/services/",
+      "https://newcastlehub.info/contact/",
+      "https://newcastlehub.info/free-newcastle-business-audit/"
+    ]
+  },
+  "task_type": "update_post_or_page",
+  "priority": "high",
+  "targets": [
+    {
+      "type": "page",
+      "match": {
+        "by": "url",
+        "value": "https://newcastlehub.info/free-newcastle-business-audit/"
+      }
+    }
+  ],
+  "operations": [
+    {
+      "op": "replace",
+      "scope": "content",
+      "selector": {
+        "kind": "html_comment",
+        "value": "AI_SLOT:INTRO"
+      },
+      "content": {
+        "format": "html",
+        "value": "<p>This section was refreshed by WordPress AI Ops to improve click-through and first-screen clarity. Signals: no_gsc_data_bootstrap.</p>"
+      },
+      "safety": {
+        "max_chars_change": 1200,
+        "dry_run_diff": true,
+        "allow_full_replace": false
+      }
+    }
+  ],
+  "limits": {
+    "cooldown_hours": 16,
+    "max_write_per_target": 5
+  },
+  "notes": "auto-cycle content refresh for https://newcastlehub.info/free-newcastle-business-audit/ (limit_group=core)"
+}

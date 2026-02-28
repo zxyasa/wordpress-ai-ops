@@ -1,0 +1,11 @@
+{
+  "task_id": "320f1efa-676f-4c04-8dca-2659f46eb9da",
+  "mode": "plan",
+  "task_type": "report_only",
+  "site": {
+    "base_url": "https://example.com"
+  },
+  "targets": [],
+  "operations": [],
+  "notes": "MVP health check"
+}

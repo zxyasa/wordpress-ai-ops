@@ -1,0 +1,31 @@
+{
+  "task_id": "a3a6e3fd-8239-4c0a-84d2-3d7d9f8d2a6d",
+  "created_at": "2026-02-15T04:45:00Z",
+  "mode": "execute",
+  "site": { "base_url": "https://newcastlehub.info" },
+  "task_type": "publish_post",
+  "requires_confirmation": true,
+  "priority": "high",
+  "limits": { "cooldown_hours": 0, "max_write_per_target": 10 },
+  "notes": "Create a draft Topic Hub page to support internal linking and site structure.",
+  "targets": [],
+  "operations": [
+    {
+      "op": "set_fields",
+      "scope": "content",
+      "selector": { "kind": "html_comment", "value": "AI_SLOT:INTRO" },
+      "content": {
+        "format": "json",
+        "value": {
+          "type": "page",
+          "status": "draft",
+          "slug": "newcastle-growth-hub",
+          "title": "Newcastle Growth Hub",
+          "content": "<section class=\"section\" id=\"ai-growth-hub\"><div class=\"section-content relative\"><div class=\"row\"><div class=\"col small-12 large-12\"><div class=\"col-inner\"><div class=\"text\"><!-- AI_SLOT:INTRO --><p><strong>Newcastle Growth Hub</strong> is a simple guide to the services and pages that help you get more leads: a fast website, local SEO, and a clear conversion path.</p><!-- /AI_SLOT:INTRO --><!-- AI_SLOT:CTA --><p><a class=\\\"button primary is-large\\\" href=\\\"https://newcastlehub.info/contact/\\\">Talk to Newcastle Hub</a></p><!-- /AI_SLOT:CTA --><h2>Start here</h2><ol><li><a href=\"https://newcastlehub.info/website-service/\">Website Service</a> - Build a fast site that converts.</li><li><a href=\"https://newcastlehub.info/marketing-service/\">Digital Marketing</a> - Grow visibility and leads.</li><li><a href=\"https://newcastlehub.info/hosting-plan/\">Web Hosting</a> - Reliable hosting and support.</li></ol><h2>Explore</h2><ul><li><a href=\"https://newcastlehub.info/portfolio/\">Portfolio</a></li><li><a href=\"https://newcastlehub.info/about/\">About</a></li><li><a href=\"https://newcastlehub.info/contact/\">Contact</a></li></ul><!-- AI_SLOT:SCHEMA --><script type=\"application/ld+json\">{\"@context\":\"https://schema.org\",\"@type\":\"WebPage\",\"name\":\"Newcastle Growth Hub\"}</script><!-- /AI_SLOT:SCHEMA --></div></div></div></div></div></section>"
+        }
+      },
+      "safety": { "max_chars_change": 20000, "dry_run_diff": true, "allow_full_replace": true }
+    }
+  ]
+}
+

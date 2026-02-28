@@ -1,0 +1,30 @@
+{
+  "task_id": "088098d6-4f66-4c12-a439-b67d90730187",
+  "created_at": "2026-02-16T04:46:20Z",
+  "mode": "execute",
+  "site": { "base_url": "https://newcastlehub.info" },
+  "task_type": "set_meta",
+  "requires_confirmation": true,
+  "priority": "high",
+  "limits": { "cooldown_hours": 0, "max_write_per_target": 10 },
+  "notes": "SEO meta for Hosting Starter page.",
+  "targets": [
+    { "type": "page", "match": { "by": "id", "value": 92 } }
+  ],
+  "operations": [
+    {
+      "op": "set_meta",
+      "scope": "meta",
+      "selector": { "kind": "html_comment", "value": "AI_SLOT:SCHEMA" },
+      "content": {
+        "format": "json",
+        "value": {
+          "rank_math_title": "Web Hosting Starter | Newcastle Small Business Hosting",
+          "rank_math_description": "Affordable starter web hosting in Newcastle with stable performance, setup support, and room to grow.",
+          "rank_math_focus_keyword": "starter web hosting Newcastle"
+        }
+      },
+      "safety": { "max_chars_change": 500, "dry_run_diff": true, "allow_full_replace": false }
+    }
+  ]
+}

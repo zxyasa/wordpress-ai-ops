@@ -1,0 +1,59 @@
+# Consistency Scan Report
+
+- Time: 2026-02-16T21:50:00.303559+00:00
+- Site: https://newcastlehub.info
+- Findings: 49
+- Errors: 0
+- Warnings: 49
+- Internal links checked: 0
+
+## Findings
+- [warn] missing_slot (pages:729:ecommerce-setup-newcastle) - Missing slot marker: AI_SLOT:SCHEMA
+- [warn] missing_slot (pages:728:booking-system-newcastle) - Missing slot marker: AI_SLOT:SCHEMA
+- [warn] phone_mismatch (pages:728:booking-system-newcastle) - Configured display phone not found: 02 40755307
+- [warn] missing_slot (pages:723:pos-setup-newcastle) - Missing slot marker: AI_SLOT:SCHEMA
+- [warn] missing_schema (pages:723:pos-setup-newcastle) - Missing JSON-LD schema block
+- [warn] missing_slot (pages:722:online-ordering-newcastle) - Missing slot marker: AI_SLOT:SCHEMA
+- [warn] missing_schema (pages:722:online-ordering-newcastle) - Missing JSON-LD schema block
+- [warn] missing_slot (pages:721:google-business-optimisation-newcastle) - Missing slot marker: AI_SLOT:SCHEMA
+- [warn] missing_schema (pages:721:google-business-optimisation-newcastle) - Missing JSON-LD schema block
+- [warn] missing_slot (pages:719:why-choose-newcastle-hub) - Missing slot marker: AI_SLOT:SCHEMA
+- [warn] missing_schema (pages:719:why-choose-newcastle-hub) - Missing JSON-LD schema block
+- [warn] missing_slot (pages:684:google-business-profile-for-restaurants-newcastle) - Missing slot marker: AI_SLOT:CTA
+- [warn] missing_schema (pages:684:google-business-profile-for-restaurants-newcastle) - Missing JSON-LD schema block
+- [warn] missing_slot (pages:686:qr-table-ordering-newcastle) - Missing slot marker: AI_SLOT:CTA
+- [warn] missing_schema (pages:686:qr-table-ordering-newcastle) - Missing JSON-LD schema block
+- [warn] phone_mismatch (pages:686:qr-table-ordering-newcastle) - Configured display phone not found: 02 40755307
+- [warn] missing_slot (pages:685:facebook-page-setup-for-restaurants-newcastle) - Missing slot marker: AI_SLOT:CTA
+- [warn] missing_schema (pages:685:facebook-page-setup-for-restaurants-newcastle) - Missing JSON-LD schema block
+- [warn] phone_mismatch (pages:685:facebook-page-setup-for-restaurants-newcastle) - Configured display phone not found: 02 40755307
+- [warn] phone_mismatch (pages:683:newcastle-restaurant-square-setup) - Configured display phone not found: 02 40755307
+- [warn] missing_slot (pages:649:create-an-ai-avatar) - Missing slot marker: AI_SLOT:INTRO
+- [warn] missing_slot (pages:649:create-an-ai-avatar) - Missing slot marker: AI_SLOT:CTA
+- [warn] missing_slot (pages:649:create-an-ai-avatar) - Missing slot marker: AI_SLOT:SCHEMA
+- [warn] missing_schema (pages:649:create-an-ai-avatar) - Missing JSON-LD schema block
+- [warn] missing_slot (pages:601:my-account) - Missing slot marker: AI_SLOT:INTRO
+- [warn] missing_slot (pages:601:my-account) - Missing slot marker: AI_SLOT:CTA
+- [warn] missing_slot (pages:601:my-account) - Missing slot marker: AI_SLOT:SCHEMA
+- [warn] missing_schema (pages:601:my-account) - Missing JSON-LD schema block
+- [warn] missing_slot (pages:600:checkout) - Missing slot marker: AI_SLOT:INTRO
+- [warn] missing_slot (pages:600:checkout) - Missing slot marker: AI_SLOT:CTA
+- [warn] missing_slot (pages:600:checkout) - Missing slot marker: AI_SLOT:SCHEMA
+- [warn] missing_schema (pages:600:checkout) - Missing JSON-LD schema block
+- [warn] missing_slot (pages:599:cart) - Missing slot marker: AI_SLOT:INTRO
+- [warn] missing_slot (pages:599:cart) - Missing slot marker: AI_SLOT:CTA
+- [warn] missing_slot (pages:599:cart) - Missing slot marker: AI_SLOT:SCHEMA
+- [warn] missing_schema (pages:599:cart) - Missing JSON-LD schema block
+- [warn] missing_slot (pages:598:shop) - Missing slot marker: AI_SLOT:INTRO
+- [warn] missing_slot (pages:598:shop) - Missing slot marker: AI_SLOT:CTA
+- [warn] missing_slot (pages:598:shop) - Missing slot marker: AI_SLOT:SCHEMA
+- [warn] missing_schema (pages:598:shop) - Missing JSON-LD schema block
+- [warn] missing_slot (pages:110:home-2) - Missing slot marker: AI_SLOT:INTRO
+- [warn] missing_slot (pages:110:home-2) - Missing slot marker: AI_SLOT:CTA
+- [warn] missing_slot (pages:110:home-2) - Missing slot marker: AI_SLOT:SCHEMA
+- [warn] missing_schema (pages:110:home-2) - Missing JSON-LD schema block
+- [warn] missing_schema (pages:30:home) - Missing JSON-LD schema block
+- [warn] missing_slot (pages:27:blog) - Missing slot marker: AI_SLOT:INTRO
+- [warn] missing_slot (pages:27:blog) - Missing slot marker: AI_SLOT:CTA
+- [warn] missing_slot (pages:27:blog) - Missing slot marker: AI_SLOT:SCHEMA
+- [warn] missing_schema (pages:27:blog) - Missing JSON-LD schema block

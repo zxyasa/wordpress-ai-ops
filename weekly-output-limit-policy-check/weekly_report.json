@@ -1,0 +1,183 @@
+{
+  "generated_at": "2026-02-18T05:35:10.000033+00:00",
+  "inputs": {
+    "gsc_csv": "examples/csv/newcastle_baseline_gsc.csv",
+    "ga_csv": "examples/csv/newcastle_baseline_ga.csv"
+  },
+  "site": {
+    "base_url": "https://newcastlehub.info",
+    "weekly_limits": {
+      "default": {
+        "cooldown_hours": 24,
+        "max_write_per_target": 3
+      },
+      "groups": {
+        "homepage": {
+          "cooldown_hours": 12,
+          "max_write_per_target": 6
+        },
+        "core": {
+          "cooldown_hours": 16,
+          "max_write_per_target": 5
+        },
+        "service": {
+          "cooldown_hours": 18,
+          "max_write_per_target": 4
+        },
+        "other": {
+          "cooldown_hours": 24,
+          "max_write_per_target": 3
+        }
+      },
+      "core_paths": [
+        "/about/",
+        "/services/",
+        "/contact/",
+        "/free-newcastle-business-audit/"
+      ],
+      "service_path_patterns": [
+        ".*-solutions/?$",
+        ".*-newcastle/?$",
+        "^/services/.*"
+      ]
+    }
+  },
+  "selected_pages": [
+    {
+      "url": "https://newcastlehub.info/",
+      "score": 7,
+      "reasons": [
+        "high_impressions_low_ctr",
+        "rank_5_15",
+        "high_bounce"
+      ],
+      "impressions": 3200.0,
+      "clicks": 42.0,
+      "ctr": 0.013,
+      "position": 9.1,
+      "bounce_rate": 0.72
+    },
+    {
+      "url": "https://newcastlehub.info/services/",
+      "score": 7,
+      "reasons": [
+        "high_impressions_low_ctr",
+        "rank_5_15",
+        "high_bounce"
+      ],
+      "impressions": 1450.0,
+      "clicks": 18.0,
+      "ctr": 0.012,
+      "position": 10.4,
+      "bounce_rate": 0.78
+    },
+    {
+      "url": "https://newcastlehub.info/online-ordering-newcastle/",
+      "score": 7,
+      "reasons": [
+        "high_impressions_low_ctr",
+        "rank_5_15",
+        "high_bounce"
+      ],
+      "impressions": 1020.0,
+      "clicks": 13.0,
+      "ctr": 0.013,
+      "position": 8.2,
+      "bounce_rate": 0.73
+    }
+  ],
+  "generated_tasks": [
+    {
+      "task_id": "c19938c0-2abf-4ae3-b83e-642d9a768a58",
+      "task_type": "update_post_or_page",
+      "target_url": "https://newcastlehub.info/",
+      "reasons": [
+        "high_impressions_low_ctr",
+        "rank_5_15",
+        "high_bounce"
+      ]
+    },
+    {
+      "task_id": "a7ae5490-b58d-42e9-a706-a2e70a2b8470",
+      "task_type": "inject_schema_faq",
+      "target_url": "https://newcastlehub.info/",
+      "reasons": [
+        "high_impressions_low_ctr",
+        "rank_5_15",
+        "high_bounce"
+      ]
+    },
+    {
+      "task_id": "c8e88fde-ac2f-46eb-b029-0e3fd878f87e",
+      "task_type": "append_internal_links",
+      "target_url": "https://newcastlehub.info/",
+      "reasons": [
+        "high_impressions_low_ctr",
+        "rank_5_15",
+        "high_bounce"
+      ]
+    },
+    {
+      "task_id": "55f10c19-f648-42c1-894d-e93c5c25a03d",
+      "task_type": "update_post_or_page",
+      "target_url": "https://newcastlehub.info/services/",
+      "reasons": [
+        "high_impressions_low_ctr",
+        "rank_5_15",
+        "high_bounce"
+      ]
+    },
+    {
+      "task_id": "4702af2b-c05c-4fb5-b600-ff737d199ab6",
+      "task_type": "inject_schema_faq",
+      "target_url": "https://newcastlehub.info/services/",
+      "reasons": [
+        "high_impressions_low_ctr",
+        "rank_5_15",
+        "high_bounce"
+      ]
+    },
+    {
+      "task_id": "a7a71e6d-c31a-40c9-b05c-d59d78dca514",
+      "task_type": "append_internal_links",
+      "target_url": "https://newcastlehub.info/services/",
+      "reasons": [
+        "high_impressions_low_ctr",
+        "rank_5_15",
+        "high_bounce"
+      ]
+    },
+    {
+      "task_id": "05026274-b8b5-4513-b215-7b1bb07350d7",
+      "task_type": "update_post_or_page",
+      "target_url": "https://newcastlehub.info/online-ordering-newcastle/",
+      "reasons": [
+        "high_impressions_low_ctr",
+        "rank_5_15",
+        "high_bounce"
+      ]
+    },
+    {
+      "task_id": "a0d241bd-3584-4281-81f0-027d31ef7c57",
+      "task_type": "inject_schema_faq",
+      "target_url": "https://newcastlehub.info/online-ordering-newcastle/",
+      "reasons": [
+        "high_impressions_low_ctr",
+        "rank_5_15",
+        "high_bounce"
+      ]
+    },
+    {
+      "task_id": "052f3cfc-8374-4595-a5af-61a19103d99a",
+      "task_type": "append_internal_links",
+      "target_url": "https://newcastlehub.info/online-ordering-newcastle/",
+      "reasons": [
+        "high_impressions_low_ctr",
+        "rank_5_15",
+        "high_bounce"
+      ]
+    }
+  ],
+  "tasks_dir": "weekly-output-limit-policy-check/tasks",
+  "execution_results": []
+}

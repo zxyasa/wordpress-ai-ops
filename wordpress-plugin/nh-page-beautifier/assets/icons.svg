@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" style="display:none" aria-hidden="true">
+  <symbol id="nhpb-icon-pos" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="3" y="3" width="18" height="18" rx="3"/>
+    <path d="M8 8h8M8 12h8M8 16h5"/>
+  </symbol>
+  <symbol id="nhpb-icon-website" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="2" y="4" width="20" height="16" rx="3"/>
+    <path d="M2 9h20M8 4v16"/>
+  </symbol>
+  <symbol id="nhpb-icon-seo" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="11" cy="11" r="7"/>
+    <path d="M20 20l-4-4M11 8v6M8 11h6"/>
+  </symbol>
+  <symbol id="nhpb-icon-support" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M4 15a8 8 0 1 1 16 0"/>
+    <rect x="2" y="14" width="4" height="6" rx="2"/>
+    <rect x="18" y="14" width="4" height="6" rx="2"/>
+    <path d="M12 20v2"/>
+  </symbol>
+  <symbol id="nhpb-icon-checklist" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="4" y="3" width="16" height="18" rx="2"/>
+    <path d="M8 8l2 2 4-4M8 14h8"/>
+  </symbol>
+  <symbol id="nhpb-icon-clock" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="12" cy="12" r="9"/>
+    <path d="M12 7v6l4 2"/>
+  </symbol>
+  <symbol id="nhpb-icon-shield" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M12 3l7 3v6c0 5-3 8-7 9-4-1-7-4-7-9V6l7-3z"/>
+    <path d="M9 12l2 2 4-4"/>
+  </symbol>
+  <symbol id="nhpb-icon-chat" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M4 5h16v10H8l-4 4V5z"/>
+    <path d="M8 9h8M8 12h5"/>
+  </symbol>
+</svg>

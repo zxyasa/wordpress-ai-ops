@@ -1,0 +1,26 @@
+{
+  "task_id": "2cb8c9d9-25ce-4ecd-9e89-0896c7ef01c2",
+  "created_at": "2026-02-17T05:20:00Z",
+  "mode": "execute",
+  "site": { "base_url": "https://newcastlehub.info" },
+  "task_type": "update_post_or_page",
+  "requires_confirmation": true,
+  "priority": "high",
+  "limits": { "cooldown_hours": 0, "max_write_per_target": 10 },
+  "notes": "Append FAQ/CTA/schema block to AI Service Implementation Pack page",
+  "targets": [
+    { "type": "page", "match": { "by": "id", "value": 789 } }
+  ],
+  "operations": [
+    {
+      "op": "append",
+      "scope": "content",
+      "selector": { "kind": "regex", "value": "$" },
+      "content": {
+        "format": "html",
+        "value": "\n\n<section class=\"section\" id=\"ai-pack-seo-block\" style=\"padding-top:56px;padding-bottom:56px;background:#f6f8fb;\"><div class=\"section-content relative\"><div class=\"row\"><div class=\"col small-12 large-12\"><div class=\"col-inner\"><!-- AI_SLOT:INTRO --><h2>Who This AI Pack Is For</h2><p>This pack fits local businesses that need practical AI implementation, not generic consulting. We focus on measurable outcomes, process clarity, and deployable assets.</p><!-- /AI_SLOT:INTRO --><!-- AI_SLOT:FAQ --><h3>What is included in the implementation pack?</h3><p>Scope definition, delivery milestones, operating boundaries, and rollout priorities tied to business goals.</p><h3>How long does implementation usually take?</h3><p>Most small-to-medium implementations run in phases across 2-6 weeks depending on stack complexity.</p><h3>Can this connect with website and lead workflows?</h3><p>Yes. We align automation with website forms, CRM handoff, and conversion tracking where applicable.</p><!-- /AI_SLOT:FAQ --><!-- AI_SLOT:CTA --><p><a class=\"button primary is-large\" href=\"https://newcastlehub.info/free-newcastle-business-audit/\">Get Free Business Audit</a></p><p>Related: <a href=\"https://newcastlehub.info/ai-service/\">AI Service</a> | <a href=\"https://newcastlehub.info/services/\">Our Services</a> | <a href=\"https://newcastlehub.info/contact/\">Contact</a></p><!-- /AI_SLOT:CTA --><!-- AI_SLOT:SCHEMA --><script type=\"application/ld+json\">{\"@context\":\"https://schema.org\",\"@type\":\"FAQPage\",\"mainEntity\":[{\"@type\":\"Question\",\"name\":\"What is included in the implementation pack?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"Scope definition, delivery milestones, operating boundaries, and rollout priorities tied to business goals.\"}},{\"@type\":\"Question\",\"name\":\"How long does implementation usually take?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"Most small-to-medium implementations run in phases across 2-6 weeks depending on stack complexity.\"}},{\"@type\":\"Question\",\"name\":\"Can this connect with website and lead workflows?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"Yes. We align automation with website forms, CRM handoff, and conversion tracking where applicable.\"}}]}</script><!-- /AI_SLOT:SCHEMA --></div></div></div></div></div></section>\n"
+      },
+      "safety": { "max_chars_change": 12000, "dry_run_diff": true, "allow_full_replace": true }
+    }
+  ]
+}

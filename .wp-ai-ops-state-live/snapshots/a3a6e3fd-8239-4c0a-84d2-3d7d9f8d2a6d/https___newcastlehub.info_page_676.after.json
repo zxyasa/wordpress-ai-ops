@@ -1,0 +1,121 @@
+{
+  "id": 676,
+  "date": "2026-02-15T04:47:15",
+  "date_gmt": "2026-02-15T04:47:15",
+  "guid": {
+    "rendered": "https://newcastlehub.info/?page_id=676",
+    "raw": "https://newcastlehub.info/?page_id=676"
+  },
+  "modified": "2026-02-15T04:47:15",
+  "modified_gmt": "2026-02-15T04:47:15",
+  "password": "",
+  "slug": "newcastle-growth-hub",
+  "status": "draft",
+  "type": "page",
+  "link": "https://newcastlehub.info/?page_id=676",
+  "title": {
+    "raw": "Newcastle Growth Hub",
+    "rendered": "Newcastle Growth Hub"
+  },
+  "content": {
+    "raw": "<!-- wp:html --><section class=\"section\" id=\"ai-growth-hub\"><div class=\"section-content relative\"><div class=\"row\"><div class=\"col small-12 large-12\"><div class=\"col-inner\"><div class=\"text\"><!-- AI_SLOT:INTRO --><p><strong>Newcastle Growth Hub</strong> is a simple guide to the services and pages that help you get more leads: a fast website, local SEO, and a clear conversion path.</p><!-- /AI_SLOT:INTRO --><!-- AI_SLOT:CTA --><p><a class=\\\"button primary is-large\\\" href=\\\"https://newcastlehub.info/contact/\\\">Talk to Newcastle Hub</a></p><!-- /AI_SLOT:CTA --><h2>Start here</h2><ol><li><a href=\"https://newcastlehub.info/website-service/\">Website Service</a> - Build a fast site that converts.</li><li><a href=\"https://newcastlehub.info/marketing-service/\">Digital Marketing</a> - Grow visibility and leads.</li><li><a href=\"https://newcastlehub.info/hosting-plan/\">Web Hosting</a> - Reliable hosting and support.</li></ol><h2>Explore</h2><ul><li><a href=\"https://newcastlehub.info/portfolio/\">Portfolio</a></li><li><a href=\"https://newcastlehub.info/about/\">About</a></li><li><a href=\"https://newcastlehub.info/contact/\">Contact</a></li></ul><!-- AI_SLOT:SCHEMA --><script type=\"application/ld+json\">{\"@context\":\"https://schema.org\",\"@type\":\"WebPage\",\"name\":\"Newcastle Growth Hub\"}</script><!-- /AI_SLOT:SCHEMA --></div></div></div></div></div></section><!-- /wp:html -->",
+    "rendered": "<section class=\"section\" id=\"ai-growth-hub\">\n<div class=\"section-content relative\">\n<div class=\"row\">\n<div class=\"col small-12 large-12\">\n<div class=\"col-inner\">\n<div class=\"text\"><!-- AI_SLOT:INTRO --></p>\n<p><strong>Newcastle Growth Hub</strong> is a simple guide to the services and pages that help you get more leads: a fast website, local SEO, and a clear conversion path.</p>\n<p><!-- /AI_SLOT:INTRO --><!-- AI_SLOT:CTA --></p>\n<p><a class=\\\"button primary is-large\\\" href=\\\"https://newcastlehub.info/contact/\\\">Talk to Newcastle Hub</a></p>\n<p><!-- /AI_SLOT:CTA --></p>\n<h2>Start here</h2>\n<ol>\n<li><a href=\"https://newcastlehub.info/website-service/\">Website Service</a> &#8211; Build a fast site that converts.</li>\n<li><a href=\"https://newcastlehub.info/marketing-service/\">Digital Marketing</a> &#8211; Grow visibility and leads.</li>\n<li><a href=\"https://newcastlehub.info/hosting-plan/\">Web Hosting</a> &#8211; Reliable hosting and support.</li>\n</ol>\n<h2>Explore</h2>\n<ul>\n<li><a href=\"https://newcastlehub.info/portfolio/\">Portfolio</a></li>\n<li><a href=\"https://newcastlehub.info/about/\">About</a></li>\n<li><a href=\"https://newcastlehub.info/contact/\">Contact</a></li>\n</ul>\n<p><!-- AI_SLOT:SCHEMA --><script type=\"application/ld+json\">{\"@context\":\"https://schema.org\",\"@type\":\"WebPage\",\"name\":\"Newcastle Growth Hub\"}</script><!-- /AI_SLOT:SCHEMA --></div>\n</div>\n</div>\n</div>\n</div>\n</section>\n",
+    "protected": false,
+    "block_version": 0
+  },
+  "excerpt": {
+    "raw": "",
+    "rendered": "<p>Newcastle Growth Hub is a simple guide to the services and pages that help you get more leads: a fast website, local SEO, and a clear conversion path. Talk to Newcastle Hub Start here Website Service &#8211; Build a fast site that converts. Digital Marketing &#8211; Grow visibility and leads. Web Hosting &#8211; Reliable hosting [&#8230;]\n",
+    "protected": false
+  },
+  "author": 4,
+  "featured_media": 0,
+  "parent": 0,
+  "menu_order": 0,
+  "comment_status": "closed",
+  "ping_status": "closed",
+  "template": "",
+  "meta": {
+    "footnotes": ""
+  },
+  "permalink_template": "https://newcastlehub.info/%pagename%/",
+  "generated_slug": "newcastle-growth-hub",
+  "class_list": [
+    "post-676",
+    "page",
+    "type-page",
+    "status-draft",
+    "hentry"
+  ],
+  "_links": {
+    "self": [
+      {
+        "href": "https://newcastlehub.info/wp-json/wp/v2/pages/676",
+        "targetHints": {
+          "allow": [
+            "GET",
+            "POST",
+            "PUT",
+            "PATCH",
+            "DELETE"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://newcastlehub.info/wp-json/wp/v2/pages"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://newcastlehub.info/wp-json/wp/v2/types/page"
+      }
+    ],
+    "author": [
+      {
+        "embeddable": true,
+        "href": "https://newcastlehub.info/wp-json/wp/v2/users/4"
+      }
+    ],
+    "replies": [
+      {
+        "embeddable": true,
+        "href": "https://newcastlehub.info/wp-json/wp/v2/comments?post=676"
+      }
+    ],
+    "version-history": [
+      {
+        "count": 0,
+        "href": "https://newcastlehub.info/wp-json/wp/v2/pages/676/revisions"
+      }
+    ],
+    "wp:attachment": [
+      {
+        "href": "https://newcastlehub.info/wp-json/wp/v2/media?parent=676"
+      }
+    ],
+    "wp:action-publish": [
+      {
+        "href": "https://newcastlehub.info/wp-json/wp/v2/pages/676"
+      }
+    ],
+    "wp:action-unfiltered-html": [
+      {
+        "href": "https://newcastlehub.info/wp-json/wp/v2/pages/676"
+      }
+    ],
+    "wp:action-assign-author": [
+      {
+        "href": "https://newcastlehub.info/wp-json/wp/v2/pages/676"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  }
+}

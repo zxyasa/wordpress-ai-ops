@@ -1,0 +1,66 @@
+{
+  "task_id": "fix-phone-mismatch-4pages-001",
+  "created_at": "2026-02-16T22:00:00Z",
+  "mode": "execute",
+  "site_profile_ref": "../../site_profiles/newcastlehub.info.json",
+  "site": {
+    "base_url": "{{site.base_url}}"
+  },
+  "task_type": "update_post_or_page",
+  "requires_confirmation": true,
+  "priority": "high",
+  "limits": {
+    "cooldown_hours": 0,
+    "max_write_per_target": 10
+  },
+  "notes": "Add configured phone line into CTA slot for pages flagged by consistency phone_mismatch.",
+  "targets": [
+    {
+      "type": "page",
+      "match": {
+        "by": "id",
+        "value": 683
+      }
+    },
+    {
+      "type": "page",
+      "match": {
+        "by": "id",
+        "value": 685
+      }
+    },
+    {
+      "type": "page",
+      "match": {
+        "by": "id",
+        "value": 686
+      }
+    },
+    {
+      "type": "page",
+      "match": {
+        "by": "id",
+        "value": 728
+      }
+    }
+  ],
+  "operations": [
+    {
+      "op": "append",
+      "scope": "content",
+      "selector": {
+        "kind": "html_comment",
+        "value": "AI_SLOT:CTA"
+      },
+      "content": {
+        "format": "html",
+        "value": "<p>Phone: <a href=\"tel:{{site.phone_tel}}\">{{site.phone_display}}</a></p>"
+      },
+      "safety": {
+        "max_chars_change": 800,
+        "dry_run_diff": true,
+        "allow_full_replace": false
+      }
+    }
+  ]
+}

@@ -1,0 +1,177 @@
+{
+  "generated_at": "2026-02-15T01:10:57.539495+00:00",
+  "inputs": {
+    "gsc_csv": "examples/csv/gsc_sample.csv",
+    "ga_csv": "examples/csv/ga_sample.csv"
+  },
+  "site": {
+    "base_url": "https://example.com"
+  },
+  "selected_pages": [
+    {
+      "url": "https://example.com/best-cake-recipes",
+      "score": 7,
+      "reasons": [
+        "high_impressions_low_ctr",
+        "rank_5_15",
+        "high_bounce"
+      ],
+      "impressions": 12000.0,
+      "clicks": 120.0,
+      "ctr": 0.01,
+      "position": 8.4,
+      "bounce_rate": 0.78
+    },
+    {
+      "url": "https://example.com/chocolate-frosting-guide",
+      "score": 7,
+      "reasons": [
+        "high_impressions_low_ctr",
+        "rank_5_15",
+        "high_bounce"
+      ],
+      "impressions": 5400.0,
+      "clicks": 35.0,
+      "ctr": 0.006500000000000001,
+      "position": 11.2,
+      "bounce_rate": 0.74
+    }
+  ],
+  "generated_tasks": [
+    {
+      "task_id": "2af6207b-b8f5-43b0-99e1-56c5824508be",
+      "task_type": "update_post_or_page",
+      "target_url": "https://example.com/best-cake-recipes",
+      "reasons": [
+        "high_impressions_low_ctr",
+        "rank_5_15",
+        "high_bounce"
+      ]
+    },
+    {
+      "task_id": "0411aedb-002c-491b-b0b6-8d7a569cd0f0",
+      "task_type": "inject_schema_faq",
+      "target_url": "https://example.com/best-cake-recipes",
+      "reasons": [
+        "high_impressions_low_ctr",
+        "rank_5_15",
+        "high_bounce"
+      ]
+    },
+    {
+      "task_id": "485cc895-d1a7-414d-a1f4-8ae6767066e1",
+      "task_type": "append_internal_links",
+      "target_url": "https://example.com/best-cake-recipes",
+      "reasons": [
+        "high_impressions_low_ctr",
+        "rank_5_15",
+        "high_bounce"
+      ]
+    },
+    {
+      "task_id": "9809d1a6-7525-4027-9b52-15f5ee687aa1",
+      "task_type": "update_post_or_page",
+      "target_url": "https://example.com/chocolate-frosting-guide",
+      "reasons": [
+        "high_impressions_low_ctr",
+        "rank_5_15",
+        "high_bounce"
+      ]
+    },
+    {
+      "task_id": "6cb64236-825c-4a88-bbba-4ffb26287064",
+      "task_type": "inject_schema_faq",
+      "target_url": "https://example.com/chocolate-frosting-guide",
+      "reasons": [
+        "high_impressions_low_ctr",
+        "rank_5_15",
+        "high_bounce"
+      ]
+    },
+    {
+      "task_id": "4ce772d1-690a-457f-884a-97e4b9a4b2b9",
+      "task_type": "append_internal_links",
+      "target_url": "https://example.com/chocolate-frosting-guide",
+      "reasons": [
+        "high_impressions_low_ctr",
+        "rank_5_15",
+        "high_bounce"
+      ]
+    }
+  ],
+  "tasks_dir": "weekly-output-2/tasks",
+  "execution_results": [
+    {
+      "task_id": "",
+      "status": "failed",
+      "error": "Missing required env var: WP_USERNAME",
+      "results": [],
+      "errors": [
+        {
+          "error": "Missing required env var: WP_USERNAME"
+        }
+      ],
+      "task_file": "weekly-output-2/tasks/0411aedb-002c-491b-b0b6-8d7a569cd0f0.json"
+    },
+    {
+      "task_id": "",
+      "status": "failed",
+      "error": "Missing required env var: WP_USERNAME",
+      "results": [],
+      "errors": [
+        {
+          "error": "Missing required env var: WP_USERNAME"
+        }
+      ],
+      "task_file": "weekly-output-2/tasks/2af6207b-b8f5-43b0-99e1-56c5824508be.json"
+    },
+    {
+      "task_id": "",
+      "status": "failed",
+      "error": "Missing required env var: WP_USERNAME",
+      "results": [],
+      "errors": [
+        {
+          "error": "Missing required env var: WP_USERNAME"
+        }
+      ],
+      "task_file": "weekly-output-2/tasks/485cc895-d1a7-414d-a1f4-8ae6767066e1.json"
+    },
+    {
+      "task_id": "",
+      "status": "failed",
+      "error": "Missing required env var: WP_USERNAME",
+      "results": [],
+      "errors": [
+        {
+          "error": "Missing required env var: WP_USERNAME"
+        }
+      ],
+      "task_file": "weekly-output-2/tasks/4ce772d1-690a-457f-884a-97e4b9a4b2b9.json"
+    },
+    {
+      "task_id": "",
+      "status": "failed",
+      "error": "Missing required env var: WP_USERNAME",
+      "results": [],
+      "errors": [
+        {
+          "error": "Missing required env var: WP_USERNAME"
+        }
+      ],
+      "task_file": "weekly-output-2/tasks/6cb64236-825c-4a88-bbba-4ffb26287064.json"
+    },
+    {
+      "task_id": "",
+      "status": "failed",
+      "error": "Missing required env var: WP_USERNAME",
+      "results": [],
+      "errors": [
+        {
+          "error": "Missing required env var: WP_USERNAME"
+        }
+      ],
+      "task_file": "weekly-output-2/tasks/9809d1a6-7525-4027-9b52-15f5ee687aa1.json"
+    }
+  ]
+}

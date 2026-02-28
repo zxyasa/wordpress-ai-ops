@@ -1,0 +1,24 @@
+{
+  "task_id": "update-services-39-ai-link-utm-001",
+  "created_at": "2026-02-16T23:18:00Z",
+  "mode": "execute",
+  "site_profile_ref": "../../site_profiles/newcastlehub.info.json",
+  "site": { "base_url": "{{site.base_url}}" },
+  "task_type": "update_post_or_page",
+  "requires_confirmation": true,
+  "priority": "high",
+  "limits": { "cooldown_hours": 0, "max_write_per_target": 40 },
+  "notes": "Add UTM tracking to AI service card link on services page.",
+  "targets": [
+    { "type": "page", "match": { "by": "id", "value": 39 } }
+  ],
+  "operations": [
+    {
+      "op": "replace",
+      "scope": "content",
+      "selector": { "kind": "regex", "value": "https://newcastlehub.info/ai-service/" },
+      "content": { "format": "html", "value": "https://newcastlehub.info/ai-service/?utm_source=services-card&utm_medium=internal&utm_campaign=ai-service-launch" },
+      "safety": { "max_chars_change": 300, "dry_run_diff": true, "allow_full_replace": false }
+    }
+  ]
+}

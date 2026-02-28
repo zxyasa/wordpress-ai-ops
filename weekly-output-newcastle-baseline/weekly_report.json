@@ -1,0 +1,236 @@
+{
+  "generated_at": "2026-02-17T06:19:47.709181+00:00",
+  "inputs": {
+    "gsc_csv": "examples/csv/newcastle_baseline_gsc.csv",
+    "ga_csv": "examples/csv/newcastle_baseline_ga.csv"
+  },
+  "site": {
+    "base_url": "https://newcastlehub.info"
+  },
+  "selected_pages": [
+    {
+      "url": "https://newcastlehub.info/",
+      "score": 7,
+      "reasons": [
+        "high_impressions_low_ctr",
+        "rank_5_15",
+        "high_bounce"
+      ],
+      "impressions": 3200.0,
+      "clicks": 42.0,
+      "ctr": 0.013,
+      "position": 9.1,
+      "bounce_rate": 0.72
+    },
+    {
+      "url": "https://newcastlehub.info/services/",
+      "score": 7,
+      "reasons": [
+        "high_impressions_low_ctr",
+        "rank_5_15",
+        "high_bounce"
+      ],
+      "impressions": 1450.0,
+      "clicks": 18.0,
+      "ctr": 0.012,
+      "position": 10.4,
+      "bounce_rate": 0.78
+    },
+    {
+      "url": "https://newcastlehub.info/online-ordering-newcastle/",
+      "score": 7,
+      "reasons": [
+        "high_impressions_low_ctr",
+        "rank_5_15",
+        "high_bounce"
+      ],
+      "impressions": 1020.0,
+      "clicks": 13.0,
+      "ctr": 0.013,
+      "position": 8.2,
+      "bounce_rate": 0.73
+    },
+    {
+      "url": "https://newcastlehub.info/restaurant-solutions/",
+      "score": 7,
+      "reasons": [
+        "high_impressions_low_ctr",
+        "rank_5_15",
+        "high_bounce"
+      ],
+      "impressions": 980.0,
+      "clicks": 9.0,
+      "ctr": 0.009,
+      "position": 11.2,
+      "bounce_rate": 0.81
+    },
+    {
+      "url": "https://newcastlehub.info/trades-solutions/",
+      "score": 7,
+      "reasons": [
+        "high_impressions_low_ctr",
+        "rank_5_15",
+        "high_bounce"
+      ],
+      "impressions": 910.0,
+      "clicks": 11.0,
+      "ctr": 0.012,
+      "position": 8.9,
+      "bounce_rate": 0.75
+    }
+  ],
+  "generated_tasks": [
+    {
+      "task_id": "32276016-f2d0-4519-80c1-7e517c415ef5",
+      "task_type": "update_post_or_page",
+      "target_url": "https://newcastlehub.info/",
+      "reasons": [
+        "high_impressions_low_ctr",
+        "rank_5_15",
+        "high_bounce"
+      ]
+    },
+    {
+      "task_id": "924ad728-40d4-40ee-94a7-9867081d2a47",
+      "task_type": "inject_schema_faq",
+      "target_url": "https://newcastlehub.info/",
+      "reasons": [
+        "high_impressions_low_ctr",
+        "rank_5_15",
+        "high_bounce"
+      ]
+    },
+    {
+      "task_id": "2a52851a-4c30-4525-b996-c44b916a7171",
+      "task_type": "append_internal_links",
+      "target_url": "https://newcastlehub.info/",
+      "reasons": [
+        "high_impressions_low_ctr",
+        "rank_5_15",
+        "high_bounce"
+      ]
+    },
+    {
+      "task_id": "7d6d99b2-f603-44c7-b24e-f1fd97438794",
+      "task_type": "update_post_or_page",
+      "target_url": "https://newcastlehub.info/services/",
+      "reasons": [
+        "high_impressions_low_ctr",
+        "rank_5_15",
+        "high_bounce"
+      ]
+    },
+    {
+      "task_id": "bdc8db47-dd2a-457f-8980-ae9beefa59cc",
+      "task_type": "inject_schema_faq",
+      "target_url": "https://newcastlehub.info/services/",
+      "reasons": [
+        "high_impressions_low_ctr",
+        "rank_5_15",
+        "high_bounce"
+      ]
+    },
+    {
+      "task_id": "d2270c90-d6b3-4a92-892c-6a3d5caad449",
+      "task_type": "append_internal_links",
+      "target_url": "https://newcastlehub.info/services/",
+      "reasons": [
+        "high_impressions_low_ctr",
+        "rank_5_15",
+        "high_bounce"
+      ]
+    },
+    {
+      "task_id": "26b18ed8-bbf7-4be3-b592-585ac9b53c4c",
+      "task_type": "update_post_or_page",
+      "target_url": "https://newcastlehub.info/online-ordering-newcastle/",
+      "reasons": [
+        "high_impressions_low_ctr",
+        "rank_5_15",
+        "high_bounce"
+      ]
+    },
+    {
+      "task_id": "28f0005f-202a-4f4f-a0fc-59e7e6bbb615",
+      "task_type": "inject_schema_faq",
+      "target_url": "https://newcastlehub.info/online-ordering-newcastle/",
+      "reasons": [
+        "high_impressions_low_ctr",
+        "rank_5_15",
+        "high_bounce"
+      ]
+    },
+    {
+      "task_id": "2677eea9-283f-49e2-81fc-3cc7408d1413",
+      "task_type": "append_internal_links",
+      "target_url": "https://newcastlehub.info/online-ordering-newcastle/",
+      "reasons": [
+        "high_impressions_low_ctr",
+        "rank_5_15",
+        "high_bounce"
+      ]
+    },
+    {
+      "task_id": "1b9e527d-a266-4c35-8e76-5b5af240178d",
+      "task_type": "update_post_or_page",
+      "target_url": "https://newcastlehub.info/restaurant-solutions/",
+      "reasons": [
+        "high_impressions_low_ctr",
+        "rank_5_15",
+        "high_bounce"
+      ]
+    },
+    {
+      "task_id": "733b3620-0185-4202-8105-53eadee2b246",
+      "task_type": "inject_schema_faq",
+      "target_url": "https://newcastlehub.info/restaurant-solutions/",
+      "reasons": [
+        "high_impressions_low_ctr",
+        "rank_5_15",
+        "high_bounce"
+      ]
+    },
+    {
+      "task_id": "ee993330-0b65-4c3a-89b3-686c95366bc5",
+      "task_type": "append_internal_links",
+      "target_url": "https://newcastlehub.info/restaurant-solutions/",
+      "reasons": [
+        "high_impressions_low_ctr",
+        "rank_5_15",
+        "high_bounce"
+      ]
+    },
+    {
+      "task_id": "7d6b2edb-3b20-4b10-906c-dd1056e10764",
+      "task_type": "update_post_or_page",
+      "target_url": "https://newcastlehub.info/trades-solutions/",
+      "reasons": [
+        "high_impressions_low_ctr",
+        "rank_5_15",
+        "high_bounce"
+      ]
+    },
+    {
+      "task_id": "99c593d6-a6e9-434a-8208-f830b6aef1cd",
+      "task_type": "inject_schema_faq",
+      "target_url": "https://newcastlehub.info/trades-solutions/",
+      "reasons": [
+        "high_impressions_low_ctr",
+        "rank_5_15",
+        "high_bounce"
+      ]
+    },
+    {
+      "task_id": "f89380ed-ea63-4dc2-82b6-18e7fd5986c5",
+      "task_type": "append_internal_links",
+      "target_url": "https://newcastlehub.info/trades-solutions/",
+      "reasons": [
+        "high_impressions_low_ctr",
+        "rank_5_15",
+        "high_bounce"
+      ]
+    }
+  ],
+  "tasks_dir": "weekly-output-newcastle-baseline/tasks",
+  "execution_results": []
+}

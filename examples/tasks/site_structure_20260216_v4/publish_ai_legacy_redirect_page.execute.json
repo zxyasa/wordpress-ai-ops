@@ -1,0 +1,31 @@
+{
+  "task_id": "publish-ai-legacy-redirect-page-001",
+  "created_at": "2026-02-16T23:24:00Z",
+  "mode": "execute",
+  "site_profile_ref": "../../site_profiles/newcastlehub.info.json",
+  "site": { "base_url": "{{site.base_url}}" },
+  "task_type": "publish_post",
+  "requires_confirmation": true,
+  "priority": "high",
+  "limits": { "cooldown_hours": 0, "max_write_per_target": 10 },
+  "notes": "Fallback redirect page for legacy AI slug while server-level 301 is unavailable via current API access.",
+  "targets": [],
+  "operations": [
+    {
+      "op": "set_fields",
+      "scope": "content",
+      "selector": { "kind": "html_comment", "value": "unused" },
+      "content": {
+        "format": "json",
+        "value": {
+          "type": "page",
+          "status": "publish",
+          "slug": "create-an-ai-avatar",
+          "title": "AI Service Redirect",
+          "content": "<section class=\"section\" style=\"padding:48px 20px;background:#f6f8fb;text-align:center;\"><div class=\"section-content relative\"><h1>Page Moved</h1><p>This page has moved to our new AI Service page.</p><p><a class=\"button primary is-large\" href=\"{{site.base_url}}/ai-service/\">Go to AI Service</a></p><p>If you are not redirected automatically, please click the button above.</p></div></section><script>window.location.replace('{{site.base_url}}/ai-service/?utm_source=legacy-url&utm_medium=redirect&utm_campaign=ai-service-launch');</script>"
+        }
+      },
+      "safety": { "max_chars_change": 12000, "dry_run_diff": true, "allow_full_replace": true }
+    }
+  ]
+}

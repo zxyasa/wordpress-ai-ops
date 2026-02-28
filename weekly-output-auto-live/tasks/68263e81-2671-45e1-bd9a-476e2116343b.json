@@ -1,0 +1,60 @@
+{
+  "task_id": "68263e81-2671-45e1-bd9a-476e2116343b",
+  "created_at": "2026-02-18T05:04:22.293178+00:00",
+  "mode": "execute",
+  "site": {
+    "base_url": "https://newcastlehub.info"
+  },
+  "task_type": "inject_schema_faq",
+  "priority": "medium",
+  "targets": [
+    {
+      "type": "page",
+      "match": {
+        "by": "url",
+        "value": "https://newcastlehub.info/restaurant-solutions/"
+      }
+    }
+  ],
+  "operations": [
+    {
+      "op": "replace",
+      "scope": "content",
+      "selector": {
+        "kind": "html_comment",
+        "value": "AI_SLOT:FAQ"
+      },
+      "content": {
+        "format": "json",
+        "value": {
+          "faqs": [
+            {
+              "question": "What will I learn on this page?",
+              "answer": "You will get a concise overview, practical steps, and links to related guides."
+            },
+            {
+              "question": "Who is this content for?",
+              "answer": "Readers looking for a practical starting point and deeper follow-up resources."
+            },
+            {
+              "question": "What should I read next?",
+              "answer": "Use the related links section for the next best article in the topic cluster."
+            }
+          ],
+          "inject_json_ld": true,
+          "schema_slot": "AI_SLOT:SCHEMA"
+        }
+      },
+      "safety": {
+        "max_chars_change": 1600,
+        "dry_run_diff": true,
+        "allow_full_replace": false
+      }
+    }
+  ],
+  "limits": {
+    "cooldown_hours": 24,
+    "max_write_per_target": 3
+  },
+  "notes": "auto-cycle faq/schema refresh for https://newcastlehub.info/restaurant-solutions/"
+}

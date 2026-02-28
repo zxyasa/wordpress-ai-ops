@@ -1,0 +1,48 @@
+{
+  "task_id": "2d1b452e-c06e-4e2b-8c6c-9d4e2f6d5e01",
+  "created_at": "2026-02-15T00:00:00Z",
+  "mode": "execute",
+  "site": {
+    "base_url": "https://newcastlehub.info"
+  },
+  "task_type": "update_post_or_page",
+  "priority": "high",
+  "targets": [
+    {
+      "type": "page",
+      "match": {
+        "by": "slug",
+        "value": "about"
+      }
+    }
+  ],
+  "operations": [
+    {
+      "op": "replace",
+      "scope": "content",
+      "selector": {
+        "kind": "html_comment",
+        "value": "AI_SLOT:INTRO"
+      },
+      "content": {
+        "format": "html",
+        "value": "<p>Newcastle Hub helps local businesses grow with practical web design and measurable digital marketing.</p>"
+      },
+      "safety": {
+        "max_chars_change": 800,
+        "dry_run_diff": true,
+        "allow_full_replace": false,
+        "forbid_remove": [
+          "ux_",
+          "<script",
+          "<style"
+        ]
+      }
+    }
+  ],
+  "limits": {
+    "cooldown_hours": 24,
+    "max_write_per_target": 3
+  },
+  "notes": "live site safe slot dry-run for about page"
+}

@@ -1,0 +1,24 @@
+{
+  "task_id": "28c0be85-0436-4747-b37f-e6aef0d663bf",
+  "created_at": "2026-02-16T06:26:00Z",
+  "mode": "execute",
+  "site": { "base_url": "https://newcastlehub.info" },
+  "task_type": "update_post_or_page",
+  "requires_confirmation": true,
+  "priority": "high",
+  "limits": { "cooldown_hours": 0, "max_write_per_target": 10 },
+  "notes": "Add FAQ + schema block for ecommerce solution SEO.",
+  "targets": [{ "type": "page", "match": { "by": "id", "value": 729 } }],
+  "operations": [
+    {
+      "op": "append",
+      "scope": "content",
+      "selector": { "kind": "regex", "value": "$" },
+      "content": {
+        "format": "html",
+        "value": "\n\n<section class=\"section\" id=\"ai-ecommerce-faq\" style=\"padding-top:40px;padding-bottom:40px;background:#f3f3f3;\"><div class=\"section-content relative\"><div class=\"row\"><div class=\"col small-12 large-12\"><div class=\"col-inner\"><div class=\"text\"><h2>Ecommerce Setup FAQ</h2><h3>Can you sync online and in-store stock?</h3><p>Yes. We structure product and inventory mapping so your online and POS stock stay aligned.</p><h3>Do you support pickup and shipping workflows?</h3><p>Yes. We configure local pickup, shipping rules, and checkout flow based on your operation.</p><h3>Can this work for small local shops?</h3><p>Yes. We tailor setup for local stores starting ecommerce without overcomplicating operations.</p><script type=\"application/ld+json\">{\"@context\":\"https://schema.org\",\"@type\":\"FAQPage\",\"mainEntity\":[{\"@type\":\"Question\",\"name\":\"Can you sync online and in-store stock?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"Yes. We structure product and inventory mapping so your online and POS stock stay aligned.\"}},{\"@type\":\"Question\",\"name\":\"Do you support pickup and shipping workflows?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"Yes. We configure local pickup, shipping rules, and checkout flow based on your operation.\"}},{\"@type\":\"Question\",\"name\":\"Can this work for small local shops?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"Yes. We tailor setup for local stores starting ecommerce without overcomplicating operations.\"}}]}</script></div></div></div></div></div></section>"
+      },
+      "safety": { "max_chars_change": 12000, "dry_run_diff": true, "allow_full_replace": true }
+    }
+  ]
+}

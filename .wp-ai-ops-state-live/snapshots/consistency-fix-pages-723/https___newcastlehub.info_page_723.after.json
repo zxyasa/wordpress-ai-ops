@@ -1,0 +1,127 @@
+{
+  "id": 723,
+  "date": "2026-02-16T05:06:50",
+  "date_gmt": "2026-02-16T05:06:50",
+  "guid": {
+    "rendered": "https://newcastlehub.info/pos-setup-newcastle/",
+    "raw": "https://newcastlehub.info/pos-setup-newcastle/"
+  },
+  "modified": "2026-02-16T21:52:53",
+  "modified_gmt": "2026-02-16T21:52:53",
+  "password": "",
+  "slug": "pos-setup-newcastle",
+  "status": "publish",
+  "type": "page",
+  "link": "https://newcastlehub.info/pos-setup-newcastle/",
+  "title": {
+    "raw": "POS Setup & Integration in Newcastle | Newcastle Hub",
+    "rendered": "POS Setup &#038; Integration in Newcastle | Newcastle Hub"
+  },
+  "content": {
+    "raw": "<!-- AI_SLOT:SCHEMA -->\n<script type=\"application/ld+json\">{\"@context\": \"https://schema.org\", \"@type\": \"WebSite\", \"name\": \"newcastlehub.info\", \"url\": \"https://newcastlehub.info/\"}</script>\n<!-- /AI_SLOT:SCHEMA -->\n<!-- wp:html --><section class=\"section\" style=\"padding-top:56px;padding-bottom:56px;\"><div class=\"section-content relative\"><div class=\"row\"><div class=\"col small-12 large-12\"><div class=\"col-inner\"><!-- AI_SLOT:INTRO --><h1>POS Setup & Integration in Newcastle</h1><p><strong>Square and Lightspeed setup with inventory sync, staff workflow, and launch support.</strong></p><!-- /AI_SLOT:INTRO --><h2>What we deliver</h2><ul><li>POS account and device setup</li><li>Products, modifiers, tax, and inventory structure</li><li>Staff workflow and training</li><li>Integration checks with website and ordering channels</li></ul><!-- AI_SLOT:CTA --><p><a class=\"button primary is-large\" href=\"https://newcastlehub.info/free-newcastle-business-audit/\">Get Free Business Audit</a></p><p>See also: <a href=\"https://newcastlehub.info/restaurant-solutions/\">Restaurant Solutions</a> | <a href=\"https://newcastlehub.info/retail-solutions/\">Retail Solutions</a></p><!-- /AI_SLOT:CTA --></div></div></div></div></div></section><!-- /wp:html -->",
+    "rendered": "<!-- AI_SLOT:SCHEMA -->\n<script type=\"application/ld+json\">{\"@context\": \"https://schema.org\", \"@type\": \"WebSite\", \"name\": \"newcastlehub.info\", \"url\": \"https://newcastlehub.info/\"}</script>\n<!-- /AI_SLOT:SCHEMA -->\n<section class=\"section\" style=\"padding-top:56px;padding-bottom:56px;\"><div class=\"section-content relative\"><div class=\"row\"><div class=\"col small-12 large-12\"><div class=\"col-inner\"><!-- AI_SLOT:INTRO --><h1>POS Setup &#038; Integration in Newcastle</h1><p><strong>Square and Lightspeed setup with inventory sync, staff workflow, and launch support.</strong></p><!-- /AI_SLOT:INTRO --><h2>What we deliver</h2><ul><li>POS account and device setup</li><li>Products, modifiers, tax, and inventory structure</li><li>Staff workflow and training</li><li>Integration checks with website and ordering channels</li></ul><!-- AI_SLOT:CTA --><p><a class=\"button primary is-large\" href=\"https://newcastlehub.info/free-newcastle-business-audit/\">Get Free Business Audit</a></p><p>See also: <a href=\"https://newcastlehub.info/restaurant-solutions/\">Restaurant Solutions</a> | <a href=\"https://newcastlehub.info/retail-solutions/\">Retail Solutions</a></p><!-- /AI_SLOT:CTA --></div></div></div></div></div></section>",
+    "protected": false,
+    "block_version": 1
+  },
+  "excerpt": {
+    "raw": "",
+    "rendered": "<p>POS Setup &#038; Integration in Newcastle Square and Lightspeed setup with inventory sync, staff workflow, and launch support. What we deliver POS account and device setup Products, modifiers, tax, and inventory structure Staff workflow and training Integration checks with website and ordering channels Get Free Business Audit See also: Restaurant Solutions | Retail Solutions</p>\n",
+    "protected": false
+  },
+  "author": 4,
+  "featured_media": 0,
+  "parent": 0,
+  "menu_order": 0,
+  "comment_status": "closed",
+  "ping_status": "closed",
+  "template": "",
+  "meta": {
+    "footnotes": ""
+  },
+  "permalink_template": "https://newcastlehub.info/%pagename%/",
+  "generated_slug": "pos-setup-integration-in-newcastle-newcastle-hub",
+  "class_list": [
+    "post-723",
+    "page",
+    "type-page",
+    "status-publish",
+    "hentry"
+  ],
+  "_links": {
+    "self": [
+      {
+        "href": "https://newcastlehub.info/wp-json/wp/v2/pages/723",
+        "targetHints": {
+          "allow": [
+            "GET",
+            "POST",
+            "PUT",
+            "PATCH",
+            "DELETE"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://newcastlehub.info/wp-json/wp/v2/pages"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://newcastlehub.info/wp-json/wp/v2/types/page"
+      }
+    ],
+    "author": [
+      {
+        "embeddable": true,
+        "href": "https://newcastlehub.info/wp-json/wp/v2/users/4"
+      }
+    ],
+    "replies": [
+      {
+        "embeddable": true,
+        "href": "https://newcastlehub.info/wp-json/wp/v2/comments?post=723"
+      }
+    ],
+    "version-history": [
+      {
+        "count": 1,
+        "href": "https://newcastlehub.info/wp-json/wp/v2/pages/723/revisions"
+      }
+    ],
+    "predecessor-version": [
+      {
+        "id": 769,
+        "href": "https://newcastlehub.info/wp-json/wp/v2/pages/723/revisions/769"
+      }
+    ],
+    "wp:attachment": [
+      {
+        "href": "https://newcastlehub.info/wp-json/wp/v2/media?parent=723"
+      }
+    ],
+    "wp:action-publish": [
+      {
+        "href": "https://newcastlehub.info/wp-json/wp/v2/pages/723"
+      }
+    ],
+    "wp:action-unfiltered-html": [
+      {
+        "href": "https://newcastlehub.info/wp-json/wp/v2/pages/723"
+      }
+    ],
+    "wp:action-assign-author": [
+      {
+        "href": "https://newcastlehub.info/wp-json/wp/v2/pages/723"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  }
+}

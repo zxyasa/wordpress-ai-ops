@@ -1,0 +1,127 @@
+{
+  "id": 685,
+  "date": "2026-02-16T04:44:29",
+  "date_gmt": "2026-02-16T04:44:29",
+  "guid": {
+    "rendered": "https://newcastlehub.info/?page_id=685",
+    "raw": "https://newcastlehub.info/?page_id=685"
+  },
+  "modified": "2026-02-16T21:52:49",
+  "modified_gmt": "2026-02-16T21:52:49",
+  "password": "",
+  "slug": "facebook-page-setup-for-restaurants-newcastle",
+  "status": "publish",
+  "type": "page",
+  "link": "https://newcastlehub.info/facebook-page-setup-for-restaurants-newcastle/",
+  "title": {
+    "raw": "Facebook Page Setup for Newcastle Restaurants",
+    "rendered": "Facebook Page Setup for Newcastle Restaurants"
+  },
+  "content": {
+    "raw": "<!-- AI_SLOT:CTA --><!-- /AI_SLOT:CTA -->\n<!-- wp:html --><section class=\"section\" id=\"fb-restaurants\"><div class=\"section-content relative\"><div class=\"row\"><div class=\"col small-12 large-12\"><div class=\"col-inner\"><!-- AI_SLOT:INTRO --><h1>Facebook Page Setup for Newcastle Restaurants</h1><p><strong>Your Facebook page is where locals discover your restaurant, check your menu, read reviews, and decide whether to visit.</strong> A properly set up page turns casual scrollers into paying customers.</p><!-- /AI_SLOT:INTRO --><!-- AI_SLOT:BODY --><h2>Why Facebook Still Matters for Restaurants</h2><ul><li><strong>Local discovery</strong> — Facebook is still the #1 platform Australians use to find and recommend local restaurants</li><li><strong>Social proof</strong> — reviews, check-ins, and tagged photos build trust faster than any ad</li><li><strong>Direct ordering</strong> — link your Square Online ordering page directly from your Facebook page</li><li><strong>Event promotion</strong> — promote live music nights, special menus, and holiday events to your local audience</li></ul><h2>What We Set Up</h2><ul><li>Page creation or audit of existing page</li><li>Business details — name, address, phone, hours, category</li><li>Call-to-action button linked to your Square Online ordering page</li><li>Menu tab or link to your online menu</li><li>Cover photo and profile photo (using your branding assets)</li><li>About section with keyword-rich description</li><li>Review management settings</li><li>Instagram connection (if applicable)</li></ul><h2>Part of the Square Setup Package</h2><p>Basic Facebook page setup is included when you book our <a href=\"https://newcastlehub.info/newcastle-restaurant-square-setup/\">Newcastle Restaurant Square Setup</a>. We ensure your ordering link, hours, and contact details are consistent across Square, Google, and Facebook.</p><p><a class=\"button primary\" href=\"https://newcastlehub.info/newcastle-restaurant-square-setup/\">View the Full Square Setup Package</a></p><!-- /AI_SLOT:BODY --><!-- AI_SLOT:SCHEMA -->\n<script type=\"application/ld+json\">{\"@context\": \"https://schema.org\", \"@type\": \"WebSite\", \"name\": \"newcastlehub.info\", \"url\": \"https://newcastlehub.info/\"}</script>\n<!-- /AI_SLOT:SCHEMA --></div></div></div></div></div></section><!-- /wp:html -->",
+    "rendered": "<!-- AI_SLOT:CTA --><!-- /AI_SLOT:CTA -->\n<section class=\"section\" id=\"fb-restaurants\"><div class=\"section-content relative\"><div class=\"row\"><div class=\"col small-12 large-12\"><div class=\"col-inner\"><!-- AI_SLOT:INTRO --><h1>Facebook Page Setup for Newcastle Restaurants</h1><p><strong>Your Facebook page is where locals discover your restaurant, check your menu, read reviews, and decide whether to visit.</strong> A properly set up page turns casual scrollers into paying customers.</p><!-- /AI_SLOT:INTRO --><!-- AI_SLOT:BODY --><h2>Why Facebook Still Matters for Restaurants</h2><ul><li><strong>Local discovery</strong> — Facebook is still the #1 platform Australians use to find and recommend local restaurants</li><li><strong>Social proof</strong> — reviews, check-ins, and tagged photos build trust faster than any ad</li><li><strong>Direct ordering</strong> — link your Square Online ordering page directly from your Facebook page</li><li><strong>Event promotion</strong> — promote live music nights, special menus, and holiday events to your local audience</li></ul><h2>What We Set Up</h2><ul><li>Page creation or audit of existing page</li><li>Business details — name, address, phone, hours, category</li><li>Call-to-action button linked to your Square Online ordering page</li><li>Menu tab or link to your online menu</li><li>Cover photo and profile photo (using your branding assets)</li><li>About section with keyword-rich description</li><li>Review management settings</li><li>Instagram connection (if applicable)</li></ul><h2>Part of the Square Setup Package</h2><p>Basic Facebook page setup is included when you book our <a href=\"https://newcastlehub.info/newcastle-restaurant-square-setup/\">Newcastle Restaurant Square Setup</a>. We ensure your ordering link, hours, and contact details are consistent across Square, Google, and Facebook.</p><p><a class=\"button primary\" href=\"https://newcastlehub.info/newcastle-restaurant-square-setup/\">View the Full Square Setup Package</a></p><!-- /AI_SLOT:BODY --><!-- AI_SLOT:SCHEMA -->\n<script type=\"application/ld+json\">{\"@context\": \"https://schema.org\", \"@type\": \"WebSite\", \"name\": \"newcastlehub.info\", \"url\": \"https://newcastlehub.info/\"}</script>\n<!-- /AI_SLOT:SCHEMA --></div></div></div></div></div></section>",
+    "protected": false,
+    "block_version": 1
+  },
+  "excerpt": {
+    "raw": "",
+    "rendered": "<p>Facebook Page Setup for Newcastle Restaurants Your Facebook page is where locals discover your restaurant, check your menu, read reviews, and decide whether to visit. A properly set up page turns casual scrollers into paying customers. Why Facebook Still Matters for Restaurants Local discovery — Facebook is still the #1 platform Australians use to find [&#8230;]\n",
+    "protected": false
+  },
+  "author": 4,
+  "featured_media": 0,
+  "parent": 0,
+  "menu_order": 0,
+  "comment_status": "closed",
+  "ping_status": "closed",
+  "template": "",
+  "meta": {
+    "footnotes": ""
+  },
+  "permalink_template": "https://newcastlehub.info/%pagename%/",
+  "generated_slug": "facebook-page-setup-for-newcastle-restaurants",
+  "class_list": [
+    "post-685",
+    "page",
+    "type-page",
+    "status-publish",
+    "hentry"
+  ],
+  "_links": {
+    "self": [
+      {
+        "href": "https://newcastlehub.info/wp-json/wp/v2/pages/685",
+        "targetHints": {
+          "allow": [
+            "GET",
+            "POST",
+            "PUT",
+            "PATCH",
+            "DELETE"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://newcastlehub.info/wp-json/wp/v2/pages"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://newcastlehub.info/wp-json/wp/v2/types/page"
+      }
+    ],
+    "author": [
+      {
+        "embeddable": true,
+        "href": "https://newcastlehub.info/wp-json/wp/v2/users/4"
+      }
+    ],
+    "replies": [
+      {
+        "embeddable": true,
+        "href": "https://newcastlehub.info/wp-json/wp/v2/comments?post=685"
+      }
+    ],
+    "version-history": [
+      {
+        "count": 2,
+        "href": "https://newcastlehub.info/wp-json/wp/v2/pages/685/revisions"
+      }
+    ],
+    "predecessor-version": [
+      {
+        "id": 764,
+        "href": "https://newcastlehub.info/wp-json/wp/v2/pages/685/revisions/764"
+      }
+    ],
+    "wp:attachment": [
+      {
+        "href": "https://newcastlehub.info/wp-json/wp/v2/media?parent=685"
+      }
+    ],
+    "wp:action-publish": [
+      {
+        "href": "https://newcastlehub.info/wp-json/wp/v2/pages/685"
+      }
+    ],
+    "wp:action-unfiltered-html": [
+      {
+        "href": "https://newcastlehub.info/wp-json/wp/v2/pages/685"
+      }
+    ],
+    "wp:action-assign-author": [
+      {
+        "href": "https://newcastlehub.info/wp-json/wp/v2/pages/685"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  }
+}

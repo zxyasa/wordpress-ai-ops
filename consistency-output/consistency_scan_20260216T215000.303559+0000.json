@@ -1,0 +1,592 @@
+{
+  "status": "ok",
+  "timestamp": "2026-02-16T21:50:00.303559+00:00",
+  "site": {
+    "base_url": "https://newcastlehub.info",
+    "wp_api_base": "https://newcastlehub.info/wp-json/wp/v2"
+  },
+  "policy": {
+    "required_slots": {
+      "pages": [
+        "AI_SLOT:INTRO",
+        "AI_SLOT:CTA",
+        "AI_SLOT:SCHEMA"
+      ],
+      "posts": [],
+      "ux-blocks": [],
+      "template-parts": []
+    },
+    "require_schema": {
+      "pages": true,
+      "posts": false,
+      "ux-blocks": false,
+      "template-parts": false
+    },
+    "link_check_resource_bases": [
+      "pages",
+      "posts"
+    ],
+    "email_check_resource_bases": [
+      "pages",
+      "ux-blocks"
+    ],
+    "phone_check_resource_bases": [
+      "pages",
+      "ux-blocks"
+    ],
+    "resource_bases": [
+      "pages",
+      "posts",
+      "ux-blocks",
+      "template-parts"
+    ],
+    "ignored_resources": []
+  },
+  "summary": {
+    "findings_total": 49,
+    "errors": 0,
+    "warnings": 49,
+    "link_checks": 0
+  },
+  "findings": [
+    {
+      "kind": "missing_slot",
+      "severity": "warn",
+      "resource": {
+        "rest_base": "pages",
+        "id": 729,
+        "slug": "ecommerce-setup-newcastle",
+        "link": "https://newcastlehub.info/ecommerce-setup-newcastle/"
+      },
+      "message": "Missing slot marker: AI_SLOT:SCHEMA"
+    },
+    {
+      "kind": "missing_slot",
+      "severity": "warn",
+      "resource": {
+        "rest_base": "pages",
+        "id": 728,
+        "slug": "booking-system-newcastle",
+        "link": "https://newcastlehub.info/booking-system-newcastle/"
+      },
+      "message": "Missing slot marker: AI_SLOT:SCHEMA"
+    },
+    {
+      "kind": "phone_mismatch",
+      "severity": "warn",
+      "resource": {
+        "rest_base": "pages",
+        "id": 728,
+        "slug": "booking-system-newcastle",
+        "link": "https://newcastlehub.info/booking-system-newcastle/"
+      },
+      "message": "Configured display phone not found: 02 40755307"
+    },
+    {
+      "kind": "missing_slot",
+      "severity": "warn",
+      "resource": {
+        "rest_base": "pages",
+        "id": 723,
+        "slug": "pos-setup-newcastle",
+        "link": "https://newcastlehub.info/pos-setup-newcastle/"
+      },
+      "message": "Missing slot marker: AI_SLOT:SCHEMA"
+    },
+    {
+      "kind": "missing_schema",
+      "severity": "warn",
+      "resource": {
+        "rest_base": "pages",
+        "id": 723,
+        "slug": "pos-setup-newcastle",
+        "link": "https://newcastlehub.info/pos-setup-newcastle/"
+      },
+      "message": "Missing JSON-LD schema block"
+    },
+    {
+      "kind": "missing_slot",
+      "severity": "warn",
+      "resource": {
+        "rest_base": "pages",
+        "id": 722,
+        "slug": "online-ordering-newcastle",
+        "link": "https://newcastlehub.info/online-ordering-newcastle/"
+      },
+      "message": "Missing slot marker: AI_SLOT:SCHEMA"
+    },
+    {
+      "kind": "missing_schema",
+      "severity": "warn",
+      "resource": {
+        "rest_base": "pages",
+        "id": 722,
+        "slug": "online-ordering-newcastle",
+        "link": "https://newcastlehub.info/online-ordering-newcastle/"
+      },
+      "message": "Missing JSON-LD schema block"
+    },
+    {
+      "kind": "missing_slot",
+      "severity": "warn",
+      "resource": {
+        "rest_base": "pages",
+        "id": 721,
+        "slug": "google-business-optimisation-newcastle",
+        "link": "https://newcastlehub.info/google-business-optimisation-newcastle/"
+      },
+      "message": "Missing slot marker: AI_SLOT:SCHEMA"
+    },
+    {
+      "kind": "missing_schema",
+      "severity": "warn",
+      "resource": {
+        "rest_base": "pages",
+        "id": 721,
+        "slug": "google-business-optimisation-newcastle",
+        "link": "https://newcastlehub.info/google-business-optimisation-newcastle/"
+      },
+      "message": "Missing JSON-LD schema block"
+    },
+    {
+      "kind": "missing_slot",
+      "severity": "warn",
+      "resource": {
+        "rest_base": "pages",
+        "id": 719,
+        "slug": "why-choose-newcastle-hub",
+        "link": "https://newcastlehub.info/why-choose-newcastle-hub/"
+      },
+      "message": "Missing slot marker: AI_SLOT:SCHEMA"
+    },
+    {
+      "kind": "missing_schema",
+      "severity": "warn",
+      "resource": {
+        "rest_base": "pages",
+        "id": 719,
+        "slug": "why-choose-newcastle-hub",
+        "link": "https://newcastlehub.info/why-choose-newcastle-hub/"
+      },
+      "message": "Missing JSON-LD schema block"
+    },
+    {
+      "kind": "missing_slot",
+      "severity": "warn",
+      "resource": {
+        "rest_base": "pages",
+        "id": 684,
+        "slug": "google-business-profile-for-restaurants-newcastle",
+        "link": "https://newcastlehub.info/google-business-profile-for-restaurants-newcastle/"
+      },
+      "message": "Missing slot marker: AI_SLOT:CTA"
+    },
+    {
+      "kind": "missing_schema",
+      "severity": "warn",
+      "resource": {
+        "rest_base": "pages",
+        "id": 684,
+        "slug": "google-business-profile-for-restaurants-newcastle",
+        "link": "https://newcastlehub.info/google-business-profile-for-restaurants-newcastle/"
+      },
+      "message": "Missing JSON-LD schema block"
+    },
+    {
+      "kind": "missing_slot",
+      "severity": "warn",
+      "resource": {
+        "rest_base": "pages",
+        "id": 686,
+        "slug": "qr-table-ordering-newcastle",
+        "link": "https://newcastlehub.info/qr-table-ordering-newcastle/"
+      },
+      "message": "Missing slot marker: AI_SLOT:CTA"
+    },
+    {
+      "kind": "missing_schema",
+      "severity": "warn",
+      "resource": {
+        "rest_base": "pages",
+        "id": 686,
+        "slug": "qr-table-ordering-newcastle",
+        "link": "https://newcastlehub.info/qr-table-ordering-newcastle/"
+      },
+      "message": "Missing JSON-LD schema block"
+    },
+    {
+      "kind": "phone_mismatch",
+      "severity": "warn",
+      "resource": {
+        "rest_base": "pages",
+        "id": 686,
+        "slug": "qr-table-ordering-newcastle",
+        "link": "https://newcastlehub.info/qr-table-ordering-newcastle/"
+      },
+      "message": "Configured display phone not found: 02 40755307"
+    },
+    {
+      "kind": "missing_slot",
+      "severity": "warn",
+      "resource": {
+        "rest_base": "pages",
+        "id": 685,
+        "slug": "facebook-page-setup-for-restaurants-newcastle",
+        "link": "https://newcastlehub.info/facebook-page-setup-for-restaurants-newcastle/"
+      },
+      "message": "Missing slot marker: AI_SLOT:CTA"
+    },
+    {
+      "kind": "missing_schema",
+      "severity": "warn",
+      "resource": {
+        "rest_base": "pages",
+        "id": 685,
+        "slug": "facebook-page-setup-for-restaurants-newcastle",
+        "link": "https://newcastlehub.info/facebook-page-setup-for-restaurants-newcastle/"
+      },
+      "message": "Missing JSON-LD schema block"
+    },
+    {
+      "kind": "phone_mismatch",
+      "severity": "warn",
+      "resource": {
+        "rest_base": "pages",
+        "id": 685,
+        "slug": "facebook-page-setup-for-restaurants-newcastle",
+        "link": "https://newcastlehub.info/facebook-page-setup-for-restaurants-newcastle/"
+      },
+      "message": "Configured display phone not found: 02 40755307"
+    },
+    {
+      "kind": "phone_mismatch",
+      "severity": "warn",
+      "resource": {
+        "rest_base": "pages",
+        "id": 683,
+        "slug": "newcastle-restaurant-square-setup",
+        "link": "https://newcastlehub.info/newcastle-restaurant-square-setup/"
+      },
+      "message": "Configured display phone not found: 02 40755307"
+    },
+    {
+      "kind": "missing_slot",
+      "severity": "warn",
+      "resource": {
+        "rest_base": "pages",
+        "id": 649,
+        "slug": "create-an-ai-avatar",
+        "link": "https://newcastlehub.info/create-an-ai-avatar/"
+      },
+      "message": "Missing slot marker: AI_SLOT:INTRO"
+    },
+    {
+      "kind": "missing_slot",
+      "severity": "warn",
+      "resource": {
+        "rest_base": "pages",
+        "id": 649,
+        "slug": "create-an-ai-avatar",
+        "link": "https://newcastlehub.info/create-an-ai-avatar/"
+      },
+      "message": "Missing slot marker: AI_SLOT:CTA"
+    },
+    {
+      "kind": "missing_slot",
+      "severity": "warn",
+      "resource": {
+        "rest_base": "pages",
+        "id": 649,
+        "slug": "create-an-ai-avatar",
+        "link": "https://newcastlehub.info/create-an-ai-avatar/"
+      },
+      "message": "Missing slot marker: AI_SLOT:SCHEMA"
+    },
+    {
+      "kind": "missing_schema",
+      "severity": "warn",
+      "resource": {
+        "rest_base": "pages",
+        "id": 649,
+        "slug": "create-an-ai-avatar",
+        "link": "https://newcastlehub.info/create-an-ai-avatar/"
+      },
+      "message": "Missing JSON-LD schema block"
+    },
+    {
+      "kind": "missing_slot",
+      "severity": "warn",
+      "resource": {
+        "rest_base": "pages",
+        "id": 601,
+        "slug": "my-account",
+        "link": "https://newcastlehub.info/my-account/"
+      },
+      "message": "Missing slot marker: AI_SLOT:INTRO"
+    },
+    {
+      "kind": "missing_slot",
+      "severity": "warn",
+      "resource": {
+        "rest_base": "pages",
+        "id": 601,
+        "slug": "my-account",
+        "link": "https://newcastlehub.info/my-account/"
+      },
+      "message": "Missing slot marker: AI_SLOT:CTA"
+    },
+    {
+      "kind": "missing_slot",
+      "severity": "warn",
+      "resource": {
+        "rest_base": "pages",
+        "id": 601,
+        "slug": "my-account",
+        "link": "https://newcastlehub.info/my-account/"
+      },
+      "message": "Missing slot marker: AI_SLOT:SCHEMA"
+    },
+    {
+      "kind": "missing_schema",
+      "severity": "warn",
+      "resource": {
+        "rest_base": "pages",
+        "id": 601,
+        "slug": "my-account",
+        "link": "https://newcastlehub.info/my-account/"
+      },
+      "message": "Missing JSON-LD schema block"
+    },
+    {
+      "kind": "missing_slot",
+      "severity": "warn",
+      "resource": {
+        "rest_base": "pages",
+        "id": 600,
+        "slug": "checkout",
+        "link": "https://newcastlehub.info/checkout/"
+      },
+      "message": "Missing slot marker: AI_SLOT:INTRO"
+    },
+    {
+      "kind": "missing_slot",
+      "severity": "warn",
+      "resource": {
+        "rest_base": "pages",
+        "id": 600,
+        "slug": "checkout",
+        "link": "https://newcastlehub.info/checkout/"
+      },
+      "message": "Missing slot marker: AI_SLOT:CTA"
+    },
+    {
+      "kind": "missing_slot",
+      "severity": "warn",
+      "resource": {
+        "rest_base": "pages",
+        "id": 600,
+        "slug": "checkout",
+        "link": "https://newcastlehub.info/checkout/"
+      },
+      "message": "Missing slot marker: AI_SLOT:SCHEMA"
+    },
+    {
+      "kind": "missing_schema",
+      "severity": "warn",
+      "resource": {
+        "rest_base": "pages",
+        "id": 600,
+        "slug": "checkout",
+        "link": "https://newcastlehub.info/checkout/"
+      },
+      "message": "Missing JSON-LD schema block"
+    },
+    {
+      "kind": "missing_slot",
+      "severity": "warn",
+      "resource": {
+        "rest_base": "pages",
+        "id": 599,
+        "slug": "cart",
+        "link": "https://newcastlehub.info/cart/"
+      },
+      "message": "Missing slot marker: AI_SLOT:INTRO"
+    },
+    {
+      "kind": "missing_slot",
+      "severity": "warn",
+      "resource": {
+        "rest_base": "pages",
+        "id": 599,
+        "slug": "cart",
+        "link": "https://newcastlehub.info/cart/"
+      },
+      "message": "Missing slot marker: AI_SLOT:CTA"
+    },
+    {
+      "kind": "missing_slot",
+      "severity": "warn",
+      "resource": {
+        "rest_base": "pages",
+        "id": 599,
+        "slug": "cart",
+        "link": "https://newcastlehub.info/cart/"
+      },
+      "message": "Missing slot marker: AI_SLOT:SCHEMA"
+    },
+    {
+      "kind": "missing_schema",
+      "severity": "warn",
+      "resource": {
+        "rest_base": "pages",
+        "id": 599,
+        "slug": "cart",
+        "link": "https://newcastlehub.info/cart/"
+      },
+      "message": "Missing JSON-LD schema block"
+    },
+    {
+      "kind": "missing_slot",
+      "severity": "warn",
+      "resource": {
+        "rest_base": "pages",
+        "id": 598,
+        "slug": "shop",
+        "link": "https://newcastlehub.info/shop/"
+      },
+      "message": "Missing slot marker: AI_SLOT:INTRO"
+    },
+    {
+      "kind": "missing_slot",
+      "severity": "warn",
+      "resource": {
+        "rest_base": "pages",
+        "id": 598,
+        "slug": "shop",
+        "link": "https://newcastlehub.info/shop/"
+      },
+      "message": "Missing slot marker: AI_SLOT:CTA"
+    },
+    {
+      "kind": "missing_slot",
+      "severity": "warn",
+      "resource": {
+        "rest_base": "pages",
+        "id": 598,
+        "slug": "shop",
+        "link": "https://newcastlehub.info/shop/"
+      },
+      "message": "Missing slot marker: AI_SLOT:SCHEMA"
+    },
+    {
+      "kind": "missing_schema",
+      "severity": "warn",
+      "resource": {
+        "rest_base": "pages",
+        "id": 598,
+        "slug": "shop",
+        "link": "https://newcastlehub.info/shop/"
+      },
+      "message": "Missing JSON-LD schema block"
+    },
+    {
+      "kind": "missing_slot",
+      "severity": "warn",
+      "resource": {
+        "rest_base": "pages",
+        "id": 110,
+        "slug": "home-2",
+        "link": "https://newcastlehub.info/home-2/"
+      },
+      "message": "Missing slot marker: AI_SLOT:INTRO"
+    },
+    {
+      "kind": "missing_slot",
+      "severity": "warn",
+      "resource": {
+        "rest_base": "pages",
+        "id": 110,
+        "slug": "home-2",
+        "link": "https://newcastlehub.info/home-2/"
+      },
+      "message": "Missing slot marker: AI_SLOT:CTA"
+    },
+    {
+      "kind": "missing_slot",
+      "severity": "warn",
+      "resource": {
+        "rest_base": "pages",
+        "id": 110,
+        "slug": "home-2",
+        "link": "https://newcastlehub.info/home-2/"
+      },
+      "message": "Missing slot marker: AI_SLOT:SCHEMA"
+    },
+    {
+      "kind": "missing_schema",
+      "severity": "warn",
+      "resource": {
+        "rest_base": "pages",
+        "id": 110,
+        "slug": "home-2",
+        "link": "https://newcastlehub.info/home-2/"
+      },
+      "message": "Missing JSON-LD schema block"
+    },
+    {
+      "kind": "missing_schema",
+      "severity": "warn",
+      "resource": {
+        "rest_base": "pages",
+        "id": 30,
+        "slug": "home",
+        "link": "https://newcastlehub.info/home/"
+      },
+      "message": "Missing JSON-LD schema block"
+    },
+    {
+      "kind": "missing_slot",
+      "severity": "warn",
+      "resource": {
+        "rest_base": "pages",
+        "id": 27,
+        "slug": "blog",
+        "link": "https://newcastlehub.info/blog/"
+      },
+      "message": "Missing slot marker: AI_SLOT:INTRO"
+    },
+    {
+      "kind": "missing_slot",
+      "severity": "warn",
+      "resource": {
+        "rest_base": "pages",
+        "id": 27,
+        "slug": "blog",
+        "link": "https://newcastlehub.info/blog/"
+      },
+      "message": "Missing slot marker: AI_SLOT:CTA"
+    },
+    {
+      "kind": "missing_slot",
+      "severity": "warn",
+      "resource": {
+        "rest_base": "pages",
+        "id": 27,
+        "slug": "blog",
+        "link": "https://newcastlehub.info/blog/"
+      },
+      "message": "Missing slot marker: AI_SLOT:SCHEMA"
+    },
+    {
+      "kind": "missing_schema",
+      "severity": "warn",
+      "resource": {
+        "rest_base": "pages",
+        "id": 27,
+        "slug": "blog",
+        "link": "https://newcastlehub.info/blog/"
+      },
+      "message": "Missing JSON-LD schema block"
+    }
+  ]
+}

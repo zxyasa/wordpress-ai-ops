@@ -1,0 +1,61 @@
+{
+  "task_id": "10ae6e13-4149-4ef0-bf51-f7504e6a12c3",
+  "created_at": "2026-02-16T05:00:00Z",
+  "mode": "execute",
+  "site": {
+    "base_url": "https://newcastlehub.info"
+  },
+  "task_type": "update_post_or_page",
+  "requires_confirmation": true,
+  "priority": "high",
+  "limits": {
+    "cooldown_hours": 0,
+    "max_write_per_target": 10
+  },
+  "notes": "Homepage reposition to industry+solution+outcome direction",
+  "targets": [
+    {
+      "type": "page",
+      "match": {
+        "by": "id",
+        "value": 403
+      }
+    }
+  ],
+  "operations": [
+    {
+      "op": "replace",
+      "scope": "content",
+      "selector": {
+        "kind": "html_comment",
+        "value": "AI_SLOT:INTRO"
+      },
+      "content": {
+        "format": "html",
+        "value": "<h1>Helping Newcastle Local Businesses Grow &amp; Keep More Profit</h1><p><strong>POS Setup • Online Ordering • Websites • Google Growth • Social Media</strong></p>"
+      },
+      "safety": {
+        "max_chars_change": 12000,
+        "dry_run_diff": true,
+        "allow_full_replace": false
+      }
+    },
+    {
+      "op": "replace",
+      "scope": "content",
+      "selector": {
+        "kind": "html_comment",
+        "value": "AI_SLOT:CTA"
+      },
+      "content": {
+        "format": "html",
+        "value": "<p><a class=\"button primary is-large\" href=\"https://newcastlehub.info/free-newcastle-business-audit/\">Get Free Business Audit</a> <a class=\"button secondary is-large\" href=\"https://newcastlehub.info/contact/\">Book a Strategy Call</a></p><h3>Why local businesses choose us</h3><ul><li><strong>Keep More Profit:</strong> Stop paying 30% to delivery apps.</li><li><strong>Own Your Online System:</strong> Website + Ordering + Google = You control traffic.</li><li><strong>Local Support in Newcastle:</strong> On-site setup and real support.</li></ul><p>Explore: <a href=\"https://newcastlehub.info/restaurant-solutions/\">Restaurant Solutions</a> | <a href=\"https://newcastlehub.info/beauty-salon-solutions/\">Beauty &amp; Salon</a> | <a href=\"https://newcastlehub.info/trades-solutions/\">Trades</a> | <a href=\"https://newcastlehub.info/retail-solutions/\">Retail</a> | <a href=\"https://newcastlehub.info/mechanic-solutions/\">Mechanic</a></p>"
+      },
+      "safety": {
+        "max_chars_change": 12000,
+        "dry_run_diff": true,
+        "allow_full_replace": false
+      }
+    }
+  ]
+}

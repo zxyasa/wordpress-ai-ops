@@ -1,0 +1,24 @@
+{
+  "task_id": "739d3ac3-dd94-42f8-9975-a1497a6e0a76",
+  "created_at": "2026-02-17T05:45:00Z",
+  "mode": "execute",
+  "site": { "base_url": "https://newcastlehub.info" },
+  "task_type": "update_post_or_page",
+  "requires_confirmation": true,
+  "priority": "high",
+  "limits": { "cooldown_hours": 0, "max_write_per_target": 10 },
+  "notes": "Convert FAQ to collapsible accordion on Online Ordering page",
+  "targets": [{ "type": "page", "match": { "by": "id", "value": 722 } }],
+  "operations": [
+    {
+      "op": "replace",
+      "scope": "content",
+      "selector": { "kind": "html_comment", "value": "AI_SLOT:FAQ" },
+      "content": {
+        "format": "html",
+        "value": "<h2>Online Ordering FAQ</h2><details><summary><strong>Can online ordering work with my current POS?</strong></summary><p>Usually yes. We map product structure, modifiers, taxes, and pickup rules to reduce double handling.</p></details><details><summary><strong>Do I need a mobile app?</strong></summary><p>No. Most businesses start with a fast mobile web ordering flow and optional QR entry points.</p></details><details><summary><strong>How quickly can this go live?</strong></summary><p>Simple setups can go live quickly after menu cleanup, payment setup, and test-order validation.</p></details>"
+      },
+      "safety": { "max_chars_change": 3000, "dry_run_diff": true, "allow_full_replace": false }
+    }
+  ]
+}

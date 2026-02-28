@@ -1,0 +1,121 @@
+{
+  "id": 27,
+  "date": "2021-09-06T13:46:18",
+  "date_gmt": "2021-09-06T13:46:18",
+  "guid": {
+    "rendered": "https://newcastlehub.info/blog/",
+    "raw": "https://newcastlehub.info/blog/"
+  },
+  "modified": "2026-02-16T21:52:43",
+  "modified_gmt": "2026-02-16T21:52:43",
+  "password": "",
+  "slug": "blog",
+  "status": "publish",
+  "type": "page",
+  "link": "https://newcastlehub.info/blog/",
+  "title": {
+    "raw": "Blog",
+    "rendered": "Blog"
+  },
+  "content": {
+    "raw": "<!-- AI_SLOT:CTA --><!-- /AI_SLOT:CTA -->\n<!-- AI_SLOT:INTRO --><!-- /AI_SLOT:INTRO -->\n<!-- AI_SLOT:SCHEMA -->\n<script type=\"application/ld+json\">{\"@context\": \"https://schema.org\", \"@type\": \"WebSite\", \"name\": \"newcastlehub.info\", \"url\": \"https://newcastlehub.info/\"}</script>\n<!-- /AI_SLOT:SCHEMA -->\n<!-- wp:html /-->",
+    "rendered": "<!-- AI_SLOT:CTA --><!-- /AI_SLOT:CTA -->\n<!-- AI_SLOT:INTRO --><!-- /AI_SLOT:INTRO -->\n<!-- AI_SLOT:SCHEMA -->\n<script type=\"application/ld+json\">{\"@context\": \"https://schema.org\", \"@type\": \"WebSite\", \"name\": \"newcastlehub.info\", \"url\": \"https://newcastlehub.info/\"}</script>\n<!-- /AI_SLOT:SCHEMA -->\n",
+    "protected": false,
+    "block_version": 1
+  },
+  "excerpt": {
+    "raw": "",
+    "rendered": "",
+    "protected": false
+  },
+  "author": 0,
+  "featured_media": 0,
+  "parent": 0,
+  "menu_order": 0,
+  "comment_status": "closed",
+  "ping_status": "closed",
+  "template": "",
+  "meta": {
+    "footnotes": ""
+  },
+  "permalink_template": "https://newcastlehub.info/%pagename%/",
+  "generated_slug": "blog",
+  "class_list": [
+    "post-27",
+    "page",
+    "type-page",
+    "status-publish",
+    "hentry"
+  ],
+  "_links": {
+    "self": [
+      {
+        "href": "https://newcastlehub.info/wp-json/wp/v2/pages/27",
+        "targetHints": {
+          "allow": [
+            "GET",
+            "POST",
+            "PUT",
+            "PATCH",
+            "DELETE"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://newcastlehub.info/wp-json/wp/v2/pages"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://newcastlehub.info/wp-json/wp/v2/types/page"
+      }
+    ],
+    "replies": [
+      {
+        "embeddable": true,
+        "href": "https://newcastlehub.info/wp-json/wp/v2/comments?post=27"
+      }
+    ],
+    "version-history": [
+      {
+        "count": 1,
+        "href": "https://newcastlehub.info/wp-json/wp/v2/pages/27/revisions"
+      }
+    ],
+    "predecessor-version": [
+      {
+        "id": 756,
+        "href": "https://newcastlehub.info/wp-json/wp/v2/pages/27/revisions/756"
+      }
+    ],
+    "wp:attachment": [
+      {
+        "href": "https://newcastlehub.info/wp-json/wp/v2/media?parent=27"
+      }
+    ],
+    "wp:action-publish": [
+      {
+        "href": "https://newcastlehub.info/wp-json/wp/v2/pages/27"
+      }
+    ],
+    "wp:action-unfiltered-html": [
+      {
+        "href": "https://newcastlehub.info/wp-json/wp/v2/pages/27"
+      }
+    ],
+    "wp:action-assign-author": [
+      {
+        "href": "https://newcastlehub.info/wp-json/wp/v2/pages/27"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  }
+}

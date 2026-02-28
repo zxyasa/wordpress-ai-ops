@@ -1,0 +1,47 @@
+{
+  "task_id": "4c41042f-3f5c-4f5b-9ed3-f5b810c6c5a2",
+  "created_at": "2026-02-15T04:31:00Z",
+  "mode": "execute",
+  "site": { "base_url": "https://newcastlehub.info" },
+  "task_type": "update_post_or_page",
+  "requires_confirmation": true,
+  "priority": "high",
+  "limits": { "cooldown_hours": 0, "max_write_per_target": 10 },
+  "notes": "About page SEO: relocate slot markers from very top into the main content; add FAQ/CTA/Schema section at bottom.",
+  "targets": [
+    { "type": "page", "match": { "by": "id", "value": 29 } }
+  ],
+  "operations": [
+    {
+      "op": "replace",
+      "scope": "content",
+      "selector": {
+        "kind": "regex",
+        "value": "<!--\\s*AI_SLOT:INTRO\\s*-->.*?<!--\\s*/AI_SLOT:SCHEMA\\s*-->\\s*"
+      },
+      "content": { "format": "text", "value": "" },
+      "safety": { "max_chars_change": 4000, "dry_run_diff": true, "allow_full_replace": true }
+    },
+    {
+      "op": "append",
+      "scope": "content",
+      "selector": { "kind": "regex", "value": "<div id=\"text-1127054723\" class=\"text\">" },
+      "content": {
+        "format": "html",
+        "value": "\n<!-- AI_SLOT:INTRO -->\n<p><strong>Newcastle Hub</strong> is a local web and marketing team focused on measurable growth: speed, search visibility, and conversions.</p>\n<!-- /AI_SLOT:INTRO -->\n"
+      },
+      "safety": { "max_chars_change": 4000, "dry_run_diff": true, "allow_full_replace": true }
+    },
+    {
+      "op": "append",
+      "scope": "content",
+      "selector": { "kind": "regex", "value": "$" },
+      "content": {
+        "format": "html",
+        "value": "\n\n<section class=\"section\" id=\"ai-ops-seo-about\">\n  <div class=\"section-content relative\">\n    <div class=\"row\">\n      <div class=\"col small-12 large-12\">\n        <div class=\"col-inner\">\n          <div class=\"text\">\n            <!-- AI_SLOT:FAQ -->\n            <h2>FAQ</h2>\n            <h3>What do you deliver?</h3>\n            <p>Strategy, design, build, and on-page SEO, plus clear next steps for ongoing growth.</p>\n            <h3>Do you work with small local businesses?</h3>\n            <p>Yes. We specialize in practical improvements that drive calls, bookings, and leads.</p>\n            <h3>Can you improve an existing site?</h3>\n            <p>Yes. We can optimize speed, structure, copy, internal links, and conversion paths without a full rebuild.</p>\n            <h3>How do we get started?</h3>\n            <p>Share your goals and current site. We will propose a plan, timeline, and a simple scope.</p>\n            <!-- /AI_SLOT:FAQ -->\n\n            <!-- AI_SLOT:CTA -->\n            <h2>Talk to us</h2>\n            <p><a class=\"button primary is-large\" href=\"https://newcastlehub.info/contact/\">Contact Newcastle Hub</a></p>\n            <!-- /AI_SLOT:CTA -->\n\n            <!-- AI_SLOT:SCHEMA -->\n            <script type=\"application/ld+json\">{\"@context\":\"https://schema.org\",\"@type\":\"FAQPage\",\"mainEntity\":[{\"@type\":\"Question\",\"name\":\"What do you deliver?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"Strategy, design, build, and on-page SEO, plus clear next steps for ongoing growth.\"}},{\"@type\":\"Question\",\"name\":\"Do you work with small local businesses?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"Yes. We specialize in practical improvements that drive calls, bookings, and leads.\"}},{\"@type\":\"Question\",\"name\":\"Can you improve an existing site?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"Yes. We can optimize speed, structure, copy, internal links, and conversion paths without a full rebuild.\"}},{\"@type\":\"Question\",\"name\":\"How do we get started?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"Share your goals and current site. We will propose a plan, timeline, and a simple scope.\"}}]}</script>\n            <!-- /AI_SLOT:SCHEMA -->\n          </div>\n        </div>\n      </div>\n    </div>\n  </div>\n</section>\n"
+      },
+      "safety": { "max_chars_change": 9000, "dry_run_diff": true, "allow_full_replace": true }
+    }
+  ]
+}
+

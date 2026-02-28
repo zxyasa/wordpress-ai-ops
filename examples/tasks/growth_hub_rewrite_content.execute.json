@@ -1,0 +1,35 @@
+{
+  "task_id": "growth-hub-rewrite-content-001",
+  "created_at": "2026-02-16T15:30:00+11:00",
+  "mode": "execute",
+  "site": { "base_url": "https://newcastlehub.info" },
+  "task_type": "update_post_or_page",
+  "requires_confirmation": true,
+  "priority": "high",
+  "limits": { "cooldown_hours": 0, "max_write_per_target": 10 },
+  "notes": "Rewrite Newcastle Growth Hub with production-ready content and layout style aligned with site pages.",
+  "targets": [
+    { "type": "page", "match": { "by": "id", "value": 676 } }
+  ],
+  "operations": [
+    {
+      "op": "replace",
+      "scope": "content",
+      "selector": {
+        "kind": "regex",
+        "value": "<section class=\"section\" id=\"ai-growth-hub\">.*?</section>"
+      },
+      "content": {
+        "format": "html",
+        "value": "<section class=\"section\" id=\"ai-growth-hub\" style=\"padding-top:60px;padding-bottom:60px;background-color:#f3f3f3;\"><div class=\"section-content relative\"><div class=\"row\"><div class=\"col small-12 large-12\"><div class=\"col-inner\"><div class=\"text\"><!-- AI_SLOT:INTRO --><h1>Newcastle Growth Hub</h1><p><strong>One place to plan your website, marketing, and operations stack.</strong> This hub helps Newcastle business owners pick the right services, launch faster, and improve lead quality over time.</p><p>Use this page as your operating map: start with your current bottleneck, then move through setup, growth, and monthly optimization.</p><!-- /AI_SLOT:INTRO --></div></div></div></div><div class=\"row\"><div class=\"col medium-4 small-12 large-4\"><div class=\"col-inner\"><div class=\"text\"><h3>1) Build the foundation</h3><p>Start with a high-converting website and clear service pages.</p><p><a href=\"https://newcastlehub.info/website-service/\">Website Service</a></p></div></div></div><div class=\"col medium-4 small-12 large-4\"><div class=\"col-inner\"><div class=\"text\"><h3>2) Turn traffic into leads</h3><p>Add SEO-focused content, CTA flow, and tracking.</p><p><a href=\"https://newcastlehub.info/marketing-service/\">Digital Marketing</a></p></div></div></div><div class=\"col medium-4 small-12 large-4\"><div class=\"col-inner\"><div class=\"text\"><h3>3) Keep it reliable</h3><p>Use stable hosting, updates, and support to avoid downtime.</p><p><a href=\"https://newcastlehub.info/hosting-plan/\">Web Hosting</a></p></div></div></div></div><div class=\"row\"><div class=\"col small-12 large-12\"><div class=\"col-inner\"><div class=\"text\"><h2>Implementation Paths</h2><ul><li><strong>Restaurant Path:</strong> <a href=\"https://newcastlehub.info/newcastle-restaurant-square-setup/\">Restaurant Square Setup</a> (POS + online ordering + local visibility)</li><li><strong>Service Business Path:</strong> Website + SEO content + monthly lead optimization</li><li><strong>Growth Sprint:</strong> 30-day setup for pages, CTAs, and tracking baseline</li></ul><h2>Related Pages</h2><ul><li><a href=\"https://newcastlehub.info/about/\">About</a></li><li><a href=\"https://newcastlehub.info/portfolio/\">Portfolio</a></li><li><a href=\"https://newcastlehub.info/contact/\">Contact</a></li></ul><!-- AI_SLOT:CTA --><p><a class=\"button primary is-large\" href=\"https://newcastlehub.info/contact/\">Book a Growth Consultation</a></p><p><strong>Next step:</strong> tell us your business type, current tools, and monthly lead target.</p><!-- /AI_SLOT:CTA --><!-- AI_SLOT:SCHEMA --><script type=\"application/ld+json\">{\"@context\":\"https://schema.org\",\"@type\":\"WebPage\",\"name\":\"Newcastle Growth Hub\",\"description\":\"Service map for website, marketing and hosting growth in Newcastle.\",\"url\":\"https://newcastlehub.info/newcastle-growth-hub/\"}</script><!-- /AI_SLOT:SCHEMA --></div></div></div></div></div></section>"
+      },
+      "safety": {
+        "max_chars_change": 12000,
+        "dry_run_diff": true,
+        "allow_full_replace": true,
+        "forbid_remove": ["ux_", "<script", "<style"]
+      }
+    }
+  ]
+}
+

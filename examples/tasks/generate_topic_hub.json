@@ -1,0 +1,52 @@
+{
+  "task_id": "cc78f7ca-ff31-4f25-a40a-905af2c52e35",
+  "created_at": "2026-02-15T00:00:00Z",
+  "mode": "execute",
+  "site": {
+    "base_url": "https://example.com",
+    "auth_ref": "WP_MAIN"
+  },
+  "task_type": "generate_topic_hub",
+  "targets": [
+    {
+      "type": "page",
+      "match": {
+        "by": "slug",
+        "value": "dessert-topic-hub"
+      }
+    }
+  ],
+  "operations": [
+    {
+      "op": "replace",
+      "scope": "content",
+      "selector": {
+        "kind": "html_comment",
+        "value": "AI_SLOT:INTRO"
+      },
+      "content": {
+        "format": "json",
+        "value": {
+          "hub_title": "Dessert Planning Hub",
+          "items": [
+            {
+              "title": "Best Cake Recipes",
+              "url": "https://example.com/best-cake-recipes",
+              "summary": "Start here for beginner-friendly base recipes."
+            },
+            {
+              "title": "Chocolate Frosting Guide",
+              "url": "https://example.com/chocolate-frosting-guide",
+              "summary": "Choose the right frosting by texture and use case."
+            }
+          ]
+        }
+      },
+      "safety": {
+        "max_chars_change": 1500,
+        "dry_run_diff": true,
+        "allow_full_replace": false
+      }
+    }
+  ]
+}

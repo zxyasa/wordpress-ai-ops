@@ -1,0 +1,26 @@
+{
+  "task_id": "8682effa-e801-4f12-b53d-c85afd5a72fc",
+  "created_at": "2026-02-17T05:20:00Z",
+  "mode": "execute",
+  "site": { "base_url": "https://newcastlehub.info" },
+  "task_type": "update_post_or_page",
+  "requires_confirmation": true,
+  "priority": "high",
+  "limits": { "cooldown_hours": 0, "max_write_per_target": 10 },
+  "notes": "Append FAQ/schema to online-ordering page for richer SEO answers",
+  "targets": [
+    { "type": "page", "match": { "by": "id", "value": 722 } }
+  ],
+  "operations": [
+    {
+      "op": "append",
+      "scope": "content",
+      "selector": { "kind": "regex", "value": "$" },
+      "content": {
+        "format": "html",
+        "value": "\n\n<section class=\"section\" id=\"ai-online-ordering-faq\" style=\"padding-top:48px;padding-bottom:48px;background:#ffffff;\"><div class=\"section-content relative\"><div class=\"row\"><div class=\"col small-12 large-12\"><div class=\"col-inner\"><!-- AI_SLOT:FAQ --><h2>Online Ordering FAQ</h2><h3>Can online ordering work with my current POS?</h3><p>Usually yes. We map product structure, modifiers, taxes, and pickup rules to reduce double handling.</p><h3>Do I need a mobile app?</h3><p>No. Most businesses start with a fast mobile web ordering flow and optional QR entry points.</p><h3>How quickly can this go live?</h3><p>Simple setups can go live quickly after menu cleanup, payment setup, and test-order validation.</p><!-- /AI_SLOT:FAQ --><!-- AI_SLOT:CTA --><p><a class=\"button primary is-large\" href=\"https://newcastlehub.info/free-newcastle-business-audit/\">Get Online Ordering Audit</a></p><p>Related: <a href=\"https://newcastlehub.info/pos-setup-newcastle/\">POS Setup Newcastle</a> | <a href=\"https://newcastlehub.info/restaurant-solutions/\">Restaurant Solutions</a></p><!-- /AI_SLOT:CTA --><!-- AI_SLOT:SCHEMA --><script type=\"application/ld+json\">{\"@context\":\"https://schema.org\",\"@type\":\"FAQPage\",\"mainEntity\":[{\"@type\":\"Question\",\"name\":\"Can online ordering work with my current POS?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"Usually yes. We map product structure, modifiers, taxes, and pickup rules to reduce double handling.\"}},{\"@type\":\"Question\",\"name\":\"Do I need a mobile app?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"No. Most businesses start with a fast mobile web ordering flow and optional QR entry points.\"}},{\"@type\":\"Question\",\"name\":\"How quickly can this go live?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"Simple setups can go live quickly after menu cleanup, payment setup, and test-order validation.\"}}]}</script><!-- /AI_SLOT:SCHEMA --></div></div></div></div></div></section>\n"
+      },
+      "safety": { "max_chars_change": 10000, "dry_run_diff": true, "allow_full_replace": true }
+    }
+  ]
+}

@@ -154,6 +154,76 @@ class TestTaskRunnerFullFlow:
         assert result["status"] == "ok"
         assert "weekly check" in result["result"]
 
+    def test_execute_update_with_site_profile_ref(self, tmp_path, mock_env):
+        profile_path = tmp_path / "site_profile.json"
+        profile_path.write_text(
+            json.dumps(
+                {
+                    "site": {
+                        "base_url": "https://example.com",
+                        "intro_html": "<p>Updated</p>",
+                    }
+                }
+            ),
+            encoding="utf-8",
+        )
+
+        payload = _base_payload(
+            site_profile_ref="site_profile.json",
+            operations=[
+                {
+                    "op": "replace",
+                    "scope": "content",
+                    "selector": {"kind": "html_comment", "value": "AI_SLOT:INTRO"},
+                    "content": {"format": "html", "value": "{{site.intro_html}}"},
+                    "safety": {"max_chars_change": 2000},
+                }
+            ],
+        )
+        task_path = _write_task(tmp_path, payload)
+        state_dir = tmp_path / "state"
+
+        updated_resource = dict(_mock_wp_resource())
+        updated_resource["content"]["raw"] = "<h1>Hello</h1>\n<!-- AI_SLOT:INTRO -->\n<p>Updated</p>\n<!-- /AI_SLOT:INTRO -->"
+
+        with patch("wp_ai_ops.task_runner.WPClient") as MockClient:
+            instance = MockClient.return_value
+            instance.get_resource.return_value = _mock_wp_resource()
+            instance.update_resource.return_value = updated_resource
+
+            from wp_ai_ops.task_runner import run_task
+
+            result = run_task(task_path, state_dir)
+
+        assert result["status"] == "ok"
+        assert result["results"][0]["status"] == "updated"
+
+    def test_execute_update_on_ux_blocks_target(self, tmp_path, mock_env):
+        payload = _base_payload(
+            task_id="test-ux-block-001",
+            targets=[{"type": "ux-blocks", "match": {"by": "id", "value": 450}}],
+        )
+        task_path = _write_task(tmp_path, payload)
+        state_dir = tmp_path / "state"
+
+        updated_resource = dict(_mock_wp_resource())
+        updated_resource["id"] = 450
+        updated_resource["content"]["raw"] = "<!-- AI_SLOT:INTRO -->\n<p>Updated</p>\n<!-- /AI_SLOT:INTRO -->"
+
+        with patch("wp_ai_ops.task_runner.WPClient") as MockClient:
+            instance = MockClient.return_value
+            instance.get_resource.return_value = {**_mock_wp_resource(), "id": 450}
+            instance.update_resource.return_value = updated_resource
+
+            from wp_ai_ops.task_runner import run_task
+
+            result = run_task(task_path, state_dir)
+
+        assert result["status"] == "ok"
+        assert result["results"][0]["status"] == "updated"
+        instance.get_resource.assert_called_once_with("ux-blocks", 450)
+        assert instance.update_resource.call_args[0][0] == "ux-blocks"
+
 
 class TestTaskRunnerErrors:
     def test_target_not_found(self, tmp_path, mock_env):

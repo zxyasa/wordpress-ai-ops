@@ -1,0 +1,127 @@
+{
+  "id": 789,
+  "date": "2026-02-16T23:16:24",
+  "date_gmt": "2026-02-16T23:16:24",
+  "guid": {
+    "rendered": "https://newcastlehub.info/ai-service-implementation-pack/",
+    "raw": "https://newcastlehub.info/ai-service-implementation-pack/"
+  },
+  "modified": "2026-02-17T05:33:11",
+  "modified_gmt": "2026-02-17T05:33:11",
+  "password": "",
+  "slug": "ai-service-implementation-pack",
+  "status": "publish",
+  "type": "page",
+  "link": "https://newcastlehub.info/ai-service-implementation-pack/",
+  "title": {
+    "raw": "AI Service Implementation Pack",
+    "rendered": "AI Service Implementation Pack"
+  },
+  "content": {
+    "raw": "<!-- wp:html --><section class=\"section\" style=\"padding:56px 0;background:#f6f8fb;\"><div class=\"section-content relative\"><div class=\"row\"><div class=\"col small-12 large-12\"><div class=\"col-inner\"><div class=\"text\"><h1>AI Service Implementation Pack</h1><p><strong>Standard scope and commercial structure for Newcastle local businesses.</strong></p><h2>1) Scope</h2><ul><li>Website AI assistant and lead flow design</li><li>Enquiry triage and qualification logic</li><li>Form and CTA path cleanup for conversion</li><li>Baseline tracking and reporting events</li></ul><h2>2) Deliverables</h2><ul><li>Prompt and response library</li><li>Routing rules and handoff map</li><li>Priority page updates (CTA, FAQ, conversion copy)</li><li>Launch checklist and handover notes</li></ul><h2>3) Rollout Timeline</h2><ul><li>Week 1: audit and architecture</li><li>Week 2: build and integration</li><li>Week 3: testing and QA fixes</li><li>Week 4: launch and optimisation pass</li></ul><h2>4) Commercial Model</h2><ul><li>Initial setup fee (based on scope)</li><li>Monthly optimisation plan</li><li>Optional add-ons: CRM mapping, campaign landing flows</li></ul><h2>5) Boundaries</h2><ul><li>We optimise conversion and workflow quality, not guaranteed revenue outcomes</li><li>Third-party platform limits may affect automation depth</li><li>Approval delays can shift timeline</li></ul><h2>6) Next Step</h2><p><a class=\"button primary is-large\" href=\"https://newcastlehub.info/free-newcastle-business-audit/\">Start With a Free Business Audit</a> <a class=\"button secondary is-large\" href=\"https://newcastlehub.info/contact/\">Request Detailed Quote</a></p><p>Call <a href=\"tel:0240755307\">02 40755307</a> or email <a href=\"mailto:hello@newcastlehub.info\">hello@newcastlehub.info</a>.</p></div></div></div></div></div></section><!-- /wp:html -->\n\n<section class=\"section\" id=\"ai-pack-seo-block\" style=\"padding-top:56px;padding-bottom:56px;background:#f6f8fb;\"><div class=\"section-content relative\"><div class=\"row\"><div class=\"col small-12 large-12\"><div class=\"col-inner\"><!-- AI_SLOT:INTRO --><h2>Who This AI Pack Is For</h2><p>This pack fits local businesses that need practical AI implementation, not generic consulting. We focus on measurable outcomes, process clarity, and deployable assets.</p><!-- /AI_SLOT:INTRO --><!-- AI_SLOT:FAQ --><h3>What is included in the implementation pack?</h3><p>Scope definition, delivery milestones, operating boundaries, and rollout priorities tied to business goals.</p><h3>How long does implementation usually take?</h3><p>Most small-to-medium implementations run in phases across 2-6 weeks depending on stack complexity.</p><h3>Can this connect with website and lead workflows?</h3><p>Yes. We align automation with website forms, CRM handoff, and conversion tracking where applicable.</p><!-- /AI_SLOT:FAQ --><!-- AI_SLOT:CTA --><p><a class=\"button primary is-large\" href=\"https://newcastlehub.info/free-newcastle-business-audit/\">Get Free Business Audit</a></p><p>Related: <a href=\"https://newcastlehub.info/ai-service/\">AI Service</a> | <a href=\"https://newcastlehub.info/services/\">Our Services</a> | <a href=\"https://newcastlehub.info/contact/\">Contact</a></p><!-- /AI_SLOT:CTA --><!-- AI_SLOT:SCHEMA --><script type=\"application/ld+json\">{\"@context\":\"https://schema.org\",\"@type\":\"FAQPage\",\"mainEntity\":[{\"@type\":\"Question\",\"name\":\"What is included in the implementation pack?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"Scope definition, delivery milestones, operating boundaries, and rollout priorities tied to business goals.\"}},{\"@type\":\"Question\",\"name\":\"How long does implementation usually take?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"Most small-to-medium implementations run in phases across 2-6 weeks depending on stack complexity.\"}},{\"@type\":\"Question\",\"name\":\"Can this connect with website and lead workflows?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"Yes. We align automation with website forms, CRM handoff, and conversion tracking where applicable.\"}}]}</script><!-- /AI_SLOT:SCHEMA --></div></div></div></div></div></section>\n",
+    "rendered": "<section class=\"section\" style=\"padding:56px 0;background:#f6f8fb;\"><div class=\"section-content relative\"><div class=\"row\"><div class=\"col small-12 large-12\"><div class=\"col-inner\"><div class=\"text\"><h1>AI Service Implementation Pack</h1><p><strong>Standard scope and commercial structure for Newcastle local businesses.</strong></p><h2>1) Scope</h2><ul><li>Website AI assistant and lead flow design</li><li>Enquiry triage and qualification logic</li><li>Form and CTA path cleanup for conversion</li><li>Baseline tracking and reporting events</li></ul><h2>2) Deliverables</h2><ul><li>Prompt and response library</li><li>Routing rules and handoff map</li><li>Priority page updates (CTA, FAQ, conversion copy)</li><li>Launch checklist and handover notes</li></ul><h2>3) Rollout Timeline</h2><ul><li>Week 1: audit and architecture</li><li>Week 2: build and integration</li><li>Week 3: testing and QA fixes</li><li>Week 4: launch and optimisation pass</li></ul><h2>4) Commercial Model</h2><ul><li>Initial setup fee (based on scope)</li><li>Monthly optimisation plan</li><li>Optional add-ons: CRM mapping, campaign landing flows</li></ul><h2>5) Boundaries</h2><ul><li>We optimise conversion and workflow quality, not guaranteed revenue outcomes</li><li>Third-party platform limits may affect automation depth</li><li>Approval delays can shift timeline</li></ul><h2>6) Next Step</h2><p><a class=\"button primary is-large\" href=\"https://newcastlehub.info/free-newcastle-business-audit/\">Start With a Free Business Audit</a> <a class=\"button secondary is-large\" href=\"https://newcastlehub.info/contact/\">Request Detailed Quote</a></p><p>Call <a href=\"tel:0240755307\">02 40755307</a> or email <a href=\"mailto:hello@newcastlehub.info\">hello@newcastlehub.info</a>.</p></div></div></div></div></div></section>\n\n<section class=\"section\" id=\"ai-pack-seo-block\" style=\"padding-top:56px;padding-bottom:56px;background:#f6f8fb;\"><div class=\"section-content relative\"><div class=\"row\"><div class=\"col small-12 large-12\"><div class=\"col-inner\"><!-- AI_SLOT:INTRO --><h2>Who This AI Pack Is For</h2><p>This pack fits local businesses that need practical AI implementation, not generic consulting. We focus on measurable outcomes, process clarity, and deployable assets.</p><!-- /AI_SLOT:INTRO --><!-- AI_SLOT:FAQ --><h3>What is included in the implementation pack?</h3><p>Scope definition, delivery milestones, operating boundaries, and rollout priorities tied to business goals.</p><h3>How long does implementation usually take?</h3><p>Most small-to-medium implementations run in phases across 2-6 weeks depending on stack complexity.</p><h3>Can this connect with website and lead workflows?</h3><p>Yes. We align automation with website forms, CRM handoff, and conversion tracking where applicable.</p><!-- /AI_SLOT:FAQ --><!-- AI_SLOT:CTA --><p><a class=\"button primary is-large\" href=\"https://newcastlehub.info/free-newcastle-business-audit/\">Get Free Business Audit</a></p><p>Related: <a href=\"https://newcastlehub.info/ai-service/\">AI Service</a> | <a href=\"https://newcastlehub.info/services/\">Our Services</a> | <a href=\"https://newcastlehub.info/contact/\">Contact</a></p><!-- /AI_SLOT:CTA --><!-- AI_SLOT:SCHEMA --><script type=\"application/ld+json\">{\"@context\":\"https://schema.org\",\"@type\":\"FAQPage\",\"mainEntity\":[{\"@type\":\"Question\",\"name\":\"What is included in the implementation pack?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"Scope definition, delivery milestones, operating boundaries, and rollout priorities tied to business goals.\"}},{\"@type\":\"Question\",\"name\":\"How long does implementation usually take?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"Most small-to-medium implementations run in phases across 2-6 weeks depending on stack complexity.\"}},{\"@type\":\"Question\",\"name\":\"Can this connect with website and lead workflows?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"Yes. We align automation with website forms, CRM handoff, and conversion tracking where applicable.\"}}]}</script><!-- /AI_SLOT:SCHEMA --></div></div></div></div></div></section>\n",
+    "protected": false,
+    "block_version": 1
+  },
+  "excerpt": {
+    "raw": "Scope, deliverables, timeline, commercials, and operating boundaries for AI Service implementation.",
+    "rendered": "<p>Scope, deliverables, timeline, commercials, and operating boundaries for AI Service implementation.</p>\n",
+    "protected": false
+  },
+  "author": 4,
+  "featured_media": 0,
+  "parent": 0,
+  "menu_order": 0,
+  "comment_status": "closed",
+  "ping_status": "closed",
+  "template": "",
+  "meta": {
+    "footnotes": ""
+  },
+  "permalink_template": "https://newcastlehub.info/%pagename%/",
+  "generated_slug": "ai-service-implementation-pack",
+  "class_list": [
+    "post-789",
+    "page",
+    "type-page",
+    "status-publish",
+    "hentry"
+  ],
+  "_links": {
+    "self": [
+      {
+        "href": "https://newcastlehub.info/wp-json/wp/v2/pages/789",
+        "targetHints": {
+          "allow": [
+            "GET",
+            "POST",
+            "PUT",
+            "PATCH",
+            "DELETE"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://newcastlehub.info/wp-json/wp/v2/pages"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://newcastlehub.info/wp-json/wp/v2/types/page"
+      }
+    ],
+    "author": [
+      {
+        "embeddable": true,
+        "href": "https://newcastlehub.info/wp-json/wp/v2/users/4"
+      }
+    ],
+    "replies": [
+      {
+        "embeddable": true,
+        "href": "https://newcastlehub.info/wp-json/wp/v2/comments?post=789"
+      }
+    ],
+    "version-history": [
+      {
+        "count": 1,
+        "href": "https://newcastlehub.info/wp-json/wp/v2/pages/789/revisions"
+      }
+    ],
+    "predecessor-version": [
+      {
+        "id": 799,
+        "href": "https://newcastlehub.info/wp-json/wp/v2/pages/789/revisions/799"
+      }
+    ],
+    "wp:attachment": [
+      {
+        "href": "https://newcastlehub.info/wp-json/wp/v2/media?parent=789"
+      }
+    ],
+    "wp:action-publish": [
+      {
+        "href": "https://newcastlehub.info/wp-json/wp/v2/pages/789"
+      }
+    ],
+    "wp:action-unfiltered-html": [
+      {
+        "href": "https://newcastlehub.info/wp-json/wp/v2/pages/789"
+      }
+    ],
+    "wp:action-assign-author": [
+      {
+        "href": "https://newcastlehub.info/wp-json/wp/v2/pages/789"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  }
+}

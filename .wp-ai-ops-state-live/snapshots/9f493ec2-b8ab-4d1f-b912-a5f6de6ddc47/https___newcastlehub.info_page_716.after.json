@@ -1,0 +1,127 @@
+{
+  "id": 716,
+  "date": "2026-02-16T05:06:47",
+  "date_gmt": "2026-02-16T05:06:47",
+  "guid": {
+    "rendered": "https://newcastlehub.info/retail-solutions/",
+    "raw": "https://newcastlehub.info/retail-solutions/"
+  },
+  "modified": "2026-02-16T05:49:05",
+  "modified_gmt": "2026-02-16T05:49:05",
+  "password": "",
+  "slug": "retail-solutions",
+  "status": "publish",
+  "type": "page",
+  "link": "https://newcastlehub.info/retail-solutions/",
+  "title": {
+    "raw": "Retail & Local Shops Solutions | Newcastle Hub",
+    "rendered": "Retail &#038; Local Shops Solutions | Newcastle Hub"
+  },
+  "content": {
+    "raw": "<!-- wp:html --><section class=\"section\" style=\"padding-top:56px;padding-bottom:56px;\"><div class=\"section-content relative\"><div class=\"row\"><div class=\"col small-12 large-12\"><div class=\"col-inner\"><!-- AI_SLOT:INTRO --><h1>Retail & Local Shops Solutions</h1><p><strong>Connect POS, ecommerce, and local search to recover footfall and sales.</strong></p><!-- /AI_SLOT:INTRO --><h2>Are you facing these issues?</h2><ul><li>Foot traffic is declining</li><li>No ecommerce channel</li><li>POS cannot sync stock across channels</li></ul><h2>How we help</h2><ul><li>POS integration and stock sync</li><li>Ecommerce setup</li><li>Google Shopping readiness</li><li>Local SEO optimisation</li></ul><h2>Expected outcomes</h2><ul><li>Better stock accuracy</li><li>New online revenue stream</li><li>Higher local intent traffic</li></ul><!-- AI_SLOT:CTA -->\n<p><a class=\"button primary is-large\" href=\"https://newcastlehub.info/ecommerce-setup-newcastle/\">I Sell Products — Build My Ecommerce System</a> <a class=\"button secondary is-large\" href=\"https://newcastlehub.info/free-newcastle-business-audit/\">Get Free Business Audit</a></p><p>Product path: <a href=\"https://newcastlehub.info/ecommerce-setup-newcastle/\">Ecommerce Setup</a> + <a href=\"https://newcastlehub.info/pos-setup-newcastle/\">POS Integration</a> + <a href=\"https://newcastlehub.info/google-business-optimisation-newcastle/\">Google Growth</a></p>\n<p>Related reads: <a href=\"https://newcastlehub.info/booking-system-newcastle/\">Booking System Setup Newcastle</a></p>\n<!-- /AI_SLOT:CTA --><!-- AI_SLOT:SCHEMA --><script type=\"application/ld+json\">{\"@context\":\"https://schema.org\",\"@type\":\"Service\",\"name\":\"Retail & Local Shops Solutions\",\"provider\":{\"@type\":\"Organization\",\"name\":\"Newcastle Hub\"},\"areaServed\":\"Newcastle\"}</script><!-- /AI_SLOT:SCHEMA --></div></div></div></div></div></section><!-- /wp:html -->",
+    "rendered": "<section class=\"section\" style=\"padding-top:56px;padding-bottom:56px;\"><div class=\"section-content relative\"><div class=\"row\"><div class=\"col small-12 large-12\"><div class=\"col-inner\"><!-- AI_SLOT:INTRO --><h1>Retail &#038; Local Shops Solutions</h1><p><strong>Connect POS, ecommerce, and local search to recover footfall and sales.</strong></p><!-- /AI_SLOT:INTRO --><h2>Are you facing these issues?</h2><ul><li>Foot traffic is declining</li><li>No ecommerce channel</li><li>POS cannot sync stock across channels</li></ul><h2>How we help</h2><ul><li>POS integration and stock sync</li><li>Ecommerce setup</li><li>Google Shopping readiness</li><li>Local SEO optimisation</li></ul><h2>Expected outcomes</h2><ul><li>Better stock accuracy</li><li>New online revenue stream</li><li>Higher local intent traffic</li></ul><!-- AI_SLOT:CTA -->\n<p><a class=\"button primary is-large\" href=\"https://newcastlehub.info/ecommerce-setup-newcastle/\">I Sell Products — Build My Ecommerce System</a> <a class=\"button secondary is-large\" href=\"https://newcastlehub.info/free-newcastle-business-audit/\">Get Free Business Audit</a></p><p>Product path: <a href=\"https://newcastlehub.info/ecommerce-setup-newcastle/\">Ecommerce Setup</a> + <a href=\"https://newcastlehub.info/pos-setup-newcastle/\">POS Integration</a> + <a href=\"https://newcastlehub.info/google-business-optimisation-newcastle/\">Google Growth</a></p>\n<p>Related reads: <a href=\"https://newcastlehub.info/booking-system-newcastle/\">Booking System Setup Newcastle</a></p>\n<!-- /AI_SLOT:CTA --><!-- AI_SLOT:SCHEMA --><script type=\"application/ld+json\">{\"@context\":\"https://schema.org\",\"@type\":\"Service\",\"name\":\"Retail & Local Shops Solutions\",\"provider\":{\"@type\":\"Organization\",\"name\":\"Newcastle Hub\"},\"areaServed\":\"Newcastle\"}</script><!-- /AI_SLOT:SCHEMA --></div></div></div></div></div></section>",
+    "protected": false,
+    "block_version": 1
+  },
+  "excerpt": {
+    "raw": "",
+    "rendered": "<p>Retail &#038; Local Shops Solutions Connect POS, ecommerce, and local search to recover footfall and sales. Are you facing these issues? Foot traffic is declining No ecommerce channel POS cannot sync stock across channels How we help POS integration and stock sync Ecommerce setup Google Shopping readiness Local SEO optimisation Expected outcomes Better stock accuracy [&#8230;]\n",
+    "protected": false
+  },
+  "author": 4,
+  "featured_media": 0,
+  "parent": 0,
+  "menu_order": 0,
+  "comment_status": "closed",
+  "ping_status": "closed",
+  "template": "",
+  "meta": {
+    "footnotes": ""
+  },
+  "permalink_template": "https://newcastlehub.info/%pagename%/",
+  "generated_slug": "retail-local-shops-solutions-newcastle-hub",
+  "class_list": [
+    "post-716",
+    "page",
+    "type-page",
+    "status-publish",
+    "hentry"
+  ],
+  "_links": {
+    "self": [
+      {
+        "href": "https://newcastlehub.info/wp-json/wp/v2/pages/716",
+        "targetHints": {
+          "allow": [
+            "GET",
+            "POST",
+            "PUT",
+            "PATCH",
+            "DELETE"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://newcastlehub.info/wp-json/wp/v2/pages"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://newcastlehub.info/wp-json/wp/v2/types/page"
+      }
+    ],
+    "author": [
+      {
+        "embeddable": true,
+        "href": "https://newcastlehub.info/wp-json/wp/v2/users/4"
+      }
+    ],
+    "replies": [
+      {
+        "embeddable": true,
+        "href": "https://newcastlehub.info/wp-json/wp/v2/comments?post=716"
+      }
+    ],
+    "version-history": [
+      {
+        "count": 2,
+        "href": "https://newcastlehub.info/wp-json/wp/v2/pages/716/revisions"
+      }
+    ],
+    "predecessor-version": [
+      {
+        "id": 736,
+        "href": "https://newcastlehub.info/wp-json/wp/v2/pages/716/revisions/736"
+      }
+    ],
+    "wp:attachment": [
+      {
+        "href": "https://newcastlehub.info/wp-json/wp/v2/media?parent=716"
+      }
+    ],
+    "wp:action-publish": [
+      {
+        "href": "https://newcastlehub.info/wp-json/wp/v2/pages/716"
+      }
+    ],
+    "wp:action-unfiltered-html": [
+      {
+        "href": "https://newcastlehub.info/wp-json/wp/v2/pages/716"
+      }
+    ],
+    "wp:action-assign-author": [
+      {
+        "href": "https://newcastlehub.info/wp-json/wp/v2/pages/716"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  }
+}

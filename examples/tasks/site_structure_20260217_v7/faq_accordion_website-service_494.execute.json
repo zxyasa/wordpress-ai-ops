@@ -1,0 +1,44 @@
+{
+  "task_id": "52c50a26-43f9-4d64-be53-02ea0a2af821",
+  "created_at": "2026-02-17T06:05:00Z",
+  "mode": "execute",
+  "site": {
+    "base_url": "https://newcastlehub.info"
+  },
+  "task_type": "update_post_or_page",
+  "requires_confirmation": true,
+  "priority": "high",
+  "limits": {
+    "cooldown_hours": 0,
+    "max_write_per_target": 10
+  },
+  "notes": "Convert FAQ slot to accordion on website-service",
+  "targets": [
+    {
+      "type": "page",
+      "match": {
+        "by": "id",
+        "value": 494
+      }
+    }
+  ],
+  "operations": [
+    {
+      "op": "replace",
+      "scope": "content",
+      "selector": {
+        "kind": "html_comment",
+        "value": "AI_SLOT:FAQ"
+      },
+      "content": {
+        "format": "html",
+        "value": "<h2>Website Service FAQ</h2><details><summary><strong>How long does a website project usually take?</strong></summary><p>Timing depends on scope, but we prioritise practical launch speed and measurable conversion improvements.</p></details><details><summary><strong>Can you improve an existing website instead of rebuilding?</strong></summary><p>Yes. We can optimise structure, copy, CTAs, and performance before recommending full rebuild.</p></details><details><summary><strong>Will the website be set up for leads?</strong></summary><p>Yes. We align page flow, enquiry actions, and tracking for lead-focused outcomes.</p></details>"
+      },
+      "safety": {
+        "max_chars_change": 5000,
+        "dry_run_diff": true,
+        "allow_full_replace": false
+      }
+    }
+  ]
+}

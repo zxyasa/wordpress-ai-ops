@@ -1,0 +1,30 @@
+{
+  "task_id": "6f63a7f2-e011-4c31-bca5-dd12bb2a485e",
+  "created_at": "2026-02-16T04:47:58Z",
+  "mode": "execute",
+  "site": { "base_url": "https://newcastlehub.info" },
+  "task_type": "set_meta",
+  "requires_confirmation": true,
+  "priority": "high",
+  "limits": { "cooldown_hours": 0, "max_write_per_target": 10 },
+  "notes": "SEO meta for Hosting Premier page.",
+  "targets": [
+    { "type": "page", "match": { "by": "id", "value": 99 } }
+  ],
+  "operations": [
+    {
+      "op": "set_meta",
+      "scope": "meta",
+      "selector": { "kind": "html_comment", "value": "AI_SLOT:SCHEMA" },
+      "content": {
+        "format": "json",
+        "value": {
+          "rank_math_title": "Web Hosting Premier | High-Performance Business Hosting",
+          "rank_math_description": "High-performance hosting for Newcastle businesses needing stronger speed, stability, and growth-ready capacity.",
+          "rank_math_focus_keyword": "high performance web hosting Newcastle"
+        }
+      },
+      "safety": { "max_chars_change": 500, "dry_run_diff": true, "allow_full_replace": false }
+    }
+  ]
+}

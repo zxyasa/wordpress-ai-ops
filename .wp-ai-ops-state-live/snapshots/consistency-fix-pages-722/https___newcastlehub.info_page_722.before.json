@@ -1,0 +1,121 @@
+{
+  "id": 722,
+  "date": "2026-02-16T05:06:50",
+  "date_gmt": "2026-02-16T05:06:50",
+  "guid": {
+    "rendered": "https://newcastlehub.info/online-ordering-newcastle/",
+    "raw": "https://newcastlehub.info/online-ordering-newcastle/"
+  },
+  "modified": "2026-02-16T05:06:50",
+  "modified_gmt": "2026-02-16T05:06:50",
+  "password": "",
+  "slug": "online-ordering-newcastle",
+  "status": "publish",
+  "type": "page",
+  "link": "https://newcastlehub.info/online-ordering-newcastle/",
+  "title": {
+    "raw": "Online Ordering Setup in Newcastle | Newcastle Hub",
+    "rendered": "Online Ordering Setup in Newcastle | Newcastle Hub"
+  },
+  "content": {
+    "raw": "<!-- wp:html --><section class=\"section\" style=\"padding-top:56px;padding-bottom:56px;\"><div class=\"section-content relative\"><div class=\"row\"><div class=\"col small-12 large-12\"><div class=\"col-inner\"><!-- AI_SLOT:INTRO --><h1>Online Ordering Setup in Newcastle</h1><p><strong>Launch direct online ordering and QR flows so you keep more margin and customer data.</strong></p><!-- /AI_SLOT:INTRO --><h2>Scope</h2><ul><li>Ordering menu structure and payment setup</li><li>Pickup / delivery logic</li><li>QR table ordering flow</li><li>Conversion-focused ordering UX</li></ul><!-- AI_SLOT:CTA --><p><a class=\"button primary is-large\" href=\"https://newcastlehub.info/free-newcastle-business-audit/\">Plan My Online Ordering Setup</a></p><p>Related: <a href=\"https://newcastlehub.info/restaurant-solutions/\">Restaurant Solutions</a> | <a href=\"https://newcastlehub.info/hosting-plan/\">Hosting Plan</a></p><!-- /AI_SLOT:CTA --></div></div></div></div></div></section><!-- /wp:html -->",
+    "rendered": "<section class=\"section\" style=\"padding-top:56px;padding-bottom:56px;\">\n<div class=\"section-content relative\">\n<div class=\"row\">\n<div class=\"col small-12 large-12\">\n<div class=\"col-inner\"><!-- AI_SLOT:INTRO --></p>\n<h1>Online Ordering Setup in Newcastle</h1>\n<p><strong>Launch direct online ordering and QR flows so you keep more margin and customer data.</strong></p>\n<p><!-- /AI_SLOT:INTRO --></p>\n<h2>Scope</h2>\n<ul>\n<li>Ordering menu structure and payment setup</li>\n<li>Pickup / delivery logic</li>\n<li>QR table ordering flow</li>\n<li>Conversion-focused ordering UX</li>\n</ul>\n<p><!-- AI_SLOT:CTA --></p>\n<p><a class=\"button primary is-large\" href=\"https://newcastlehub.info/free-newcastle-business-audit/\">Plan My Online Ordering Setup</a></p>\n<p>Related: <a href=\"https://newcastlehub.info/restaurant-solutions/\">Restaurant Solutions</a> | <a href=\"https://newcastlehub.info/hosting-plan/\">Hosting Plan</a></p>\n<p><!-- /AI_SLOT:CTA --></div>\n</div>\n</div>\n</div>\n</div>\n</section>\n",
+    "protected": false,
+    "block_version": 0
+  },
+  "excerpt": {
+    "raw": "",
+    "rendered": "<p>Online Ordering Setup in Newcastle Launch direct online ordering and QR flows so you keep more margin and customer data. Scope Ordering menu structure and payment setup Pickup / delivery logic QR table ordering flow Conversion-focused ordering UX Plan My Online Ordering Setup Related: Restaurant Solutions | Hosting Plan</p>\n",
+    "protected": false
+  },
+  "author": 4,
+  "featured_media": 0,
+  "parent": 0,
+  "menu_order": 0,
+  "comment_status": "closed",
+  "ping_status": "closed",
+  "template": "",
+  "meta": {
+    "footnotes": ""
+  },
+  "permalink_template": "https://newcastlehub.info/%pagename%/",
+  "generated_slug": "online-ordering-setup-in-newcastle-newcastle-hub",
+  "class_list": [
+    "post-722",
+    "page",
+    "type-page",
+    "status-publish",
+    "hentry"
+  ],
+  "_links": {
+    "self": [
+      {
+        "href": "https://newcastlehub.info/wp-json/wp/v2/pages/722",
+        "targetHints": {
+          "allow": [
+            "GET",
+            "POST",
+            "PUT",
+            "PATCH",
+            "DELETE"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://newcastlehub.info/wp-json/wp/v2/pages"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://newcastlehub.info/wp-json/wp/v2/types/page"
+      }
+    ],
+    "author": [
+      {
+        "embeddable": true,
+        "href": "https://newcastlehub.info/wp-json/wp/v2/users/4"
+      }
+    ],
+    "replies": [
+      {
+        "embeddable": true,
+        "href": "https://newcastlehub.info/wp-json/wp/v2/comments?post=722"
+      }
+    ],
+    "version-history": [
+      {
+        "count": 0,
+        "href": "https://newcastlehub.info/wp-json/wp/v2/pages/722/revisions"
+      }
+    ],
+    "wp:attachment": [
+      {
+        "href": "https://newcastlehub.info/wp-json/wp/v2/media?parent=722"
+      }
+    ],
+    "wp:action-publish": [
+      {
+        "href": "https://newcastlehub.info/wp-json/wp/v2/pages/722"
+      }
+    ],
+    "wp:action-unfiltered-html": [
+      {
+        "href": "https://newcastlehub.info/wp-json/wp/v2/pages/722"
+      }
+    ],
+    "wp:action-assign-author": [
+      {
+        "href": "https://newcastlehub.info/wp-json/wp/v2/pages/722"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  }
+}

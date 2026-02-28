@@ -1,0 +1,42 @@
+{
+  "task_id": "dd217553-ce02-4235-b0ff-3a13bbec6cf7",
+  "created_at": "2026-02-16T06:00:00Z",
+  "mode": "execute",
+  "site": {
+    "base_url": "https://newcastlehub.info"
+  },
+  "task_type": "publish_post",
+  "requires_confirmation": true,
+  "priority": "high",
+  "limits": {
+    "cooldown_hours": 0,
+    "max_write_per_target": 10
+  },
+  "notes": "Create page booking-system-newcastle",
+  "targets": [],
+  "operations": [
+    {
+      "op": "set_fields",
+      "scope": "content",
+      "selector": {
+        "kind": "html_comment",
+        "value": "AI_SLOT:INTRO"
+      },
+      "content": {
+        "format": "json",
+        "value": {
+          "type": "page",
+          "status": "publish",
+          "slug": "booking-system-newcastle",
+          "title": "Booking System Setup Newcastle | Newcastle Hub",
+          "content": "<section class=\"section\" style=\"padding-top:56px;padding-bottom:56px;\"><div class=\"section-content relative\"><div class=\"row\"><div class=\"col small-12 large-12\"><div class=\"col-inner\"><!-- AI_SLOT:INTRO --><h1>Booking System Setup for Service-Based Businesses</h1><p><strong>For service businesses: online booking, reminders, calendar flow, and no-show reduction.</strong></p><!-- /AI_SLOT:INTRO --><h2>Best for</h2><ul><li>Beauty and hair salons</li><li>Mechanics and workshop services</li><li>Trades and appointment-led businesses</li></ul><h2>Core setup</h2><ul><li>Online booking flow and calendar structure</li><li>SMS / email reminders</li><li>Client data capture and rebooking workflow</li><li>Service pages + local SEO support</li></ul><!-- AI_SLOT:CTA --><p><a class=\"button primary is-large\" href=\"https://newcastlehub.info/free-newcastle-business-audit/\">Get Booking System Audit</a></p><p>Related: <a href=\"https://newcastlehub.info/beauty-salon-solutions/\">Beauty Solutions</a> | <a href=\"https://newcastlehub.info/mechanic-solutions/\">Mechanic Solutions</a></p><!-- /AI_SLOT:CTA --></div></div></div></div></div></section>"
+        }
+      },
+      "safety": {
+        "max_chars_change": 30000,
+        "dry_run_diff": true,
+        "allow_full_replace": true
+      }
+    }
+  ]
+}

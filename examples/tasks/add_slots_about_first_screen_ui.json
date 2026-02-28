@@ -1,0 +1,41 @@
+{
+  "task_id": "a89f2f6d-4a1a-4d88-8b4c-7d8b5ff6d0e2",
+  "created_at": "2026-02-15T00:00:00Z",
+  "mode": "execute",
+  "site": {
+    "base_url": "https://newcastlehub.info"
+  },
+  "task_type": "update_post_or_page",
+  "requires_ui": true,
+  "requires_confirmation": true,
+  "priority": "high",
+  "targets": [
+    {
+      "type": "page",
+      "match": {
+        "by": "slug",
+        "value": "about"
+      }
+    }
+  ],
+  "operations": [
+    {
+      "op": "append",
+      "scope": "content",
+      "selector": {
+        "kind": "ux_builder",
+        "value": "first_screen"
+      },
+      "content": {
+        "format": "html",
+        "value": "<!-- AI_SLOT:INTRO --><!-- /AI_SLOT:INTRO -->\n<!-- AI_SLOT:FAQ --><!-- /AI_SLOT:FAQ -->\n<!-- AI_SLOT:CTA --><!-- /AI_SLOT:CTA -->\n<!-- AI_SLOT:SCHEMA --><!-- /AI_SLOT:SCHEMA -->"
+      },
+      "safety": {
+        "max_chars_change": 300,
+        "dry_run_diff": true,
+        "allow_full_replace": false
+      }
+    }
+  ],
+  "notes": "In Flatsome UX Builder, on About page first screen (hero), add a Text/HTML element containing the AI_SLOT comment anchors only. Do not change existing layout or shortcodes. Return before/after screenshots and a short change summary."
+}

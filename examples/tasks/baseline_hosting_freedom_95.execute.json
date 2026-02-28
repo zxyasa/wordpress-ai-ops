@@ -1,0 +1,26 @@
+{
+  "task_id": "d0882a17-4264-4af7-a505-a2d1cf928866",
+  "created_at": "2026-02-16T04:46:45Z",
+  "mode": "execute",
+  "site": { "base_url": "https://newcastlehub.info" },
+  "task_type": "update_post_or_page",
+  "requires_confirmation": true,
+  "priority": "high",
+  "limits": { "cooldown_hours": 0, "max_write_per_target": 10 },
+  "notes": "Add SEO content block to Web Hosting Freedom page.",
+  "targets": [
+    { "type": "page", "match": { "by": "id", "value": 95 } }
+  ],
+  "operations": [
+    {
+      "op": "append",
+      "scope": "content",
+      "selector": { "kind": "regex", "value": "$" },
+      "content": {
+        "format": "html",
+        "value": "\n\n<section class=\"section\" id=\"ai-hosting-freedom-seo\" style=\"padding-top:48px;padding-bottom:48px;background-color:#f3f3f3;\"><div class=\"section-content relative\"><div class=\"row\"><div class=\"col small-12 large-12\"><div class=\"col-inner\"><div class=\"text\"><!-- AI_SLOT:INTRO --><h2>Freedom Hosting for Growing Business Websites</h2><p>The Freedom plan balances performance, flexibility, and support for businesses that are scaling traffic, campaigns, and service pages.</p><!-- /AI_SLOT:INTRO --><h3>Best for</h3><ul><li>Established local businesses</li><li>Sites running active SEO and marketing campaigns</li><li>Teams needing stronger performance headroom</li></ul><!-- AI_SLOT:FAQ --><h3>Freedom Plan FAQ</h3><h4>What is the difference from Starter?</h4><p>Freedom gives more resources and better fit for growing traffic and heavier page usage.</p><h4>Can this handle multiple landing pages?</h4><p>Yes. It is designed for businesses running broader content and campaign structures.</p><h4>Do you provide technical help during growth?</h4><p>Yes. We support performance checks and practical adjustments as your site expands.</p><!-- /AI_SLOT:FAQ --><!-- AI_SLOT:CTA --><p><a class=\"button primary is-large\" href=\"https://newcastlehub.info/contact/\">Choose Freedom Hosting</a></p><p>Need higher capacity? See <a href=\"https://newcastlehub.info/web-hosting-premier/\">Premier Plan</a>.</p><!-- /AI_SLOT:CTA --><!-- AI_SLOT:SCHEMA --><script type=\"application/ld+json\">{\"@context\":\"https://schema.org\",\"@type\":\"FAQPage\",\"mainEntity\":[{\"@type\":\"Question\",\"name\":\"What is the difference from Starter?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"Freedom gives more resources and better fit for growing traffic and heavier page usage.\"}},{\"@type\":\"Question\",\"name\":\"Can this handle multiple landing pages?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"Yes. It is designed for businesses running broader content and campaign structures.\"}},{\"@type\":\"Question\",\"name\":\"Do you provide technical help during growth?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"Yes. We support performance checks and practical adjustments as your site expands.\"}}]}</script><!-- /AI_SLOT:SCHEMA --></div></div></div></div></div></section>\n"
+      },
+      "safety": { "max_chars_change": 12000, "dry_run_diff": true, "allow_full_replace": true }
+    }
+  ]
+}

@@ -1,0 +1,961 @@
+{
+  "generated_at": "2026-02-18T04:55:29.257824+00:00",
+  "inputs": {
+    "gsc_csv": "examples/csv/newcastle_baseline_gsc.csv",
+    "ga_csv": "examples/csv/newcastle_baseline_ga.csv"
+  },
+  "site": {
+    "base_url": "https://newcastlehub.info"
+  },
+  "selected_pages": [
+    {
+      "url": "https://newcastlehub.info/",
+      "score": 7,
+      "reasons": [
+        "high_impressions_low_ctr",
+        "rank_5_15",
+        "high_bounce"
+      ],
+      "impressions": 3200.0,
+      "clicks": 42.0,
+      "ctr": 0.013,
+      "position": 9.1,
+      "bounce_rate": 0.72
+    },
+    {
+      "url": "https://newcastlehub.info/services/",
+      "score": 7,
+      "reasons": [
+        "high_impressions_low_ctr",
+        "rank_5_15",
+        "high_bounce"
+      ],
+      "impressions": 1450.0,
+      "clicks": 18.0,
+      "ctr": 0.012,
+      "position": 10.4,
+      "bounce_rate": 0.78
+    },
+    {
+      "url": "https://newcastlehub.info/online-ordering-newcastle/",
+      "score": 7,
+      "reasons": [
+        "high_impressions_low_ctr",
+        "rank_5_15",
+        "high_bounce"
+      ],
+      "impressions": 1020.0,
+      "clicks": 13.0,
+      "ctr": 0.013,
+      "position": 8.2,
+      "bounce_rate": 0.73
+    },
+    {
+      "url": "https://newcastlehub.info/restaurant-solutions/",
+      "score": 7,
+      "reasons": [
+        "high_impressions_low_ctr",
+        "rank_5_15",
+        "high_bounce"
+      ],
+      "impressions": 980.0,
+      "clicks": 9.0,
+      "ctr": 0.009,
+      "position": 11.2,
+      "bounce_rate": 0.81
+    },
+    {
+      "url": "https://newcastlehub.info/trades-solutions/",
+      "score": 7,
+      "reasons": [
+        "high_impressions_low_ctr",
+        "rank_5_15",
+        "high_bounce"
+      ],
+      "impressions": 910.0,
+      "clicks": 11.0,
+      "ctr": 0.012,
+      "position": 8.9,
+      "bounce_rate": 0.75
+    },
+    {
+      "url": "https://newcastlehub.info/beauty-salon-solutions/",
+      "score": 7,
+      "reasons": [
+        "high_impressions_low_ctr",
+        "rank_5_15",
+        "high_bounce"
+      ],
+      "impressions": 860.0,
+      "clicks": 7.0,
+      "ctr": 0.008,
+      "position": 12.0,
+      "bounce_rate": 0.79
+    },
+    {
+      "url": "https://newcastlehub.info/mechanic-solutions/",
+      "score": 7,
+      "reasons": [
+        "high_impressions_low_ctr",
+        "rank_5_15",
+        "high_bounce"
+      ],
+      "impressions": 780.0,
+      "clicks": 6.0,
+      "ctr": 0.008,
+      "position": 12.4,
+      "bounce_rate": 0.8
+    },
+    {
+      "url": "https://newcastlehub.info/retail-solutions/",
+      "score": 7,
+      "reasons": [
+        "high_impressions_low_ctr",
+        "rank_5_15",
+        "high_bounce"
+      ],
+      "impressions": 730.0,
+      "clicks": 5.0,
+      "ctr": 0.007,
+      "position": 13.1,
+      "bounce_rate": 0.82
+    }
+  ],
+  "generated_tasks": [
+    {
+      "task_id": "34888ff0-c668-4c2d-966b-1b0e9289cd7c",
+      "task_type": "update_post_or_page",
+      "target_url": "https://newcastlehub.info/",
+      "reasons": [
+        "high_impressions_low_ctr",
+        "rank_5_15",
+        "high_bounce"
+      ]
+    },
+    {
+      "task_id": "64c95bb3-44d7-4028-a53b-8a230522d3c9",
+      "task_type": "inject_schema_faq",
+      "target_url": "https://newcastlehub.info/",
+      "reasons": [
+        "high_impressions_low_ctr",
+        "rank_5_15",
+        "high_bounce"
+      ]
+    },
+    {
+      "task_id": "cce53f9e-9775-402c-ac7a-79c7b390b62c",
+      "task_type": "append_internal_links",
+      "target_url": "https://newcastlehub.info/",
+      "reasons": [
+        "high_impressions_low_ctr",
+        "rank_5_15",
+        "high_bounce"
+      ]
+    },
+    {
+      "task_id": "ebd30eba-76c1-403d-933b-45f1e3b05a23",
+      "task_type": "set_meta",
+      "target_url": "https://newcastlehub.info/",
+      "reasons": [
+        "high_impressions_low_ctr",
+        "rank_5_15",
+        "high_bounce"
+      ]
+    },
+    {
+      "task_id": "28fd32dd-dd0c-48f3-a792-3b0af5cac3b3",
+      "task_type": "update_post_or_page",
+      "target_url": "https://newcastlehub.info/services/",
+      "reasons": [
+        "high_impressions_low_ctr",
+        "rank_5_15",
+        "high_bounce"
+      ]
+    },
+    {
+      "task_id": "15598547-7638-43aa-96ca-8947b89707aa",
+      "task_type": "inject_schema_faq",
+      "target_url": "https://newcastlehub.info/services/",
+      "reasons": [
+        "high_impressions_low_ctr",
+        "rank_5_15",
+        "high_bounce"
+      ]
+    },
+    {
+      "task_id": "d9dd1270-b2b0-4cc8-b5db-d38da76662f1",
+      "task_type": "append_internal_links",
+      "target_url": "https://newcastlehub.info/services/",
+      "reasons": [
+        "high_impressions_low_ctr",
+        "rank_5_15",
+        "high_bounce"
+      ]
+    },
+    {
+      "task_id": "ca8e5589-c900-4394-99a6-130294eb8c7d",
+      "task_type": "set_meta",
+      "target_url": "https://newcastlehub.info/services/",
+      "reasons": [
+        "high_impressions_low_ctr",
+        "rank_5_15",
+        "high_bounce"
+      ]
+    },
+    {
+      "task_id": "b02e5e49-b0cc-4502-817b-e8057715f938",
+      "task_type": "update_post_or_page",
+      "target_url": "https://newcastlehub.info/online-ordering-newcastle/",
+      "reasons": [
+        "high_impressions_low_ctr",
+        "rank_5_15",
+        "high_bounce"
+      ]
+    },
+    {
+      "task_id": "b3a420f6-4e2b-401b-9de4-be2b9604b1dd",
+      "task_type": "inject_schema_faq",
+      "target_url": "https://newcastlehub.info/online-ordering-newcastle/",
+      "reasons": [
+        "high_impressions_low_ctr",
+        "rank_5_15",
+        "high_bounce"
+      ]
+    },
+    {
+      "task_id": "405eeefe-ac7a-4823-af29-f61a1393f115",
+      "task_type": "append_internal_links",
+      "target_url": "https://newcastlehub.info/online-ordering-newcastle/",
+      "reasons": [
+        "high_impressions_low_ctr",
+        "rank_5_15",
+        "high_bounce"
+      ]
+    },
+    {
+      "task_id": "965e27da-f7df-4df8-b0dc-44dbacb4a45f",
+      "task_type": "set_meta",
+      "target_url": "https://newcastlehub.info/online-ordering-newcastle/",
+      "reasons": [
+        "high_impressions_low_ctr",
+        "rank_5_15",
+        "high_bounce"
+      ]
+    },
+    {
+      "task_id": "973ab1b9-e65f-40fb-8df3-ff523506c57b",
+      "task_type": "update_post_or_page",
+      "target_url": "https://newcastlehub.info/restaurant-solutions/",
+      "reasons": [
+        "high_impressions_low_ctr",
+        "rank_5_15",
+        "high_bounce"
+      ]
+    },
+    {
+      "task_id": "96437fe2-13f9-4464-81c0-13e1dafbe5ee",
+      "task_type": "inject_schema_faq",
+      "target_url": "https://newcastlehub.info/restaurant-solutions/",
+      "reasons": [
+        "high_impressions_low_ctr",
+        "rank_5_15",
+        "high_bounce"
+      ]
+    },
+    {
+      "task_id": "2c4fdcc7-ba6f-44cc-927d-0ff3f47530d5",
+      "task_type": "append_internal_links",
+      "target_url": "https://newcastlehub.info/restaurant-solutions/",
+      "reasons": [
+        "high_impressions_low_ctr",
+        "rank_5_15",
+        "high_bounce"
+      ]
+    },
+    {
+      "task_id": "aa990895-f0bd-4208-8e8b-9be1a088443a",
+      "task_type": "set_meta",
+      "target_url": "https://newcastlehub.info/restaurant-solutions/",
+      "reasons": [
+        "high_impressions_low_ctr",
+        "rank_5_15",
+        "high_bounce"
+      ]
+    },
+    {
+      "task_id": "fd6b14ae-0d4c-434d-8d3d-abcc692400cd",
+      "task_type": "update_post_or_page",
+      "target_url": "https://newcastlehub.info/trades-solutions/",
+      "reasons": [
+        "high_impressions_low_ctr",
+        "rank_5_15",
+        "high_bounce"
+      ]
+    },
+    {
+      "task_id": "1ef32000-1f85-4c67-a75e-f66d88d0663c",
+      "task_type": "inject_schema_faq",
+      "target_url": "https://newcastlehub.info/trades-solutions/",
+      "reasons": [
+        "high_impressions_low_ctr",
+        "rank_5_15",
+        "high_bounce"
+      ]
+    },
+    {
+      "task_id": "99a9df78-765d-4a0e-8e83-c4204a102f8d",
+      "task_type": "append_internal_links",
+      "target_url": "https://newcastlehub.info/trades-solutions/",
+      "reasons": [
+        "high_impressions_low_ctr",
+        "rank_5_15",
+        "high_bounce"
+      ]
+    },
+    {
+      "task_id": "81aa6b9c-fb5c-43c3-8b8f-d269cadfc509",
+      "task_type": "set_meta",
+      "target_url": "https://newcastlehub.info/trades-solutions/",
+      "reasons": [
+        "high_impressions_low_ctr",
+        "rank_5_15",
+        "high_bounce"
+      ]
+    },
+    {
+      "task_id": "8302a1c2-dbb5-499a-ac4c-4b65c9ed6237",
+      "task_type": "update_post_or_page",
+      "target_url": "https://newcastlehub.info/beauty-salon-solutions/",
+      "reasons": [
+        "high_impressions_low_ctr",
+        "rank_5_15",
+        "high_bounce"
+      ]
+    },
+    {
+      "task_id": "4bd17e0c-b1ec-4e53-887b-3fc0fbb93112",
+      "task_type": "inject_schema_faq",
+      "target_url": "https://newcastlehub.info/beauty-salon-solutions/",
+      "reasons": [
+        "high_impressions_low_ctr",
+        "rank_5_15",
+        "high_bounce"
+      ]
+    },
+    {
+      "task_id": "b6b748e7-6827-47fb-98bf-c2a719de878e",
+      "task_type": "append_internal_links",
+      "target_url": "https://newcastlehub.info/beauty-salon-solutions/",
+      "reasons": [
+        "high_impressions_low_ctr",
+        "rank_5_15",
+        "high_bounce"
+      ]
+    },
+    {
+      "task_id": "0f5d5058-8448-4cd3-9060-4b8cff48befe",
+      "task_type": "set_meta",
+      "target_url": "https://newcastlehub.info/beauty-salon-solutions/",
+      "reasons": [
+        "high_impressions_low_ctr",
+        "rank_5_15",
+        "high_bounce"
+      ]
+    },
+    {
+      "task_id": "90f838df-fa2f-491d-bc7c-6403bd4c80e9",
+      "task_type": "update_post_or_page",
+      "target_url": "https://newcastlehub.info/mechanic-solutions/",
+      "reasons": [
+        "high_impressions_low_ctr",
+        "rank_5_15",
+        "high_bounce"
+      ]
+    },
+    {
+      "task_id": "2362c7d9-5cae-4a89-9f34-68e14bbac6b0",
+      "task_type": "inject_schema_faq",
+      "target_url": "https://newcastlehub.info/mechanic-solutions/",
+      "reasons": [
+        "high_impressions_low_ctr",
+        "rank_5_15",
+        "high_bounce"
+      ]
+    },
+    {
+      "task_id": "2847e647-fac4-41d7-be2f-842ca188e495",
+      "task_type": "append_internal_links",
+      "target_url": "https://newcastlehub.info/mechanic-solutions/",
+      "reasons": [
+        "high_impressions_low_ctr",
+        "rank_5_15",
+        "high_bounce"
+      ]
+    },
+    {
+      "task_id": "3608af8d-2c7c-4ae8-9962-d2044f30e97f",
+      "task_type": "set_meta",
+      "target_url": "https://newcastlehub.info/mechanic-solutions/",
+      "reasons": [
+        "high_impressions_low_ctr",
+        "rank_5_15",
+        "high_bounce"
+      ]
+    },
+    {
+      "task_id": "daa5ea0f-9a11-4e5b-a4d6-8dc29ac61322",
+      "task_type": "update_post_or_page",
+      "target_url": "https://newcastlehub.info/retail-solutions/",
+      "reasons": [
+        "high_impressions_low_ctr",
+        "rank_5_15",
+        "high_bounce"
+      ]
+    },
+    {
+      "task_id": "6433cb5b-4120-4072-9aaa-0d25dca0bc16",
+      "task_type": "inject_schema_faq",
+      "target_url": "https://newcastlehub.info/retail-solutions/",
+      "reasons": [
+        "high_impressions_low_ctr",
+        "rank_5_15",
+        "high_bounce"
+      ]
+    },
+    {
+      "task_id": "a2956edc-870d-4ec8-b7f8-e42bce89a695",
+      "task_type": "append_internal_links",
+      "target_url": "https://newcastlehub.info/retail-solutions/",
+      "reasons": [
+        "high_impressions_low_ctr",
+        "rank_5_15",
+        "high_bounce"
+      ]
+    },
+    {
+      "task_id": "e4276852-3cbe-4dac-bd22-82710b1b616e",
+      "task_type": "set_meta",
+      "target_url": "https://newcastlehub.info/retail-solutions/",
+      "reasons": [
+        "high_impressions_low_ctr",
+        "rank_5_15",
+        "high_bounce"
+      ]
+    }
+  ],
+  "tasks_dir": "weekly-output-live-20260218/tasks",
+  "execution_results": [
+    {
+      "task_id": "0f5d5058-8448-4cd3-9060-4b8cff48befe",
+      "status": "ok",
+      "mode": "execute",
+      "results": [
+        {
+          "target": "https://newcastlehub.info:page:713",
+          "status": "skipped",
+          "reason": "cooldown active (24h)"
+        }
+      ],
+      "errors": [],
+      "duration_ms": 3554,
+      "timestamp": "2026-02-18T04:53:59.204703+00:00",
+      "task_file": "weekly-output-live-20260218/tasks/0f5d5058-8448-4cd3-9060-4b8cff48befe.json"
+    },
+    {
+      "task_id": "15598547-7638-43aa-96ca-8947b89707aa",
+      "status": "ok",
+      "mode": "execute",
+      "results": [
+        {
+          "target": "https://newcastlehub.info:page:39",
+          "status": "skipped",
+          "reason": "cooldown active (24h)"
+        }
+      ],
+      "errors": [],
+      "duration_ms": 3395,
+      "timestamp": "2026-02-18T04:54:02.760955+00:00",
+      "task_file": "weekly-output-live-20260218/tasks/15598547-7638-43aa-96ca-8947b89707aa.json"
+    },
+    {
+      "task_id": "1ef32000-1f85-4c67-a75e-f66d88d0663c",
+      "status": "ok",
+      "mode": "execute",
+      "results": [
+        {
+          "target": "https://newcastlehub.info:page:717",
+          "status": "skipped",
+          "reason": "cooldown active (24h)"
+        }
+      ],
+      "errors": [],
+      "duration_ms": 3337,
+      "timestamp": "2026-02-18T04:54:06.156101+00:00",
+      "task_file": "weekly-output-live-20260218/tasks/1ef32000-1f85-4c67-a75e-f66d88d0663c.json"
+    },
+    {
+      "task_id": "2362c7d9-5cae-4a89-9f34-68e14bbac6b0",
+      "status": "ok",
+      "mode": "execute",
+      "results": [
+        {
+          "target": "https://newcastlehub.info:page:714",
+          "status": "skipped",
+          "reason": "cooldown active (24h)"
+        }
+      ],
+      "errors": [],
+      "duration_ms": 3432,
+      "timestamp": "2026-02-18T04:54:09.494706+00:00",
+      "task_file": "weekly-output-live-20260218/tasks/2362c7d9-5cae-4a89-9f34-68e14bbac6b0.json"
+    },
+    {
+      "task_id": "2847e647-fac4-41d7-be2f-842ca188e495",
+      "status": "ok",
+      "mode": "execute",
+      "results": [
+        {
+          "target": "https://newcastlehub.info:page:714",
+          "status": "skipped",
+          "reason": "cooldown active (24h)"
+        }
+      ],
+      "errors": [],
+      "duration_ms": 2475,
+      "timestamp": "2026-02-18T04:54:12.926859+00:00",
+      "task_file": "weekly-output-live-20260218/tasks/2847e647-fac4-41d7-be2f-842ca188e495.json"
+    },
+    {
+      "task_id": "28fd32dd-dd0c-48f3-a792-3b0af5cac3b3",
+      "status": "ok",
+      "mode": "execute",
+      "results": [
+        {
+          "target": "https://newcastlehub.info:page:39",
+          "status": "skipped",
+          "reason": "cooldown active (24h)"
+        }
+      ],
+      "errors": [],
+      "duration_ms": 2472,
+      "timestamp": "2026-02-18T04:54:15.403301+00:00",
+      "task_file": "weekly-output-live-20260218/tasks/28fd32dd-dd0c-48f3-a792-3b0af5cac3b3.json"
+    },
+    {
+      "task_id": "2c4fdcc7-ba6f-44cc-927d-0ff3f47530d5",
+      "status": "ok",
+      "mode": "execute",
+      "results": [
+        {
+          "target": "https://newcastlehub.info:page:715",
+          "status": "skipped",
+          "reason": "cooldown active (24h)"
+        }
+      ],
+      "errors": [],
+      "duration_ms": 3320,
+      "timestamp": "2026-02-18T04:54:17.876693+00:00",
+      "task_file": "weekly-output-live-20260218/tasks/2c4fdcc7-ba6f-44cc-927d-0ff3f47530d5.json"
+    },
+    {
+      "task_id": "34888ff0-c668-4c2d-966b-1b0e9289cd7c",
+      "status": "ok",
+      "mode": "execute",
+      "results": [
+        {
+          "target": "https://newcastlehub.info:page:403",
+          "status": "skipped",
+          "reason": "7d write limit reached (3)"
+        }
+      ],
+      "errors": [],
+      "duration_ms": 3956,
+      "timestamp": "2026-02-18T04:54:21.197743+00:00",
+      "task_file": "weekly-output-live-20260218/tasks/34888ff0-c668-4c2d-966b-1b0e9289cd7c.json"
+    },
+    {
+      "task_id": "3608af8d-2c7c-4ae8-9962-d2044f30e97f",
+      "status": "ok",
+      "mode": "execute",
+      "results": [
+        {
+          "target": "https://newcastlehub.info:page:714",
+          "status": "skipped",
+          "reason": "cooldown active (24h)"
+        }
+      ],
+      "errors": [],
+      "duration_ms": 2449,
+      "timestamp": "2026-02-18T04:54:25.154902+00:00",
+      "task_file": "weekly-output-live-20260218/tasks/3608af8d-2c7c-4ae8-9962-d2044f30e97f.json"
+    },
+    {
+      "task_id": "405eeefe-ac7a-4823-af29-f61a1393f115",
+      "status": "ok",
+      "mode": "execute",
+      "results": [
+        {
+          "target": "https://newcastlehub.info:page:722",
+          "status": "skipped",
+          "reason": "cooldown active (24h)"
+        }
+      ],
+      "errors": [],
+      "duration_ms": 3412,
+      "timestamp": "2026-02-18T04:54:27.605184+00:00",
+      "task_file": "weekly-output-live-20260218/tasks/405eeefe-ac7a-4823-af29-f61a1393f115.json"
+    },
+    {
+      "task_id": "4bd17e0c-b1ec-4e53-887b-3fc0fbb93112",
+      "status": "ok",
+      "mode": "execute",
+      "results": [
+        {
+          "target": "https://newcastlehub.info:page:713",
+          "status": "skipped",
+          "reason": "cooldown active (24h)"
+        }
+      ],
+      "errors": [],
+      "duration_ms": 2455,
+      "timestamp": "2026-02-18T04:54:31.017342+00:00",
+      "task_file": "weekly-output-live-20260218/tasks/4bd17e0c-b1ec-4e53-887b-3fc0fbb93112.json"
+    },
+    {
+      "task_id": "6433cb5b-4120-4072-9aaa-0d25dca0bc16",
+      "status": "ok",
+      "mode": "execute",
+      "results": [
+        {
+          "target": "https://newcastlehub.info:page:716",
+          "status": "skipped",
+          "reason": "cooldown active (24h)"
+        }
+      ],
+      "errors": [],
+      "duration_ms": 3339,
+      "timestamp": "2026-02-18T04:54:33.474246+00:00",
+      "task_file": "weekly-output-live-20260218/tasks/6433cb5b-4120-4072-9aaa-0d25dca0bc16.json"
+    },
+    {
+      "task_id": "64c95bb3-44d7-4028-a53b-8a230522d3c9",
+      "status": "ok",
+      "mode": "execute",
+      "results": [
+        {
+          "target": "https://newcastlehub.info:page:403",
+          "status": "skipped",
+          "reason": "7d write limit reached (3)"
+        }
+      ],
+      "errors": [],
+      "duration_ms": 2571,
+      "timestamp": "2026-02-18T04:54:36.813467+00:00",
+      "task_file": "weekly-output-live-20260218/tasks/64c95bb3-44d7-4028-a53b-8a230522d3c9.json"
+    },
+    {
+      "task_id": "81aa6b9c-fb5c-43c3-8b8f-d269cadfc509",
+      "status": "ok",
+      "mode": "execute",
+      "results": [
+        {
+          "target": "https://newcastlehub.info:page:717",
+          "status": "skipped",
+          "reason": "cooldown active (24h)"
+        }
+      ],
+      "errors": [],
+      "duration_ms": 2450,
+      "timestamp": "2026-02-18T04:54:39.385853+00:00",
+      "task_file": "weekly-output-live-20260218/tasks/81aa6b9c-fb5c-43c3-8b8f-d269cadfc509.json"
+    },
+    {
+      "task_id": "8302a1c2-dbb5-499a-ac4c-4b65c9ed6237",
+      "status": "ok",
+      "mode": "execute",
+      "results": [
+        {
+          "target": "https://newcastlehub.info:page:713",
+          "status": "skipped",
+          "reason": "cooldown active (24h)"
+        }
+      ],
+      "errors": [],
+      "duration_ms": 2488,
+      "timestamp": "2026-02-18T04:54:41.836515+00:00",
+      "task_file": "weekly-output-live-20260218/tasks/8302a1c2-dbb5-499a-ac4c-4b65c9ed6237.json"
+    },
+    {
+      "task_id": "90f838df-fa2f-491d-bc7c-6403bd4c80e9",
+      "status": "ok",
+      "mode": "execute",
+      "results": [
+        {
+          "target": "https://newcastlehub.info:page:714",
+          "status": "skipped",
+          "reason": "cooldown active (24h)"
+        }
+      ],
+      "errors": [],
+      "duration_ms": 2446,
+      "timestamp": "2026-02-18T04:54:44.324831+00:00",
+      "task_file": "weekly-output-live-20260218/tasks/90f838df-fa2f-491d-bc7c-6403bd4c80e9.json"
+    },
+    {
+      "task_id": "96437fe2-13f9-4464-81c0-13e1dafbe5ee",
+      "status": "ok",
+      "mode": "execute",
+      "results": [
+        {
+          "target": "https://newcastlehub.info:page:715",
+          "status": "skipped",
+          "reason": "cooldown active (24h)"
+        }
+      ],
+      "errors": [],
+      "duration_ms": 2447,
+      "timestamp": "2026-02-18T04:54:46.771845+00:00",
+      "task_file": "weekly-output-live-20260218/tasks/96437fe2-13f9-4464-81c0-13e1dafbe5ee.json"
+    },
+    {
+      "task_id": "965e27da-f7df-4df8-b0dc-44dbacb4a45f",
+      "status": "ok",
+      "mode": "execute",
+      "results": [
+        {
+          "target": "https://newcastlehub.info:page:722",
+          "status": "skipped",
+          "reason": "cooldown active (24h)"
+        }
+      ],
+      "errors": [],
+      "duration_ms": 2464,
+      "timestamp": "2026-02-18T04:54:49.220265+00:00",
+      "task_file": "weekly-output-live-20260218/tasks/965e27da-f7df-4df8-b0dc-44dbacb4a45f.json"
+    },
+    {
+      "task_id": "973ab1b9-e65f-40fb-8df3-ff523506c57b",
+      "status": "ok",
+      "mode": "execute",
+      "results": [
+        {
+          "target": "https://newcastlehub.info:page:715",
+          "status": "skipped",
+          "reason": "cooldown active (24h)"
+        }
+      ],
+      "errors": [],
+      "duration_ms": 2463,
+      "timestamp": "2026-02-18T04:54:51.685166+00:00",
+      "task_file": "weekly-output-live-20260218/tasks/973ab1b9-e65f-40fb-8df3-ff523506c57b.json"
+    },
+    {
+      "task_id": "99a9df78-765d-4a0e-8e83-c4204a102f8d",
+      "status": "ok",
+      "mode": "execute",
+      "results": [
+        {
+          "target": "https://newcastlehub.info:page:717",
+          "status": "skipped",
+          "reason": "cooldown active (24h)"
+        }
+      ],
+      "errors": [],
+      "duration_ms": 2463,
+      "timestamp": "2026-02-18T04:54:54.148870+00:00",
+      "task_file": "weekly-output-live-20260218/tasks/99a9df78-765d-4a0e-8e83-c4204a102f8d.json"
+    },
+    {
+      "task_id": "a2956edc-870d-4ec8-b7f8-e42bce89a695",
+      "status": "ok",
+      "mode": "execute",
+      "results": [
+        {
+          "target": "https://newcastlehub.info:page:716",
+          "status": "skipped",
+          "reason": "cooldown active (24h)"
+        }
+      ],
+      "errors": [],
+      "duration_ms": 2498,
+      "timestamp": "2026-02-18T04:54:56.613321+00:00",
+      "task_file": "weekly-output-live-20260218/tasks/a2956edc-870d-4ec8-b7f8-e42bce89a695.json"
+    },
+    {
+      "task_id": "aa990895-f0bd-4208-8e8b-9be1a088443a",
+      "status": "ok",
+      "mode": "execute",
+      "results": [
+        {
+          "target": "https://newcastlehub.info:page:715",
+          "status": "skipped",
+          "reason": "cooldown active (24h)"
+        }
+      ],
+      "errors": [],
+      "duration_ms": 2439,
+      "timestamp": "2026-02-18T04:54:59.112128+00:00",
+      "task_file": "weekly-output-live-20260218/tasks/aa990895-f0bd-4208-8e8b-9be1a088443a.json"
+    },
+    {
+      "task_id": "b02e5e49-b0cc-4502-817b-e8057715f938",
+      "status": "ok",
+      "mode": "execute",
+      "results": [
+        {
+          "target": "https://newcastlehub.info:page:722",
+          "status": "skipped",
+          "reason": "cooldown active (24h)"
+        }
+      ],
+      "errors": [],
+      "duration_ms": 2507,
+      "timestamp": "2026-02-18T04:55:01.552097+00:00",
+      "task_file": "weekly-output-live-20260218/tasks/b02e5e49-b0cc-4502-817b-e8057715f938.json"
+    },
+    {
+      "task_id": "b3a420f6-4e2b-401b-9de4-be2b9604b1dd",
+      "status": "ok",
+      "mode": "execute",
+      "results": [
+        {
+          "target": "https://newcastlehub.info:page:722",
+          "status": "skipped",
+          "reason": "cooldown active (24h)"
+        }
+      ],
+      "errors": [],
+      "duration_ms": 2421,
+      "timestamp": "2026-02-18T04:55:04.060447+00:00",
+      "task_file": "weekly-output-live-20260218/tasks/b3a420f6-4e2b-401b-9de4-be2b9604b1dd.json"
+    },
+    {
+      "task_id": "b6b748e7-6827-47fb-98bf-c2a719de878e",
+      "status": "ok",
+      "mode": "execute",
+      "results": [
+        {
+          "target": "https://newcastlehub.info:page:713",
+          "status": "skipped",
+          "reason": "cooldown active (24h)"
+        }
+      ],
+      "errors": [],
+      "duration_ms": 3408,
+      "timestamp": "2026-02-18T04:55:06.481539+00:00",
+      "task_file": "weekly-output-live-20260218/tasks/b6b748e7-6827-47fb-98bf-c2a719de878e.json"
+    },
+    {
+      "task_id": "ca8e5589-c900-4394-99a6-130294eb8c7d",
+      "status": "ok",
+      "mode": "execute",
+      "results": [
+        {
+          "target": "https://newcastlehub.info:page:39",
+          "status": "skipped",
+          "reason": "cooldown active (24h)"
+        }
+      ],
+      "errors": [],
+      "duration_ms": 3239,
+      "timestamp": "2026-02-18T04:55:09.891614+00:00",
+      "task_file": "weekly-output-live-20260218/tasks/ca8e5589-c900-4394-99a6-130294eb8c7d.json"
+    },
+    {
+      "task_id": "cce53f9e-9775-402c-ac7a-79c7b390b62c",
+      "status": "ok",
+      "mode": "execute",
+      "results": [
+        {
+          "target": "https://newcastlehub.info:page:403",
+          "status": "skipped",
+          "reason": "7d write limit reached (3)"
+        }
+      ],
+      "errors": [],
+      "duration_ms": 2520,
+      "timestamp": "2026-02-18T04:55:13.131581+00:00",
+      "task_file": "weekly-output-live-20260218/tasks/cce53f9e-9775-402c-ac7a-79c7b390b62c.json"
+    },
+    {
+      "task_id": "d9dd1270-b2b0-4cc8-b5db-d38da76662f1",
+      "status": "ok",
+      "mode": "execute",
+      "results": [
+        {
+          "target": "https://newcastlehub.info:page:39",
+          "status": "skipped",
+          "reason": "cooldown active (24h)"
+        }
+      ],
+      "errors": [],
+      "duration_ms": 2455,
+      "timestamp": "2026-02-18T04:55:15.652373+00:00",
+      "task_file": "weekly-output-live-20260218/tasks/d9dd1270-b2b0-4cc8-b5db-d38da76662f1.json"
+    },
+    {
+      "task_id": "daa5ea0f-9a11-4e5b-a4d6-8dc29ac61322",
+      "status": "ok",
+      "mode": "execute",
+      "results": [
+        {
+          "target": "https://newcastlehub.info:page:716",
+          "status": "skipped",
+          "reason": "cooldown active (24h)"
+        }
+      ],
+      "errors": [],
+      "duration_ms": 2447,
+      "timestamp": "2026-02-18T04:55:18.108050+00:00",
+      "task_file": "weekly-output-live-20260218/tasks/daa5ea0f-9a11-4e5b-a4d6-8dc29ac61322.json"
+    },
+    {
+      "task_id": "e4276852-3cbe-4dac-bd22-82710b1b616e",
+      "status": "ok",
+      "mode": "execute",
+      "results": [
+        {
+          "target": "https://newcastlehub.info:page:716",
+          "status": "skipped",
+          "reason": "cooldown active (24h)"
+        }
+      ],
+      "errors": [],
+      "duration_ms": 2466,
+      "timestamp": "2026-02-18T04:55:20.556367+00:00",
+      "task_file": "weekly-output-live-20260218/tasks/e4276852-3cbe-4dac-bd22-82710b1b616e.json"
+    },
+    {
+      "task_id": "ebd30eba-76c1-403d-933b-45f1e3b05a23",
+      "status": "ok",
+      "mode": "execute",
+      "results": [
+        {
+          "target": "https://newcastlehub.info:page:403",
+          "status": "skipped",
+          "reason": "7d write limit reached (3)"
+        }
+      ],
+      "errors": [],
+      "duration_ms": 2940,
+      "timestamp": "2026-02-18T04:55:23.023250+00:00",
+      "task_file": "weekly-output-live-20260218/tasks/ebd30eba-76c1-403d-933b-45f1e3b05a23.json"
+    },
+    {
+      "task_id": "fd6b14ae-0d4c-434d-8d3d-abcc692400cd",
+      "status": "ok",
+      "mode": "execute",
+      "results": [
+        {
+          "target": "https://newcastlehub.info:page:717",
+          "status": "skipped",
+          "reason": "cooldown active (24h)"
+        }
+      ],
+      "errors": [],
+      "duration_ms": 3293,
+      "timestamp": "2026-02-18T04:55:25.964319+00:00",
+      "task_file": "weekly-output-live-20260218/tasks/fd6b14ae-0d4c-434d-8d3d-abcc692400cd.json"
+    }
+  ]
+}

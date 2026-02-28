@@ -1,0 +1,127 @@
+{
+  "id": 39,
+  "date": "2021-09-06T13:50:23",
+  "date_gmt": "2021-09-06T13:50:23",
+  "guid": {
+    "rendered": "https://newcastlehub.info/?page_id=39",
+    "raw": "https://newcastlehub.info/?page_id=39"
+  },
+  "modified": "2026-02-15T04:13:01",
+  "modified_gmt": "2026-02-15T04:13:01",
+  "password": "",
+  "slug": "services",
+  "status": "publish",
+  "type": "page",
+  "link": "https://newcastlehub.info/services/",
+  "title": {
+    "raw": "Services",
+    "rendered": "Services"
+  },
+  "content": {
+    "raw": "<!-- wp:flatsome/uxbuilder -->\n[section bg_color=\"rgb(243, 243, 243)\" padding=\"60px\"]\n\n[row style=\"collapse\"]\n\n[col span__sm=\"12\"]\n\n[ux_text font_size=\"1.7\" text_align=\"center\" text_color=\"rgb(19, 19, 19)\"]\n\n<h2>Newcastlehub Services</h2>\n[/ux_text]\n[ux_text text_align=\"center\" text_color=\"rgb(41, 41, 41)\"]\n\n<p>Elevating Brands through Exceptional Web Design and Strategic Marketing. In today's digital landscape, a compelling online presence is essential for success, and that's where we come in. Our web design and marketing services work in tandem to create a holistic strategy that not only captures attention but drives results.</p>\n[/ux_text]\n\n[/col]\n\n[/row]\n[gap]\n\n[row]\n\n[col span=\"4\" span__sm=\"12\"]\n\n[ux_image_box img=\"413\" image_overlay=\"rgba(255, 211, 39, 0.558)\" image_hover=\"overlay-add\" text_padding=\"0px 0px 0px 0px\" class=\"service_box\"]\n\n[button text=\"Website Service\" size=\"large\" padding=\"15px 0px 15px 0px\" expand=\"true\" icon=\"icon-angle-right\" link=\"https://newcastlehub.info/website-service/\"]\n\n\n[/ux_image_box]\n\n[/col]\n[col span=\"4\" span__sm=\"12\"]\n\n[ux_image_box img=\"432\" image_overlay=\"rgba(255, 211, 39, 0.558)\" image_hover=\"overlay-add\" text_padding=\"0px 0px 0px 0px\" class=\"service_box\"]\n\n[button text=\"Web Hosting Service\" size=\"large\" padding=\"15px 0px 15px 0px\" expand=\"true\" icon=\"icon-angle-right\" link=\"https://newcastlehub.info/hosting-plan/\"]\n\n\n[/ux_image_box]\n\n[/col]\n[col span=\"4\" span__sm=\"12\"]\n\n[ux_image_box img=\"405\" image_overlay=\"rgba(255, 211, 39, 0.558)\" image_hover=\"overlay-add\" text_padding=\"0px 0px 0px 0px\" class=\"service_box\"]\n\n[button text=\"Marketing Service\" size=\"large\" padding=\"15px 0px 15px 0px\" expand=\"true\" icon=\"icon-angle-right\" link=\"https://newcastlehub.info/marketing-service/\"]\n\n\n[/ux_image_box]\n[ux_image_box img=\"658\" image_overlay=\"rgba(255, 211, 39, 0.558)\" image_hover=\"overlay-add\" text_padding=\"0px 0px 0px 0px\" class=\"service_box\"]\n\n[button text=\"AI Service\" size=\"large\" padding=\"15px 0px 15px 0px\" expand=\"true\" icon=\"icon-angle-right\" link=\"https://newcastlehub.info/create-an-ai-avatar/\"]\n\n\n[/ux_image_box]\n\n[/col]\n\n[/row]\n\n[/section]\n\n<!-- /wp:flatsome/uxbuilder -->\n\n<section class=\"section\" id=\"ai-ops-seo-services\">\n  <div class=\"section-content relative\">\n    <div class=\"row\">\n      <div class=\"col small-12 large-12\">\n        <div class=\"col-inner\">\n          <div class=\"text\">\n            <!-- AI_SLOT:FAQ -->\n            <h2>Services FAQ</h2>\n            <h3>What services do you offer?</h3>\n            <p>Website design, hosting, and digital marketing, including SEO and conversion improvements.</p>\n            <h3>Do you handle copywriting?</h3>\n            <p>Yes. We can rewrite key pages to match search intent and improve clarity and conversions.</p>\n            <h3>Can you support ongoing updates?</h3>\n            <p>Yes. We can manage content updates, speed checks, and SEO improvements over time.</p>\n            <!-- /AI_SLOT:FAQ -->\n\n            <!-- AI_SLOT:CTA -->\n            <h2>Get a quote</h2>\n            <p><a class=\"button primary is-large\" href=\"https://newcastlehub.info/contact/\">Request a quote</a></p>\n            <!-- /AI_SLOT:CTA -->\n\n            <!-- AI_SLOT:SCHEMA -->\n            <script type=\"application/ld+json\">{\"@context\":\"https://schema.org\",\"@type\":\"FAQPage\",\"mainEntity\":[{\"@type\":\"Question\",\"name\":\"What services do you offer?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"Website design, hosting, and digital marketing, including SEO and conversion improvements.\"}},{\"@type\":\"Question\",\"name\":\"Do you handle copywriting?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"Yes. We can rewrite key pages to match search intent and improve clarity and conversions.\"}},{\"@type\":\"Question\",\"name\":\"Can you support ongoing updates?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"Yes. We can manage content updates, speed checks, and SEO improvements over time.\"}}]}</script>\n            <!-- /AI_SLOT:SCHEMA -->\n          </div>\n        </div>\n      </div>\n    </div>\n  </div>\n</section>\n",
+    "rendered": "\n\n\t<section class=\"section\" id=\"section_790550778\">\n\t\t<div class=\"section-bg fill\" >\n\t\t\t\t\t\t\t\t\t\n\t\t\t\n\n\t\t</div>\n\n\t\t\n\n\t\t<div class=\"section-content relative\">\n\t\t\t\n\n<div class=\"row row-collapse\"  id=\"row-1100233873\">\n\n\n\t<div id=\"col-1628113292\" class=\"col small-12 large-12\"  >\n\t\t\t\t<div class=\"col-inner\"  >\n\t\t\t\n\t\t\t\n\n\t<div id=\"text-1124440059\" class=\"text\">\n\t\t\n\n<h2>Newcastlehub Services</h2>\n\t\t\n<style>\n#text-1124440059 {\n  font-size: 1.7rem;\n  text-align: center;\n  color: rgb(19, 19, 19);\n}\n#text-1124440059 > * {\n  color: rgb(19, 19, 19);\n}\n</style>\n\t</div>\n\t\n\t<div id=\"text-3938739758\" class=\"text\">\n\t\t\n\n<p>Elevating Brands through Exceptional Web Design and Strategic Marketing. In today&#8217;s digital landscape, a compelling online presence is essential for success, and that&#8217;s where we come in. Our web design and marketing services work in tandem to create a holistic strategy that not only captures attention but drives results.</p>\n\t\t\n<style>\n#text-3938739758 {\n  text-align: center;\n  color: rgb(41, 41, 41);\n}\n#text-3938739758 > * {\n  color: rgb(41, 41, 41);\n}\n</style>\n\t</div>\n\t\n\n\t\t</div>\n\t\t\t\t\t</div>\n\n\t\n\n</div>\n\t<div id=\"gap-1033469501\" class=\"gap-element clearfix\" style=\"display:block; height:auto;\">\n\t\t\n<style>\n#gap-1033469501 {\n  padding-top: 30px;\n}\n</style>\n\t</div>\n\t\n\n<div class=\"row\"  id=\"row-1403599898\">\n\n\n\t<div id=\"col-2080788804\" class=\"col medium-4 small-12 large-4\"  >\n\t\t\t\t<div class=\"col-inner\"  >\n\t\t\t\n\t\t\t\n\n\t<div class=\"box has-hover service_box  has-hover box-text-bottom\" >\n\n\t\t<div class=\"box-image\" >\n\t\t\t\t\t\t<div class=\"image-overlay-add\" >\n\t\t\t\t<img loading=\"lazy\" decoding=\"async\" width=\"1279\" height=\"854\" src=\"https://newcastlehub.info/wp-content/uploads/2023/08/web-design.jpg\" class=\"attachment- size-\" alt=\"\" srcset=\"https://newcastlehub.info/wp-content/uploads/2023/08/web-design.jpg 1279w, https://newcastlehub.info/wp-content/uploads/2023/08/web-design-300x200.jpg 300w, https://newcastlehub.info/wp-content/uploads/2023/08/web-design-1024x684.jpg 1024w, https://newcastlehub.info/wp-content/uploads/2023/08/web-design-768x513.jpg 768w\" sizes=\"auto, (max-width: 1279px) 100vw, 1279px\" />\t\t\t\t<div class=\"overlay\" style=\"background-color:rgba(255, 211, 39, 0.558)\"></div>\t\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\n\t\t<div class=\"box-text text-center\" style=\"padding:0px 0px 0px 0px;\">\n\t\t\t<div class=\"box-text-inner\">\n\t\t\t\t\n\n<a href=\"https://newcastlehub.info/website-service/\" class=\"button primary is-large expand\" style=\"padding:15px 0px 15px 0px;\">\n\t\t<span>Website Service</span>\n\t<i class=\"icon-angle-right\" aria-hidden=\"true\"></i></a>\n\n\n\n\t\t\t</div>\n\t\t</div>\n\t</div>\n\t\n\n\t\t</div>\n\t\t\t\t\t</div>\n\n\t\n\n\t<div id=\"col-1519345771\" class=\"col medium-4 small-12 large-4\"  >\n\t\t\t\t<div class=\"col-inner\"  >\n\t\t\t\n\t\t\t\n\n\t<div class=\"box has-hover service_box  has-hover box-text-bottom\" >\n\n\t\t<div class=\"box-image\" >\n\t\t\t\t\t\t<div class=\"image-overlay-add\" >\n\t\t\t\t<img loading=\"lazy\" decoding=\"async\" width=\"1279\" height=\"854\" src=\"https://newcastlehub.info/wp-content/uploads/2023/08/web-hosting.jpg\" class=\"attachment- size-\" alt=\"\" srcset=\"https://newcastlehub.info/wp-content/uploads/2023/08/web-hosting.jpg 1279w, https://newcastlehub.info/wp-content/uploads/2023/08/web-hosting-300x200.jpg 300w, https://newcastlehub.info/wp-content/uploads/2023/08/web-hosting-1024x684.jpg 1024w, https://newcastlehub.info/wp-content/uploads/2023/08/web-hosting-768x513.jpg 768w\" sizes=\"auto, (max-width: 1279px) 100vw, 1279px\" />\t\t\t\t<div class=\"overlay\" style=\"background-color:rgba(255, 211, 39, 0.558)\"></div>\t\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\n\t\t<div class=\"box-text text-center\" style=\"padding:0px 0px 0px 0px;\">\n\t\t\t<div class=\"box-text-inner\">\n\t\t\t\t\n\n<a href=\"https://newcastlehub.info/hosting-plan/\" class=\"button primary is-large expand\" style=\"padding:15px 0px 15px 0px;\">\n\t\t<span>Web Hosting Service</span>\n\t<i class=\"icon-angle-right\" aria-hidden=\"true\"></i></a>\n\n\n\n\t\t\t</div>\n\t\t</div>\n\t</div>\n\t\n\n\t\t</div>\n\t\t\t\t\t</div>\n\n\t\n\n\t<div id=\"col-1038275052\" class=\"col medium-4 small-12 large-4\"  >\n\t\t\t\t<div class=\"col-inner\"  >\n\t\t\t\n\t\t\t\n\n\t<div class=\"box has-hover service_box  has-hover box-text-bottom\" >\n\n\t\t<div class=\"box-image\" >\n\t\t\t\t\t\t<div class=\"image-overlay-add\" >\n\t\t\t\t<img loading=\"lazy\" decoding=\"async\" width=\"1280\" height=\"853\" src=\"https://newcastlehub.info/wp-content/uploads/2023/08/banner-bg.jpg\" class=\"attachment- size-\" alt=\"\" srcset=\"https://newcastlehub.info/wp-content/uploads/2023/08/banner-bg.jpg 1280w, https://newcastlehub.info/wp-content/uploads/2023/08/banner-bg-300x200.jpg 300w, https://newcastlehub.info/wp-content/uploads/2023/08/banner-bg-1024x682.jpg 1024w, https://newcastlehub.info/wp-content/uploads/2023/08/banner-bg-768x512.jpg 768w\" sizes=\"auto, (max-width: 1280px) 100vw, 1280px\" />\t\t\t\t<div class=\"overlay\" style=\"background-color:rgba(255, 211, 39, 0.558)\"></div>\t\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\n\t\t<div class=\"box-text text-center\" style=\"padding:0px 0px 0px 0px;\">\n\t\t\t<div class=\"box-text-inner\">\n\t\t\t\t\n\n<a href=\"https://newcastlehub.info/marketing-service/\" class=\"button primary is-large expand\" style=\"padding:15px 0px 15px 0px;\">\n\t\t<span>Marketing Service</span>\n\t<i class=\"icon-angle-right\" aria-hidden=\"true\"></i></a>\n\n\n\n\t\t\t</div>\n\t\t</div>\n\t</div>\n\t\n\t<div class=\"box has-hover service_box  has-hover box-text-bottom\" >\n\n\t\t<div class=\"box-image\" >\n\t\t\t\t\t\t<div class=\"image-overlay-add\" >\n\t\t\t\t<img loading=\"lazy\" decoding=\"async\" width=\"660\" height=\"440\" src=\"https://newcastlehub.info/wp-content/uploads/2025/02/AI-Avatar.jpg\" class=\"attachment- size-\" alt=\"\" srcset=\"https://newcastlehub.info/wp-content/uploads/2025/02/AI-Avatar.jpg 660w, https://newcastlehub.info/wp-content/uploads/2025/02/AI-Avatar-300x200.jpg 300w\" sizes=\"auto, (max-width: 660px) 100vw, 660px\" />\t\t\t\t<div class=\"overlay\" style=\"background-color:rgba(255, 211, 39, 0.558)\"></div>\t\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\n\t\t<div class=\"box-text text-center\" style=\"padding:0px 0px 0px 0px;\">\n\t\t\t<div class=\"box-text-inner\">\n\t\t\t\t\n\n<a href=\"https://newcastlehub.info/create-an-ai-avatar/\" class=\"button primary is-large expand\" style=\"padding:15px 0px 15px 0px;\">\n\t\t<span>AI Service</span>\n\t<i class=\"icon-angle-right\" aria-hidden=\"true\"></i></a>\n\n\n\n\t\t\t</div>\n\t\t</div>\n\t</div>\n\t\n\n\t\t</div>\n\t\t\t\t\t</div>\n\n\t\n\n</div>\n\n\t\t</div>\n\n\t\t\n<style>\n#section_790550778 {\n  padding-top: 60px;\n  padding-bottom: 60px;\n  background-color: rgb(243, 243, 243);\n}\n</style>\n\t</section>\n\t\n\n\n\n<section class=\"section\" id=\"ai-ops-seo-services\">\n  <div class=\"section-content relative\">\n    <div class=\"row\">\n      <div class=\"col small-12 large-12\">\n        <div class=\"col-inner\">\n          <div class=\"text\">\n            <!-- AI_SLOT:FAQ -->\n            <h2>Services FAQ</h2>\n            <h3>What services do you offer?</h3>\n            <p>Website design, hosting, and digital marketing, including SEO and conversion improvements.</p>\n            <h3>Do you handle copywriting?</h3>\n            <p>Yes. We can rewrite key pages to match search intent and improve clarity and conversions.</p>\n            <h3>Can you support ongoing updates?</h3>\n            <p>Yes. We can manage content updates, speed checks, and SEO improvements over time.</p>\n            <!-- /AI_SLOT:FAQ -->\n\n            <!-- AI_SLOT:CTA -->\n            <h2>Get a quote</h2>\n            <p><a class=\"button primary is-large\" href=\"https://newcastlehub.info/contact/\">Request a quote</a></p>\n            <!-- /AI_SLOT:CTA -->\n\n            <!-- AI_SLOT:SCHEMA -->\n            <script type=\"application/ld+json\">{\"@context\":\"https://schema.org\",\"@type\":\"FAQPage\",\"mainEntity\":[{\"@type\":\"Question\",\"name\":\"What services do you offer?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"Website design, hosting, and digital marketing, including SEO and conversion improvements.\"}},{\"@type\":\"Question\",\"name\":\"Do you handle copywriting?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"Yes. We can rewrite key pages to match search intent and improve clarity and conversions.\"}},{\"@type\":\"Question\",\"name\":\"Can you support ongoing updates?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"Yes. We can manage content updates, speed checks, and SEO improvements over time.\"}}]}</script>\n            <!-- /AI_SLOT:SCHEMA -->\n          </div>\n        </div>\n      </div>\n    </div>\n  </div>\n</section>\n",
+    "protected": false,
+    "block_version": 1
+  },
+  "excerpt": {
+    "raw": "",
+    "rendered": "<p>Services FAQ What services do you offer? Website design, hosting, and digital marketing, including SEO and conversion improvements. Do you handle copywriting? Yes. We can rewrite key pages to match search intent and improve clarity and conversions. Can you support ongoing updates? Yes. We can manage content updates, speed checks, and SEO improvements over time. [&#8230;]\n",
+    "protected": false
+  },
+  "author": 1,
+  "featured_media": 0,
+  "parent": 0,
+  "menu_order": 0,
+  "comment_status": "closed",
+  "ping_status": "closed",
+  "template": "page-blank.php",
+  "meta": {
+    "footnotes": ""
+  },
+  "permalink_template": "https://newcastlehub.info/%pagename%/",
+  "generated_slug": "services",
+  "class_list": [
+    "post-39",
+    "page",
+    "type-page",
+    "status-publish",
+    "hentry"
+  ],
+  "_links": {
+    "self": [
+      {
+        "href": "https://newcastlehub.info/wp-json/wp/v2/pages/39",
+        "targetHints": {
+          "allow": [
+            "GET",
+            "POST",
+            "PUT",
+            "PATCH",
+            "DELETE"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://newcastlehub.info/wp-json/wp/v2/pages"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://newcastlehub.info/wp-json/wp/v2/types/page"
+      }
+    ],
+    "author": [
+      {
+        "embeddable": true,
+        "href": "https://newcastlehub.info/wp-json/wp/v2/users/1"
+      }
+    ],
+    "replies": [
+      {
+        "embeddable": true,
+        "href": "https://newcastlehub.info/wp-json/wp/v2/comments?post=39"
+      }
+    ],
+    "version-history": [
+      {
+        "count": 15,
+        "href": "https://newcastlehub.info/wp-json/wp/v2/pages/39/revisions"
+      }
+    ],
+    "predecessor-version": [
+      {
+        "id": 673,
+        "href": "https://newcastlehub.info/wp-json/wp/v2/pages/39/revisions/673"
+      }
+    ],
+    "wp:attachment": [
+      {
+        "href": "https://newcastlehub.info/wp-json/wp/v2/media?parent=39"
+      }
+    ],
+    "wp:action-publish": [
+      {
+        "href": "https://newcastlehub.info/wp-json/wp/v2/pages/39"
+      }
+    ],
+    "wp:action-unfiltered-html": [
+      {
+        "href": "https://newcastlehub.info/wp-json/wp/v2/pages/39"
+      }
+    ],
+    "wp:action-assign-author": [
+      {
+        "href": "https://newcastlehub.info/wp-json/wp/v2/pages/39"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  }
+}

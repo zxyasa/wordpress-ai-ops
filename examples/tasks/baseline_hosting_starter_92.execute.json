@@ -1,0 +1,26 @@
+{
+  "task_id": "a6f933ca-d39b-488c-bc42-5b7b073ed875",
+  "created_at": "2026-02-16T04:46:00Z",
+  "mode": "execute",
+  "site": { "base_url": "https://newcastlehub.info" },
+  "task_type": "update_post_or_page",
+  "requires_confirmation": true,
+  "priority": "high",
+  "limits": { "cooldown_hours": 0, "max_write_per_target": 10 },
+  "notes": "Add SEO content block to Web Hosting Starter page.",
+  "targets": [
+    { "type": "page", "match": { "by": "id", "value": 92 } }
+  ],
+  "operations": [
+    {
+      "op": "append",
+      "scope": "content",
+      "selector": { "kind": "regex", "value": "$" },
+      "content": {
+        "format": "html",
+        "value": "\n\n<section class=\"section\" id=\"ai-hosting-starter-seo\" style=\"padding-top:48px;padding-bottom:48px;background-color:#f3f3f3;\"><div class=\"section-content relative\"><div class=\"row\"><div class=\"col small-12 large-12\"><div class=\"col-inner\"><div class=\"text\"><!-- AI_SLOT:INTRO --><h2>Starter Hosting for New and Small Sites</h2><p>The Starter plan is designed for businesses that need stable WordPress hosting with clean setup, dependable performance, and a low-friction monthly cost.</p><!-- /AI_SLOT:INTRO --><h3>Best for</h3><ul><li>New business websites</li><li>Simple brochure or lead-gen sites</li><li>Owners who want reliable uptime without technical overhead</li></ul><!-- AI_SLOT:FAQ --><h3>Starter Plan FAQ</h3><h4>Can I upgrade later?</h4><p>Yes. You can move to a higher plan as traffic and feature needs increase.</p><h4>Is this plan suitable for ecommerce?</h4><p>For light stores it can work, but growing stores are usually better on higher plans.</p><h4>Do you help with setup?</h4><p>Yes. We assist with setup, launch checks, and basic technical guidance.</p><!-- /AI_SLOT:FAQ --><!-- AI_SLOT:CTA --><p><a class=\"button primary is-large\" href=\"https://newcastlehub.info/contact/\">Start with Starter Hosting</a></p><p>Compare with: <a href=\"https://newcastlehub.info/web-hosting-freedom/\">Freedom Plan</a> | <a href=\"https://newcastlehub.info/web-hosting-premier/\">Premier Plan</a></p><!-- /AI_SLOT:CTA --><!-- AI_SLOT:SCHEMA --><script type=\"application/ld+json\">{\"@context\":\"https://schema.org\",\"@type\":\"FAQPage\",\"mainEntity\":[{\"@type\":\"Question\",\"name\":\"Can I upgrade later?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"Yes. You can move to a higher plan as traffic and feature needs increase.\"}},{\"@type\":\"Question\",\"name\":\"Is this plan suitable for ecommerce?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"For light stores it can work, but growing stores are usually better on higher plans.\"}},{\"@type\":\"Question\",\"name\":\"Do you help with setup?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"Yes. We assist with setup, launch checks, and basic technical guidance.\"}}]}</script><!-- /AI_SLOT:SCHEMA --></div></div></div></div></div></section>\n"
+      },
+      "safety": { "max_chars_change": 12000, "dry_run_diff": true, "allow_full_replace": true }
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>Label</key>
+  <string>com.newcastlehub.wordpress-ai-ops.auto-weekly</string>
+
+  <key>ProgramArguments</key>
+  <array>
+    <string>/bin/zsh</string>
+    <string>-lc</string>
+    <string>cd /Users/michaelzhao/agents/apps/wordpress-ai-ops &amp;&amp; ./scripts/run_auto_weekly_newcastle.sh</string>
+  </array>
+
+  <key>WorkingDirectory</key>
+  <string>/Users/michaelzhao/agents/apps/wordpress-ai-ops</string>
+
+  <key>StartCalendarInterval</key>
+  <dict>
+    <key>Weekday</key>
+    <integer>1</integer>
+    <key>Hour</key>
+    <integer>9</integer>
+    <key>Minute</key>
+    <integer>10</integer>
+  </dict>
+
+  <key>RunAtLoad</key>
+  <false/>
+
+  <key>StandardOutPath</key>
+  <string>/Users/michaelzhao/agents/apps/wordpress-ai-ops/logs/launchd-auto-weekly.out.log</string>
+  <key>StandardErrorPath</key>
+  <string>/Users/michaelzhao/agents/apps/wordpress-ai-ops/logs/launchd-auto-weekly.err.log</string>
+</dict>
+</plist>

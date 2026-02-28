@@ -1,0 +1,24 @@
+{
+  "task_id": "4282e0ee-8af7-4ce6-b5d9-c1f5f9dd5533",
+  "created_at": "2026-02-16T06:26:30Z",
+  "mode": "execute",
+  "site": { "base_url": "https://newcastlehub.info" },
+  "task_type": "update_post_or_page",
+  "requires_confirmation": true,
+  "priority": "high",
+  "limits": { "cooldown_hours": 0, "max_write_per_target": 10 },
+  "notes": "Add FAQ + schema block for booking solution SEO.",
+  "targets": [{ "type": "page", "match": { "by": "id", "value": 728 } }],
+  "operations": [
+    {
+      "op": "append",
+      "scope": "content",
+      "selector": { "kind": "regex", "value": "$" },
+      "content": {
+        "format": "html",
+        "value": "\n\n<section class=\"section\" id=\"ai-booking-faq\" style=\"padding-top:40px;padding-bottom:40px;background:#f3f3f3;\"><div class=\"section-content relative\"><div class=\"row\"><div class=\"col small-12 large-12\"><div class=\"col-inner\"><div class=\"text\"><h2>Booking System Setup FAQ</h2><h3>Can booking reminders reduce no-shows?</h3><p>Yes. Automated reminders significantly improve attendance for many service businesses.</p><h3>Can I manage bookings on mobile?</h3><p>Yes. We configure workflows so you can manage appointments from phone and desktop.</p><h3>Can this connect with my website and Google profile?</h3><p>Yes. We align booking flow, website pages, and local search visibility for better conversion.</p><script type=\"application/ld+json\">{\"@context\":\"https://schema.org\",\"@type\":\"FAQPage\",\"mainEntity\":[{\"@type\":\"Question\",\"name\":\"Can booking reminders reduce no-shows?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"Yes. Automated reminders significantly improve attendance for many service businesses.\"}},{\"@type\":\"Question\",\"name\":\"Can I manage bookings on mobile?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"Yes. We configure workflows so you can manage appointments from phone and desktop.\"}},{\"@type\":\"Question\",\"name\":\"Can this connect with my website and Google profile?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"Yes. We align booking flow, website pages, and local search visibility for better conversion.\"}}]}</script></div></div></div></div></div></section>"
+      },
+      "safety": { "max_chars_change": 12000, "dry_run_diff": true, "allow_full_replace": true }
+    }
+  ]
+}

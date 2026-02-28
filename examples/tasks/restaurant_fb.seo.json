@@ -1,0 +1,31 @@
+{
+  "task_id": "rs-fb-seo-003",
+  "created_at": "2026-02-16T15:00:00Z",
+  "mode": "execute",
+  "site": { "base_url": "https://newcastlehub.info" },
+  "task_type": "set_meta",
+  "requires_confirmation": true,
+  "limits": { "cooldown_hours": 0, "max_write_per_target": 10 },
+  "targets": [
+    {
+      "type": "page",
+      "match": { "by": "id", "value": 685 }
+    }
+  ],
+  "operations": [
+    {
+      "op": "set_meta",
+      "scope": "meta",
+      "selector": { "kind": "html_comment", "value": "AI_SLOT:SCHEMA" },
+      "content": {
+        "format": "json",
+        "value": {
+          "rank_math_title": "Facebook Page Setup for Newcastle Restaurants — Get Found Locally",
+          "rank_math_description": "Professional Facebook page setup for Newcastle restaurants. Connect your Square ordering link, manage reviews, and drive local customers to your venue.",
+          "rank_math_focus_keyword": "facebook page setup newcastle restaurants"
+        }
+      },
+      "safety": { "max_chars_change": 500, "dry_run_diff": true, "allow_full_replace": false }
+    }
+  ]
+}

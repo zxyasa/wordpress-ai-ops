@@ -1,0 +1,60 @@
+{
+  "task_id": "6d4e6e99-b9bb-4774-b587-d192ec72058e",
+  "created_at": "2026-02-15T01:14:47.346273+00:00",
+  "mode": "plan",
+  "site": {
+    "base_url": "https://example.com"
+  },
+  "task_type": "inject_schema_faq",
+  "priority": "medium",
+  "targets": [
+    {
+      "type": "page",
+      "match": {
+        "by": "url",
+        "value": "https://example.com/best-cake-recipes"
+      }
+    }
+  ],
+  "operations": [
+    {
+      "op": "replace",
+      "scope": "content",
+      "selector": {
+        "kind": "html_comment",
+        "value": "AI_SLOT:FAQ"
+      },
+      "content": {
+        "format": "json",
+        "value": {
+          "faqs": [
+            {
+              "question": "What will I learn on this page?",
+              "answer": "You will get a concise overview, practical steps, and links to related guides."
+            },
+            {
+              "question": "Who is this content for?",
+              "answer": "Readers looking for a practical starting point and deeper follow-up resources."
+            },
+            {
+              "question": "What should I read next?",
+              "answer": "Use the related links section for the next best article in the topic cluster."
+            }
+          ],
+          "inject_json_ld": true,
+          "schema_slot": "AI_SLOT:SCHEMA"
+        }
+      },
+      "safety": {
+        "max_chars_change": 1600,
+        "dry_run_diff": true,
+        "allow_full_replace": false
+      }
+    }
+  ],
+  "limits": {
+    "cooldown_hours": 24,
+    "max_write_per_target": 3
+  },
+  "notes": "auto-cycle faq/schema refresh for https://example.com/best-cake-recipes"
+}

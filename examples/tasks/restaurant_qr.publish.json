@@ -1,0 +1,30 @@
+{
+  "task_id": "rs-qr-publish-001",
+  "created_at": "2026-02-16T15:00:00Z",
+  "mode": "execute",
+  "site": { "base_url": "https://newcastlehub.info" },
+  "task_type": "publish_post",
+  "requires_confirmation": true,
+  "priority": "medium",
+  "limits": { "cooldown_hours": 0, "max_write_per_target": 10 },
+  "notes": "Supporting page: QR table ordering for Newcastle venues.",
+  "targets": [],
+  "operations": [
+    {
+      "op": "set_fields",
+      "scope": "content",
+      "selector": { "kind": "html_comment", "value": "AI_SLOT:INTRO" },
+      "content": {
+        "format": "json",
+        "value": {
+          "type": "page",
+          "status": "draft",
+          "slug": "qr-table-ordering-newcastle",
+          "title": "QR Table Ordering for Newcastle Restaurants and Cafes",
+          "content": "<section class=\"section\" id=\"qr-ordering\"><div class=\"section-content relative\"><div class=\"row\"><div class=\"col small-12 large-12\"><div class=\"col-inner\"><!-- AI_SLOT:INTRO --><h1>QR Table Ordering for Newcastle Restaurants and Cafes</h1><p><strong>Let your customers order from their phone — no app download, no waiting for a waiter.</strong> QR table ordering with Square means faster service, fewer errors, and higher average order values.</p><!-- /AI_SLOT:INTRO --><!-- AI_SLOT:BODY --><h2>How It Works</h2><ol><li><strong>Customer scans</strong> — a unique QR code on each table opens your menu in their browser</li><li><strong>They browse and order</strong> — full menu with photos, modifiers, and dietary info</li><li><strong>Order hits your POS</strong> — appears instantly on your Square POS and kitchen printer</li><li><strong>Payment at table or counter</strong> — flexible options to suit your workflow</li></ol><h2>Benefits for Your Venue</h2><ul><li><strong>Faster table turnover</strong> — customers order when they're ready, not when staff are free</li><li><strong>Fewer mistakes</strong> — orders go straight from the customer to the kitchen, no miscommunication</li><li><strong>Higher spend</strong> — digital menus with photos and suggested add-ons increase average order value</li><li><strong>Less pressure on staff</strong> — waitstaff focus on service quality, not order-taking</li><li><strong>Works for any venue size</strong> — from a 10-seat cafe to a 200-seat pub</li></ul><h2>What We Deliver</h2><ul><li>Table groups configured in Square</li><li>Unique QR codes generated for each table</li><li>Print-ready QR code assets (for table tents, stickers, or acrylic stands)</li><li>Menu optimised for mobile ordering (item names, descriptions, photos)</li><li>Order flow tested end-to-end before go-live</li></ul><h2>Part of the Square Setup Package</h2><p>QR table ordering is included in our <a href=\"https://newcastlehub.info/newcastle-restaurant-square-setup/\">Newcastle Restaurant Square Setup</a>. We configure everything during the standard 7–10 day process.</p><p><a class=\"button primary\" href=\"https://newcastlehub.info/newcastle-restaurant-square-setup/\">View the Full Square Setup Package</a></p><!-- /AI_SLOT:BODY --><!-- AI_SLOT:SCHEMA --><!-- /AI_SLOT:SCHEMA --></div></div></div></div></div></section>"
+        }
+      },
+      "safety": { "max_chars_change": 15000, "dry_run_diff": true, "allow_full_replace": true }
+    }
+  ]
+}

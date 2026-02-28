@@ -1,0 +1,127 @@
+{
+  "id": 729,
+  "date": "2026-02-16T05:46:16",
+  "date_gmt": "2026-02-16T05:46:16",
+  "guid": {
+    "rendered": "https://newcastlehub.info/ecommerce-setup-newcastle/",
+    "raw": "https://newcastlehub.info/ecommerce-setup-newcastle/"
+  },
+  "modified": "2026-02-16T21:52:55",
+  "modified_gmt": "2026-02-16T21:52:55",
+  "password": "",
+  "slug": "ecommerce-setup-newcastle",
+  "status": "publish",
+  "type": "page",
+  "link": "https://newcastlehub.info/ecommerce-setup-newcastle/",
+  "title": {
+    "raw": "Ecommerce Setup Newcastle | Newcastle Hub",
+    "rendered": "Ecommerce Setup Newcastle | Newcastle Hub"
+  },
+  "content": {
+    "raw": "<!-- AI_SLOT:SCHEMA --><!-- /AI_SLOT:SCHEMA -->\n<!-- wp:html --><section class=\"section\" style=\"padding-top:56px;padding-bottom:56px;\"><div class=\"section-content relative\"><div class=\"row\"><div class=\"col small-12 large-12\"><div class=\"col-inner\"><!-- AI_SLOT:INTRO --><h1>Ecommerce Setup for Product-Based Businesses</h1><p><strong>For stores selling products: website storefront, payments, stock sync, and order workflows.</strong></p><!-- /AI_SLOT:INTRO --><h2>Best for</h2><ul><li>Retail and local shops</li><li>Brands moving from offline-only to online sales</li><li>Businesses needing POS + ecommerce stock sync</li></ul><h2>Core setup</h2><ul><li>Product catalog and category architecture</li><li>Payment, shipping and pickup logic</li><li>Inventory sync with POS</li><li>Google Shopping readiness</li></ul><!-- AI_SLOT:CTA --><p><a class=\"button primary is-large\" href=\"https://newcastlehub.info/free-newcastle-business-audit/\">Get Ecommerce Audit</a></p><p>Related: <a href=\"https://newcastlehub.info/retail-solutions/\">Retail Solutions</a> | <a href=\"https://newcastlehub.info/pos-setup-newcastle/\">POS Setup</a></p><!-- /AI_SLOT:CTA --></div></div></div></div></div></section><!-- /wp:html -->\n\n<section class=\"section\" id=\"ai-ecommerce-faq\" style=\"padding-top:40px;padding-bottom:40px;background:#f3f3f3;\"><div class=\"section-content relative\"><div class=\"row\"><div class=\"col small-12 large-12\"><div class=\"col-inner\"><div class=\"text\"><h2>Ecommerce Setup FAQ</h2><h3>Can you sync online and in-store stock?</h3><p>Yes. We structure product and inventory mapping so your online and POS stock stay aligned.</p><h3>Do you support pickup and shipping workflows?</h3><p>Yes. We configure local pickup, shipping rules, and checkout flow based on your operation.</p><h3>Can this work for small local shops?</h3><p>Yes. We tailor setup for local stores starting ecommerce without overcomplicating operations.</p><script type=\"application/ld+json\">{\"@context\":\"https://schema.org\",\"@type\":\"FAQPage\",\"mainEntity\":[{\"@type\":\"Question\",\"name\":\"Can you sync online and in-store stock?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"Yes. We structure product and inventory mapping so your online and POS stock stay aligned.\"}},{\"@type\":\"Question\",\"name\":\"Do you support pickup and shipping workflows?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"Yes. We configure local pickup, shipping rules, and checkout flow based on your operation.\"}},{\"@type\":\"Question\",\"name\":\"Can this work for small local shops?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"Yes. We tailor setup for local stores starting ecommerce without overcomplicating operations.\"}}]}</script></div></div></div></div></div></section>",
+    "rendered": "<!-- AI_SLOT:SCHEMA --><!-- /AI_SLOT:SCHEMA -->\n<section class=\"section\" style=\"padding-top:56px;padding-bottom:56px;\"><div class=\"section-content relative\"><div class=\"row\"><div class=\"col small-12 large-12\"><div class=\"col-inner\"><!-- AI_SLOT:INTRO --><h1>Ecommerce Setup for Product-Based Businesses</h1><p><strong>For stores selling products: website storefront, payments, stock sync, and order workflows.</strong></p><!-- /AI_SLOT:INTRO --><h2>Best for</h2><ul><li>Retail and local shops</li><li>Brands moving from offline-only to online sales</li><li>Businesses needing POS + ecommerce stock sync</li></ul><h2>Core setup</h2><ul><li>Product catalog and category architecture</li><li>Payment, shipping and pickup logic</li><li>Inventory sync with POS</li><li>Google Shopping readiness</li></ul><!-- AI_SLOT:CTA --><p><a class=\"button primary is-large\" href=\"https://newcastlehub.info/free-newcastle-business-audit/\">Get Ecommerce Audit</a></p><p>Related: <a href=\"https://newcastlehub.info/retail-solutions/\">Retail Solutions</a> | <a href=\"https://newcastlehub.info/pos-setup-newcastle/\">POS Setup</a></p><!-- /AI_SLOT:CTA --></div></div></div></div></div></section>\n\n<section class=\"section\" id=\"ai-ecommerce-faq\" style=\"padding-top:40px;padding-bottom:40px;background:#f3f3f3;\"><div class=\"section-content relative\"><div class=\"row\"><div class=\"col small-12 large-12\"><div class=\"col-inner\"><div class=\"text\"><h2>Ecommerce Setup FAQ</h2><h3>Can you sync online and in-store stock?</h3><p>Yes. We structure product and inventory mapping so your online and POS stock stay aligned.</p><h3>Do you support pickup and shipping workflows?</h3><p>Yes. We configure local pickup, shipping rules, and checkout flow based on your operation.</p><h3>Can this work for small local shops?</h3><p>Yes. We tailor setup for local stores starting ecommerce without overcomplicating operations.</p><script type=\"application/ld+json\">{\"@context\":\"https://schema.org\",\"@type\":\"FAQPage\",\"mainEntity\":[{\"@type\":\"Question\",\"name\":\"Can you sync online and in-store stock?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"Yes. We structure product and inventory mapping so your online and POS stock stay aligned.\"}},{\"@type\":\"Question\",\"name\":\"Do you support pickup and shipping workflows?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"Yes. We configure local pickup, shipping rules, and checkout flow based on your operation.\"}},{\"@type\":\"Question\",\"name\":\"Can this work for small local shops?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"Yes. We tailor setup for local stores starting ecommerce without overcomplicating operations.\"}}]}</script></div></div></div></div></div></section>",
+    "protected": false,
+    "block_version": 1
+  },
+  "excerpt": {
+    "raw": "",
+    "rendered": "<p>Ecommerce Setup for Product-Based Businesses For stores selling products: website storefront, payments, stock sync, and order workflows. Best for Retail and local shops Brands moving from offline-only to online sales Businesses needing POS + ecommerce stock sync Core setup Product catalog and category architecture Payment, shipping and pickup logic Inventory sync with POS Google Shopping [&#8230;]\n",
+    "protected": false
+  },
+  "author": 4,
+  "featured_media": 0,
+  "parent": 0,
+  "menu_order": 0,
+  "comment_status": "closed",
+  "ping_status": "closed",
+  "template": "",
+  "meta": {
+    "footnotes": ""
+  },
+  "permalink_template": "https://newcastlehub.info/%pagename%/",
+  "generated_slug": "ecommerce-setup-newcastle-newcastle-hub",
+  "class_list": [
+    "post-729",
+    "page",
+    "type-page",
+    "status-publish",
+    "hentry"
+  ],
+  "_links": {
+    "self": [
+      {
+        "href": "https://newcastlehub.info/wp-json/wp/v2/pages/729",
+        "targetHints": {
+          "allow": [
+            "GET",
+            "POST",
+            "PUT",
+            "PATCH",
+            "DELETE"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://newcastlehub.info/wp-json/wp/v2/pages"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://newcastlehub.info/wp-json/wp/v2/types/page"
+      }
+    ],
+    "author": [
+      {
+        "embeddable": true,
+        "href": "https://newcastlehub.info/wp-json/wp/v2/users/4"
+      }
+    ],
+    "replies": [
+      {
+        "embeddable": true,
+        "href": "https://newcastlehub.info/wp-json/wp/v2/comments?post=729"
+      }
+    ],
+    "version-history": [
+      {
+        "count": 2,
+        "href": "https://newcastlehub.info/wp-json/wp/v2/pages/729/revisions"
+      }
+    ],
+    "predecessor-version": [
+      {
+        "id": 771,
+        "href": "https://newcastlehub.info/wp-json/wp/v2/pages/729/revisions/771"
+      }
+    ],
+    "wp:attachment": [
+      {
+        "href": "https://newcastlehub.info/wp-json/wp/v2/media?parent=729"
+      }
+    ],
+    "wp:action-publish": [
+      {
+        "href": "https://newcastlehub.info/wp-json/wp/v2/pages/729"
+      }
+    ],
+    "wp:action-unfiltered-html": [
+      {
+        "href": "https://newcastlehub.info/wp-json/wp/v2/pages/729"
+      }
+    ],
+    "wp:action-assign-author": [
+      {
+        "href": "https://newcastlehub.info/wp-json/wp/v2/pages/729"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  }
+}

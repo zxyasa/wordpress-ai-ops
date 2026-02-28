@@ -1,0 +1,32 @@
+{
+  "task_id": "publish-ai-quote-pack-page-001",
+  "created_at": "2026-02-16T23:15:00Z",
+  "mode": "execute",
+  "site_profile_ref": "../../site_profiles/newcastlehub.info.json",
+  "site": { "base_url": "{{site.base_url}}" },
+  "task_type": "publish_post",
+  "requires_confirmation": true,
+  "priority": "high",
+  "limits": { "cooldown_hours": 0, "max_write_per_target": 10 },
+  "notes": "Create standard AI implementation scope and quote-pack page for sales handoff.",
+  "targets": [],
+  "operations": [
+    {
+      "op": "set_fields",
+      "scope": "content",
+      "selector": { "kind": "html_comment", "value": "unused" },
+      "content": {
+        "format": "json",
+        "value": {
+          "type": "page",
+          "status": "publish",
+          "slug": "ai-service-implementation-pack",
+          "title": "AI Service Implementation Pack",
+          "excerpt": "Scope, deliverables, timeline, commercials, and operating boundaries for AI Service implementation.",
+          "content": "<section class=\"section\" style=\"padding:56px 0;background:#f6f8fb;\"><div class=\"section-content relative\"><div class=\"row\"><div class=\"col small-12 large-12\"><div class=\"col-inner\"><div class=\"text\"><h1>AI Service Implementation Pack</h1><p><strong>Standard scope and commercial structure for Newcastle local businesses.</strong></p><h2>1) Scope</h2><ul><li>Website AI assistant and lead flow design</li><li>Enquiry triage and qualification logic</li><li>Form and CTA path cleanup for conversion</li><li>Baseline tracking and reporting events</li></ul><h2>2) Deliverables</h2><ul><li>Prompt and response library</li><li>Routing rules and handoff map</li><li>Priority page updates (CTA, FAQ, conversion copy)</li><li>Launch checklist and handover notes</li></ul><h2>3) Rollout Timeline</h2><ul><li>Week 1: audit and architecture</li><li>Week 2: build and integration</li><li>Week 3: testing and QA fixes</li><li>Week 4: launch and optimisation pass</li></ul><h2>4) Commercial Model</h2><ul><li>Initial setup fee (based on scope)</li><li>Monthly optimisation plan</li><li>Optional add-ons: CRM mapping, campaign landing flows</li></ul><h2>5) Boundaries</h2><ul><li>We optimise conversion and workflow quality, not guaranteed revenue outcomes</li><li>Third-party platform limits may affect automation depth</li><li>Approval delays can shift timeline</li></ul><h2>6) Next Step</h2><p><a class=\"button primary is-large\" href=\"{{site.base_url}}/free-newcastle-business-audit/\">Start With a Free Business Audit</a> <a class=\"button secondary is-large\" href=\"{{site.base_url}}{{site.contact_path}}\">Request Detailed Quote</a></p><p>Call <a href=\"tel:{{site.phone_tel}}\">{{site.phone_display}}</a> or email <a href=\"mailto:{{site.email}}\">{{site.email}}</a>.</p></div></div></div></div></div></section>"
+        }
+      },
+      "safety": { "max_chars_change": 30000, "dry_run_diff": true, "allow_full_replace": true }
+    }
+  ]
+}

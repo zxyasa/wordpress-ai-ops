@@ -1,0 +1,127 @@
+{
+  "id": 99,
+  "date": "2021-09-07T13:06:06",
+  "date_gmt": "2021-09-07T13:06:06",
+  "guid": {
+    "rendered": "https://newcastlehub.info/?page_id=99",
+    "raw": "https://newcastlehub.info/?page_id=99"
+  },
+  "modified": "2026-02-16T04:36:56",
+  "modified_gmt": "2026-02-16T04:36:56",
+  "password": "",
+  "slug": "web-hosting-premier",
+  "status": "publish",
+  "type": "page",
+  "link": "https://newcastlehub.info/web-hosting-premier/",
+  "title": {
+    "raw": "Web Hosting Premier+",
+    "rendered": "Web Hosting Premier+"
+  },
+  "content": {
+    "raw": "<!-- wp:html -->\n<div id=\"paypal-button-container-P-6TD22140DP9117106ME3V4RY\"></div>\n<script src=\"https://www.paypal.com/sdk/js?client-id=AZu7YCBQ6K1g65JP3Oh-tCdjzNUXvwJrsP0VRZJgSWt3C8pk_9TUu6guT2qHtc2nicBU6aDStX0x_P-2&vault=true&intent=subscription\" data-sdk-integration-source=\"button-factory\"></script>\n<script>\n  paypal.Buttons({\n      style: {\n          shape: 'rect',\n          color: 'gold',\n          layout: 'vertical',\n          label: 'subscribe'\n      },\n      createSubscription: function(data, actions) {\n        return actions.subscription.create({\n          /* Creates the subscription */\n          plan_id: 'P-6TD22140DP9117106ME3V4RY'\n        });\n      },\n      onApprove: function(data, actions) {\n        alert(data.subscriptionID); // You can add optional success message for the subscriber here\n      }\n  }).render('#paypal-button-container-P-6TD22140DP9117106ME3V4RY'); // Renders the PayPal button\n</script>\n<!-- /wp:html -->\n\n<section class=\"section\" id=\"ai-hosting-premier-seo\" style=\"padding-top:48px;padding-bottom:48px;background-color:#f3f3f3;\"><div class=\"section-content relative\"><div class=\"row\"><div class=\"col small-12 large-12\"><div class=\"col-inner\"><div class=\"text\"><!-- AI_SLOT:INTRO --><h2>Premier Hosting for High-Performance Business Websites</h2><p>The Premier plan is built for sites with stronger demand, heavier traffic, and higher uptime expectations where speed and reliability directly affect revenue.</p><!-- /AI_SLOT:INTRO --><h3>Best for</h3><ul><li>High-traffic service or ecommerce operations</li><li>Campaign-heavy websites with frequent updates</li><li>Businesses that need priority-grade stability</li></ul><!-- AI_SLOT:FAQ --><h3>Premier Plan FAQ</h3><h4>Who should choose Premier?</h4><p>Businesses with larger traffic volumes, mission-critical pages, or advanced campaign activity.</p><h4>Is migration support included?</h4><p>Yes. We can assist with migration planning and controlled cutover.</p><h4>Can this plan support long-term growth?</h4><p>Yes. Premier is suited to ongoing expansion and performance-focused operations.</p><!-- /AI_SLOT:FAQ --><!-- AI_SLOT:CTA --><p><a class=\"button primary is-large\" href=\"https://newcastlehub.info/contact/\">Talk to Us About Premier Hosting</a></p><p>Compare all plans: <a href=\"https://newcastlehub.info/hosting-plan/\">Hosting Plan Overview</a></p><!-- /AI_SLOT:CTA --><!-- AI_SLOT:SCHEMA --><script type=\"application/ld+json\">{\"@context\":\"https://schema.org\",\"@type\":\"FAQPage\",\"mainEntity\":[{\"@type\":\"Question\",\"name\":\"Who should choose Premier?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"Businesses with larger traffic volumes, mission-critical pages, or advanced campaign activity.\"}},{\"@type\":\"Question\",\"name\":\"Is migration support included?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"Yes. We can assist with migration planning and controlled cutover.\"}},{\"@type\":\"Question\",\"name\":\"Can this plan support long-term growth?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"Yes. Premier is suited to ongoing expansion and performance-focused operations.\"}}]}</script><!-- /AI_SLOT:SCHEMA --></div></div></div></div></div></section>\n",
+    "rendered": "\n<div id=\"paypal-button-container-P-6TD22140DP9117106ME3V4RY\"></div>\n<script src=\"https://www.paypal.com/sdk/js?client-id=AZu7YCBQ6K1g65JP3Oh-tCdjzNUXvwJrsP0VRZJgSWt3C8pk_9TUu6guT2qHtc2nicBU6aDStX0x_P-2&#038;vault=true&#038;intent=subscription\" data-sdk-integration-source=\"button-factory\"></script>\n<script>\n  paypal.Buttons({\n      style: {\n          shape: 'rect',\n          color: 'gold',\n          layout: 'vertical',\n          label: 'subscribe'\n      },\n      createSubscription: function(data, actions) {\n        return actions.subscription.create({\n          /* Creates the subscription */\n          plan_id: 'P-6TD22140DP9117106ME3V4RY'\n        });\n      },\n      onApprove: function(data, actions) {\n        alert(data.subscriptionID); // You can add optional success message for the subscriber here\n      }\n  }).render('#paypal-button-container-P-6TD22140DP9117106ME3V4RY'); // Renders the PayPal button\n</script>\n\n\n<section class=\"section\" id=\"ai-hosting-premier-seo\" style=\"padding-top:48px;padding-bottom:48px;background-color:#f3f3f3;\"><div class=\"section-content relative\"><div class=\"row\"><div class=\"col small-12 large-12\"><div class=\"col-inner\"><div class=\"text\"><!-- AI_SLOT:INTRO --><h2>Premier Hosting for High-Performance Business Websites</h2><p>The Premier plan is built for sites with stronger demand, heavier traffic, and higher uptime expectations where speed and reliability directly affect revenue.</p><!-- /AI_SLOT:INTRO --><h3>Best for</h3><ul><li>High-traffic service or ecommerce operations</li><li>Campaign-heavy websites with frequent updates</li><li>Businesses that need priority-grade stability</li></ul><!-- AI_SLOT:FAQ --><h3>Premier Plan FAQ</h3><h4>Who should choose Premier?</h4><p>Businesses with larger traffic volumes, mission-critical pages, or advanced campaign activity.</p><h4>Is migration support included?</h4><p>Yes. We can assist with migration planning and controlled cutover.</p><h4>Can this plan support long-term growth?</h4><p>Yes. Premier is suited to ongoing expansion and performance-focused operations.</p><!-- /AI_SLOT:FAQ --><!-- AI_SLOT:CTA --><p><a class=\"button primary is-large\" href=\"https://newcastlehub.info/contact/\">Talk to Us About Premier Hosting</a></p><p>Compare all plans: <a href=\"https://newcastlehub.info/hosting-plan/\">Hosting Plan Overview</a></p><!-- /AI_SLOT:CTA --><!-- AI_SLOT:SCHEMA --><script type=\"application/ld+json\">{\"@context\":\"https://schema.org\",\"@type\":\"FAQPage\",\"mainEntity\":[{\"@type\":\"Question\",\"name\":\"Who should choose Premier?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"Businesses with larger traffic volumes, mission-critical pages, or advanced campaign activity.\"}},{\"@type\":\"Question\",\"name\":\"Is migration support included?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"Yes. We can assist with migration planning and controlled cutover.\"}},{\"@type\":\"Question\",\"name\":\"Can this plan support long-term growth?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"Yes. Premier is suited to ongoing expansion and performance-focused operations.\"}}]}</script><!-- /AI_SLOT:SCHEMA --></div></div></div></div></div></section>\n",
+    "protected": false,
+    "block_version": 1
+  },
+  "excerpt": {
+    "raw": "",
+    "rendered": "<p>Premier Hosting for High-Performance Business Websites The Premier plan is built for sites with stronger demand, heavier traffic, and higher uptime expectations where speed and reliability directly affect revenue. Best for High-traffic service or ecommerce operations Campaign-heavy websites with frequent updates Businesses that need priority-grade stability Premier Plan FAQ Who should choose Premier? Businesses with [&#8230;]\n",
+    "protected": false
+  },
+  "author": 1,
+  "featured_media": 0,
+  "parent": 0,
+  "menu_order": 0,
+  "comment_status": "closed",
+  "ping_status": "closed",
+  "template": "",
+  "meta": {
+    "footnotes": ""
+  },
+  "permalink_template": "https://newcastlehub.info/%pagename%/",
+  "generated_slug": "web-hosting-premier",
+  "class_list": [
+    "post-99",
+    "page",
+    "type-page",
+    "status-publish",
+    "hentry"
+  ],
+  "_links": {
+    "self": [
+      {
+        "href": "https://newcastlehub.info/wp-json/wp/v2/pages/99",
+        "targetHints": {
+          "allow": [
+            "GET",
+            "POST",
+            "PUT",
+            "PATCH",
+            "DELETE"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://newcastlehub.info/wp-json/wp/v2/pages"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://newcastlehub.info/wp-json/wp/v2/types/page"
+      }
+    ],
+    "author": [
+      {
+        "embeddable": true,
+        "href": "https://newcastlehub.info/wp-json/wp/v2/users/1"
+      }
+    ],
+    "replies": [
+      {
+        "embeddable": true,
+        "href": "https://newcastlehub.info/wp-json/wp/v2/comments?post=99"
+      }
+    ],
+    "version-history": [
+      {
+        "count": 2,
+        "href": "https://newcastlehub.info/wp-json/wp/v2/pages/99/revisions"
+      }
+    ],
+    "predecessor-version": [
+      {
+        "id": 704,
+        "href": "https://newcastlehub.info/wp-json/wp/v2/pages/99/revisions/704"
+      }
+    ],
+    "wp:attachment": [
+      {
+        "href": "https://newcastlehub.info/wp-json/wp/v2/media?parent=99"
+      }
+    ],
+    "wp:action-publish": [
+      {
+        "href": "https://newcastlehub.info/wp-json/wp/v2/pages/99"
+      }
+    ],
+    "wp:action-unfiltered-html": [
+      {
+        "href": "https://newcastlehub.info/wp-json/wp/v2/pages/99"
+      }
+    ],
+    "wp:action-assign-author": [
+      {
+        "href": "https://newcastlehub.info/wp-json/wp/v2/pages/99"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  }
+}

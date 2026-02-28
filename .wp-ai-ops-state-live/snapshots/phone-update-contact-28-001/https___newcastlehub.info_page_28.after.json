@@ -1,0 +1,121 @@
+{
+  "id": 28,
+  "date": "2021-09-06T13:46:18",
+  "date_gmt": "2021-09-06T13:46:18",
+  "guid": {
+    "rendered": "https://newcastlehub.info/contact/",
+    "raw": "https://newcastlehub.info/contact/"
+  },
+  "modified": "2026-02-16T08:59:26",
+  "modified_gmt": "2026-02-16T08:59:26",
+  "password": "",
+  "slug": "contact",
+  "status": "publish",
+  "type": "page",
+  "link": "https://newcastlehub.info/contact/",
+  "title": {
+    "raw": "Contact",
+    "rendered": "Contact"
+  },
+  "content": {
+    "raw": "<!-- wp:flatsome/uxbuilder -->\n[section bg_color=\"rgb(243, 243, 243)\" padding=\"100px\"]\n\n[row style=\"collapse\"]\n\n[col span__sm=\"12\"]\n\n[ux_text font_size=\"1.7\" text_align=\"center\" text_color=\"rgb(19, 19, 19)\"]\n\n<h2>Contact Us</h2>\n[/ux_text]\n\n[/col]\n\n[/row]\n[gap]\n\n[row]\n\n[col span=\"3\" span__sm=\"12\"]\n\n[featured_box img=\"463\" img_width=\"65\" pos=\"center\" link=\"mailto:admin@newcastlehub.info\"]\n\n[button text=\"E-mail Us\" letter_case=\"lowercase\" style=\"link\" link=\"mailto:admin@newcastlehub.com\"]\n\n\n[/featured_box]\n\n[/col]\n[col span=\"3\" span__sm=\"12\" align=\"center\"]\n\n[featured_box img=\"465\" img_width=\"65\" pos=\"center\" link=\"tel:0240755307\"]\n\n[button text=\"02 40755307\" letter_case=\"lowercase\" style=\"link\" link=\"tel:0240755307\"]\n\n\n[/featured_box]\n\n[/col]\n[col span=\"3\" span__sm=\"12\"]\n\n[featured_box img=\"467\" img_width=\"65\" pos=\"center\" link=\"#\"]\n\n[button text=\"Find Us\" letter_case=\"lowercase\" style=\"link\" link=\"https://goo.gl/maps/GGzpxsgoDMxzgzNB9\"]\n\n\n[/featured_box]\n\n[/col]\n[col span=\"3\" span__sm=\"12\"]\n\n[featured_box img=\"466\" img_width=\"65\" pos=\"center\" link=\"#\"]\n\n[button text=\"9-5 Mon-Fri*\" letter_case=\"lowercase\" style=\"link\"]\n\n\n[/featured_box]\n\n[/col]\n\n[/row]\n\n[/section]\n[section]\n\n[row]\n\n[col span=\"7\" span__sm=\"12\"]\n\n[contact-form-7 id=\"301\"]\n\n\n[/col]\n[col span=\"5\" span__sm=\"12\"]\n\n[ux_text font_size=\"1.1\"]\n\n<h3 class=\"margin-bottom-0\">Follow Us</h3>\n[/ux_text]\n[divider width=\"45px\" margin=\"4px\" color=\"rgb(90, 73, 248)\"]\n\n[gap height=\"15px\"]\n\n[follow facebook=\"#\" instagram=\"#\" twitter=\"#\" linkedin=\"#\" class=\"contact-social\"]\n\n[gap height=\"25px\"]\n\n[ux_text font_size=\"1.1\"]\n\n<h3 class=\"margin-bottom-0\">General Enquiries</p>\n</h3>\n[/ux_text]\n[divider width=\"45px\" margin=\"4px\" color=\"rgb(90, 73, 248)\"]\n\n[gap height=\"15px\"]\n\n[ux_text text_color=\"rgb(41, 41, 41)\"]\n\n<p style=\"margin-bottom: 5px;\"><strong>Phone:</strong> 02 40755307</p>\n<p style=\"margin-bottom: 5px;\"><strong>Email:</strong> admin@newcastlehub.com</p>\n\n[/ux_text]\n\n[/col]\n\n[/row]\n\n[/section]\n\n<!-- /wp:flatsome/uxbuilder -->\n\n[section padding=\"60px\" bg_color=\"rgb(243, 243, 243)\"]\n  [row]\n    [col span__sm=\"12\"]\n      [ux_text]\n        <!-- AI_SLOT:INTRO -->\n        <p><strong>Contact Newcastle Hub</strong> for website design, local SEO, hosting, and digital marketing support in Newcastle.</p>\n        <!-- /AI_SLOT:INTRO -->\n\n        <!-- AI_SLOT:FAQ -->\n        <h2>Contact FAQ</h2>\n        <h3>How fast do you respond?</h3>\n        <p>We usually reply within 1 business day.</p>\n        <h3>Do you work with local businesses in Newcastle?</h3>\n        <p>Yes. We focus on practical improvements that drive calls, bookings, and leads.</p>\n        <h3>What should I send to get a quote?</h3>\n        <p>Your website (if you have one), what you need help with, and your preferred timeline.</p>\n        <!-- /AI_SLOT:FAQ -->\n\n        <!-- AI_SLOT:CTA -->\n<h2>Ready to talk?</h2>\n        <p><a class=\"button primary is-large\" href=\"https://newcastlehub.info/contact/\">Send a message</a></p>\n        <p>Related: <a href=\"https://newcastlehub.info/website-service/\">Website Service</a> | <a href=\"https://newcastlehub.info/marketing-service/\">Digital Marketing</a> | <a href=\"https://newcastlehub.info/hosting-plan/\">Web Hosting</a></p>\n<p>Related reads: <a href=\"https://newcastlehub.info/newcastle-growth-hub/\">Newcastle Growth Hub</a> | <a href=\"https://newcastlehub.info/web-hosting-starter/\">Web Hosting Starter</a> | <a href=\"https://newcastlehub.info/web-hosting-freedom/\">Web Hosting Freedom</a></p>\n<p>Related reads: <a href=\"https://newcastlehub.info/web-hosting-premier/\">Web Hosting Premier</a></p>\n<!-- /AI_SLOT:CTA -->\n\n        <!-- AI_SLOT:SCHEMA -->\n        <script type=\"application/ld+json\">{\"@context\":\"https://schema.org\",\"@type\":\"FAQPage\",\"mainEntity\":[{\"@type\":\"Question\",\"name\":\"How fast do you respond?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"We usually reply within 1 business day.\"}},{\"@type\":\"Question\",\"name\":\"Do you work with local businesses in Newcastle?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"Yes. We focus on practical improvements that drive calls, bookings, and leads.\"}},{\"@type\":\"Question\",\"name\":\"What should I send to get a quote?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"Your website (if you have one), what you need help with, and your preferred timeline.\"}}]}</script>\n        <!-- /AI_SLOT:SCHEMA -->\n      [/ux_text]\n    [/col]\n  [/row]\n[/section]\n",
+    "rendered": "\n\n\t<section class=\"section\" id=\"section_430993954\">\n\t\t<div class=\"section-bg fill\" >\n\t\t\t\t\t\t\t\t\t\n\t\t\t\n\n\t\t</div>\n\n\t\t\n\n\t\t<div class=\"section-content relative\">\n\t\t\t\n\n<div class=\"row row-collapse\"  id=\"row-1717233976\">\n\n\n\t<div id=\"col-265338798\" class=\"col small-12 large-12\"  >\n\t\t\t\t<div class=\"col-inner\"  >\n\t\t\t\n\t\t\t\n\n\t<div id=\"text-4008142892\" class=\"text\">\n\t\t\n\n<h2>Contact Us</h2>\n\t\t\n<style>\n#text-4008142892 {\n  font-size: 1.7rem;\n  text-align: center;\n  color: rgb(19, 19, 19);\n}\n#text-4008142892 > * {\n  color: rgb(19, 19, 19);\n}\n</style>\n\t</div>\n\t\n\n\t\t</div>\n\t\t\t\t\t</div>\n\n\t\n\n</div>\n\t<div id=\"gap-240305438\" class=\"gap-element clearfix\" style=\"display:block; height:auto;\">\n\t\t\n<style>\n#gap-240305438 {\n  padding-top: 30px;\n}\n</style>\n\t</div>\n\t\n\n<div class=\"row\"  id=\"row-1439433207\">\n\n\n\t<div id=\"col-788691442\" class=\"col medium-3 small-12 large-3\"  >\n\t\t\t\t<div class=\"col-inner\"  >\n\t\t\t\n\t\t\t\n\n\n\t<a class=\"plain\" href=\"mailto:admin@newcastlehub.info\" >\t<div class=\"icon-box featured-box icon-box-center text-center\"  >\n\t\t\t\t\t<div class=\"icon-box-img\" style=\"width: 65px\">\n\t\t\t\t<div class=\"icon\">\n\t\t\t\t\t<div class=\"icon-inner\" >\n\t\t\t\t\t\t<img loading=\"lazy\" decoding=\"async\" width=\"194\" height=\"194\" src=\"https://newcastlehub.info/wp-content/uploads/2023/08/email-icon.png\" class=\"attachment-medium size-medium\" alt=\"\" srcset=\"https://newcastlehub.info/wp-content/uploads/2023/08/email-icon.png 194w, https://newcastlehub.info/wp-content/uploads/2023/08/email-icon-150x150.png 150w\" sizes=\"auto, (max-width: 194px) 100vw, 194px\" />\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t\t\t<div class=\"icon-box-text last-reset\">\n\t\t\t\t\t\t\t\t\t\n\n<a href=\"mailto:admin@newcastlehub.com\" class=\"button primary is-link lowercase\" >\n\t\t<span>E-mail Us</span>\n\t</a>\n\n\n\n\t\t</div>\n\t</div>\n\t</a>\n\t\n\n\t\t</div>\n\t\t\t\t\t</div>\n\n\t\n\n\t<div id=\"col-248028758\" class=\"col medium-3 small-12 large-3\"  >\n\t\t\t\t<div class=\"col-inner text-center\"  >\n\t\t\t\n\t\t\t\n\n\n\t<a class=\"plain\" href=\"tel:0240755307\" >\t<div class=\"icon-box featured-box icon-box-center text-center\"  >\n\t\t\t\t\t<div class=\"icon-box-img\" style=\"width: 65px\">\n\t\t\t\t<div class=\"icon\">\n\t\t\t\t\t<div class=\"icon-inner\" >\n\t\t\t\t\t\t<img loading=\"lazy\" decoding=\"async\" width=\"194\" height=\"194\" src=\"https://newcastlehub.info/wp-content/uploads/2023/08/phone-icon.png\" class=\"attachment-medium size-medium\" alt=\"\" srcset=\"https://newcastlehub.info/wp-content/uploads/2023/08/phone-icon.png 194w, https://newcastlehub.info/wp-content/uploads/2023/08/phone-icon-150x150.png 150w\" sizes=\"auto, (max-width: 194px) 100vw, 194px\" />\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t\t\t<div class=\"icon-box-text last-reset\">\n\t\t\t\t\t\t\t\t\t\n\n<a href=\"tel:0240755307\" class=\"button primary is-link lowercase\" >\n\t\t<span>02 40755307</span>\n\t</a>\n\n\n\n\t\t</div>\n\t</div>\n\t</a>\n\t\n\n\t\t</div>\n\t\t\t\t\t</div>\n\n\t\n\n\t<div id=\"col-1012052844\" class=\"col medium-3 small-12 large-3\"  >\n\t\t\t\t<div class=\"col-inner\"  >\n\t\t\t\n\t\t\t\n\n\n\t<a class=\"plain\" href=\"#\" >\t<div class=\"icon-box featured-box icon-box-center text-center\"  >\n\t\t\t\t\t<div class=\"icon-box-img\" style=\"width: 65px\">\n\t\t\t\t<div class=\"icon\">\n\t\t\t\t\t<div class=\"icon-inner\" >\n\t\t\t\t\t\t<img loading=\"lazy\" decoding=\"async\" width=\"194\" height=\"194\" src=\"https://newcastlehub.info/wp-content/uploads/2023/08/location-icon.png\" class=\"attachment-medium size-medium\" alt=\"\" srcset=\"https://newcastlehub.info/wp-content/uploads/2023/08/location-icon.png 194w, https://newcastlehub.info/wp-content/uploads/2023/08/location-icon-150x150.png 150w\" sizes=\"auto, (max-width: 194px) 100vw, 194px\" />\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t\t\t<div class=\"icon-box-text last-reset\">\n\t\t\t\t\t\t\t\t\t\n\n<a href=\"https://goo.gl/maps/GGzpxsgoDMxzgzNB9\" class=\"button primary is-link lowercase\" >\n\t\t<span>Find Us</span>\n\t</a>\n\n\n\n\t\t</div>\n\t</div>\n\t</a>\n\t\n\n\t\t</div>\n\t\t\t\t\t</div>\n\n\t\n\n\t<div id=\"col-180620000\" class=\"col medium-3 small-12 large-3\"  >\n\t\t\t\t<div class=\"col-inner\"  >\n\t\t\t\n\t\t\t\n\n\n\t<a class=\"plain\" href=\"#\" >\t<div class=\"icon-box featured-box icon-box-center text-center\"  >\n\t\t\t\t\t<div class=\"icon-box-img\" style=\"width: 65px\">\n\t\t\t\t<div class=\"icon\">\n\t\t\t\t\t<div class=\"icon-inner\" >\n\t\t\t\t\t\t<img loading=\"lazy\" decoding=\"async\" width=\"194\" height=\"194\" src=\"https://newcastlehub.info/wp-content/uploads/2023/08/time-icon.png\" class=\"attachment-medium size-medium\" alt=\"\" srcset=\"https://newcastlehub.info/wp-content/uploads/2023/08/time-icon.png 194w, https://newcastlehub.info/wp-content/uploads/2023/08/time-icon-150x150.png 150w\" sizes=\"auto, (max-width: 194px) 100vw, 194px\" />\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t\t\t<div class=\"icon-box-text last-reset\">\n\t\t\t\t\t\t\t\t\t\n\n<a class=\"button primary is-link lowercase\" >\n\t\t<span>9-5 Mon-Fri*</span>\n\t</a>\n\n\n\n\t\t</div>\n\t</div>\n\t</a>\n\t\n\n\t\t</div>\n\t\t\t\t\t</div>\n\n\t\n\n</div>\n\n\t\t</div>\n\n\t\t\n<style>\n#section_430993954 {\n  padding-top: 100px;\n  padding-bottom: 100px;\n  background-color: rgb(243, 243, 243);\n}\n</style>\n\t</section>\n\t\n\n\t<section class=\"section\" id=\"section_1200005881\">\n\t\t<div class=\"section-bg fill\" >\n\t\t\t\t\t\t\t\t\t\n\t\t\t\n\n\t\t</div>\n\n\t\t\n\n\t\t<div class=\"section-content relative\">\n\t\t\t\n\n<div class=\"row\"  id=\"row-1176048116\">\n\n\n\t<div id=\"col-1301092101\" class=\"col medium-7 small-12 large-7\"  >\n\t\t\t\t<div class=\"col-inner\"  >\n\t\t\t\n\t\t\t\n\n\n<div class=\"wpcf7 no-js\" id=\"wpcf7-f301-o2\" lang=\"en-US\" dir=\"ltr\" data-wpcf7-id=\"301\">\n<div class=\"screen-reader-response\"><p role=\"status\" aria-live=\"polite\" aria-atomic=\"true\"></p> <ul></ul></div>\n<form action=\"/wp-json/wp/v2/pages/28#wpcf7-f301-o2\" method=\"post\" class=\"wpcf7-form init\" aria-label=\"Contact form\" novalidate=\"novalidate\" data-status=\"init\">\n<fieldset class=\"hidden-fields-container\"><input type=\"hidden\" name=\"_wpcf7\" value=\"301\" /><input type=\"hidden\" name=\"_wpcf7_version\" value=\"6.1.5\" /><input type=\"hidden\" name=\"_wpcf7_locale\" value=\"en_US\" /><input type=\"hidden\" name=\"_wpcf7_unit_tag\" value=\"wpcf7-f301-o2\" /><input type=\"hidden\" name=\"_wpcf7_container_post\" value=\"0\" /><input type=\"hidden\" name=\"_wpcf7_posted_data_hash\" value=\"\" />\n</fieldset>\n<div class=\"contact-form\">\n\t<div class=\"form-col-6\">\n\t\t<p><label> Your name<br />\n<span class=\"wpcf7-form-control-wrap\" data-name=\"your-name\"><input size=\"40\" maxlength=\"400\" class=\"wpcf7-form-control wpcf7-text wpcf7-validates-as-required\" autocomplete=\"name\" aria-required=\"true\" aria-invalid=\"false\" value=\"\" type=\"text\" name=\"your-name\" /></span> </label>\n\t\t</p>\n\t</div>\n\t<div class=\"form-col-6\">\n\t\t<p><label> Your email<br />\n<span class=\"wpcf7-form-control-wrap\" data-name=\"your-email\"><input size=\"40\" maxlength=\"400\" class=\"wpcf7-form-control wpcf7-email wpcf7-validates-as-required wpcf7-text wpcf7-validates-as-email\" autocomplete=\"email\" aria-required=\"true\" aria-invalid=\"false\" value=\"\" type=\"email\" name=\"your-email\" /></span> </label>\n\t\t</p>\n\t</div>\n\t<div class=\"form-col-12\">\n\t\t<p><label> Subject<br />\n<span class=\"wpcf7-form-control-wrap\" data-name=\"your-subject\"><input size=\"40\" maxlength=\"400\" class=\"wpcf7-form-control wpcf7-text wpcf7-validates-as-required\" aria-required=\"true\" aria-invalid=\"false\" value=\"\" type=\"text\" name=\"your-subject\" /></span> </label>\n\t\t</p>\n\t</div>\n\t<div class=\"form-col-12\">\n\t\t<p><label> Your message<br />\n<span class=\"wpcf7-form-control-wrap\" data-name=\"your-message\"><textarea cols=\"40\" rows=\"10\" maxlength=\"2000\" class=\"wpcf7-form-control wpcf7-textarea\" aria-invalid=\"false\" name=\"your-message\"></textarea></span> </label>\n\t\t</p>\n\t</div>\n\t<div class=\"form-col-12\">\n\t\t<p><input class=\"wpcf7-form-control wpcf7-submit has-spinner contact-submit-btn\" type=\"submit\" value=\"Submit\" />\n\t\t</p>\n\t</div>\n</div><div class=\"wpcf7-response-output\" aria-hidden=\"true\"></div>\n</form>\n</div>\n\n\n\n\t\t</div>\n\t\t\t\t\t</div>\n\n\t\n\n\t<div id=\"col-1537760711\" class=\"col medium-5 small-12 large-5\"  >\n\t\t\t\t<div class=\"col-inner\"  >\n\t\t\t\n\t\t\t\n\n\t<div id=\"text-217018319\" class=\"text\">\n\t\t\n\n<h3 class=\"margin-bottom-0\">Follow Us</h3>\n\t\t\n<style>\n#text-217018319 {\n  font-size: 1.1rem;\n}\n</style>\n\t</div>\n\t\n<div class=\"is-divider divider clearfix\" style=\"margin-top:4px;margin-bottom:4px;max-width:45px;background-color:rgb(90, 73, 248);\"></div>\n\n\t<div id=\"gap-756178178\" class=\"gap-element clearfix\" style=\"display:block; height:auto;\">\n\t\t\n<style>\n#gap-756178178 {\n  padding-top: 15px;\n}\n</style>\n\t</div>\n\t\n\n<div class=\"social-icons follow-icons contact-social\" ><a href=\"#\" target=\"_blank\" data-label=\"Facebook\" class=\"icon button circle is-outline tooltip facebook\" title=\"Follow on Facebook\" aria-label=\"Follow on Facebook\" rel=\"noopener nofollow\"><i class=\"icon-facebook\" aria-hidden=\"true\"></i></a><a href=\"#\" target=\"_blank\" data-label=\"Instagram\" class=\"icon button circle is-outline tooltip instagram\" title=\"Follow on Instagram\" aria-label=\"Follow on Instagram\" rel=\"noopener nofollow\"><i class=\"icon-instagram\" aria-hidden=\"true\"></i></a><a href=\"#\" data-label=\"Twitter\" target=\"_blank\" class=\"icon button circle is-outline tooltip twitter\" title=\"Follow on Twitter\" aria-label=\"Follow on Twitter\" rel=\"noopener nofollow\"><i class=\"icon-twitter\" aria-hidden=\"true\"></i></a><a href=\"#\" data-label=\"LinkedIn\" target=\"_blank\" class=\"icon button circle is-outline tooltip linkedin\" title=\"Follow on LinkedIn\" aria-label=\"Follow on LinkedIn\" rel=\"noopener nofollow\"><i class=\"icon-linkedin\" aria-hidden=\"true\"></i></a></div>\n\n\t<div id=\"gap-1864698406\" class=\"gap-element clearfix\" style=\"display:block; height:auto;\">\n\t\t\n<style>\n#gap-1864698406 {\n  padding-top: 25px;\n}\n</style>\n\t</div>\n\t\n\n\t<div id=\"text-1934513915\" class=\"text\">\n\t\t\n\n<h3 class=\"margin-bottom-0\">General Enquiries</p>\n</h3>\n\t\t\n<style>\n#text-1934513915 {\n  font-size: 1.1rem;\n}\n</style>\n\t</div>\n\t\n<div class=\"is-divider divider clearfix\" style=\"margin-top:4px;margin-bottom:4px;max-width:45px;background-color:rgb(90, 73, 248);\"></div>\n\n\t<div id=\"gap-2110998711\" class=\"gap-element clearfix\" style=\"display:block; height:auto;\">\n\t\t\n<style>\n#gap-2110998711 {\n  padding-top: 15px;\n}\n</style>\n\t</div>\n\t\n\n\t<div id=\"text-437931837\" class=\"text\">\n\t\t\n\n<p style=\"margin-bottom: 5px;\"><strong>Phone:</strong> 02 40755307</p>\n<p style=\"margin-bottom: 5px;\"><strong>Email:</strong> admin@newcastlehub.com</p>\n\n\t\t\n<style>\n#text-437931837 {\n  color: rgb(41, 41, 41);\n}\n#text-437931837 > * {\n  color: rgb(41, 41, 41);\n}\n</style>\n\t</div>\n\t\n\n\t\t</div>\n\t\t\t\t\t</div>\n\n\t\n\n</div>\n\n\t\t</div>\n\n\t\t\n<style>\n#section_1200005881 {\n  padding-top: 30px;\n  padding-bottom: 30px;\n}\n</style>\n\t</section>\n\t\n\n\n\n\n\t<section class=\"section\" id=\"section_862207619\">\n\t\t<div class=\"section-bg fill\" >\n\t\t\t\t\t\t\t\t\t\n\t\t\t\n\n\t\t</div>\n\n\t\t\n\n\t\t<div class=\"section-content relative\">\n\t\t\t\n  <div class=\"row\"  id=\"row-894984032\">\n    \n\t<div id=\"col-348575461\" class=\"col small-12 large-12\"  >\n\t\t\t\t<div class=\"col-inner\"  >\n\t\t\t\n\t\t\t\n      \t<div id=\"text-1352599371\" class=\"text\">\n\t\t\n        <!-- AI_SLOT:INTRO -->\n        <p><strong>Contact Newcastle Hub</strong> for website design, local SEO, hosting, and digital marketing support in Newcastle.</p>\n        <!-- /AI_SLOT:INTRO -->\n\n        <!-- AI_SLOT:FAQ -->\n        <h2>Contact FAQ</h2>\n        <h3>How fast do you respond?</h3>\n        <p>We usually reply within 1 business day.</p>\n        <h3>Do you work with local businesses in Newcastle?</h3>\n        <p>Yes. We focus on practical improvements that drive calls, bookings, and leads.</p>\n        <h3>What should I send to get a quote?</h3>\n        <p>Your website (if you have one), what you need help with, and your preferred timeline.</p>\n        <!-- /AI_SLOT:FAQ -->\n\n        <!-- AI_SLOT:CTA -->\n<h2>Ready to talk?</h2>\n        <p><a class=\"button primary is-large\" href=\"https://newcastlehub.info/contact/\">Send a message</a></p>\n        <p>Related: <a href=\"https://newcastlehub.info/website-service/\">Website Service</a> | <a href=\"https://newcastlehub.info/marketing-service/\">Digital Marketing</a> | <a href=\"https://newcastlehub.info/hosting-plan/\">Web Hosting</a></p>\n<p>Related reads: <a href=\"https://newcastlehub.info/newcastle-growth-hub/\">Newcastle Growth Hub</a> | <a href=\"https://newcastlehub.info/web-hosting-starter/\">Web Hosting Starter</a> | <a href=\"https://newcastlehub.info/web-hosting-freedom/\">Web Hosting Freedom</a></p>\n<p>Related reads: <a href=\"https://newcastlehub.info/web-hosting-premier/\">Web Hosting Premier</a></p>\n<!-- /AI_SLOT:CTA -->\n\n        <!-- AI_SLOT:SCHEMA -->\n        <script type=\"application/ld+json\">{\"@context\":\"https://schema.org\",\"@type\":\"FAQPage\",\"mainEntity\":[{\"@type\":\"Question\",\"name\":\"How fast do you respond?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"We usually reply within 1 business day.\"}},{\"@type\":\"Question\",\"name\":\"Do you work with local businesses in Newcastle?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"Yes. We focus on practical improvements that drive calls, bookings, and leads.\"}},{\"@type\":\"Question\",\"name\":\"What should I send to get a quote?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"Your website (if you have one), what you need help with, and your preferred timeline.\"}}]}</script>\n        <!-- /AI_SLOT:SCHEMA -->\n      \t\t\t</div>\n\t\n    \t\t</div>\n\t\t\t\t\t</div>\n\n\t\n  </div>\n\t\t</div>\n\n\t\t\n<style>\n#section_862207619 {\n  padding-top: 60px;\n  padding-bottom: 60px;\n  background-color: rgb(243, 243, 243);\n}\n</style>\n\t</section>\n\t\n",
+    "protected": false,
+    "block_version": 1
+  },
+  "excerpt": {
+    "raw": "",
+    "rendered": "",
+    "protected": false
+  },
+  "author": 0,
+  "featured_media": 0,
+  "parent": 0,
+  "menu_order": 0,
+  "comment_status": "closed",
+  "ping_status": "closed",
+  "template": "page-blank.php",
+  "meta": {
+    "footnotes": ""
+  },
+  "permalink_template": "https://newcastlehub.info/%pagename%/",
+  "generated_slug": "contact",
+  "class_list": [
+    "post-28",
+    "page",
+    "type-page",
+    "status-publish",
+    "hentry"
+  ],
+  "_links": {
+    "self": [
+      {
+        "href": "https://newcastlehub.info/wp-json/wp/v2/pages/28",
+        "targetHints": {
+          "allow": [
+            "GET",
+            "POST",
+            "PUT",
+            "PATCH",
+            "DELETE"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://newcastlehub.info/wp-json/wp/v2/pages"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://newcastlehub.info/wp-json/wp/v2/types/page"
+      }
+    ],
+    "replies": [
+      {
+        "embeddable": true,
+        "href": "https://newcastlehub.info/wp-json/wp/v2/comments?post=28"
+      }
+    ],
+    "version-history": [
+      {
+        "count": 21,
+        "href": "https://newcastlehub.info/wp-json/wp/v2/pages/28/revisions"
+      }
+    ],
+    "predecessor-version": [
+      {
+        "id": 750,
+        "href": "https://newcastlehub.info/wp-json/wp/v2/pages/28/revisions/750"
+      }
+    ],
+    "wp:attachment": [
+      {
+        "href": "https://newcastlehub.info/wp-json/wp/v2/media?parent=28"
+      }
+    ],
+    "wp:action-publish": [
+      {
+        "href": "https://newcastlehub.info/wp-json/wp/v2/pages/28"
+      }
+    ],
+    "wp:action-unfiltered-html": [
+      {
+        "href": "https://newcastlehub.info/wp-json/wp/v2/pages/28"
+      }
+    ],
+    "wp:action-assign-author": [
+      {
+        "href": "https://newcastlehub.info/wp-json/wp/v2/pages/28"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  }
+}

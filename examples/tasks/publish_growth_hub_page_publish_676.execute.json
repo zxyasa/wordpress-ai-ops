@@ -1,0 +1,24 @@
+{
+  "task_id": "35a49a76-e8cd-4b13-8ff4-6f9b5d7cf2f7",
+  "created_at": "2026-02-15T04:50:00Z",
+  "mode": "execute",
+  "site": { "base_url": "https://newcastlehub.info" },
+  "task_type": "update_post_or_page",
+  "requires_confirmation": true,
+  "priority": "high",
+  "limits": { "cooldown_hours": 0, "max_write_per_target": 10 },
+  "notes": "Publish the created Growth Hub page (id=676) so it becomes accessible at /newcastle-growth-hub/.",
+  "targets": [
+    { "type": "page", "match": { "by": "id", "value": 676 } }
+  ],
+  "operations": [
+    {
+      "op": "set_fields",
+      "scope": "fields",
+      "selector": { "kind": "regex", "value": "unused" },
+      "content": { "format": "json", "value": { "status": "publish" } },
+      "safety": { "max_chars_change": 50, "dry_run_diff": false, "allow_full_replace": true }
+    }
+  ]
+}
+

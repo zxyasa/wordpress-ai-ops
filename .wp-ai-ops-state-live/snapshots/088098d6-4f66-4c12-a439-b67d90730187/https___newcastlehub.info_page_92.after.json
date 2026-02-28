@@ -1,0 +1,127 @@
+{
+  "id": 92,
+  "date": "2021-09-07T13:03:11",
+  "date_gmt": "2021-09-07T13:03:11",
+  "guid": {
+    "rendered": "https://newcastlehub.info/?page_id=92",
+    "raw": "https://newcastlehub.info/?page_id=92"
+  },
+  "modified": "2026-02-16T04:36:55",
+  "modified_gmt": "2026-02-16T04:36:55",
+  "password": "",
+  "slug": "web-hosting-starter",
+  "status": "publish",
+  "type": "page",
+  "link": "https://newcastlehub.info/web-hosting-starter/",
+  "title": {
+    "raw": "Web Hosting Starter+",
+    "rendered": "Web Hosting Starter+"
+  },
+  "content": {
+    "raw": "<!-- wp:html -->\n<div id=\"paypal-button-container-P-12B924499X453381CME3VZBY\"></div>\n<script src=\"https://www.paypal.com/sdk/js?client-id=AZu7YCBQ6K1g65JP3Oh-tCdjzNUXvwJrsP0VRZJgSWt3C8pk_9TUu6guT2qHtc2nicBU6aDStX0x_P-2&vault=true&intent=subscription\" data-sdk-integration-source=\"button-factory\"></script>\n<script>\n  paypal.Buttons({\n      style: {\n          shape: 'rect',\n          color: 'gold',\n          layout: 'vertical',\n          label: 'subscribe'\n      },\n      createSubscription: function(data, actions) {\n        return actions.subscription.create({\n          /* Creates the subscription */\n          plan_id: 'P-12B924499X453381CME3VZBY'\n        });\n      },\n      onApprove: function(data, actions) {\n        alert(data.subscriptionID); // You can add optional success message for the subscriber here\n      }\n  }).render('#paypal-button-container-P-12B924499X453381CME3VZBY'); // Renders the PayPal button\n</script>\n<!-- /wp:html -->\n\n<section class=\"section\" id=\"ai-hosting-starter-seo\" style=\"padding-top:48px;padding-bottom:48px;background-color:#f3f3f3;\"><div class=\"section-content relative\"><div class=\"row\"><div class=\"col small-12 large-12\"><div class=\"col-inner\"><div class=\"text\"><!-- AI_SLOT:INTRO --><h2>Starter Hosting for New and Small Sites</h2><p>The Starter plan is designed for businesses that need stable WordPress hosting with clean setup, dependable performance, and a low-friction monthly cost.</p><!-- /AI_SLOT:INTRO --><h3>Best for</h3><ul><li>New business websites</li><li>Simple brochure or lead-gen sites</li><li>Owners who want reliable uptime without technical overhead</li></ul><!-- AI_SLOT:FAQ --><h3>Starter Plan FAQ</h3><h4>Can I upgrade later?</h4><p>Yes. You can move to a higher plan as traffic and feature needs increase.</p><h4>Is this plan suitable for ecommerce?</h4><p>For light stores it can work, but growing stores are usually better on higher plans.</p><h4>Do you help with setup?</h4><p>Yes. We assist with setup, launch checks, and basic technical guidance.</p><!-- /AI_SLOT:FAQ --><!-- AI_SLOT:CTA --><p><a class=\"button primary is-large\" href=\"https://newcastlehub.info/contact/\">Start with Starter Hosting</a></p><p>Compare with: <a href=\"https://newcastlehub.info/web-hosting-freedom/\">Freedom Plan</a> | <a href=\"https://newcastlehub.info/web-hosting-premier/\">Premier Plan</a></p><!-- /AI_SLOT:CTA --><!-- AI_SLOT:SCHEMA --><script type=\"application/ld+json\">{\"@context\":\"https://schema.org\",\"@type\":\"FAQPage\",\"mainEntity\":[{\"@type\":\"Question\",\"name\":\"Can I upgrade later?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"Yes. You can move to a higher plan as traffic and feature needs increase.\"}},{\"@type\":\"Question\",\"name\":\"Is this plan suitable for ecommerce?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"For light stores it can work, but growing stores are usually better on higher plans.\"}},{\"@type\":\"Question\",\"name\":\"Do you help with setup?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"Yes. We assist with setup, launch checks, and basic technical guidance.\"}}]}</script><!-- /AI_SLOT:SCHEMA --></div></div></div></div></div></section>\n",
+    "rendered": "\n<div id=\"paypal-button-container-P-12B924499X453381CME3VZBY\"></div>\n<script src=\"https://www.paypal.com/sdk/js?client-id=AZu7YCBQ6K1g65JP3Oh-tCdjzNUXvwJrsP0VRZJgSWt3C8pk_9TUu6guT2qHtc2nicBU6aDStX0x_P-2&#038;vault=true&#038;intent=subscription\" data-sdk-integration-source=\"button-factory\"></script>\n<script>\n  paypal.Buttons({\n      style: {\n          shape: 'rect',\n          color: 'gold',\n          layout: 'vertical',\n          label: 'subscribe'\n      },\n      createSubscription: function(data, actions) {\n        return actions.subscription.create({\n          /* Creates the subscription */\n          plan_id: 'P-12B924499X453381CME3VZBY'\n        });\n      },\n      onApprove: function(data, actions) {\n        alert(data.subscriptionID); // You can add optional success message for the subscriber here\n      }\n  }).render('#paypal-button-container-P-12B924499X453381CME3VZBY'); // Renders the PayPal button\n</script>\n\n\n<section class=\"section\" id=\"ai-hosting-starter-seo\" style=\"padding-top:48px;padding-bottom:48px;background-color:#f3f3f3;\"><div class=\"section-content relative\"><div class=\"row\"><div class=\"col small-12 large-12\"><div class=\"col-inner\"><div class=\"text\"><!-- AI_SLOT:INTRO --><h2>Starter Hosting for New and Small Sites</h2><p>The Starter plan is designed for businesses that need stable WordPress hosting with clean setup, dependable performance, and a low-friction monthly cost.</p><!-- /AI_SLOT:INTRO --><h3>Best for</h3><ul><li>New business websites</li><li>Simple brochure or lead-gen sites</li><li>Owners who want reliable uptime without technical overhead</li></ul><!-- AI_SLOT:FAQ --><h3>Starter Plan FAQ</h3><h4>Can I upgrade later?</h4><p>Yes. You can move to a higher plan as traffic and feature needs increase.</p><h4>Is this plan suitable for ecommerce?</h4><p>For light stores it can work, but growing stores are usually better on higher plans.</p><h4>Do you help with setup?</h4><p>Yes. We assist with setup, launch checks, and basic technical guidance.</p><!-- /AI_SLOT:FAQ --><!-- AI_SLOT:CTA --><p><a class=\"button primary is-large\" href=\"https://newcastlehub.info/contact/\">Start with Starter Hosting</a></p><p>Compare with: <a href=\"https://newcastlehub.info/web-hosting-freedom/\">Freedom Plan</a> | <a href=\"https://newcastlehub.info/web-hosting-premier/\">Premier Plan</a></p><!-- /AI_SLOT:CTA --><!-- AI_SLOT:SCHEMA --><script type=\"application/ld+json\">{\"@context\":\"https://schema.org\",\"@type\":\"FAQPage\",\"mainEntity\":[{\"@type\":\"Question\",\"name\":\"Can I upgrade later?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"Yes. You can move to a higher plan as traffic and feature needs increase.\"}},{\"@type\":\"Question\",\"name\":\"Is this plan suitable for ecommerce?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"For light stores it can work, but growing stores are usually better on higher plans.\"}},{\"@type\":\"Question\",\"name\":\"Do you help with setup?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"Yes. We assist with setup, launch checks, and basic technical guidance.\"}}]}</script><!-- /AI_SLOT:SCHEMA --></div></div></div></div></div></section>\n",
+    "protected": false,
+    "block_version": 1
+  },
+  "excerpt": {
+    "raw": "",
+    "rendered": "<p>Starter Hosting for New and Small Sites The Starter plan is designed for businesses that need stable WordPress hosting with clean setup, dependable performance, and a low-friction monthly cost. Best for New business websites Simple brochure or lead-gen sites Owners who want reliable uptime without technical overhead Starter Plan FAQ Can I upgrade later? Yes. [&#8230;]\n",
+    "protected": false
+  },
+  "author": 1,
+  "featured_media": 0,
+  "parent": 0,
+  "menu_order": 0,
+  "comment_status": "closed",
+  "ping_status": "closed",
+  "template": "",
+  "meta": {
+    "footnotes": ""
+  },
+  "permalink_template": "https://newcastlehub.info/%pagename%/",
+  "generated_slug": "web-hosting-starter",
+  "class_list": [
+    "post-92",
+    "page",
+    "type-page",
+    "status-publish",
+    "hentry"
+  ],
+  "_links": {
+    "self": [
+      {
+        "href": "https://newcastlehub.info/wp-json/wp/v2/pages/92",
+        "targetHints": {
+          "allow": [
+            "GET",
+            "POST",
+            "PUT",
+            "PATCH",
+            "DELETE"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://newcastlehub.info/wp-json/wp/v2/pages"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://newcastlehub.info/wp-json/wp/v2/types/page"
+      }
+    ],
+    "author": [
+      {
+        "embeddable": true,
+        "href": "https://newcastlehub.info/wp-json/wp/v2/users/1"
+      }
+    ],
+    "replies": [
+      {
+        "embeddable": true,
+        "href": "https://newcastlehub.info/wp-json/wp/v2/comments?post=92"
+      }
+    ],
+    "version-history": [
+      {
+        "count": 3,
+        "href": "https://newcastlehub.info/wp-json/wp/v2/pages/92/revisions"
+      }
+    ],
+    "predecessor-version": [
+      {
+        "id": 702,
+        "href": "https://newcastlehub.info/wp-json/wp/v2/pages/92/revisions/702"
+      }
+    ],
+    "wp:attachment": [
+      {
+        "href": "https://newcastlehub.info/wp-json/wp/v2/media?parent=92"
+      }
+    ],
+    "wp:action-publish": [
+      {
+        "href": "https://newcastlehub.info/wp-json/wp/v2/pages/92"
+      }
+    ],
+    "wp:action-unfiltered-html": [
+      {
+        "href": "https://newcastlehub.info/wp-json/wp/v2/pages/92"
+      }
+    ],
+    "wp:action-assign-author": [
+      {
+        "href": "https://newcastlehub.info/wp-json/wp/v2/pages/92"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  }
+}

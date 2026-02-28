@@ -1,0 +1,148 @@
+{
+  "generated_at": "2026-02-15T02:02:58.650124+00:00",
+  "inputs": {
+    "gsc_csv": "examples/csv/gsc_sample.csv",
+    "ga_csv": "examples/csv/ga_sample.csv"
+  },
+  "site": {
+    "base_url": "https://newcastlehub.info"
+  },
+  "selected_pages": [
+    {
+      "url": "https://example.com/best-cake-recipes",
+      "score": 7,
+      "reasons": [
+        "high_impressions_low_ctr",
+        "rank_5_15",
+        "high_bounce"
+      ],
+      "impressions": 12000.0,
+      "clicks": 120.0,
+      "ctr": 0.01,
+      "position": 8.4,
+      "bounce_rate": 0.78
+    },
+    {
+      "url": "https://example.com/chocolate-frosting-guide",
+      "score": 7,
+      "reasons": [
+        "high_impressions_low_ctr",
+        "rank_5_15",
+        "high_bounce"
+      ],
+      "impressions": 5400.0,
+      "clicks": 35.0,
+      "ctr": 0.006500000000000001,
+      "position": 11.2,
+      "bounce_rate": 0.74
+    },
+    {
+      "url": "https://example.com/party-dessert-planning",
+      "score": 7,
+      "reasons": [
+        "high_impressions_low_ctr",
+        "rank_5_15",
+        "high_bounce"
+      ],
+      "impressions": 2600.0,
+      "clicks": 20.0,
+      "ctr": 0.0077,
+      "position": 9.8,
+      "bounce_rate": 0.81
+    }
+  ],
+  "generated_tasks": [
+    {
+      "task_id": "203db412-3bd5-4a41-b9af-cfb984a6bf4b",
+      "task_type": "update_post_or_page",
+      "target_url": "https://example.com/best-cake-recipes",
+      "reasons": [
+        "high_impressions_low_ctr",
+        "rank_5_15",
+        "high_bounce"
+      ]
+    },
+    {
+      "task_id": "f9ee0e95-c08b-410f-9d98-feaf2725436d",
+      "task_type": "inject_schema_faq",
+      "target_url": "https://example.com/best-cake-recipes",
+      "reasons": [
+        "high_impressions_low_ctr",
+        "rank_5_15",
+        "high_bounce"
+      ]
+    },
+    {
+      "task_id": "f68bc2a4-f4c9-4655-a9e4-2d843e9d203e",
+      "task_type": "append_internal_links",
+      "target_url": "https://example.com/best-cake-recipes",
+      "reasons": [
+        "high_impressions_low_ctr",
+        "rank_5_15",
+        "high_bounce"
+      ]
+    },
+    {
+      "task_id": "9e1dd27b-8c23-428e-8c2b-440aa6db5312",
+      "task_type": "update_post_or_page",
+      "target_url": "https://example.com/chocolate-frosting-guide",
+      "reasons": [
+        "high_impressions_low_ctr",
+        "rank_5_15",
+        "high_bounce"
+      ]
+    },
+    {
+      "task_id": "69752b57-4e05-412d-9975-b782d834ceee",
+      "task_type": "inject_schema_faq",
+      "target_url": "https://example.com/chocolate-frosting-guide",
+      "reasons": [
+        "high_impressions_low_ctr",
+        "rank_5_15",
+        "high_bounce"
+      ]
+    },
+    {
+      "task_id": "450123a3-246c-40be-a477-e227a916379c",
+      "task_type": "append_internal_links",
+      "target_url": "https://example.com/chocolate-frosting-guide",
+      "reasons": [
+        "high_impressions_low_ctr",
+        "rank_5_15",
+        "high_bounce"
+      ]
+    },
+    {
+      "task_id": "7488e138-e3d8-4da2-be71-fe55249fa4da",
+      "task_type": "update_post_or_page",
+      "target_url": "https://example.com/party-dessert-planning",
+      "reasons": [
+        "high_impressions_low_ctr",
+        "rank_5_15",
+        "high_bounce"
+      ]
+    },
+    {
+      "task_id": "771782fa-002a-4d82-89f6-0fc0d684eb63",
+      "task_type": "inject_schema_faq",
+      "target_url": "https://example.com/party-dessert-planning",
+      "reasons": [
+        "high_impressions_low_ctr",
+        "rank_5_15",
+        "high_bounce"
+      ]
+    },
+    {
+      "task_id": "56ecdb2f-1662-424d-8e52-7646b5fda3aa",
+      "task_type": "append_internal_links",
+      "target_url": "https://example.com/party-dessert-planning",
+      "reasons": [
+        "high_impressions_low_ctr",
+        "rank_5_15",
+        "high_bounce"
+      ]
+    }
+  ],
+  "tasks_dir": "live-plan-newcastle/tasks",
+  "execution_results": []
+}

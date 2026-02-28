@@ -1,11 +1,31 @@
 # Context: restaurant-square-setup
-Last updated: 2026-02-16T15:10:00+11:00
+Last updated: 2026-02-16T15:28:00+11:00
 
 ## Key Files (ONLY read these on resume)
 - `examples/tasks/publish_growth_hub_page.execute.json` — 真实 publish_post 格式参考
 - `examples/tasks/set_meta_rankmath.json` — set_meta 格式参考
 - `examples/tasks/inject_schema_faq.json` — FAQ schema 格式参考
 - `examples/tasks/growth_hub_add_restaurant_link.execute.json` — growth hub 内链追加任务（已做幂等 regex 修复）
+- `examples/tasks/link_bridge_growth_hub.execute.json` — 核心页 CTA 槽统一补内链任务（Growth Hub + Hosting子页）
+- `examples/tasks/growth_hub_rewrite_content.execute.json` — Growth Hub 正文重写任务（统一风格 + 功能路径）
+- `examples/tasks/site_structure_20260216_v4/audit_form_embed_718.execute.json` — 审计页嵌入 CF7 表单任务（page 718, AI_SLOT:CTA）
+- `examples/tasks/site_structure_20260217_v5/ai_pack_789_faq_cta.execute.json` — AI 服务实施页追加 FAQ/CTA/Schema
+- `examples/tasks/site_structure_20260217_v5/online_ordering_722_faq.execute.json` — Online Ordering 页追加 FAQ/CTA/Schema
+- `examples/tasks/site_structure_20260217_v5/why_choose_719_faq.execute.json` — Why Choose 页追加 FAQ/CTA/Schema
+- `examples/tasks/site_structure_20260217_v5/faq_accordion_789.execute.json` — page 789 FAQ 折叠版
+- `examples/tasks/site_structure_20260217_v5/faq_accordion_722.execute.json` — page 722 FAQ 折叠版
+- `examples/tasks/site_structure_20260217_v5/faq_accordion_719.execute.json` — page 719 FAQ 折叠版
+- `examples/tasks/site_structure_20260217_v6/industry_restaurant-solutions_715_accordion_faq.execute.json`
+- `examples/tasks/site_structure_20260217_v6/industry_beauty-salon-solutions_713_accordion_faq.execute.json`
+- `examples/tasks/site_structure_20260217_v6/industry_trades-solutions_717_accordion_faq.execute.json`
+- `examples/tasks/site_structure_20260217_v6/industry_retail-solutions_716_accordion_faq.execute.json`
+- `examples/tasks/site_structure_20260217_v6/industry_mechanic-solutions_714_accordion_faq.execute.json`
+- `examples/tasks/site_structure_20260217_v7/faq_accordion_contact_28.execute.json`
+- `examples/tasks/site_structure_20260217_v7/faq_accordion_hosting-plan_85.execute.json`
+- `examples/tasks/site_structure_20260217_v7/faq_accordion_marketing-service_548.execute.json`
+- `examples/tasks/site_structure_20260217_v7/faq_accordion_website-service_494.execute.json`
+- `examples/tasks/site_structure_20260217_v7/faq_accordion_services_39_override.execute.json`
+- `examples/tasks/demo_newcastle_conversion.publish.json` — 独立 demo 页面（不改首页）发布任务
 - `src/wp_ai_ops/handlers.py` — 如需确认 handler 支持的字段
 
 ## Architecture Notes
@@ -17,7 +37,98 @@ Last updated: 2026-02-16T15:10:00+11:00
 ## Recent Changes Summary
 - 已完成 Step 8 dry-run 校验（临时 task_id 方式，绕过 idempotent_skip）
 - 修复 `growth_hub_add_restaurant_link.execute.json` 的 regex，使任务在“链接已存在”时返回 noop 而非失败
+- 再次执行全套任务（`--confirm`）全部 `idempotent_skip`，验证既有发布结果稳定
+- 新增核心页补链任务：将 `newcastle-growth-hub` 和 hosting 子页链接追加到各页 `AI_SLOT:CTA`
+- `link_bridge_growth_hub.execute.json` 已完成 plan-only：
+  - targets: 403, 29, 39, 28, 494, 548, 85
+  - 每页会在 `AI_SLOT:CTA` 追加 `Related reads`（Growth Hub + Hosting Starter + Hosting Freedom）
+- `growth_hub_rewrite_content.execute.json` 已完成 plan-only：
+  - target: page 676
+  - 替换 `#ai-growth-hub` 整段内容，统一为“路径化内容 + CTA + 结构化数据”
+- `growth_hub_rewrite_content.execute.json` 已验证上线状态：
+  - `--confirm` 返回 `idempotent_skip`（说明内容已存在且幂等）
+  - 前台 `/newcastle-growth-hub/` 已确认渲染新版正文内容
+- 新增 pages 基础优化任务（内容 + SEO）：
+  - `examples/tasks/baseline_portfolio_36.execute.json`
+  - `examples/tasks/baseline_hosting_starter_92.execute.json`
+  - `examples/tasks/baseline_hosting_freedom_95.execute.json`
+  - `examples/tasks/baseline_hosting_premier_99.execute.json`
+  - `examples/tasks/seo_portfolio_36.execute.json`
+  - `examples/tasks/seo_hosting_starter_92.execute.json`
+  - `examples/tasks/seo_hosting_freedom_95.execute.json`
+  - `examples/tasks/seo_hosting_premier_99.execute.json`
+- 执行结果：
+  - 四个 baseline 任务已成功写入前台内容（可见）
+  - 四个 seo(set_meta) 任务返回 updated，但 after 快照未出现 rank_math_* keys
+  - 判断为：站点尚未对 RankMath meta keys 执行 `show_in_rest` 注册，需最小插件/片段启用后重跑
+- 新增站点结构任务目录：`examples/tasks/site_structure_20260216/`
+  - `home_reposition_403.execute.json`
+  - `services_structure_39.execute.json`
+  - `industry_*.execute.json`（5 页）
+  - `solution_*.execute.json`（3 页）
+  - `local_advantage.execute.json`
+  - `lead_capture_audit.execute.json`
+- 批量执行结果：12/12 成功，全部已上线可访问
+- 新增审计页表单挂载任务（目录 `examples/tasks/site_structure_20260216_v4/`）：
+  - `audit_form_embed_718.execute.json`
+  - 已 `--confirm` 成功，前台可见 `wpcf7-f400-p718-o1`
+  - 当前复用 form id=400；CF7 表单结构定制仍需管理员级别 API 写权限
+- 邮件投递链路修复进展：
+  - 已安装并启用 `WP Mail SMTP` 插件（`wp-mail-smtp/wp_mail_smtp`）
+  - 目前站点尚未配置 SMTP 账户参数，邮件仍可能走主机默认发信
+  - 待用户提供 SMTP 配置后执行最终连通性测试（以收件箱实际收到为准）
+  - 已验证用户提供凭据可登录 Google SMTP（`smtp.gmail.com:587` STARTTLS）
+  - 结论：凭据本身有效，剩余步骤为插件 UI 写入配置并复测收件
+- 2026-02-17 Batch 2 已执行完成：
+  - 目录：`examples/tasks/site_structure_20260217_v5/`
+  - 结果：3 个任务全部 updated（pages 789 / 722 / 719）
+  - 三页均新增 FAQPage JSON-LD + 审计导向 CTA
+- FAQ 交互升级：
+  - 三页 FAQ 已由静态段落改为 `details/summary`（可收起/展开）
+  - 已前台校验 `<details>` 渲染存在
+- 行业页 FAQ Rollout：
+  - 5 个行业页均新增折叠 FAQ 区块（`details/summary`）
+  - 同步新增 FAQPage JSON-LD 与审计 CTA
+- 核心服务页 FAQ Rollout：
+  - `contact / hosting-plan / website-service / marketing-service / services` 已改为折叠 FAQ
+  - `services` 页因频控触发，改用 one-off override 任务成功完成
 
 ## Search Hints
 - 查找已发布页面格式: rg "publish_post" examples/tasks/
 - 查找 Flatsome HTML 结构: rg "section-content" examples/tasks/
+
+- 2026-02-17 FAQ 统一标准已落地（未来+存量双修复）：
+  - 代码变更：
+    - `src/wp_ai_ops/handlers.py` `_build_faq_html` 统一为 `details/summary` 折叠组件并内置标准样式。
+    - `tests/unit/test_handlers.py` 已同步断言更新并通过（`32 passed`）。
+  - 线上批量标准化：
+    - 扫描 pages `41`，发现需统一 `20`。
+    - 统一完成 `20/20`，`0` 失败。
+  - 当前 FAQ 样式标准：
+    - details mb=18px, summary padding=16x18, answer padding=16x18x18, line-height=1.6/1.8。
+
+- Rank Math 已安装并激活，但 REST `meta` 仍未暴露 `rank_math_*` 字段。
+- 已确认 `set_meta` 当前在站点侧不会持久化，必须安装 meta bridge（或等价 register_post_meta 片段）。
+- 本地 bridge 插件已更新为最小暴露：
+  - `rank_math_title`
+  - `rank_math_description`
+  - `rank_math_focus_keyword`
+- 已搭建 baseline 周循环（无 GSC 数据也可计划）：
+  - `examples/csv/newcastle_baseline_gsc.csv`
+  - `examples/csv/newcastle_baseline_ga.csv`
+  - `scripts/run_newcastle_weekly_baseline.sh`
+- 本机 Python DNS 问题会影响 CLI 执行到线上；当前 workaround 是使用 curl 直连执行线上变更。
+
+- Step 2 已打通：RankMath SEO meta 可经 REST 写入（通过 Code Snippets 注入 meta bridge 实现）。
+- snippet 资产：
+  - id=5, name=`AI Ops Meta Bridge (RankMath REST)`
+  - 限制写入用户：`api-bot`
+- 已实写并验证 5 个核心页面的 rank_math 三字段。
+- Step 3 已可执行：baseline weekly cycle 具备 plan+execute 能力。
+- 已修复 root URL resolve bug：`by:url` 对 `https://site/` 不再走空 slug，改为 link path fallback。
+- 相关代码：
+  - `src/wp_ai_ops/target_resolver.py`
+  - `tests/integration/test_target_resolver.py`
+  - `scripts/run_newcastle_weekly_baseline.sh`
+  - `examples/csv/newcastle_baseline_gsc.csv`
+  - `examples/csv/newcastle_baseline_ga.csv`

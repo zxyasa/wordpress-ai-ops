@@ -2,7 +2,15 @@ from __future__ import annotations
 
 import pytest
 
-from wp_ai_ops.weekly_cycle import _to_float, _normalize_rate, _parse_ctr, _score_row
+from wp_ai_ops.weekly_cycle import (
+    _bootstrap_rows,
+    _classify_limit_group,
+    _resolve_limits_for_url,
+    _to_float,
+    _normalize_rate,
+    _parse_ctr,
+    _score_row,
+)
 
 
 # --- _to_float ---
@@ -136,3 +144,51 @@ class TestScoreRow:
     def test_boundary_bounce_069_no_trigger(self):
         row = _score_row("https://example.com/a", {}, {"bounce_rate": 0.69})
         assert "high_bounce" not in row.reasons
+
+
+class TestWeeklyLimitPolicy:
+    def test_classify_groups(self):
+        policy = {
+            "core_paths": ["/services/", "/contact/"],
+            "service_path_patterns": [r".*-solutions/?$", r".*-newcastle/?$"],
+        }
+        assert _classify_limit_group("https://newcastlehub.info/", policy) == "homepage"
+        assert _classify_limit_group("https://newcastlehub.info/services/", policy) == "core"
+        assert _classify_limit_group("https://newcastlehub.info/restaurant-solutions/", policy) == "service"
+        assert _classify_limit_group("https://newcastlehub.info/blog/welcome/", policy) == "other"
+
+    def test_resolve_limits_with_override(self):
+        site = {
+            "weekly_limits": {
+                "default": {"cooldown_hours": 30, "max_write_per_target": 2},
+                "groups": {"homepage": {"cooldown_hours": 6, "max_write_per_target": 9}},
+            }
+        }
+        limits, group = _resolve_limits_for_url(site, "https://newcastlehub.info/")
+        assert group == "homepage"
+        assert limits["cooldown_hours"] == 6
+        assert limits["max_write_per_target"] == 9
+
+        limits_other, group_other = _resolve_limits_for_url(site, "https://newcastlehub.info/blog/")
+        assert group_other == "other"
+        assert limits_other["cooldown_hours"] == 30
+        assert limits_other["max_write_per_target"] == 2
+
+
+class TestBootstrapRows:
+    def test_bootstrap_rows_from_site_profile(self):
+        site = {
+            "bootstrap_urls": [
+                "https://newcastlehub.info/",
+                "https://newcastlehub.info/services/",
+            ]
+        }
+        rows = _bootstrap_rows(site, top_n=5)
+        assert len(rows) == 2
+        assert rows[0].reasons == ["no_gsc_data_bootstrap"]
+        assert rows[0].score == 1
+
+    def test_bootstrap_rows_respects_top_n(self):
+        site = {"bootstrap_urls": ["https://a.com/", "https://b.com/", "https://c.com/"]}
+        rows = _bootstrap_rows(site, top_n=2)
+        assert [r.url for r in rows] == ["https://a.com/", "https://b.com/"]

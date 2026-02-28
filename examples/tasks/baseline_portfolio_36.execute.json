@@ -1,0 +1,26 @@
+{
+  "task_id": "9df8fd64-b8cd-46df-88e4-6c240a803601",
+  "created_at": "2026-02-16T04:45:00Z",
+  "mode": "execute",
+  "site": { "base_url": "https://newcastlehub.info" },
+  "task_type": "update_post_or_page",
+  "requires_confirmation": true,
+  "priority": "high",
+  "limits": { "cooldown_hours": 0, "max_write_per_target": 10 },
+  "notes": "Add real SEO content block to Portfolio page with slots + FAQ + schema.",
+  "targets": [
+    { "type": "page", "match": { "by": "id", "value": 36 } }
+  ],
+  "operations": [
+    {
+      "op": "append",
+      "scope": "content",
+      "selector": { "kind": "regex", "value": "$" },
+      "content": {
+        "format": "html",
+        "value": "\n\n<section class=\"section\" id=\"ai-portfolio-seo-block\" style=\"padding-top:56px;padding-bottom:56px;background-color:#f3f3f3;\"><div class=\"section-content relative\"><div class=\"row\"><div class=\"col small-12 large-12\"><div class=\"col-inner\"><div class=\"text\"><!-- AI_SLOT:INTRO --><h2>Portfolio Highlights for Newcastle Businesses</h2><p>Explore recent website, branding, and campaign projects delivered for local businesses. Each project focuses on clean design, conversion flow, and measurable business outcomes.</p><!-- /AI_SLOT:INTRO --><h3>What you can review here</h3><ul><li>Design quality and brand fit</li><li>Landing page structure and call-to-action clarity</li><li>Practical execution across web, content, and launch support</li></ul><!-- AI_SLOT:FAQ --><h3>Portfolio FAQ</h3><h4>Can you build something similar for my business type?</h4><p>Yes. We adapt layouts and messaging to your service category, market, and lead goals.</p><h4>Do you only do design, or full implementation too?</h4><p>We handle both: planning, design, build, launch support, and ongoing optimization.</p><h4>How long does a typical project take?</h4><p>Timeline depends on scope, but most small business projects can be launched in a few weeks.</p><!-- /AI_SLOT:FAQ --><!-- AI_SLOT:CTA --><p><a class=\"button primary is-large\" href=\"https://newcastlehub.info/contact/\">Discuss Your Project</a></p><p>Related pages: <a href=\"https://newcastlehub.info/website-service/\">Website Service</a> | <a href=\"https://newcastlehub.info/marketing-service/\">Marketing Service</a></p><!-- /AI_SLOT:CTA --><!-- AI_SLOT:SCHEMA --><script type=\"application/ld+json\">{\"@context\":\"https://schema.org\",\"@type\":\"FAQPage\",\"mainEntity\":[{\"@type\":\"Question\",\"name\":\"Can you build something similar for my business type?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"Yes. We adapt layouts and messaging to your service category, market, and lead goals.\"}},{\"@type\":\"Question\",\"name\":\"Do you only do design, or full implementation too?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"We handle both: planning, design, build, launch support, and ongoing optimization.\"}},{\"@type\":\"Question\",\"name\":\"How long does a typical project take?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"Timeline depends on scope, but most small business projects can be launched in a few weeks.\"}}]}</script><!-- /AI_SLOT:SCHEMA --></div></div></div></div></div></section>\n"
+      },
+      "safety": { "max_chars_change": 12000, "dry_run_diff": true, "allow_full_replace": true }
+    }
+  ]
+}

@@ -1,0 +1,104 @@
+{
+  "generated_at": "2026-02-15T01:08:33.531969+00:00",
+  "inputs": {
+    "gsc_csv": "examples/csv/gsc_sample.csv",
+    "ga_csv": "examples/csv/ga_sample.csv"
+  },
+  "site": {
+    "base_url": "https://example.com"
+  },
+  "selected_pages": [
+    {
+      "url": "https://example.com/best-cake-recipes",
+      "score": 7,
+      "reasons": [
+        "high_impressions_low_ctr",
+        "rank_5_15",
+        "high_bounce"
+      ],
+      "impressions": 12000.0,
+      "clicks": 120.0,
+      "ctr": 0.01,
+      "position": 8.4,
+      "bounce_rate": 0.78
+    },
+    {
+      "url": "https://example.com/chocolate-frosting-guide",
+      "score": 7,
+      "reasons": [
+        "high_impressions_low_ctr",
+        "rank_5_15",
+        "high_bounce"
+      ],
+      "impressions": 5400.0,
+      "clicks": 35.0,
+      "ctr": 0.006500000000000001,
+      "position": 11.2,
+      "bounce_rate": 0.74
+    }
+  ],
+  "generated_tasks": [
+    {
+      "task_id": "6898eacb-d562-48b1-982a-fb42d5c6467f",
+      "task_type": "update_post_or_page",
+      "target_url": "https://example.com/best-cake-recipes",
+      "reasons": [
+        "high_impressions_low_ctr",
+        "rank_5_15",
+        "high_bounce"
+      ]
+    },
+    {
+      "task_id": "dd95e9f3-efe8-43ec-a73e-a315a6f7dc07",
+      "task_type": "inject_schema_faq",
+      "target_url": "https://example.com/best-cake-recipes",
+      "reasons": [
+        "high_impressions_low_ctr",
+        "rank_5_15",
+        "high_bounce"
+      ]
+    },
+    {
+      "task_id": "ae5f476d-fd1f-4dd7-b4d6-2358ea77b74d",
+      "task_type": "append_internal_links",
+      "target_url": "https://example.com/best-cake-recipes",
+      "reasons": [
+        "high_impressions_low_ctr",
+        "rank_5_15",
+        "high_bounce"
+      ]
+    },
+    {
+      "task_id": "4fed81c6-f54d-41e9-8704-6f9bc887180b",
+      "task_type": "update_post_or_page",
+      "target_url": "https://example.com/chocolate-frosting-guide",
+      "reasons": [
+        "high_impressions_low_ctr",
+        "rank_5_15",
+        "high_bounce"
+      ]
+    },
+    {
+      "task_id": "591d8774-0be1-4c6f-b27b-b2e098c07c7f",
+      "task_type": "inject_schema_faq",
+      "target_url": "https://example.com/chocolate-frosting-guide",
+      "reasons": [
+        "high_impressions_low_ctr",
+        "rank_5_15",
+        "high_bounce"
+      ]
+    },
+    {
+      "task_id": "c6aac506-cf73-4796-9c4a-fd20baba931d",
+      "task_type": "append_internal_links",
+      "target_url": "https://example.com/chocolate-frosting-guide",
+      "reasons": [
+        "high_impressions_low_ctr",
+        "rank_5_15",
+        "high_bounce"
+      ]
+    }
+  ],
+  "tasks_dir": "weekly-output/tasks",
+  "execution_results": []
+}

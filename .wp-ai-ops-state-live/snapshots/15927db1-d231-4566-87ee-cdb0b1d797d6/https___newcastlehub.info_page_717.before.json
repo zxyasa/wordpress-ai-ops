@@ -1,0 +1,127 @@
+{
+  "id": 717,
+  "date": "2026-02-16T05:06:48",
+  "date_gmt": "2026-02-16T05:06:48",
+  "guid": {
+    "rendered": "https://newcastlehub.info/trades-solutions/",
+    "raw": "https://newcastlehub.info/trades-solutions/"
+  },
+  "modified": "2026-02-16T05:49:06",
+  "modified_gmt": "2026-02-16T05:49:06",
+  "password": "",
+  "slug": "trades-solutions",
+  "status": "publish",
+  "type": "page",
+  "link": "https://newcastlehub.info/trades-solutions/",
+  "title": {
+    "raw": "Trades & Builders Solutions | Newcastle Hub",
+    "rendered": "Trades &#038; Builders Solutions | Newcastle Hub"
+  },
+  "content": {
+    "raw": "<!-- wp:html --><section class=\"section\" style=\"padding-top:56px;padding-bottom:56px;\"><div class=\"section-content relative\"><div class=\"row\"><div class=\"col small-12 large-12\"><div class=\"col-inner\"><!-- AI_SLOT:INTRO --><h1>Trades & Builders Solutions</h1><p><strong>Build direct lead flow beyond marketplace dependence.</strong></p><!-- /AI_SLOT:INTRO --><h2>Are you facing these issues?</h2><ul><li>Heavy dependence on lead platforms like hipages</li><li>No strong brand website</li><li>Low Google rankings in local searches</li></ul><h2>How we help</h2><ul><li>High-conversion website build</li><li>Local SEO implementation</li><li>Google Ads setup and tracking</li><li>Review generation strategy</li></ul><h2>Expected outcomes</h2><ul><li>More direct enquiries</li><li>Stronger local brand trust</li><li>Better cost per lead control</li></ul><!-- AI_SLOT:CTA -->\n<p><a class=\"button primary is-large\" href=\"https://newcastlehub.info/booking-system-newcastle/\">Set Up Booking & Lead System</a> <a class=\"button secondary is-large\" href=\"https://newcastlehub.info/free-newcastle-business-audit/\">Get Free Business Audit</a></p><p>Recommended stack: <a href=\"https://newcastlehub.info/booking-system-newcastle/\">Booking System</a> + <a href=\"https://newcastlehub.info/website-service/\">High-Conversion Website</a> + <a href=\"https://newcastlehub.info/marketing-service/\">Lead Growth</a></p>\n<p>Related reads: <a href=\"https://newcastlehub.info/ecommerce-setup-newcastle/\">Ecommerce Setup Newcastle</a></p>\n<!-- /AI_SLOT:CTA --><!-- AI_SLOT:SCHEMA --><script type=\"application/ld+json\">{\"@context\":\"https://schema.org\",\"@type\":\"Service\",\"name\":\"Trades & Builders Solutions\",\"provider\":{\"@type\":\"Organization\",\"name\":\"Newcastle Hub\"},\"areaServed\":\"Newcastle\"}</script><!-- /AI_SLOT:SCHEMA --></div></div></div></div></div></section><!-- /wp:html -->",
+    "rendered": "<section class=\"section\" style=\"padding-top:56px;padding-bottom:56px;\"><div class=\"section-content relative\"><div class=\"row\"><div class=\"col small-12 large-12\"><div class=\"col-inner\"><!-- AI_SLOT:INTRO --><h1>Trades &#038; Builders Solutions</h1><p><strong>Build direct lead flow beyond marketplace dependence.</strong></p><!-- /AI_SLOT:INTRO --><h2>Are you facing these issues?</h2><ul><li>Heavy dependence on lead platforms like hipages</li><li>No strong brand website</li><li>Low Google rankings in local searches</li></ul><h2>How we help</h2><ul><li>High-conversion website build</li><li>Local SEO implementation</li><li>Google Ads setup and tracking</li><li>Review generation strategy</li></ul><h2>Expected outcomes</h2><ul><li>More direct enquiries</li><li>Stronger local brand trust</li><li>Better cost per lead control</li></ul><!-- AI_SLOT:CTA -->\n<p><a class=\"button primary is-large\" href=\"https://newcastlehub.info/booking-system-newcastle/\">Set Up Booking &#038; Lead System</a> <a class=\"button secondary is-large\" href=\"https://newcastlehub.info/free-newcastle-business-audit/\">Get Free Business Audit</a></p><p>Recommended stack: <a href=\"https://newcastlehub.info/booking-system-newcastle/\">Booking System</a> + <a href=\"https://newcastlehub.info/website-service/\">High-Conversion Website</a> + <a href=\"https://newcastlehub.info/marketing-service/\">Lead Growth</a></p>\n<p>Related reads: <a href=\"https://newcastlehub.info/ecommerce-setup-newcastle/\">Ecommerce Setup Newcastle</a></p>\n<!-- /AI_SLOT:CTA --><!-- AI_SLOT:SCHEMA --><script type=\"application/ld+json\">{\"@context\":\"https://schema.org\",\"@type\":\"Service\",\"name\":\"Trades & Builders Solutions\",\"provider\":{\"@type\":\"Organization\",\"name\":\"Newcastle Hub\"},\"areaServed\":\"Newcastle\"}</script><!-- /AI_SLOT:SCHEMA --></div></div></div></div></div></section>",
+    "protected": false,
+    "block_version": 1
+  },
+  "excerpt": {
+    "raw": "",
+    "rendered": "<p>Trades &#038; Builders Solutions Build direct lead flow beyond marketplace dependence. Are you facing these issues? Heavy dependence on lead platforms like hipages No strong brand website Low Google rankings in local searches How we help High-conversion website build Local SEO implementation Google Ads setup and tracking Review generation strategy Expected outcomes More direct enquiries [&#8230;]\n",
+    "protected": false
+  },
+  "author": 4,
+  "featured_media": 0,
+  "parent": 0,
+  "menu_order": 0,
+  "comment_status": "closed",
+  "ping_status": "closed",
+  "template": "",
+  "meta": {
+    "footnotes": ""
+  },
+  "permalink_template": "https://newcastlehub.info/%pagename%/",
+  "generated_slug": "trades-builders-solutions-newcastle-hub",
+  "class_list": [
+    "post-717",
+    "page",
+    "type-page",
+    "status-publish",
+    "hentry"
+  ],
+  "_links": {
+    "self": [
+      {
+        "href": "https://newcastlehub.info/wp-json/wp/v2/pages/717",
+        "targetHints": {
+          "allow": [
+            "GET",
+            "POST",
+            "PUT",
+            "PATCH",
+            "DELETE"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://newcastlehub.info/wp-json/wp/v2/pages"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://newcastlehub.info/wp-json/wp/v2/types/page"
+      }
+    ],
+    "author": [
+      {
+        "embeddable": true,
+        "href": "https://newcastlehub.info/wp-json/wp/v2/users/4"
+      }
+    ],
+    "replies": [
+      {
+        "embeddable": true,
+        "href": "https://newcastlehub.info/wp-json/wp/v2/comments?post=717"
+      }
+    ],
+    "version-history": [
+      {
+        "count": 2,
+        "href": "https://newcastlehub.info/wp-json/wp/v2/pages/717/revisions"
+      }
+    ],
+    "predecessor-version": [
+      {
+        "id": 738,
+        "href": "https://newcastlehub.info/wp-json/wp/v2/pages/717/revisions/738"
+      }
+    ],
+    "wp:attachment": [
+      {
+        "href": "https://newcastlehub.info/wp-json/wp/v2/media?parent=717"
+      }
+    ],
+    "wp:action-publish": [
+      {
+        "href": "https://newcastlehub.info/wp-json/wp/v2/pages/717"
+      }
+    ],
+    "wp:action-unfiltered-html": [
+      {
+        "href": "https://newcastlehub.info/wp-json/wp/v2/pages/717"
+      }
+    ],
+    "wp:action-assign-author": [
+      {
+        "href": "https://newcastlehub.info/wp-json/wp/v2/pages/717"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  }
+}

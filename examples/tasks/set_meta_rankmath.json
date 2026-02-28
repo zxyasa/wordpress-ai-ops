@@ -1,0 +1,43 @@
+{
+  "task_id": "f2f5da10-76d0-4cb3-8de1-3a8bc5f8d873",
+  "created_at": "2026-02-15T00:00:00Z",
+  "mode": "execute",
+  "site": {
+    "base_url": "https://example.com",
+    "auth_ref": "WP_MAIN"
+  },
+  "task_type": "set_meta",
+  "priority": "medium",
+  "targets": [
+    {
+      "type": "post",
+      "match": {
+        "by": "id",
+        "value": 123
+      }
+    }
+  ],
+  "operations": [
+    {
+      "op": "set_meta",
+      "scope": "meta",
+      "selector": {
+        "kind": "html_comment",
+        "value": "AI_SLOT:SCHEMA"
+      },
+      "content": {
+        "format": "json",
+        "value": {
+          "rank_math_title": "SEO Title Example",
+          "rank_math_description": "SEO description updated by API-first AI Ops",
+          "rank_math_focus_keyword": "wordpress ai ops"
+        }
+      },
+      "safety": {
+        "max_chars_change": 500,
+        "dry_run_diff": true,
+        "allow_full_replace": false
+      }
+    }
+  ]
+}

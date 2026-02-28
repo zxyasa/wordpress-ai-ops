@@ -1,0 +1,32 @@
+{
+  "task_id": "rs-main-seo-003",
+  "created_at": "2026-02-16T15:00:00Z",
+  "mode": "execute",
+  "site": { "base_url": "https://newcastlehub.info" },
+  "task_type": "set_meta",
+  "requires_confirmation": true,
+  "priority": "medium",
+  "limits": { "cooldown_hours": 0, "max_write_per_target": 10 },
+  "targets": [
+    {
+      "type": "page",
+      "match": { "by": "id", "value": 683 }
+    }
+  ],
+  "operations": [
+    {
+      "op": "set_meta",
+      "scope": "meta",
+      "selector": { "kind": "html_comment", "value": "AI_SLOT:SCHEMA" },
+      "content": {
+        "format": "json",
+        "value": {
+          "rank_math_title": "Square POS + Online Ordering Setup for Newcastle Restaurants",
+          "rank_math_description": "Fixed-scope Square POS, online ordering, and QR table ordering setup for Newcastle restaurants. From $3,500. Professional 7–10 day rollout by Newcastle Hub.",
+          "rank_math_focus_keyword": "newcastle restaurant square setup"
+        }
+      },
+      "safety": { "max_chars_change": 500, "dry_run_diff": true, "allow_full_replace": false }
+    }
+  ]
+}

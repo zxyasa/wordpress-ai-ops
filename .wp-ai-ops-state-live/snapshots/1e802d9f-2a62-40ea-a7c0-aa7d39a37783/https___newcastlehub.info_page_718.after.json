@@ -1,0 +1,127 @@
+{
+  "id": 718,
+  "date": "2026-02-16T05:06:48",
+  "date_gmt": "2026-02-16T05:06:48",
+  "guid": {
+    "rendered": "https://newcastlehub.info/free-newcastle-business-audit/",
+    "raw": "https://newcastlehub.info/free-newcastle-business-audit/"
+  },
+  "modified": "2026-02-16T06:23:00",
+  "modified_gmt": "2026-02-16T06:23:00",
+  "password": "",
+  "slug": "free-newcastle-business-audit",
+  "status": "publish",
+  "type": "page",
+  "link": "https://newcastlehub.info/free-newcastle-business-audit/",
+  "title": {
+    "raw": "Free Newcastle Business Audit | Newcastle Hub",
+    "rendered": "Free Newcastle Business Audit | Newcastle Hub"
+  },
+  "content": {
+    "raw": "<!-- wp:html --><section class=\"section\" style=\"padding-top:56px;padding-bottom:56px;\"><div class=\"section-content relative\"><div class=\"row\"><div class=\"col small-12 large-12\"><div class=\"col-inner\"><!-- AI_SLOT:INTRO -->\n<h1>Free Newcastle Business Audit</h1><p><strong>Get a practical growth plan for your business in Newcastle.</strong></p><p>We review your website, Google visibility, and sales workflow, then give you clear next steps you can execute fast.</p>\n<!-- /AI_SLOT:INTRO --><h2>What You Get From This Audit</h2><ul><li>Quick diagnosis of your current setup</li><li>Top 3 growth opportunities for your business type</li><li>Priority action plan for the next 30 days</li></ul><p>After you submit, our team will contact you for a short strategy follow-up.</p><!-- AI_SLOT:CTA -->\n<h2>Request Your Free Audit</h2><p>Fill in the form below. We will review your setup and contact you with a practical action plan.</p><div class=\"ai-audit-form\">[contact-form-7 id=\"400\" title=\"quote form\"]</div><p><small>Prefer direct contact? <a href=\"https://newcastlehub.info/contact/\">Use our contact page</a>.</small></p>\n<!-- /AI_SLOT:CTA --><!-- AI_SLOT:SCHEMA --><script type=\"application/ld+json\">{\"@context\":\"https://schema.org\",\"@type\":\"Service\",\"name\":\"Free Newcastle Business Audit\",\"provider\":{\"@type\":\"Organization\",\"name\":\"Newcastle Hub\"},\"areaServed\":\"Newcastle\"}</script><!-- /AI_SLOT:SCHEMA --></div></div></div></div></div></section><!-- /wp:html -->\n\n<section class=\"section\" id=\"ai-audit-branching\" style=\"padding-top:40px;padding-bottom:40px;background:#f3f3f3;\"><div class=\"section-content relative\"><div class=\"row\"><div class=\"col small-12 large-12\"><div class=\"col-inner\"><div class=\"text\"><h2>Choose Your Business Model</h2><p><strong>Product business?</strong> We focus on ecommerce, catalog, checkout, and stock sync.</p><p><a class=\"button is-outline\" href=\"https://newcastlehub.info/ecommerce-setup-newcastle/\">I Sell Products</a></p><p><strong>Service business?</strong> We focus on bookings, reminders, and repeat-customer systems.</p><p><a class=\"button is-outline\" href=\"https://newcastlehub.info/booking-system-newcastle/\">I Sell Services</a></p></div></div></div></div></div></section>\n",
+    "rendered": "<section class=\"section\" style=\"padding-top:56px;padding-bottom:56px;\"><div class=\"section-content relative\"><div class=\"row\"><div class=\"col small-12 large-12\"><div class=\"col-inner\"><!-- AI_SLOT:INTRO -->\n<h1>Free Newcastle Business Audit</h1><p><strong>Get a practical growth plan for your business in Newcastle.</strong></p><p>We review your website, Google visibility, and sales workflow, then give you clear next steps you can execute fast.</p>\n<!-- /AI_SLOT:INTRO --><h2>What You Get From This Audit</h2><ul><li>Quick diagnosis of your current setup</li><li>Top 3 growth opportunities for your business type</li><li>Priority action plan for the next 30 days</li></ul><p>After you submit, our team will contact you for a short strategy follow-up.</p><!-- AI_SLOT:CTA -->\n<h2>Request Your Free Audit</h2><p>Fill in the form below. We will review your setup and contact you with a practical action plan.</p><div class=\"ai-audit-form\">\n<div class=\"wpcf7 no-js\" id=\"wpcf7-f400-o2\" lang=\"en-US\" dir=\"ltr\" data-wpcf7-id=\"400\">\n<div class=\"screen-reader-response\"><p role=\"status\" aria-live=\"polite\" aria-atomic=\"true\"></p> <ul></ul></div>\n<form action=\"/wp-json/wp/v2/pages/718#wpcf7-f400-o2\" method=\"post\" class=\"wpcf7-form init\" aria-label=\"Contact form\" novalidate=\"novalidate\" data-status=\"init\">\n<fieldset class=\"hidden-fields-container\"><input type=\"hidden\" name=\"_wpcf7\" value=\"400\" /><input type=\"hidden\" name=\"_wpcf7_version\" value=\"6.1.5\" /><input type=\"hidden\" name=\"_wpcf7_locale\" value=\"en_US\" /><input type=\"hidden\" name=\"_wpcf7_unit_tag\" value=\"wpcf7-f400-o2\" /><input type=\"hidden\" name=\"_wpcf7_container_post\" value=\"0\" /><input type=\"hidden\" name=\"_wpcf7_posted_data_hash\" value=\"\" />\n</fieldset>\n<p>Your Name (required)<br />\n<span class=\"wpcf7-form-control-wrap\" data-name=\"your-name\"><input size=\"40\" maxlength=\"400\" class=\"wpcf7-form-control wpcf7-text wpcf7-validates-as-required\" autocomplete=\"name\" aria-required=\"true\" aria-invalid=\"false\" value=\"\" type=\"text\" name=\"your-name\" /></span>\n</p>\n<p>Phone (required)<br />\n<span class=\"wpcf7-form-control-wrap\" data-name=\"your-phone\"><input size=\"40\" maxlength=\"400\" class=\"wpcf7-form-control wpcf7-tel wpcf7-validates-as-required wpcf7-text wpcf7-validates-as-tel\" autocomplete=\"tel\" aria-required=\"true\" aria-invalid=\"false\" value=\"\" type=\"tel\" name=\"your-phone\" /></span>\n</p>\n<p>Email (required)<br />\n<span class=\"wpcf7-form-control-wrap\" data-name=\"your-email\"><input size=\"40\" maxlength=\"400\" class=\"wpcf7-form-control wpcf7-email wpcf7-validates-as-required wpcf7-text wpcf7-validates-as-email\" autocomplete=\"email\" aria-required=\"true\" aria-invalid=\"false\" value=\"\" type=\"email\" name=\"your-email\" /></span>\n</p>\n<p>Industry<br />\n<span class=\"wpcf7-form-control-wrap\" data-name=\"industry\"><select class=\"wpcf7-form-control wpcf7-select wpcf7-validates-as-required\" aria-required=\"true\" aria-invalid=\"false\" name=\"industry\"><option value=\"Restaurant/Cafe\">Restaurant/Cafe</option><option value=\"Beauty/Hair Salon\">Beauty/Hair Salon</option><option value=\"Trades/Builders\">Trades/Builders</option><option value=\"Retail Shop\">Retail Shop</option><option value=\"Mechanic/Automotive\">Mechanic/Automotive</option><option value=\"Other\">Other</option></select></span>\n</p>\n<p>Current POS<br />\n<span class=\"wpcf7-form-control-wrap\" data-name=\"current-pos\"><input size=\"40\" maxlength=\"400\" class=\"wpcf7-form-control wpcf7-text\" aria-invalid=\"false\" placeholder=\"e.g. Square, Lightspeed, none\" value=\"\" type=\"text\" name=\"current-pos\" /></span>\n</p>\n<p>Do you have a website?<br />\n<span class=\"wpcf7-form-control-wrap\" data-name=\"has-website\"><span class=\"wpcf7-form-control wpcf7-radio\"><span class=\"wpcf7-list-item first\"><label><input type=\"radio\" name=\"has-website\" value=\"Yes\" checked=\"checked\" /><span class=\"wpcf7-list-item-label\">Yes</span></label></span><span class=\"wpcf7-list-item last\"><label><input type=\"radio\" name=\"has-website\" value=\"No\" /><span class=\"wpcf7-list-item-label\">No</span></label></span></span></span>\n</p>\n<p>Do you have online ordering?<br />\n<span class=\"wpcf7-form-control-wrap\" data-name=\"has-online-ordering\"><span class=\"wpcf7-form-control wpcf7-radio\"><span class=\"wpcf7-list-item first\"><label><input type=\"radio\" name=\"has-online-ordering\" value=\"Yes\" checked=\"checked\" /><span class=\"wpcf7-list-item-label\">Yes</span></label></span><span class=\"wpcf7-list-item last\"><label><input type=\"radio\" name=\"has-online-ordering\" value=\"No\" /><span class=\"wpcf7-list-item-label\">No</span></label></span></span></span>\n</p>\n<p>Monthly revenue range<br />\n<span class=\"wpcf7-form-control-wrap\" data-name=\"monthly-revenue\"><select class=\"wpcf7-form-control wpcf7-select wpcf7-validates-as-required\" aria-required=\"true\" aria-invalid=\"false\" name=\"monthly-revenue\"><option value=\"Under A$10k\">Under A$10k</option><option value=\"A$10k-A$30k\">A$10k-A$30k</option><option value=\"A$30k-A$80k\">A$30k-A$80k</option><option value=\"A$80k-A$150k\">A$80k-A$150k</option><option value=\"A$150k+\">A$150k+</option></select></span>\n</p>\n<p><input class=\"wpcf7-form-control wpcf7-submit has-spinner contact-submit-btn\" type=\"submit\" value=\"Get My Free Business Audit\" />\n</p><div class=\"wpcf7-response-output\" aria-hidden=\"true\"></div>\n</form>\n</div>\n</div><p><small>Prefer direct contact? <a href=\"https://newcastlehub.info/contact/\">Use our contact page</a>.</small></p>\n<!-- /AI_SLOT:CTA --><!-- AI_SLOT:SCHEMA --><script type=\"application/ld+json\">{\"@context\":\"https://schema.org\",\"@type\":\"Service\",\"name\":\"Free Newcastle Business Audit\",\"provider\":{\"@type\":\"Organization\",\"name\":\"Newcastle Hub\"},\"areaServed\":\"Newcastle\"}</script><!-- /AI_SLOT:SCHEMA --></div></div></div></div></div></section>\n\n<section class=\"section\" id=\"ai-audit-branching\" style=\"padding-top:40px;padding-bottom:40px;background:#f3f3f3;\"><div class=\"section-content relative\"><div class=\"row\"><div class=\"col small-12 large-12\"><div class=\"col-inner\"><div class=\"text\"><h2>Choose Your Business Model</h2><p><strong>Product business?</strong> We focus on ecommerce, catalog, checkout, and stock sync.</p><p><a class=\"button is-outline\" href=\"https://newcastlehub.info/ecommerce-setup-newcastle/\">I Sell Products</a></p><p><strong>Service business?</strong> We focus on bookings, reminders, and repeat-customer systems.</p><p><a class=\"button is-outline\" href=\"https://newcastlehub.info/booking-system-newcastle/\">I Sell Services</a></p></div></div></div></div></div></section>\n",
+    "protected": false,
+    "block_version": 1
+  },
+  "excerpt": {
+    "raw": "",
+    "rendered": "<p>Free Newcastle Business Audit Get a practical growth plan for your business in Newcastle. We review your website, Google visibility, and sales workflow, then give you clear next steps you can execute fast. What You Get From This Audit Quick diagnosis of your current setup Top 3 growth opportunities for your business type Priority action [&#8230;]\n",
+    "protected": false
+  },
+  "author": 4,
+  "featured_media": 0,
+  "parent": 0,
+  "menu_order": 0,
+  "comment_status": "closed",
+  "ping_status": "closed",
+  "template": "",
+  "meta": {
+    "footnotes": ""
+  },
+  "permalink_template": "https://newcastlehub.info/%pagename%/",
+  "generated_slug": "free-newcastle-business-audit-newcastle-hub",
+  "class_list": [
+    "post-718",
+    "page",
+    "type-page",
+    "status-publish",
+    "hentry"
+  ],
+  "_links": {
+    "self": [
+      {
+        "href": "https://newcastlehub.info/wp-json/wp/v2/pages/718",
+        "targetHints": {
+          "allow": [
+            "GET",
+            "POST",
+            "PUT",
+            "PATCH",
+            "DELETE"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://newcastlehub.info/wp-json/wp/v2/pages"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://newcastlehub.info/wp-json/wp/v2/types/page"
+      }
+    ],
+    "author": [
+      {
+        "embeddable": true,
+        "href": "https://newcastlehub.info/wp-json/wp/v2/users/4"
+      }
+    ],
+    "replies": [
+      {
+        "embeddable": true,
+        "href": "https://newcastlehub.info/wp-json/wp/v2/comments?post=718"
+      }
+    ],
+    "version-history": [
+      {
+        "count": 4,
+        "href": "https://newcastlehub.info/wp-json/wp/v2/pages/718/revisions"
+      }
+    ],
+    "predecessor-version": [
+      {
+        "id": 748,
+        "href": "https://newcastlehub.info/wp-json/wp/v2/pages/718/revisions/748"
+      }
+    ],
+    "wp:attachment": [
+      {
+        "href": "https://newcastlehub.info/wp-json/wp/v2/media?parent=718"
+      }
+    ],
+    "wp:action-publish": [
+      {
+        "href": "https://newcastlehub.info/wp-json/wp/v2/pages/718"
+      }
+    ],
+    "wp:action-unfiltered-html": [
+      {
+        "href": "https://newcastlehub.info/wp-json/wp/v2/pages/718"
+      }
+    ],
+    "wp:action-assign-author": [
+      {
+        "href": "https://newcastlehub.info/wp-json/wp/v2/pages/718"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  }
+}

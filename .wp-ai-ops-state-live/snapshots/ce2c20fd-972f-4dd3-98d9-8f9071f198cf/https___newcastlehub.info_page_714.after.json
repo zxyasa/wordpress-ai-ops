@@ -1,0 +1,127 @@
+{
+  "id": 714,
+  "date": "2026-02-16T05:06:47",
+  "date_gmt": "2026-02-16T05:06:47",
+  "guid": {
+    "rendered": "https://newcastlehub.info/mechanic-solutions/",
+    "raw": "https://newcastlehub.info/mechanic-solutions/"
+  },
+  "modified": "2026-02-16T05:46:03",
+  "modified_gmt": "2026-02-16T05:46:03",
+  "password": "",
+  "slug": "mechanic-solutions",
+  "status": "publish",
+  "type": "page",
+  "link": "https://newcastlehub.info/mechanic-solutions/",
+  "title": {
+    "raw": "Mechanic & Automotive Solutions | Newcastle Hub",
+    "rendered": "Mechanic &#038; Automotive Solutions | Newcastle Hub"
+  },
+  "content": {
+    "raw": "<!-- wp:html --><section class=\"section\" style=\"padding-top:56px;padding-bottom:56px;\"><div class=\"section-content relative\"><div class=\"row\"><div class=\"col small-12 large-12\"><div class=\"col-inner\"><!-- AI_SLOT:INTRO --><h1>Mechanic & Automotive Solutions</h1><p><strong>Improve bookings, visibility, and return visits with a clear digital system.</strong></p><!-- /AI_SLOT:INTRO --><h2>Are you facing these issues?</h2><ul><li>No professional website</li><li>Weak Google visibility</li><li>Low repeat booking rate</li></ul><h2>How we help</h2><ul><li>Website + booking workflow</li><li>Google profile optimisation</li><li>Service reminder system</li></ul><h2>Expected outcomes</h2><ul><li>More booked jobs</li><li>Higher repeat customer rate</li><li>Stronger local search presence</li></ul><!-- AI_SLOT:CTA -->\n<p><a class=\"button primary is-large\" href=\"https://newcastlehub.info/booking-system-newcastle/\">Build My Service Booking System</a> <a class=\"button secondary is-large\" href=\"https://newcastlehub.info/free-newcastle-business-audit/\">Get Free Business Audit</a></p><p>Recommended stack: <a href=\"https://newcastlehub.info/booking-system-newcastle/\">Booking System</a> + <a href=\"https://newcastlehub.info/google-business-optimisation-newcastle/\">Google Optimisation</a></p>\n<!-- /AI_SLOT:CTA --><!-- AI_SLOT:SCHEMA --><script type=\"application/ld+json\">{\"@context\":\"https://schema.org\",\"@type\":\"Service\",\"name\":\"Mechanic & Automotive Solutions\",\"provider\":{\"@type\":\"Organization\",\"name\":\"Newcastle Hub\"},\"areaServed\":\"Newcastle\"}</script><!-- /AI_SLOT:SCHEMA --></div></div></div></div></div></section><!-- /wp:html -->",
+    "rendered": "<section class=\"section\" style=\"padding-top:56px;padding-bottom:56px;\"><div class=\"section-content relative\"><div class=\"row\"><div class=\"col small-12 large-12\"><div class=\"col-inner\"><!-- AI_SLOT:INTRO --><h1>Mechanic &#038; Automotive Solutions</h1><p><strong>Improve bookings, visibility, and return visits with a clear digital system.</strong></p><!-- /AI_SLOT:INTRO --><h2>Are you facing these issues?</h2><ul><li>No professional website</li><li>Weak Google visibility</li><li>Low repeat booking rate</li></ul><h2>How we help</h2><ul><li>Website + booking workflow</li><li>Google profile optimisation</li><li>Service reminder system</li></ul><h2>Expected outcomes</h2><ul><li>More booked jobs</li><li>Higher repeat customer rate</li><li>Stronger local search presence</li></ul><!-- AI_SLOT:CTA -->\n<p><a class=\"button primary is-large\" href=\"https://newcastlehub.info/booking-system-newcastle/\">Build My Service Booking System</a> <a class=\"button secondary is-large\" href=\"https://newcastlehub.info/free-newcastle-business-audit/\">Get Free Business Audit</a></p><p>Recommended stack: <a href=\"https://newcastlehub.info/booking-system-newcastle/\">Booking System</a> + <a href=\"https://newcastlehub.info/google-business-optimisation-newcastle/\">Google Optimisation</a></p>\n<!-- /AI_SLOT:CTA --><!-- AI_SLOT:SCHEMA --><script type=\"application/ld+json\">{\"@context\":\"https://schema.org\",\"@type\":\"Service\",\"name\":\"Mechanic & Automotive Solutions\",\"provider\":{\"@type\":\"Organization\",\"name\":\"Newcastle Hub\"},\"areaServed\":\"Newcastle\"}</script><!-- /AI_SLOT:SCHEMA --></div></div></div></div></div></section>",
+    "protected": false,
+    "block_version": 1
+  },
+  "excerpt": {
+    "raw": "",
+    "rendered": "<p>Mechanic &#038; Automotive Solutions Improve bookings, visibility, and return visits with a clear digital system. Are you facing these issues? No professional website Weak Google visibility Low repeat booking rate How we help Website + booking workflow Google profile optimisation Service reminder system Expected outcomes More booked jobs Higher repeat customer rate Stronger local search [&#8230;]\n",
+    "protected": false
+  },
+  "author": 4,
+  "featured_media": 0,
+  "parent": 0,
+  "menu_order": 0,
+  "comment_status": "closed",
+  "ping_status": "closed",
+  "template": "",
+  "meta": {
+    "footnotes": ""
+  },
+  "permalink_template": "https://newcastlehub.info/%pagename%/",
+  "generated_slug": "mechanic-automotive-solutions-newcastle-hub",
+  "class_list": [
+    "post-714",
+    "page",
+    "type-page",
+    "status-publish",
+    "hentry"
+  ],
+  "_links": {
+    "self": [
+      {
+        "href": "https://newcastlehub.info/wp-json/wp/v2/pages/714",
+        "targetHints": {
+          "allow": [
+            "GET",
+            "POST",
+            "PUT",
+            "PATCH",
+            "DELETE"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://newcastlehub.info/wp-json/wp/v2/pages"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://newcastlehub.info/wp-json/wp/v2/types/page"
+      }
+    ],
+    "author": [
+      {
+        "embeddable": true,
+        "href": "https://newcastlehub.info/wp-json/wp/v2/users/4"
+      }
+    ],
+    "replies": [
+      {
+        "embeddable": true,
+        "href": "https://newcastlehub.info/wp-json/wp/v2/comments?post=714"
+      }
+    ],
+    "version-history": [
+      {
+        "count": 1,
+        "href": "https://newcastlehub.info/wp-json/wp/v2/pages/714/revisions"
+      }
+    ],
+    "predecessor-version": [
+      {
+        "id": 726,
+        "href": "https://newcastlehub.info/wp-json/wp/v2/pages/714/revisions/726"
+      }
+    ],
+    "wp:attachment": [
+      {
+        "href": "https://newcastlehub.info/wp-json/wp/v2/media?parent=714"
+      }
+    ],
+    "wp:action-publish": [
+      {
+        "href": "https://newcastlehub.info/wp-json/wp/v2/pages/714"
+      }
+    ],
+    "wp:action-unfiltered-html": [
+      {
+        "href": "https://newcastlehub.info/wp-json/wp/v2/pages/714"
+      }
+    ],
+    "wp:action-assign-author": [
+      {
+        "href": "https://newcastlehub.info/wp-json/wp/v2/pages/714"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  }
+}

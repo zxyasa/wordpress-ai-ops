@@ -1,0 +1,44 @@
+{
+  "task_id": "15927db1-d231-4566-87ee-cdb0b1d797d6",
+  "created_at": "2026-02-17T05:52:00Z",
+  "mode": "execute",
+  "site": {
+    "base_url": "https://newcastlehub.info"
+  },
+  "task_type": "update_post_or_page",
+  "requires_confirmation": true,
+  "priority": "high",
+  "limits": {
+    "cooldown_hours": 0,
+    "max_write_per_target": 10
+  },
+  "notes": "Append accordion FAQ block to trades-solutions",
+  "targets": [
+    {
+      "type": "page",
+      "match": {
+        "by": "id",
+        "value": 717
+      }
+    }
+  ],
+  "operations": [
+    {
+      "op": "append",
+      "scope": "content",
+      "selector": {
+        "kind": "regex",
+        "value": "$"
+      },
+      "content": {
+        "format": "html",
+        "value": "\\n\\n<section class=\"section\" id=\"ai-trades-solutions-faq\" style=\"padding-top:48px;padding-bottom:48px;background:#f6f8fb;\"><div class=\"section-content relative\"><div class=\"row\"><div class=\"col small-12 large-12\"><div class=\"col-inner\"><!-- AI_SLOT:FAQ --><h2>Trades & Builders FAQ</h2><details><summary><strong>How can trades get more direct leads?</strong></summary><p>By improving website conversion paths, local SEO intent pages, and review trust signals.</p></details><details><summary><strong>Can this reduce dependence on lead marketplaces?</strong></summary><p>Yes. The focus is to build your own repeatable lead pipeline with better cost control.</p></details><details><summary><strong>Do you support quote-request workflow setup?</strong></summary><p>Yes. We can align forms, qualification prompts, and follow-up routing for higher lead quality.</p></details><!-- /AI_SLOT:FAQ --><!-- AI_SLOT:CTA --><p><a class=\"button primary is-large\" href=\"https://newcastlehub.info/free-newcastle-business-audit/\">Get Trades Growth Audit</a></p><p>Related: <a href=\"https://newcastlehub.info/services/\">Our Services</a> | <a href=\"https://newcastlehub.info/contact/\">Book a Strategy Call</a></p><!-- /AI_SLOT:CTA --><!-- AI_SLOT:SCHEMA --><script type=\"application/ld+json\">{\"@context\": \"https://schema.org\", \"@type\": \"FAQPage\", \"mainEntity\": [{\"@type\": \"Question\", \"name\": \"How can trades get more direct leads?\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"By improving website conversion paths, local SEO intent pages, and review trust signals.\"}}, {\"@type\": \"Question\", \"name\": \"Can this reduce dependence on lead marketplaces?\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"Yes. The focus is to build your own repeatable lead pipeline with better cost control.\"}}, {\"@type\": \"Question\", \"name\": \"Do you support quote-request workflow setup?\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"Yes. We can align forms, qualification prompts, and follow-up routing for higher lead quality.\"}}]}</script><!-- /AI_SLOT:SCHEMA --></div></div></div></div></section>\\n"
+      },
+      "safety": {
+        "max_chars_change": 10000,
+        "dry_run_diff": true,
+        "allow_full_replace": true
+      }
+    }
+  ]
+}

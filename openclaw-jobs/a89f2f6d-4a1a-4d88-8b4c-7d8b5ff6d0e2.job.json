@@ -1,0 +1,53 @@
+{
+  "job_id": "openclaw-a89f2f6d-4a1a-4d88-8b4c-7d8b5ff6d0e2",
+  "prepared_at": "2026-02-15T02:22:20.805773+00:00",
+  "status": "pending_confirmation",
+  "requires_confirmation": true,
+  "requires_ui": true,
+  "task": {
+    "task_id": "a89f2f6d-4a1a-4d88-8b4c-7d8b5ff6d0e2",
+    "task_type": "update_post_or_page",
+    "site": {
+      "base_url": "https://newcastlehub.info"
+    },
+    "targets": [
+      {
+        "type": "page",
+        "match": {
+          "by": "slug",
+          "value": "about"
+        }
+      }
+    ],
+    "operations": [
+      {
+        "op": "append",
+        "scope": "content",
+        "selector": {
+          "kind": "ux_builder",
+          "value": "first_screen"
+        },
+        "content": {
+          "format": "html",
+          "value": "<!-- AI_SLOT:INTRO --><!-- /AI_SLOT:INTRO -->\n<!-- AI_SLOT:FAQ --><!-- /AI_SLOT:FAQ -->\n<!-- AI_SLOT:CTA --><!-- /AI_SLOT:CTA -->\n<!-- AI_SLOT:SCHEMA --><!-- /AI_SLOT:SCHEMA -->"
+        },
+        "safety": {
+          "max_chars_change": 300,
+          "dry_run_diff": true,
+          "allow_full_replace": false
+        }
+      }
+    ]
+  },
+  "required_artifacts": [
+    "step_screenshots",
+    "change_summary"
+  ],
+  "checklist": [
+    "Open target and capture before screenshot",
+    "Apply requested UI changes",
+    "Capture after screenshot",
+    "Record change summary",
+    "Wait for confirmation before publish"
+  ]
+}
