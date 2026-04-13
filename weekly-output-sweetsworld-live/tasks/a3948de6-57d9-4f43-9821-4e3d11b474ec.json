@@ -1,0 +1,61 @@
+{
+  "task_id": "a3948de6-57d9-4f43-9821-4e3d11b474ec",
+  "created_at": "2026-03-27T05:18:04.267423+00:00",
+  "mode": "plan",
+  "site": {
+    "base_url": "https://sweetsworld.com.au",
+    "weekly_limits": {
+      "default": {
+        "cooldown_hours": 168,
+        "max_write_per_target": 4
+      },
+      "groups": {},
+      "core_paths": [],
+      "service_path_patterns": []
+    },
+    "bootstrap_urls": [],
+    "auth_ref": "SWEETSWORLD",
+    "target_type": "post",
+    "use_append_faq": true,
+    "faq_context": "candy_blog"
+  },
+  "task_type": "append_faq",
+  "priority": "medium",
+  "targets": [
+    {
+      "type": "post",
+      "match": {
+        "by": "url",
+        "value": "https://sweetsworld.com.au/candy-guides/powerade/"
+      }
+    }
+  ],
+  "operations": [],
+  "_faqs": [
+    {
+      "question": "How much sugar is in a bottle of Powerade?",
+      "answer": "A single 20 oz bottle of Powerade contains approximately 34 grams of sugar, which is equivalent to about 8.5 teaspoons. This high sugar content is an important consideration if you're watching your sugar intake for health reasons."
+    },
+    {
+      "question": "Does Powerade contain caffeine?",
+      "answer": "No, Powerade does not contain caffeine, making it a safer option for people who are sensitive to caffeine or prefer a drink that won't disrupt their sleep patterns."
+    },
+    {
+      "question": "What electrolytes does Powerade contain?",
+      "answer": "Powerade contains a blend of important electrolytes including sodium, potassium, and magnesium, which help replenish the body's fluids and minerals lost through sweat during physical activity."
+    },
+    {
+      "question": "Is Powerade suitable for casual exercise or only intense sports?",
+      "answer": "Powerade is most beneficial for people engaging in intense physical activity or sports where electrolyte and energy replenishment is needed. For casual, light exercise, water may be a more appropriate hydration choice."
+    },
+    {
+      "question": "What health risks are associated with drinking Powerade regularly?",
+      "answer": "The high sugar content in Powerade can contribute to health problems such as obesity, diabetes, and tooth decay if consumed regularly or outside of intense physical activity. It's best reserved for active recovery rather than everyday consumption."
+    }
+  ],
+  "limits": {
+    "cooldown_hours": 168,
+    "max_write_per_target": 4
+  },
+  "notes": "append FAQ for https://sweetsworld.com.au/candy-guides/powerade/"
+}

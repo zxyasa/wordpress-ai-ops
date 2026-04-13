@@ -1,0 +1,137 @@
+{
+  "id": 30,
+  "date": "2021-09-06T13:46:18",
+  "date_gmt": "2021-09-06T13:46:18",
+  "guid": {
+    "rendered": "https://newcastlehub.info/home/",
+    "raw": "https://newcastlehub.info/home/"
+  },
+  "modified": "2026-03-25T06:37:23",
+  "modified_gmt": "2026-03-25T06:37:23",
+  "password": "",
+  "slug": "home",
+  "status": "publish",
+  "type": "page",
+  "link": "https://newcastlehub.info/home/",
+  "title": {
+    "raw": "Home",
+    "rendered": "Home"
+  },
+  "content": {
+    "raw": "<!-- wp:html --><!-- AI_SLOT:INTRO -->\n<p><strong>Newcastle Hub</strong> builds fast, conversion-focused websites and measurable marketing for local businesses in Newcastle.</p>\n<!-- /AI_SLOT:INTRO -->\n<!-- AI_SLOT:FAQ -->\n<style>.ai-faq-accordion details{margin:0 0 18px;border:1px solid #dfe5ee;border-radius:12px;background:#fff;overflow:hidden}.ai-faq-accordion summary{cursor:pointer;list-style:none;padding:16px 18px;font-weight:700;line-height:1.6}.ai-faq-accordion summary::-webkit-details-marker{display:none}.ai-faq-accordion details[open] summary{border-bottom:1px solid #e8edf5}.ai-faq-accordion p{margin:0;padding:16px 18px 18px;line-height:1.8;color:#334155}</style>\n<div class=\"ai-faq-accordion\">\n<details><summary><strong>How quickly can Newcastle Hub build my website?</strong></summary><p>We specialize in fast turnaround times without sacrificing quality or design. Most conversion-focused websites are completed within 2-4 weeks, depending on your specific requirements and content availability.</p></details>\n<details><summary><strong>Will my new website actually help me get more customers in Newcastle?</strong></summary><p>Yes—we build conversion-focused websites specifically designed to turn visitors into customers, paired with measurable marketing strategies tailored to your local Newcastle market. We track results so you can see exactly what&#x27;s working.</p></details>\n<details><summary><strong>Do I need technical skills to manage my website after it&#x27;s built?</strong></summary><p>No. We build user-friendly websites with drag-and-drop functionality, so you can easily update content, images, and information without any coding knowledge or technical expertise.</p></details>\n</div>\n<!-- /AI_SLOT:FAQ -->\n<!-- AI_SLOT:CTA --><!-- /AI_SLOT:CTA -->\n<!-- AI_SLOT:SCHEMA -->\n<script type=\"application/ld+json\">{\"@context\": \"https://schema.org\", \"@type\": \"FAQPage\", \"mainEntity\": [{\"@type\": \"Question\", \"name\": \"How quickly can Newcastle Hub build my website?\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"We specialize in fast turnaround times without sacrificing quality or design. Most conversion-focused websites are completed within 2-4 weeks, depending on your specific requirements and content availability.\"}}, {\"@type\": \"Question\", \"name\": \"Will my new website actually help me get more customers in Newcastle?\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"Yes—we build conversion-focused websites specifically designed to turn visitors into customers, paired with measurable marketing strategies tailored to your local Newcastle market. We track results so you can see exactly what's working.\"}}, {\"@type\": \"Question\", \"name\": \"Do I need technical skills to manage my website after it's built?\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"No. We build user-friendly websites with drag-and-drop functionality, so you can easily update content, images, and information without any coding knowledge or technical expertise.\"}}]}</script>\n<!-- /AI_SLOT:SCHEMA -->\n\n\n\n\n<h2>Move faster than anyone with your business.</h2>\n\n<p style=\"text-align: justify\">Speed is often used as a differentiating factor in the business world, in large part because it is very easy to track. For example, when a company hires a web designer to give their website an overhaul, they’ll expect to get a rough timeline for how long the work will take.</p>\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n<h2>Drag and Drop Website Builder</h2>\n\n<p style=\"text-align: justify; color: rgb(0, 0, 0);\">Build design-forward sites &amp; sales-ready stores at breakneck speed, without compromising on your creativity.&nbsp;Create with our intuitive editor, equipped with rich features for SEO &amp; content management, to design websites that deliver better results.&nbsp;Manage a library of templates, site sections and widgets to speed future projects.&nbsp;</p>\n\n\n\n\n\n\n<h2>Include All Essential Installation Tools</h2>\n\n<p style=\"text-align: justify\">When people speak about web development tools (or devtools in the biz), they&#8217;re usually referring to the apps and software that allows web developers to test and debug the code and interface of a website or web application.</p>\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n<!-- /wp:html -->",
+    "rendered": "<!-- AI_SLOT:INTRO -->\n<p><strong>Newcastle Hub</strong> builds fast, conversion-focused websites and measurable marketing for local businesses in Newcastle.</p>\n<!-- /AI_SLOT:INTRO -->\n<!-- AI_SLOT:FAQ -->\n<style>.ai-faq-accordion details{margin:0 0 18px;border:1px solid #dfe5ee;border-radius:12px;background:#fff;overflow:hidden}.ai-faq-accordion summary{cursor:pointer;list-style:none;padding:16px 18px;font-weight:700;line-height:1.6}.ai-faq-accordion summary::-webkit-details-marker{display:none}.ai-faq-accordion details[open] summary{border-bottom:1px solid #e8edf5}.ai-faq-accordion p{margin:0;padding:16px 18px 18px;line-height:1.8;color:#334155}</style>\n<div class=\"ai-faq-accordion\">\n<details><summary><strong>How quickly can Newcastle Hub build my website?</strong></summary><p>We specialize in fast turnaround times without sacrificing quality or design. Most conversion-focused websites are completed within 2-4 weeks, depending on your specific requirements and content availability.</p></details>\n<details><summary><strong>Will my new website actually help me get more customers in Newcastle?</strong></summary><p>Yes—we build conversion-focused websites specifically designed to turn visitors into customers, paired with measurable marketing strategies tailored to your local Newcastle market. We track results so you can see exactly what&#x27;s working.</p></details>\n<details><summary><strong>Do I need technical skills to manage my website after it&#x27;s built?</strong></summary><p>No. We build user-friendly websites with drag-and-drop functionality, so you can easily update content, images, and information without any coding knowledge or technical expertise.</p></details>\n</div>\n<!-- /AI_SLOT:FAQ -->\n<!-- AI_SLOT:CTA --><!-- /AI_SLOT:CTA -->\n<!-- AI_SLOT:SCHEMA -->\n<script type=\"application/ld+json\">{\"@context\": \"https://schema.org\", \"@type\": \"FAQPage\", \"mainEntity\": [{\"@type\": \"Question\", \"name\": \"How quickly can Newcastle Hub build my website?\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"We specialize in fast turnaround times without sacrificing quality or design. Most conversion-focused websites are completed within 2-4 weeks, depending on your specific requirements and content availability.\"}}, {\"@type\": \"Question\", \"name\": \"Will my new website actually help me get more customers in Newcastle?\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"Yes—we build conversion-focused websites specifically designed to turn visitors into customers, paired with measurable marketing strategies tailored to your local Newcastle market. We track results so you can see exactly what's working.\"}}, {\"@type\": \"Question\", \"name\": \"Do I need technical skills to manage my website after it's built?\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"No. We build user-friendly websites with drag-and-drop functionality, so you can easily update content, images, and information without any coding knowledge or technical expertise.\"}}]}</script>\n<!-- /AI_SLOT:SCHEMA -->\n\n\n\n\n<h2>Move faster than anyone with your business.</h2>\n\n<p style=\"text-align: justify\">Speed is often used as a differentiating factor in the business world, in large part because it is very easy to track. For example, when a company hires a web designer to give their website an overhaul, they’ll expect to get a rough timeline for how long the work will take.</p>\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n<h2>Drag and Drop Website Builder</h2>\n\n<p style=\"text-align: justify; color: rgb(0, 0, 0);\">Build design-forward sites &amp; sales-ready stores at breakneck speed, without compromising on your creativity.&nbsp;Create with our intuitive editor, equipped with rich features for SEO &amp; content management, to design websites that deliver better results.&nbsp;Manage a library of templates, site sections and widgets to speed future projects.&nbsp;</p>\n\n\n\n\n\n\n<h2>Include All Essential Installation Tools</h2>\n\n<p style=\"text-align: justify\">When people speak about web development tools (or devtools in the biz), they&#8217;re usually referring to the apps and software that allows web developers to test and debug the code and interface of a website or web application.</p>\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n",
+    "protected": false,
+    "block_version": 1
+  },
+  "excerpt": {
+    "raw": "",
+    "rendered": "<p>Newcastle Hub builds fast, conversion-focused websites and measurable marketing for local businesses in Newcastle. How quickly can Newcastle Hub build my website? We specialize in fast turnaround times without sacrificing quality or design. Most conversion-focused websites are completed within 2-4 weeks, depending on your specific requirements and content availability. Will my new website actually help [&#8230;]\n",
+    "protected": false
+  },
+  "author": 1,
+  "featured_media": 60,
+  "parent": 0,
+  "menu_order": 0,
+  "comment_status": "closed",
+  "ping_status": "closed",
+  "template": "",
+  "meta": {
+    "rank_math_title": "",
+    "rank_math_description": "",
+    "rank_math_focus_keyword": "",
+    "footnotes": ""
+  },
+  "permalink_template": "https://newcastlehub.info/%pagename%/",
+  "generated_slug": "home",
+  "class_list": [
+    "post-30",
+    "page",
+    "type-page",
+    "status-publish",
+    "has-post-thumbnail",
+    "hentry"
+  ],
+  "_links": {
+    "self": [
+      {
+        "href": "https://newcastlehub.info/wp-json/wp/v2/pages/30",
+        "targetHints": {
+          "allow": [
+            "GET",
+            "POST",
+            "PUT",
+            "PATCH",
+            "DELETE"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://newcastlehub.info/wp-json/wp/v2/pages"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://newcastlehub.info/wp-json/wp/v2/types/page"
+      }
+    ],
+    "author": [
+      {
+        "embeddable": true,
+        "href": "https://newcastlehub.info/wp-json/wp/v2/users/1"
+      }
+    ],
+    "replies": [
+      {
+        "embeddable": true,
+        "href": "https://newcastlehub.info/wp-json/wp/v2/comments?post=30"
+      }
+    ],
+    "version-history": [
+      {
+        "count": 20,
+        "href": "https://newcastlehub.info/wp-json/wp/v2/pages/30/revisions"
+      }
+    ],
+    "predecessor-version": [
+      {
+        "id": 882,
+        "href": "https://newcastlehub.info/wp-json/wp/v2/pages/30/revisions/882"
+      }
+    ],
+    "wp:featuredmedia": [
+      {
+        "embeddable": true,
+        "href": "https://newcastlehub.info/wp-json/wp/v2/media/60"
+      }
+    ],
+    "wp:attachment": [
+      {
+        "href": "https://newcastlehub.info/wp-json/wp/v2/media?parent=30"
+      }
+    ],
+    "wp:action-publish": [
+      {
+        "href": "https://newcastlehub.info/wp-json/wp/v2/pages/30"
+      }
+    ],
+    "wp:action-unfiltered-html": [
+      {
+        "href": "https://newcastlehub.info/wp-json/wp/v2/pages/30"
+      }
+    ],
+    "wp:action-assign-author": [
+      {
+        "href": "https://newcastlehub.info/wp-json/wp/v2/pages/30"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "task_id": "9688ce71-d4de-4fd1-a59f-76a3c909dcb7",
+  "created_at": "2026-03-27T03:51:30.388973+00:00",
+  "mode": "plan",
+  "site": {
+    "base_url": "https://sweetsworld.com.au",
+    "weekly_limits": {
+      "default": {
+        "cooldown_hours": 168,
+        "max_write_per_target": 1
+      },
+      "groups": {},
+      "core_paths": [],
+      "service_path_patterns": []
+    },
+    "bootstrap_urls": []
+  },
+  "task_type": "inject_schema_faq",
+  "priority": "medium",
+  "targets": [
+    {
+      "type": "page",
+      "match": {
+        "by": "url",
+        "value": "https://sweetsworld.com.au/candy-guides/overeating-takis/"
+      }
+    }
+  ],
+  "operations": [
+    {
+      "op": "replace",
+      "scope": "content",
+      "selector": {
+        "kind": "html_comment",
+        "value": "AI_SLOT:FAQ"
+      },
+      "content": {
+        "format": "json",
+        "value": {
+          "faqs": [
+            {
+              "question": "How much sodium is in Takis and why is it a concern?",
+              "answer": "Takis are high in sodium, and excessive consumption can lead to high blood pressure, increasing your risk of heart disease and stroke. It's important to monitor your intake and balance it with other low-sodium foods throughout your day."
+            },
+            {
+              "question": "Can eating too many Takis cause digestive problems?",
+              "answer": "Yes, the high fat content in Takis can cause digestive issues like bloating and diarrhea when consumed in excess. Eating them in moderation and maintaining a balanced diet can help prevent these uncomfortable side effects."
+            },
+            {
+              "question": "Are the artificial flavors and colors in Takis safe for everyone?",
+              "answer": "While generally recognized as safe, the artificial flavors and colors in Takis can trigger allergic reactions in some people. If you experience any adverse reactions after consuming Takis, it's best to discontinue use and consult with a healthcare professional."
+            }
+          ],
+          "inject_json_ld": true,
+          "schema_slot": "AI_SLOT:SCHEMA"
+        }
+      },
+      "safety": {
+        "max_chars_change": 1600,
+        "dry_run_diff": true,
+        "allow_full_replace": false
+      }
+    }
+  ],
+  "limits": {
+    "cooldown_hours": 168,
+    "max_write_per_target": 1
+  },
+  "notes": "auto-cycle faq/schema refresh for https://sweetsworld.com.au/candy-guides/overeating-takis/ (limit_group=other)"
+}

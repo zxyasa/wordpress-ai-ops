@@ -1,0 +1,101 @@
+{
+  "task_id": "73748d1b-200e-423f-8a6c-dc06bda5fe10",
+  "created_at": "2026-04-12T23:10:13.811866+00:00",
+  "mode": "execute",
+  "site": {
+    "base_url": "https://newcastlehub.info",
+    "weekly_limits": {
+      "default": {
+        "cooldown_hours": 24,
+        "max_write_per_target": 3
+      },
+      "groups": {
+        "homepage": {
+          "cooldown_hours": 12,
+          "max_write_per_target": 6
+        },
+        "core": {
+          "cooldown_hours": 16,
+          "max_write_per_target": 5
+        },
+        "service": {
+          "cooldown_hours": 18,
+          "max_write_per_target": 4
+        },
+        "other": {
+          "cooldown_hours": 24,
+          "max_write_per_target": 3
+        }
+      },
+      "core_paths": [
+        "/about/",
+        "/services/",
+        "/contact/",
+        "/free-newcastle-business-audit/"
+      ],
+      "service_path_patterns": [
+        ".*-solutions/?$",
+        ".*-newcastle/?$",
+        "^/services/.*"
+      ]
+    },
+    "bootstrap_urls": [
+      "https://newcastlehub.info/",
+      "https://newcastlehub.info/services/",
+      "https://newcastlehub.info/contact/",
+      "https://newcastlehub.info/free-newcastle-business-audit/"
+    ]
+  },
+  "task_type": "inject_schema_faq",
+  "priority": "medium",
+  "targets": [
+    {
+      "type": "page",
+      "match": {
+        "by": "url",
+        "value": "https://newcastlehub.info/home/"
+      }
+    }
+  ],
+  "operations": [
+    {
+      "op": "replace",
+      "scope": "content",
+      "selector": {
+        "kind": "html_comment",
+        "value": "AI_SLOT:FAQ"
+      },
+      "content": {
+        "format": "json",
+        "value": {
+          "faqs": [
+            {
+              "question": "What makes Newcastle Hub different from other web design agencies in Newcastle?",
+              "answer": "We focus exclusively on conversion-focused websites paired with measurable marketing strategies tailored to the local Newcastle market, ensuring your site doesn't just look good—it actually drives customers to your business."
+            },
+            {
+              "question": "Can Newcastle Hub help if I'm a small local business with a limited budget?",
+              "answer": "Yes, we work with local Newcastle businesses of all sizes and build affordable, high-performing websites that deliver measurable results, so you only pay for a site that actually works for your business."
+            },
+            {
+              "question": "How do I know if Newcastle Hub's website will work for my specific type of business?",
+              "answer": "We have proven experience building conversion-focused sites for various local Newcastle businesses, and we customize every website to your specific industry, goals, and target customers to maximize your results."
+            }
+          ],
+          "inject_json_ld": true,
+          "schema_slot": "AI_SLOT:SCHEMA"
+        }
+      },
+      "safety": {
+        "max_chars_change": 1600,
+        "dry_run_diff": true,
+        "allow_full_replace": false
+      }
+    }
+  ],
+  "limits": {
+    "cooldown_hours": 24,
+    "max_write_per_target": 3
+  },
+  "notes": "auto-cycle faq/schema refresh for https://newcastlehub.info/home/ (limit_group=other)"
+}

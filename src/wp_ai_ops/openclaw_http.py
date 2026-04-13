@@ -2,10 +2,11 @@ from __future__ import annotations
 
 import json
 import os
-import subprocess
 from dataclasses import dataclass
 from pathlib import Path
 from typing import Any
+from urllib.error import HTTPError, URLError
+from urllib.request import Request, urlopen
 
 
 @dataclass
@@ -25,27 +26,24 @@ def load_openclaw_config() -> OpenClawConfig:
 
 
 def _curl_json(method: str, url: str, *, api_key: str | None, payload: dict | None = None, timeout_s: int = 30) -> dict:
-    cmd = [
-        "curl",
-        "-sS",
-        "-X",
-        method,
-        "--max-time",
-        str(timeout_s),
-        "-H",
-        "Accept: application/json",
-        url,
-    ]
+    headers = {"Accept": "application/json"}
+    data = None
     if api_key:
-        cmd.extend(["-H", f"Authorization: Bearer {api_key}"])
+        headers["Authorization"] = f"Bearer {api_key}"
     if payload is not None:
-        cmd.extend(["-H", "Content-Type: application/json", "--data-raw", json.dumps(payload)])
+        headers["Content-Type"] = "application/json"
+        data = json.dumps(payload).encode("utf-8")
 
-    proc = subprocess.run(cmd, capture_output=True, text=True, check=False)
-    if proc.returncode != 0:
-        raise RuntimeError(proc.stderr.strip() or f"curl exited {proc.returncode}")
+    req = Request(url, data=data, headers=headers, method=method)
+    try:
+        with urlopen(req, timeout=timeout_s) as resp:
+            out = resp.read().decode("utf-8").strip()
+    except HTTPError as exc:
+        body = exc.read().decode("utf-8", errors="replace").strip()
+        raise RuntimeError(body or f"OpenClaw request failed with HTTP {exc.code}") from exc
+    except URLError as exc:
+        raise RuntimeError(f"OpenClaw request failed: {exc.reason}") from exc
 
-    out = proc.stdout.strip()
     if not out:
         return {}
     try:

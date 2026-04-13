@@ -74,6 +74,7 @@ class Task:
 SUPPORTED_TASK_TYPES = {
     "update_post_or_page",
     "append_internal_links",
+    "append_faq",
     "inject_schema_faq",
     "generate_topic_hub",
     "set_meta",

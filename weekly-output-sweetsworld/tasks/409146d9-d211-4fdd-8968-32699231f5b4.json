@@ -1,0 +1,70 @@
+{
+  "task_id": "409146d9-d211-4fdd-8968-32699231f5b4",
+  "created_at": "2026-03-27T03:51:27.067297+00:00",
+  "mode": "plan",
+  "site": {
+    "base_url": "https://sweetsworld.com.au",
+    "weekly_limits": {
+      "default": {
+        "cooldown_hours": 168,
+        "max_write_per_target": 1
+      },
+      "groups": {},
+      "core_paths": [],
+      "service_path_patterns": []
+    },
+    "bootstrap_urls": []
+  },
+  "task_type": "inject_schema_faq",
+  "priority": "medium",
+  "targets": [
+    {
+      "type": "page",
+      "match": {
+        "by": "url",
+        "value": "https://sweetsworld.com.au/candy-guides/powerade/"
+      }
+    }
+  ],
+  "operations": [
+    {
+      "op": "replace",
+      "scope": "content",
+      "selector": {
+        "kind": "html_comment",
+        "value": "AI_SLOT:FAQ"
+      },
+      "content": {
+        "format": "json",
+        "value": {
+          "faqs": [
+            {
+              "question": "Does Powerade contain caffeine?",
+              "answer": "No, Powerade does not contain caffeine, making it a safer option for people who are sensitive to caffeine or prefer a drink that won't disrupt their sleep patterns."
+            },
+            {
+              "question": "How much sugar is in a bottle of Powerade?",
+              "answer": "A single 20 oz bottle of Powerade contains approximately 34 grams of sugar (about 8.5 teaspoons), which is important to consider if you're watching your sugar intake."
+            },
+            {
+              "question": "Is Powerade good for athletes and active people?",
+              "answer": "Yes, Powerade can be beneficial for people engaging in intense physical activity as it contains electrolytes to replenish fluids lost through sweat and carbohydrates to provide quick energy during prolonged exercise."
+            }
+          ],
+          "inject_json_ld": true,
+          "schema_slot": "AI_SLOT:SCHEMA"
+        }
+      },
+      "safety": {
+        "max_chars_change": 1600,
+        "dry_run_diff": true,
+        "allow_full_replace": false
+      }
+    }
+  ],
+  "limits": {
+    "cooldown_hours": 168,
+    "max_write_per_target": 1
+  },
+  "notes": "auto-cycle faq/schema refresh for https://sweetsworld.com.au/candy-guides/powerade/ (limit_group=other)"
+}

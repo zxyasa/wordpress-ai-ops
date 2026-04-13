@@ -1,0 +1,188 @@
+[20260405T231005Z] start auto-weekly execute
+[20260405T231005Z] auth_precheck_ok status=200 slot=primary
+{
+  "generated_at": "2026-04-05T23:10:17.226290+00:00",
+  "inputs": {
+    "gsc_csv": "weekly-output-auto-live-gsc/gsc_auto.csv",
+    "ga_csv": "weekly-output-auto-live-gsc/ga_empty.csv"
+  },
+  "site": {
+    "base_url": "https://newcastlehub.info",
+    "weekly_limits": {
+      "default": {
+        "cooldown_hours": 24,
+        "max_write_per_target": 3
+      },
+      "groups": {
+        "homepage": {
+          "cooldown_hours": 12,
+          "max_write_per_target": 6
+        },
+        "core": {
+          "cooldown_hours": 16,
+          "max_write_per_target": 5
+        },
+        "service": {
+          "cooldown_hours": 18,
+          "max_write_per_target": 4
+        },
+        "other": {
+          "cooldown_hours": 24,
+          "max_write_per_target": 3
+        }
+      },
+      "core_paths": [
+        "/about/",
+        "/services/",
+        "/contact/",
+        "/free-newcastle-business-audit/"
+      ],
+      "service_path_patterns": [
+        ".*-solutions/?$",
+        ".*-newcastle/?$",
+        "^/services/.*"
+      ]
+    },
+    "bootstrap_urls": [
+      "https://newcastlehub.info/",
+      "https://newcastlehub.info/services/",
+      "https://newcastlehub.info/contact/",
+      "https://newcastlehub.info/free-newcastle-business-audit/"
+    ]
+  },
+  "bootstrap_used": false,
+  "selected_pages": [
+    {
+      "url": "https://newcastlehub.info/",
+      "score": 2,
+      "reasons": [
+        "rank_5_15"
+      ],
+      "impressions": 7.0,
+      "clicks": 0.0,
+      "ctr": 0.0,
+      "position": 7.0,
+      "bounce_rate": 0.0
+    }
+  ],
+  "generated_tasks": [
+    {
+      "task_id": "7b5538b6-4d94-473e-b7ab-e04a266b0cf0",
+      "task_type": "update_post_or_page",
+      "target_url": "https://newcastlehub.info/",
+      "reasons": [
+        "rank_5_15"
+      ]
+    },
+    {
+      "task_id": "c9c7bc17-9401-4016-b74f-74c0ce566dd3",
+      "task_type": "inject_schema_faq",
+      "target_url": "https://newcastlehub.info/",
+      "reasons": [
+        "rank_5_15"
+      ]
+    },
+    {
+      "task_id": "76dfcf36-2cb7-499f-8a61-0c956f15d4d2",
+      "task_type": "append_internal_links",
+      "target_url": "https://newcastlehub.info/",
+      "reasons": [
+        "rank_5_15"
+      ]
+    },
+    {
+      "task_id": "5deffef3-fc80-453e-b436-f3d949d2f9ce",
+      "task_type": "set_meta",
+      "target_url": "https://newcastlehub.info/",
+      "reasons": [
+        "rank_5_15"
+      ]
+    }
+  ],
+  "tasks_dir": "weekly-output-auto-live-gsc/tasks",
+  "execution_results": [
+    {
+      "task_id": "5deffef3-fc80-453e-b436-f3d949d2f9ce",
+      "status": "ok",
+      "mode": "execute",
+      "results": [
+        {
+          "target": "https://newcastlehub.info:page:403",
+          "status": "updated",
+          "warnings": [],
+          "diff_summary": "meta keys updated: rank_math_description, rank_math_focus_keyword, rank_math_title (via db)",
+          "chars_delta": 210,
+          "changed_fields": [
+            "rank_math_description",
+            "rank_math_focus_keyword",
+            "rank_math_title"
+          ]
+        }
+      ],
+      "errors": [],
+      "duration_ms": 1913,
+      "timestamp": "2026-04-05T23:10:14.742980+00:00",
+      "task_file": "weekly-output-auto-live-gsc/tasks/5deffef3-fc80-453e-b436-f3d949d2f9ce.json"
+    },
+    {
+      "task_id": "76dfcf36-2cb7-499f-8a61-0c956f15d4d2",
+      "status": "ok",
+      "mode": "execute",
+      "results": [
+        {
+          "target": "https://newcastlehub.info:page:403",
+          "status": "skipped",
+          "reason": "cooldown active (12h)"
+        }
+      ],
+      "errors": [],
+      "duration_ms": 185,
+      "timestamp": "2026-04-05T23:10:16.657147+00:00",
+      "task_file": "weekly-output-auto-live-gsc/tasks/76dfcf36-2cb7-499f-8a61-0c956f15d4d2.json"
+    },
+    {
+      "task_id": "7b5538b6-4d94-473e-b7ab-e04a266b0cf0",
+      "status": "ok",
+      "mode": "execute",
+      "results": [
+        {
+          "target": "https://newcastlehub.info:page:403",
+          "status": "skipped",
+          "reason": "cooldown active (12h)"
+        }
+      ],
+      "errors": [],
+      "duration_ms": 206,
+      "timestamp": "2026-04-05T23:10:16.843335+00:00",
+      "task_file": "weekly-output-auto-live-gsc/tasks/7b5538b6-4d94-473e-b7ab-e04a266b0cf0.json"
+    },
+    {
+      "task_id": "c9c7bc17-9401-4016-b74f-74c0ce566dd3",
+      "status": "ok",
+      "mode": "execute",
+      "results": [
+        {
+          "target": "https://newcastlehub.info:page:403",
+          "status": "skipped",
+          "reason": "cooldown active (12h)"
+        }
+      ],
+      "errors": [],
+      "duration_ms": 176,
+      "timestamp": "2026-04-05T23:10:17.049995+00:00",
+      "task_file": "weekly-output-auto-live-gsc/tasks/c9c7bc17-9401-4016-b74f-74c0ce566dd3.json"
+    }
+  ],
+  "telegram_sent": true
+}
+{
+  "status": "ok",
+  "source": "weekly-output-auto-live-gsc/weekly_report.json",
+  "output": "weekly-output-auto-live-gsc/weekly_report.md",
+  "chars": 884
+}
+{
+  "status": "ok",
+  "out": "STATUS.md"
+}
+[20260405T231005Z] done

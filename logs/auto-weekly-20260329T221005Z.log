@@ -1,0 +1,416 @@
+[20260329T221005Z] start auto-weekly execute
+[20260329T221005Z] auth_precheck_ok status=200 slot=primary
+{
+  "generated_at": "2026-03-29T22:10:26.895456+00:00",
+  "inputs": {
+    "gsc_csv": "weekly-output-auto-live-gsc/gsc_auto.csv",
+    "ga_csv": "weekly-output-auto-live-gsc/ga_empty.csv"
+  },
+  "site": {
+    "base_url": "https://newcastlehub.info",
+    "weekly_limits": {
+      "default": {
+        "cooldown_hours": 24,
+        "max_write_per_target": 3
+      },
+      "groups": {
+        "homepage": {
+          "cooldown_hours": 12,
+          "max_write_per_target": 6
+        },
+        "core": {
+          "cooldown_hours": 16,
+          "max_write_per_target": 5
+        },
+        "service": {
+          "cooldown_hours": 18,
+          "max_write_per_target": 4
+        },
+        "other": {
+          "cooldown_hours": 24,
+          "max_write_per_target": 3
+        }
+      },
+      "core_paths": [
+        "/about/",
+        "/services/",
+        "/contact/",
+        "/free-newcastle-business-audit/"
+      ],
+      "service_path_patterns": [
+        ".*-solutions/?$",
+        ".*-newcastle/?$",
+        "^/services/.*"
+      ]
+    },
+    "bootstrap_urls": [
+      "https://newcastlehub.info/",
+      "https://newcastlehub.info/services/",
+      "https://newcastlehub.info/contact/",
+      "https://newcastlehub.info/free-newcastle-business-audit/"
+    ]
+  },
+  "bootstrap_used": false,
+  "selected_pages": [
+    {
+      "url": "https://newcastlehub.info/",
+      "score": 2,
+      "reasons": [
+        "rank_5_15"
+      ],
+      "impressions": 1.0,
+      "clicks": 0.0,
+      "ctr": 0.0,
+      "position": 6.0,
+      "bounce_rate": 0.0
+    },
+    {
+      "url": "https://newcastlehub.info/google-business-profile-for-restaurants-newcastle/",
+      "score": 2,
+      "reasons": [
+        "rank_5_15"
+      ],
+      "impressions": 1.0,
+      "clicks": 0.0,
+      "ctr": 0.0,
+      "position": 8.0,
+      "bounce_rate": 0.0
+    },
+    {
+      "url": "https://newcastlehub.info/home/",
+      "score": 2,
+      "reasons": [
+        "rank_5_15"
+      ],
+      "impressions": 1.0,
+      "clicks": 0.0,
+      "ctr": 0.0,
+      "position": 11.0,
+      "bounce_rate": 0.0
+    }
+  ],
+  "generated_tasks": [
+    {
+      "task_id": "78a0142e-d6de-4dc4-9604-ecf215250312",
+      "task_type": "update_post_or_page",
+      "target_url": "https://newcastlehub.info/",
+      "reasons": [
+        "rank_5_15"
+      ]
+    },
+    {
+      "task_id": "d31ed2c3-b1c2-4c4a-98d1-e6c0787c6699",
+      "task_type": "inject_schema_faq",
+      "target_url": "https://newcastlehub.info/",
+      "reasons": [
+        "rank_5_15"
+      ]
+    },
+    {
+      "task_id": "3f17a445-65be-44bc-8b3f-dc191ded19e1",
+      "task_type": "append_internal_links",
+      "target_url": "https://newcastlehub.info/",
+      "reasons": [
+        "rank_5_15"
+      ]
+    },
+    {
+      "task_id": "2cf1cf5f-a426-4bc7-ab10-0a11eeb47b2f",
+      "task_type": "set_meta",
+      "target_url": "https://newcastlehub.info/",
+      "reasons": [
+        "rank_5_15"
+      ]
+    },
+    {
+      "task_id": "6379ba2d-a35d-43b8-9467-bd11c86bb489",
+      "task_type": "update_post_or_page",
+      "target_url": "https://newcastlehub.info/google-business-profile-for-restaurants-newcastle/",
+      "reasons": [
+        "rank_5_15"
+      ]
+    },
+    {
+      "task_id": "defc69a8-d7fc-4037-82d7-f4d8e3182d49",
+      "task_type": "inject_schema_faq",
+      "target_url": "https://newcastlehub.info/google-business-profile-for-restaurants-newcastle/",
+      "reasons": [
+        "rank_5_15"
+      ]
+    },
+    {
+      "task_id": "b744bf72-ddf0-4f70-916d-7b2a5a8eea5b",
+      "task_type": "append_internal_links",
+      "target_url": "https://newcastlehub.info/google-business-profile-for-restaurants-newcastle/",
+      "reasons": [
+        "rank_5_15"
+      ]
+    },
+    {
+      "task_id": "f51fccd8-dae9-474d-a416-d3eb976f46bb",
+      "task_type": "set_meta",
+      "target_url": "https://newcastlehub.info/google-business-profile-for-restaurants-newcastle/",
+      "reasons": [
+        "rank_5_15"
+      ]
+    },
+    {
+      "task_id": "2175e437-0f9a-4b1c-a2bc-9b3ac0f5a9a9",
+      "task_type": "update_post_or_page",
+      "target_url": "https://newcastlehub.info/home/",
+      "reasons": [
+        "rank_5_15"
+      ]
+    },
+    {
+      "task_id": "ab8b6f0a-fc26-49e3-b9e2-495e2a9bd9a8",
+      "task_type": "inject_schema_faq",
+      "target_url": "https://newcastlehub.info/home/",
+      "reasons": [
+        "rank_5_15"
+      ]
+    },
+    {
+      "task_id": "f05c68e6-8b28-4eaf-94e6-fba5786d796a",
+      "task_type": "append_internal_links",
+      "target_url": "https://newcastlehub.info/home/",
+      "reasons": [
+        "rank_5_15"
+      ]
+    },
+    {
+      "task_id": "8d55755a-0202-496c-b13f-616bae2e8ec0",
+      "task_type": "set_meta",
+      "target_url": "https://newcastlehub.info/home/",
+      "reasons": [
+        "rank_5_15"
+      ]
+    }
+  ],
+  "tasks_dir": "weekly-output-auto-live-gsc/tasks",
+  "execution_results": [
+    {
+      "task_id": "2175e437-0f9a-4b1c-a2bc-9b3ac0f5a9a9",
+      "status": "ok",
+      "mode": "execute",
+      "results": [
+        {
+          "target": "https://newcastlehub.info:page:30",
+          "status": "updated",
+          "warnings": [],
+          "diff_summary": "--- before\n+++ after\n@@ -1,5 +1,5 @@\n <!-- wp:html --><!-- AI_SLOT:INTRO -->\n-<p><strong>Newcastle Hub</strong> builds fast, conversion-focused websites and measurable marketing for local businesses in Newcastle.</p>\n+<p>This section was refreshed by WordPress AI Ops to improve click-through and first-screen clarity. Signals: rank_5_15.</p>\n <!-- /AI_SLOT:INTRO -->\n <!-- AI_SLOT:FAQ -->\n <style>.ai-faq-accordion details{margin:0 0 18px;border:1px solid #dfe5ee;border-radius:12px;background:#fff;overflow:hidden}.ai-faq-accordion summary{cursor:pointer;list-style:none;padding:16px 18px;font-weight:700;line-height:1.6}.ai-faq-accordion summary::-webkit-details-marker{display:none}.ai-faq-accordion details[open] summary{border-bottom:1px solid #e8edf5}.ai-faq-accordion p{margin:0;padding:16px 18px 18px;line-height:1.8;color:#334155}</style>",
+          "chars_delta": -14,
+          "changed_fields": [
+            "content",
+            "modified_gmt"
+          ]
+        }
+      ],
+      "errors": [],
+      "duration_ms": 1127,
+      "timestamp": "2026-03-29T22:10:21.931229+00:00",
+      "task_file": "weekly-output-auto-live-gsc/tasks/2175e437-0f9a-4b1c-a2bc-9b3ac0f5a9a9.json"
+    },
+    {
+      "task_id": "2cf1cf5f-a426-4bc7-ab10-0a11eeb47b2f",
+      "status": "ok",
+      "mode": "execute",
+      "results": [
+        {
+          "target": "https://newcastlehub.info:page:403",
+          "status": "updated",
+          "warnings": [],
+          "diff_summary": "meta keys updated: rank_math_description, rank_math_focus_keyword, rank_math_title (via db)",
+          "chars_delta": 210,
+          "changed_fields": [
+            "rank_math_description",
+            "rank_math_focus_keyword",
+            "rank_math_title"
+          ]
+        }
+      ],
+      "errors": [],
+      "duration_ms": 1835,
+      "timestamp": "2026-03-29T22:10:23.059512+00:00",
+      "task_file": "weekly-output-auto-live-gsc/tasks/2cf1cf5f-a426-4bc7-ab10-0a11eeb47b2f.json"
+    },
+    {
+      "task_id": "3f17a445-65be-44bc-8b3f-dc191ded19e1",
+      "status": "ok",
+      "mode": "execute",
+      "results": [
+        {
+          "target": "https://newcastlehub.info:page:403",
+          "status": "skipped",
+          "reason": "cooldown active (12h)"
+        }
+      ],
+      "errors": [],
+      "duration_ms": 154,
+      "timestamp": "2026-03-29T22:10:24.895884+00:00",
+      "task_file": "weekly-output-auto-live-gsc/tasks/3f17a445-65be-44bc-8b3f-dc191ded19e1.json"
+    },
+    {
+      "task_id": "6379ba2d-a35d-43b8-9467-bd11c86bb489",
+      "status": "ok",
+      "mode": "execute",
+      "results": [
+        {
+          "target": "https://newcastlehub.info:page:684",
+          "status": "noop",
+          "warnings": []
+        }
+      ],
+      "errors": [],
+      "duration_ms": 557,
+      "timestamp": "2026-03-29T22:10:25.051064+00:00",
+      "task_file": "weekly-output-auto-live-gsc/tasks/6379ba2d-a35d-43b8-9467-bd11c86bb489.json"
+    },
+    {
+      "task_id": "78a0142e-d6de-4dc4-9604-ecf215250312",
+      "status": "ok",
+      "mode": "execute",
+      "results": [
+        {
+          "target": "https://newcastlehub.info:page:403",
+          "status": "skipped",
+          "reason": "cooldown active (12h)"
+        }
+      ],
+      "errors": [],
+      "duration_ms": 144,
+      "timestamp": "2026-03-29T22:10:25.609282+00:00",
+      "task_file": "weekly-output-auto-live-gsc/tasks/78a0142e-d6de-4dc4-9604-ecf215250312.json"
+    },
+    {
+      "task_id": "8d55755a-0202-496c-b13f-616bae2e8ec0",
+      "status": "ok",
+      "mode": "execute",
+      "results": [
+        {
+          "target": "https://newcastlehub.info:page:30",
+          "status": "skipped",
+          "reason": "cooldown active (24h)"
+        }
+      ],
+      "errors": [],
+      "duration_ms": 75,
+      "timestamp": "2026-03-29T22:10:25.756355+00:00",
+      "task_file": "weekly-output-auto-live-gsc/tasks/8d55755a-0202-496c-b13f-616bae2e8ec0.json"
+    },
+    {
+      "task_id": "ab8b6f0a-fc26-49e3-b9e2-495e2a9bd9a8",
+      "status": "ok",
+      "mode": "execute",
+      "results": [
+        {
+          "target": "https://newcastlehub.info:page:30",
+          "status": "skipped",
+          "reason": "cooldown active (24h)"
+        }
+      ],
+      "errors": [],
+      "duration_ms": 57,
+      "timestamp": "2026-03-29T22:10:25.830223+00:00",
+      "task_file": "weekly-output-auto-live-gsc/tasks/ab8b6f0a-fc26-49e3-b9e2-495e2a9bd9a8.json"
+    },
+    {
+      "task_id": "b744bf72-ddf0-4f70-916d-7b2a5a8eea5b",
+      "status": "ok",
+      "mode": "execute",
+      "results": [
+        {
+          "target": "https://newcastlehub.info:page:684",
+          "status": "updated",
+          "warnings": [],
+          "diff_summary": "--- before\n+++ after\n@@ -1,4 +1,6 @@\n-<!-- AI_SLOT:CTA --><!-- /AI_SLOT:CTA -->\n+<!-- AI_SLOT:CTA -->\n+<p>Related reads: <a href=\"https://newcastlehub.info/\">Newcastlehub.Info</a> | <a href=\"https://newcastlehub.info/home/\">Home</a></p>\n+<!-- /AI_SLOT:CTA -->\n <!-- wp:html --><section class=\"section\" id=\"gbp-restaurants\"><div class=\"section-content relative\"><div class=\"row\"><div class=\"col small-12 large-12\"><div class=\"col-inner\"><!-- AI_SLOT:INTRO -->\n <p>This section was refreshed by WordPress AI Ops to improve click-through and first-screen clarity. Signals: rank_5_15.</p>\n <!-- /AI_SLOT:INTRO --><!-- AI_SLOT:BODY --><h2>Why GBP Matters for Newcastle Restaurants</h2><ul><li><strong>Local pack visibility</strong> — appear in the top 3 map results for searches like \"restaurants near me\" or \"best cafe Newcastle\"</li><li><strong>Direct bookings and calls</strong> — customers can call, get directions, or visit your website straight from the listing</li><li><strong>Reviews build trust</strong> — a well-managed profile with recent reviews converts browsers into diners</li><li><strong>Free traffic</strong> — unlike paid ads, GBP visibility costs nothing beyond the effort of keeping it updated</li></ul><h2>What We Set Up and Optimise</h2><ul><li>Business name, category, and description optimised for local search</li><li>Trading hours (including special hours for public holidays)</li><li>Menu link and ordering link (connected to your Square Online page)</li><li>High-quality photos — exterior, interior, food, and team</li><li>Review response strategy and templates</li><li>Posts and updates schedule</li><li>Q&A section with pre-populated common questions</li></ul><h2>Included With Your Square Setup</h2><p>When you book our <a href=\"https://newcastlehub.info/newcastle-restaurant-square-setup/\">Newcastle Restaurant Square Setup</a>, we include basic GBP optimisation as part of the go-live process — ensuring your online ordering link and contact details are consistent across Google and Square.</p><p><a class=\"button primary\" href=\"https://newcastlehub.info/newcastle-restaurant-square-setup/\">View the Full Square Setup Package</a></p><!-- /AI_SLOT:BODY --><!-- AI_SLOT:SCHEMA -->",
+          "chars_delta": 135,
+          "changed_fields": [
+            "content",
+            "modified_gmt"
+          ]
+        }
+      ],
+      "errors": [],
+      "duration_ms": 629,
+      "timestamp": "2026-03-29T22:10:25.887645+00:00",
+      "task_file": "weekly-output-auto-live-gsc/tasks/b744bf72-ddf0-4f70-916d-7b2a5a8eea5b.json"
+    },
+    {
+      "task_id": "d31ed2c3-b1c2-4c4a-98d1-e6c0787c6699",
+      "status": "ok",
+      "mode": "execute",
+      "results": [
+        {
+          "target": "https://newcastlehub.info:page:403",
+          "status": "skipped",
+          "reason": "cooldown active (12h)"
+        }
+      ],
+      "errors": [],
+      "duration_ms": 150,
+      "timestamp": "2026-03-29T22:10:26.518654+00:00",
+      "task_file": "weekly-output-auto-live-gsc/tasks/d31ed2c3-b1c2-4c4a-98d1-e6c0787c6699.json"
+    },
+    {
+      "task_id": "defc69a8-d7fc-4037-82d7-f4d8e3182d49",
+      "status": "ok",
+      "mode": "execute",
+      "results": [
+        {
+          "target": "https://newcastlehub.info:page:684",
+          "status": "skipped",
+          "reason": "cooldown active (18h)"
+        }
+      ],
+      "errors": [],
+      "duration_ms": 71,
+      "timestamp": "2026-03-29T22:10:26.668836+00:00",
+      "task_file": "weekly-output-auto-live-gsc/tasks/defc69a8-d7fc-4037-82d7-f4d8e3182d49.json"
+    },
+    {
+      "task_id": "f05c68e6-8b28-4eaf-94e6-fba5786d796a",
+      "status": "ok",
+      "mode": "execute",
+      "results": [
+        {
+          "target": "https://newcastlehub.info:page:30",
+          "status": "skipped",
+          "reason": "cooldown active (24h)"
+        }
+      ],
+      "errors": [],
+      "duration_ms": 70,
+      "timestamp": "2026-03-29T22:10:26.742211+00:00",
+      "task_file": "weekly-output-auto-live-gsc/tasks/f05c68e6-8b28-4eaf-94e6-fba5786d796a.json"
+    },
+    {
+      "task_id": "f51fccd8-dae9-474d-a416-d3eb976f46bb",
+      "status": "ok",
+      "mode": "execute",
+      "results": [
+        {
+          "target": "https://newcastlehub.info:page:684",
+          "status": "skipped",
+          "reason": "cooldown active (18h)"
+        }
+      ],
+      "errors": [],
+      "duration_ms": 82,
+      "timestamp": "2026-03-29T22:10:26.812793+00:00",
+      "task_file": "weekly-output-auto-live-gsc/tasks/f51fccd8-dae9-474d-a416-d3eb976f46bb.json"
+    }
+  ],
+  "telegram_sent": true
+}
+{
+  "status": "ok",
+  "source": "weekly-output-auto-live-gsc/weekly_report.json",
+  "output": "weekly-output-auto-live-gsc/weekly_report.md",
+  "chars": 1249
+}
+{
+  "status": "ok",
+  "out": "STATUS.md"
+}
+[20260329T221005Z] done

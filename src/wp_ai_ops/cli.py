@@ -246,6 +246,17 @@ def _auto_weekly_command(args: argparse.Namespace) -> dict:
         bootstrap_urls = profile.get("bootstrap_urls")
         if isinstance(bootstrap_urls, list):
             site["bootstrap_urls"] = bootstrap_urls
+        site_section = profile.get("site", {})
+        if site_section.get("auth_ref"):
+            site["auth_ref"] = site_section["auth_ref"]
+        if site_section.get("target_type"):
+            site["target_type"] = site_section["target_type"]
+        if site_section.get("meta_only"):
+            site["meta_only"] = True
+        if site_section.get("use_append_faq"):
+            site["use_append_faq"] = True
+        if site_section.get("faq_context"):
+            site["faq_context"] = site_section["faq_context"]
     if args.wp_api_base:
         site["wp_api_base"] = args.wp_api_base
     if args.auth_ref:
@@ -272,8 +283,7 @@ def _auto_weekly_command(args: argparse.Namespace) -> dict:
             from .notify import send_telegram
 
             summary = _build_telegram_summary(report)
-            send_telegram(bot_token, chat_id, summary)
-            report["telegram_sent"] = True
+            report["telegram_sent"] = send_telegram(bot_token, chat_id, summary)
         else:
             report["telegram_sent"] = False
             report["telegram_error"] = "TG_BOT_TOKEN or TG_CHAT_ID not set"

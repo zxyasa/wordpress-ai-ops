@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-22T22:10:13.055777+00:00",
+  "generated_at": "2026-04-12T23:10:52.006980+00:00",
   "inputs": {
     "gsc_csv": "weekly-output-auto-live-gsc/gsc_auto.csv",
     "ga_csv": "weekly-output-auto-live-gsc/ga_empty.csv"
@@ -48,280 +48,156 @@
       "https://newcastlehub.info/free-newcastle-business-audit/"
     ]
   },
-  "bootstrap_used": true,
+  "bootstrap_used": false,
   "selected_pages": [
     {
+      "url": "https://newcastlehub.info/home/",
+      "score": 2,
+      "reasons": [
+        "rank_5_15"
+      ],
+      "impressions": 5.0,
+      "clicks": 1.0,
+      "ctr": 0.2,
+      "position": 6.4,
+      "bounce_rate": 0.0
+    },
+    {
       "url": "https://newcastlehub.info/",
-      "score": 1,
+      "score": 2,
       "reasons": [
-        "no_gsc_data_bootstrap"
+        "rank_5_15"
       ],
-      "impressions": 0.0,
+      "impressions": 1.0,
       "clicks": 0.0,
       "ctr": 0.0,
-      "position": 99.0,
+      "position": 9.0,
       "bounce_rate": 0.0
     },
     {
-      "url": "https://newcastlehub.info/services/",
-      "score": 1,
+      "url": "https://newcastlehub.info/beauty-salon-solutions/",
+      "score": 2,
       "reasons": [
-        "no_gsc_data_bootstrap"
+        "rank_5_15"
       ],
-      "impressions": 0.0,
+      "impressions": 1.0,
       "clicks": 0.0,
       "ctr": 0.0,
-      "position": 99.0,
-      "bounce_rate": 0.0
-    },
-    {
-      "url": "https://newcastlehub.info/contact/",
-      "score": 1,
-      "reasons": [
-        "no_gsc_data_bootstrap"
-      ],
-      "impressions": 0.0,
-      "clicks": 0.0,
-      "ctr": 0.0,
-      "position": 99.0,
-      "bounce_rate": 0.0
-    },
-    {
-      "url": "https://newcastlehub.info/free-newcastle-business-audit/",
-      "score": 1,
-      "reasons": [
-        "no_gsc_data_bootstrap"
-      ],
-      "impressions": 0.0,
-      "clicks": 0.0,
-      "ctr": 0.0,
-      "position": 99.0,
+      "position": 10.0,
       "bounce_rate": 0.0
     }
   ],
   "generated_tasks": [
     {
-      "task_id": "a4942af6-2859-40f0-b2ab-480d63eb8859",
+      "task_id": "023fefd8-ffa9-412b-9f36-76bdb856c28d",
+      "task_type": "update_post_or_page",
+      "target_url": "https://newcastlehub.info/home/",
+      "reasons": [
+        "rank_5_15"
+      ]
+    },
+    {
+      "task_id": "73748d1b-200e-423f-8a6c-dc06bda5fe10",
+      "task_type": "inject_schema_faq",
+      "target_url": "https://newcastlehub.info/home/",
+      "reasons": [
+        "rank_5_15"
+      ]
+    },
+    {
+      "task_id": "2f7776fa-c0d5-4ef0-baa1-8906c9ba3ba8",
+      "task_type": "append_internal_links",
+      "target_url": "https://newcastlehub.info/home/",
+      "reasons": [
+        "rank_5_15"
+      ]
+    },
+    {
+      "task_id": "4a08a9cb-af51-4bec-b435-1f06b77856ba",
+      "task_type": "set_meta",
+      "target_url": "https://newcastlehub.info/home/",
+      "reasons": [
+        "rank_5_15"
+      ]
+    },
+    {
+      "task_id": "9197aaa6-3f1e-41f9-a4ee-7f560bdf0fec",
       "task_type": "update_post_or_page",
       "target_url": "https://newcastlehub.info/",
       "reasons": [
-        "no_gsc_data_bootstrap"
+        "rank_5_15"
       ]
     },
     {
-      "task_id": "0f00c574-3ea5-4034-a39b-f9a24627268f",
+      "task_id": "86a27e8d-4ddf-4c92-ad16-4719b58c00bc",
       "task_type": "inject_schema_faq",
       "target_url": "https://newcastlehub.info/",
       "reasons": [
-        "no_gsc_data_bootstrap"
+        "rank_5_15"
       ]
     },
     {
-      "task_id": "78fa9a47-c646-44c3-90c3-7946b3aeaf8c",
+      "task_id": "93d19773-72cd-486a-b9d8-50f3721fb9a6",
       "task_type": "append_internal_links",
       "target_url": "https://newcastlehub.info/",
       "reasons": [
-        "no_gsc_data_bootstrap"
+        "rank_5_15"
       ]
     },
     {
-      "task_id": "18429911-98f2-4c15-804e-e6f49faf6e08",
+      "task_id": "59220289-da35-4a92-9c33-da40ab742bbf",
       "task_type": "set_meta",
       "target_url": "https://newcastlehub.info/",
       "reasons": [
-        "no_gsc_data_bootstrap"
+        "rank_5_15"
       ]
     },
     {
-      "task_id": "17a53398-8d3b-414b-9657-c18fd3370a67",
+      "task_id": "c2096b89-154b-4d51-867a-20df7f1acd54",
       "task_type": "update_post_or_page",
-      "target_url": "https://newcastlehub.info/services/",
+      "target_url": "https://newcastlehub.info/beauty-salon-solutions/",
       "reasons": [
-        "no_gsc_data_bootstrap"
+        "rank_5_15"
       ]
     },
     {
-      "task_id": "042e19a7-1f54-46d0-94cc-913f7652705a",
+      "task_id": "3799d485-cd50-43ad-a6a2-12eda409a59c",
       "task_type": "inject_schema_faq",
-      "target_url": "https://newcastlehub.info/services/",
+      "target_url": "https://newcastlehub.info/beauty-salon-solutions/",
       "reasons": [
-        "no_gsc_data_bootstrap"
+        "rank_5_15"
       ]
     },
     {
-      "task_id": "841920a8-f5f8-42d2-bf6e-2a92de7fdf10",
+      "task_id": "579430b0-7508-45c2-87b2-5b416c6bfc43",
       "task_type": "append_internal_links",
-      "target_url": "https://newcastlehub.info/services/",
+      "target_url": "https://newcastlehub.info/beauty-salon-solutions/",
       "reasons": [
-        "no_gsc_data_bootstrap"
+        "rank_5_15"
       ]
     },
     {
-      "task_id": "92753e17-50d1-4eb7-b0aa-2333b919906b",
+      "task_id": "eb260e61-03c9-41d9-962f-5fe2ba590535",
       "task_type": "set_meta",
-      "target_url": "https://newcastlehub.info/services/",
+      "target_url": "https://newcastlehub.info/beauty-salon-solutions/",
       "reasons": [
-        "no_gsc_data_bootstrap"
-      ]
-    },
-    {
-      "task_id": "356a67d6-3f86-4d7a-9430-dd56c028293b",
-      "task_type": "update_post_or_page",
-      "target_url": "https://newcastlehub.info/contact/",
-      "reasons": [
-        "no_gsc_data_bootstrap"
-      ]
-    },
-    {
-      "task_id": "af3ba11d-9a66-4c49-bb46-c0e3ed8ce780",
-      "task_type": "inject_schema_faq",
-      "target_url": "https://newcastlehub.info/contact/",
-      "reasons": [
-        "no_gsc_data_bootstrap"
-      ]
-    },
-    {
-      "task_id": "bd058c7b-b7f9-4fd2-b168-8e22c0fa7d4b",
-      "task_type": "append_internal_links",
-      "target_url": "https://newcastlehub.info/contact/",
-      "reasons": [
-        "no_gsc_data_bootstrap"
-      ]
-    },
-    {
-      "task_id": "fe3acd76-7bf4-4467-a8cb-756e7d41ad35",
-      "task_type": "set_meta",
-      "target_url": "https://newcastlehub.info/contact/",
-      "reasons": [
-        "no_gsc_data_bootstrap"
-      ]
-    },
-    {
-      "task_id": "5a433358-9cdf-4166-a738-dbc65d00c484",
-      "task_type": "update_post_or_page",
-      "target_url": "https://newcastlehub.info/free-newcastle-business-audit/",
-      "reasons": [
-        "no_gsc_data_bootstrap"
-      ]
-    },
-    {
-      "task_id": "52b730a3-da9c-4708-aee7-e3a6cfe6fac1",
-      "task_type": "inject_schema_faq",
-      "target_url": "https://newcastlehub.info/free-newcastle-business-audit/",
-      "reasons": [
-        "no_gsc_data_bootstrap"
-      ]
-    },
-    {
-      "task_id": "25339949-24fc-45b4-80e7-b1eb10c30945",
-      "task_type": "append_internal_links",
-      "target_url": "https://newcastlehub.info/free-newcastle-business-audit/",
-      "reasons": [
-        "no_gsc_data_bootstrap"
-      ]
-    },
-    {
-      "task_id": "da35a50f-8c5d-41f4-96ef-7d657534e1d3",
-      "task_type": "set_meta",
-      "target_url": "https://newcastlehub.info/free-newcastle-business-audit/",
-      "reasons": [
-        "no_gsc_data_bootstrap"
+        "rank_5_15"
       ]
     }
   ],
   "tasks_dir": "weekly-output-auto-live-gsc/tasks",
   "execution_results": [
     {
-      "task_id": "042e19a7-1f54-46d0-94cc-913f7652705a",
+      "task_id": "023fefd8-ffa9-412b-9f36-76bdb856c28d",
       "status": "ok",
       "mode": "execute",
       "results": [
         {
-          "target": "https://newcastlehub.info:page:39",
-          "status": "skipped",
-          "reason": "7d write limit reached (5)"
-        }
-      ],
-      "errors": [],
-      "duration_ms": 641,
-      "timestamp": "2026-02-22T22:10:08.295138+00:00",
-      "task_file": "weekly-output-auto-live-gsc/tasks/042e19a7-1f54-46d0-94cc-913f7652705a.json"
-    },
-    {
-      "task_id": "0f00c574-3ea5-4034-a39b-f9a24627268f",
-      "status": "ok",
-      "mode": "execute",
-      "results": [
-        {
-          "target": "https://newcastlehub.info:page:403",
-          "status": "skipped",
-          "reason": "7d write limit reached (6)"
-        }
-      ],
-      "errors": [],
-      "duration_ms": 1282,
-      "timestamp": "2026-02-22T22:10:08.936885+00:00",
-      "task_file": "weekly-output-auto-live-gsc/tasks/0f00c574-3ea5-4034-a39b-f9a24627268f.json"
-    },
-    {
-      "task_id": "17a53398-8d3b-414b-9657-c18fd3370a67",
-      "status": "ok",
-      "mode": "execute",
-      "results": [
-        {
-          "target": "https://newcastlehub.info:page:39",
-          "status": "skipped",
-          "reason": "7d write limit reached (5)"
-        }
-      ],
-      "errors": [],
-      "duration_ms": 102,
-      "timestamp": "2026-02-22T22:10:10.219788+00:00",
-      "task_file": "weekly-output-auto-live-gsc/tasks/17a53398-8d3b-414b-9657-c18fd3370a67.json"
-    },
-    {
-      "task_id": "18429911-98f2-4c15-804e-e6f49faf6e08",
-      "status": "ok",
-      "mode": "execute",
-      "results": [
-        {
-          "target": "https://newcastlehub.info:page:403",
-          "status": "skipped",
-          "reason": "7d write limit reached (6)"
-        }
-      ],
-      "errors": [],
-      "duration_ms": 148,
-      "timestamp": "2026-02-22T22:10:10.322736+00:00",
-      "task_file": "weekly-output-auto-live-gsc/tasks/18429911-98f2-4c15-804e-e6f49faf6e08.json"
-    },
-    {
-      "task_id": "25339949-24fc-45b4-80e7-b1eb10c30945",
-      "status": "ok",
-      "mode": "execute",
-      "results": [
-        {
-          "target": "https://newcastlehub.info:page:718",
-          "status": "skipped",
-          "reason": "7d write limit reached (5)"
-        }
-      ],
-      "errors": [],
-      "duration_ms": 524,
-      "timestamp": "2026-02-22T22:10:10.471552+00:00",
-      "task_file": "weekly-output-auto-live-gsc/tasks/25339949-24fc-45b4-80e7-b1eb10c30945.json"
-    },
-    {
-      "task_id": "356a67d6-3f86-4d7a-9430-dd56c028293b",
-      "status": "ok",
-      "mode": "execute",
-      "results": [
-        {
-          "target": "https://newcastlehub.info:page:28",
+          "target": "https://newcastlehub.info:page:30",
           "status": "updated",
           "warnings": [],
-          "diff_summary": "--- before\n+++ after\n@@ -114,8 +114,7 @@\n     [col span__sm=\"12\"]\n       [ux_text]\n         <!-- AI_SLOT:INTRO -->\n-<h1>Contact Newcastle Hub</h1>\n-<p><strong>Contact Newcastle Hub</strong> for website design, local SEO, hosting, and digital marketing support in Newcastle.</p>\n+<p>This section was refreshed by WordPress AI Ops to improve click-through and first-screen clarity. Signals: no_gsc_data_bootstrap.</p>\n <!-- /AI_SLOT:INTRO -->\n \n         <!-- AI_SLOT:FAQ --><h2>Contact FAQ</h2><style>.ai-faq-accordion details{margin:0 0 18px;border:1px solid #dfe5ee;border-radius:12px;background:#fff;overflow:hidden}.ai-faq-accordion summary{cursor:pointer;list-style:none;padding:16px 18px;font-weight:700;line-height:1.6}.ai-faq-accordion summary::-webkit-details-marker{display:none}.ai-faq-accordion details[open] summary{border-bottom:1px solid #e8edf5}.ai-faq-accordion p{margin:0;padding:16px 18px 18px;line-height:1.8;color:#334155}</style><div class=\"ai-faq-accordion\"><details><summary><strong>How quickly do you respond?</strong></summary><p>Most enquiries are reviewed quickly, and we follow up with practical next steps.</p></details><details><summary><strong>Can we book a strategy call first?</strong></summary><p>Yes. You can start with a short call or a free business audit based on your preference.</p></details><details><summary><strong>What should I prepare before contacting?</strong></summary><p>Your goals, current setup, and biggest bottleneck are enough to start a useful discussion.</p></details></div><!-- /AI_SLOT:FAQ -->",
-          "chars_delta": -24,
+          "diff_summary": "--- before\n+++ after\n@@ -1,5 +1,5 @@\n <!-- wp:html --><!-- AI_SLOT:INTRO -->\n-<p><strong>Newcastle Hub</strong> builds fast, conversion-focused websites and measurable marketing for local businesses in Newcastle.</p>\n+<p>Newcastle Hub helps local Newcastle businesses build fast, conversion-focused websites and measurable marketing strategies that turn visitors into customers. Whether you're a small business owner looking to establish an online presence or an established company wanting to improve your digital performance, this page covers everything you need to know about getting a professional website built quickly without sacrificing quality. By combining rapid development timelines with proven marketing tactics and transparent results tracking, Newcastle Hub ensures your investment directly impacts your bottom line.</p>\n <!-- /AI_SLOT:INTRO -->\n <!-- AI_SLOT:FAQ -->\n <style>.ai-faq-accordion details{margin:0 0 18px;border:1px solid var(--nc-border-color);border-radius:12px;background:#fff;overflow:hidden}.ai-faq-accordion summary{cursor:pointer;list-style:none;padding:16px 18px;font-weight:700;line-height:1.6}.ai-faq-accordion summary::-webkit-details-marker{display:none}.ai-faq-accordion details[open] summary{border-bottom:1px solid var(--nc-section-bg)}.ai-faq-accordion p{margin:0;padding:16px 18px 18px;line-height:1.8;color:var(--nc-text-secondary)}</style>",
+          "chars_delta": 478,
           "changed_fields": [
             "content",
             "modified_gmt"
@@ -329,169 +205,202 @@
         }
       ],
       "errors": [],
-      "duration_ms": 1065,
-      "timestamp": "2026-02-22T22:10:10.996545+00:00",
-      "task_file": "weekly-output-auto-live-gsc/tasks/356a67d6-3f86-4d7a-9430-dd56c028293b.json"
+      "duration_ms": 2892,
+      "timestamp": "2026-04-12T23:10:29.061592+00:00",
+      "task_file": "weekly-output-auto-live-gsc/tasks/023fefd8-ffa9-412b-9f36-76bdb856c28d.json"
     },
     {
-      "task_id": "52b730a3-da9c-4708-aee7-e3a6cfe6fac1",
+      "task_id": "2f7776fa-c0d5-4ef0-baa1-8906c9ba3ba8",
       "status": "ok",
       "mode": "execute",
       "results": [
         {
-          "target": "https://newcastlehub.info:page:718",
+          "target": "https://newcastlehub.info:page:30",
           "status": "skipped",
-          "reason": "7d write limit reached (5)"
+          "reason": "cooldown active (24h)"
         }
       ],
       "errors": [],
-      "duration_ms": 72,
-      "timestamp": "2026-02-22T22:10:12.062684+00:00",
-      "task_file": "weekly-output-auto-live-gsc/tasks/52b730a3-da9c-4708-aee7-e3a6cfe6fac1.json"
+      "duration_ms": 1566,
+      "timestamp": "2026-04-12T23:10:31.954866+00:00",
+      "task_file": "weekly-output-auto-live-gsc/tasks/2f7776fa-c0d5-4ef0-baa1-8906c9ba3ba8.json"
     },
     {
-      "task_id": "5a433358-9cdf-4166-a738-dbc65d00c484",
+      "task_id": "3799d485-cd50-43ad-a6a2-12eda409a59c",
       "status": "ok",
       "mode": "execute",
       "results": [
         {
-          "target": "https://newcastlehub.info:page:718",
-          "status": "skipped",
-          "reason": "7d write limit reached (5)"
+          "target": "https://newcastlehub.info:page:713",
+          "status": "updated",
+          "warnings": [],
+          "diff_summary": "--- before\n+++ after\n@@ -8,10 +8,10 @@\n <!-- /AI_SLOT:SCHEMA --></div></div></div></div></div></section><!-- /wp:html -->\n \n <section class=\"section\" id=\"ai-beauty-salon-solutions-faq\" style=\"padding-top:48px;padding-bottom:48px;background:var(--nc-section-bg);\"><div class=\"section-content relative\"><div class=\"row\"><div class=\"col small-12 large-12\"><div class=\"col-inner\"><!-- AI_SLOT:FAQ -->\n-<style>.ai-faq-accordion details{margin:0 0 18px;border:1px solid var(--nc-border-color);border-radius:12px;background:#fff;overflow:hidden}.ai-faq-accordion summary{cursor:pointer;list-style:none;padding:16px 18px;font-weight:700;line-height:1.6}.ai-faq-accordion summary::-webkit-details-marker{display:none}.ai-faq-accordion details[open] summary{border-bottom:1px solid var(--nc-section-bg)}.ai-faq-accordion p{margin:0;padding:16px 18px 18px;line-height:1.8;color:var(--nc-text-secondary)}</style>\n+<style>.ai-faq-accordion details{margin:0 0 18px;border:1px solid #dfe5ee;border-radius:12px;background:#fff;overflow:hidden}.ai-faq-accordion summary{cursor:pointer;list-style:none;padding:16px 18px;font-weight:700;line-height:1.6}.ai-faq-accordion summary::-webkit-details-marker{display:none}.ai-faq-accordion details[open] summary{border-bottom:1px solid #e8edf5}.ai-faq-accordion p{margin:0;padding:16px 18px 18px;line-height:1.8;color:#334155}</style>\n <div class=\"ai-faq-accordion\">\n-<details><summary><strong>What will I learn on this page?</strong></summary><p>You will get a concise overview, practical steps, and links to related guides.</p></details>\n-<details><summary><strong>Who is this content for?</strong></summary><p>Readers looking for a practical starting point and deeper follow-up resources.</p></details>\n-<details><summary><strong>What should I read next?</strong></summary><p>Use the related links section for the next best article in the topic cluster.</p></details>\n+<details><summary><strong>How does a booking system reduce no-shows for my Newcastle salon?</strong></summary><p>A booking system sends automatic SMS reminders to clients before their appointments, significantly reducing forgotten bookings. Combined with a structured client database, you can track patterns and follow up with repeat no-shows to protect your schedule.</p></details>\n+<details><summary><strong>Will setting up Google local SEO really help my salon get found in Newcastle?</strong></summary><p>Yes, local SEO optimization ensures your salon appears in Google searches when Newcastle customers look for hair and beauty services nearby. This increases visibility and drives qualified bookings directly to your business.</p></details>\n+<details><summary><strong>What&#x27;s included in the free business audit for my salon?</strong></summary><p>The free audit reviews your current booking system, client management process, and local online visibility to identify where you&#x27;re losing potential clients. You&#x27;ll receive specific recommendations for implementing a booking system, SMS reminders, and SEO improvements tailored to your Newcastle salon.</p></details>\n </div>\n <!-- /AI_SLOT:FAQ --><!-- AI_SLOT:CTA --><p><a class=\"button primary is-large\" href=\"https://newcastlehub.info/free-newcastle-business-audit/\">Get Salon Growth Audit</a></p><p>Related: <a href=\"https://newcastlehub.info/services/\">Our Services</a> | <a href=\"https://newcastlehub.info/contact/\">Book a Strategy Call</a></p><!-- /AI_SLOT:CTA --><!-- AI_SLOT:SCHEMA --><script type=\"application/ld+json\">{\"@context\": \"https://schema.org\", \"@type\": \"FAQPage\", \"mainEntity\": [{\"@type\": \"Question\", \"name\": \"Can this reduce no-shows?\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"Yes. Booking flow cleanup with reminders and follow-up logic usually lowers no-show rates.\"}}, {\"@type\": \"Question\", \"name\": \"Do I need to replace my current tools?\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"Not always. We can often improve process and conversion around your existing tools first.\"}}, {\"@type\": \"Question\", \"name\": \"What should we prioritize first?\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"A clear booking funnel and profile optimisation, then retention and rebooking workflow.\"}}]}</script><!-- /AI_SLOT:SCHEMA --></div></div></div></div></section>\n\n--- before\n+++ after\n@@ -4,7 +4,7 @@\n <p><a class=\"button primary is-large\" href=\"https://newcastlehub.info/booking-system-newcastle/\">I Provide Services — Build My Booking System</a> <a class=\"button secondary is-large\" href=\"https://newcastlehub.info/free-newcastle-business-audit/\">Get Free Business Audit</a></p><p>Service path: <a href=\"https://newcastlehub.info/booking-system-newcastle/\">Booking System</a> + <a href=\"https://newcastlehub.info/google-business-optimisation-newcastle/\">Google Growth</a> + <a href=\"https://newcastlehub.info/website-service/\">Website</a></p>\n <p>Related reads: <a href=\"https://newcastlehub.info/ecommerce-setup-newcastle/\">Ecommerce Setup Newcastle</a></p>\n <!-- /AI_SLOT:CTA --><!-- AI_SLOT:SCHEMA -->\n-<script type=\"application/ld+json\">{\"@context\": \"https://schema.org\", \"@type\": \"FAQPage\", \"mainEntity\": [{\"@type\": \"Question\", \"name\": \"What will I learn on this page?\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"You will get a concise overview, practical steps, and links to related guides.\"}}, {\"@type\": \"Question\", \"name\": \"Who is this content for?\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"Readers looking for a practical starting point and deeper follow-up resources.\"}}, {\"@type\": \"Question\", \"name\": \"What should I read next?\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"Use the related links section for the next best article in the topic cluster.\"}}]}</script>\n+<script type=\"application/ld+json\">{\"@context\": \"https://schema.org\", \"@type\": \"FAQPage\", \"mainEntity\": [{\"@type\": \"Question\", \"name\": \"How does a booking system reduce no-shows for my Newcastle salon?\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"A booking system sends automatic SMS reminders to clients before their appointments, significantly reducing forgotten bookings. Combined with a structured client database, you can track patterns and follow up with repeat no-shows to protect your schedule.\"}}, {\"@type\": \"Question\", \"name\": \"Will setting up Google local SEO really help my salon get found in Newcastle?\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"Yes, local SEO optimization ensures your salon appears in Google searches when Newcastle customers look for hair and beauty services nearby. This increases visibility and drives qualified bookings directly to your business.\"}}, {\"@type\": \"Question\", \"name\": \"What's included in the free business audit for my salon?\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"The free audit reviews your current booking system, client management process, and local online visibility to identify where you're losing potential clients. You'll receive specific recommendations for implementing a booking system, SMS reminders, and SEO improvements tailored to your Newcastle salon.\"}}]}</script>\n <!-- /AI_SLOT:SCHEMA --></div></div></div></div></div></section><!-- /wp:html -->\n \n <section class=\"section\" id=\"ai-beauty-salon-solutions-faq\" style=\"padding-top:48px;padding-bottom:48px;background:var(--nc-section-bg);\"><div class=\"section-content relative\"><div class=\"row\"><div class=\"col small-12 large-12\"><div class=\"col-inner\"><!-- AI_SLOT:FAQ -->",
+          "chars_delta": 1302,
+          "changed_fields": [
+            "content",
+            "modified_gmt"
+          ]
         }
       ],
       "errors": [],
-      "duration_ms": 77,
-      "timestamp": "2026-02-22T22:10:12.135817+00:00",
-      "task_file": "weekly-output-auto-live-gsc/tasks/5a433358-9cdf-4166-a738-dbc65d00c484.json"
+      "duration_ms": 2621,
+      "timestamp": "2026-04-12T23:10:33.521848+00:00",
+      "task_file": "weekly-output-auto-live-gsc/tasks/3799d485-cd50-43ad-a6a2-12eda409a59c.json"
     },
     {
-      "task_id": "78fa9a47-c646-44c3-90c3-7946b3aeaf8c",
+      "task_id": "4a08a9cb-af51-4bec-b435-1f06b77856ba",
+      "status": "ok",
+      "mode": "execute",
+      "results": [
+        {
+          "target": "https://newcastlehub.info:page:30",
+          "status": "skipped",
+          "reason": "cooldown active (24h)"
+        }
+      ],
+      "errors": [],
+      "duration_ms": 1324,
+      "timestamp": "2026-04-12T23:10:36.146196+00:00",
+      "task_file": "weekly-output-auto-live-gsc/tasks/4a08a9cb-af51-4bec-b435-1f06b77856ba.json"
+    },
+    {
+      "task_id": "579430b0-7508-45c2-87b2-5b416c6bfc43",
+      "status": "ok",
+      "mode": "execute",
+      "results": [
+        {
+          "target": "https://newcastlehub.info:page:713",
+          "status": "skipped",
+          "reason": "cooldown active (18h)"
+        }
+      ],
+      "errors": [],
+      "duration_ms": 1103,
+      "timestamp": "2026-04-12T23:10:37.470957+00:00",
+      "task_file": "weekly-output-auto-live-gsc/tasks/579430b0-7508-45c2-87b2-5b416c6bfc43.json"
+    },
+    {
+      "task_id": "59220289-da35-4a92-9c33-da40ab742bbf",
+      "status": "failed",
+      "mode": "execute",
+      "results": [],
+      "errors": [
+        {
+          "target": {
+            "type": "page",
+            "match": {
+              "by": "url",
+              "value": "https://newcastlehub.info/"
+            }
+          },
+          "error": "name 'logger' is not defined"
+        }
+      ],
+      "duration_ms": 2169,
+      "timestamp": "2026-04-12T23:10:38.575201+00:00",
+      "task_file": "weekly-output-auto-live-gsc/tasks/59220289-da35-4a92-9c33-da40ab742bbf.json"
+    },
+    {
+      "task_id": "73748d1b-200e-423f-8a6c-dc06bda5fe10",
+      "status": "ok",
+      "mode": "execute",
+      "results": [
+        {
+          "target": "https://newcastlehub.info:page:30",
+          "status": "skipped",
+          "reason": "cooldown active (24h)"
+        }
+      ],
+      "errors": [],
+      "duration_ms": 1367,
+      "timestamp": "2026-04-12T23:10:40.744867+00:00",
+      "task_file": "weekly-output-auto-live-gsc/tasks/73748d1b-200e-423f-8a6c-dc06bda5fe10.json"
+    },
+    {
+      "task_id": "86a27e8d-4ddf-4c92-ad16-4719b58c00bc",
+      "status": "ok",
+      "mode": "execute",
+      "results": [
+        {
+          "target": "https://newcastlehub.info:page:403",
+          "status": "updated",
+          "warnings": [],
+          "diff_summary": "--- before\n+++ after\n@@ -739,11 +739,11 @@\n         <div class=\"col-inner\">\n           <div class=\"text\">\n             <!-- AI_SLOT:FAQ -->\n-<style>.ai-faq-accordion details{margin:0 0 18px;border:1px solid var(--nc-border-color);border-radius:12px;background:#fff;overflow:hidden}.ai-faq-accordion summary{cursor:pointer;list-style:none;padding:16px 18px;font-weight:700;line-height:1.6}.ai-faq-accordion summary::-webkit-details-marker{display:none}.ai-faq-accordion details[open] summary{border-bottom:1px solid var(--nc-section-bg)}.ai-faq-accordion p{margin:0;padding:16px 18px 18px;line-height:1.8;color:var(--nc-text-secondary)}</style>\n+<style>.ai-faq-accordion details{margin:0 0 18px;border:1px solid #dfe5ee;border-radius:12px;background:#fff;overflow:hidden}.ai-faq-accordion summary{cursor:pointer;list-style:none;padding:16px 18px;font-weight:700;line-height:1.6}.ai-faq-accordion summary::-webkit-details-marker{display:none}.ai-faq-accordion details[open] summary{border-bottom:1px solid #e8edf5}.ai-faq-accordion p{margin:0;padding:16px 18px 18px;line-height:1.8;color:#334155}</style>\n <div class=\"ai-faq-accordion\">\n-<details><summary><strong>How quickly can Newcastle Hub build my website?</strong></summary><p>We specialise in fast website delivery without compromising quality. Most conversion-focused websites are completed within 2-4 weeks, depending on your specific requirements and content readiness.</p></details>\n-<details><summary><strong>Will my new website actually help me get more customers in Newcastle?</strong></summary><p>Yes—our websites are specifically built to convert visitors into customers with clear calls-to-action, optimised layouts, and local SEO. We also combine website design with measurable marketing strategies to drive targeted traffic to your business.</p></details>\n-<details><summary><strong>Do you work with local Newcastle businesses of all sizes?</strong></summary><p>We work with Newcastle businesses across all industries and sizes, from startups to established companies. Our approach is customised to your budget and goals, whether you need a simple website or a full e-commerce solution.</p></details>\n+<details><summary><strong>What makes Newcastle Hub different from other web design agencies in Newcastle?</strong></summary><p>We focus exclusively on conversion-focused websites paired with measurable marketing strategies tailored to the local Newcastle market, so you can see exactly which efforts are bringing in new customers rather than just getting a pretty website.</p></details>\n+<details><summary><strong>Can Newcastle Hub help me if I&#x27;m competing with larger businesses in my industry?</strong></summary><p>Yes—our measurable marketing strategies are designed to help local Newcastle businesses compete effectively by targeting the right customers in your area and optimizing your website to convert them into paying customers.</p></details>\n+<details><summary><strong>What happens after my website launches—do you provide ongoing support?</strong></summary><p>We build your website with easy-to-use drag-and-drop functionality so you can manage updates independently, but we&#x27;re also available to help with any changes or optimization needs as your business grows.</p></details>\n </div>\n <!-- /AI_SLOT:FAQ -->\n \n\n--- before\n+++ after\n@@ -752,7 +752,7 @@\n <!-- /AI_SLOT:CTA -->\n \n             <!-- AI_SLOT:SCHEMA -->\n-<script type=\"application/ld+json\">{\"@context\": \"https://schema.org\", \"@type\": \"FAQPage\", \"mainEntity\": [{\"@type\": \"Question\", \"name\": \"How quickly can Newcastle Hub build my website?\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"We specialise in fast website delivery without compromising quality. Most conversion-focused websites are completed within 2-4 weeks, depending on your specific requirements and content readiness.\"}}, {\"@type\": \"Question\", \"name\": \"Will my new website actually help me get more customers in Newcastle?\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"Yes—our websites are specifically built to convert visitors into customers with clear calls-to-action, optimised layouts, and local SEO. We also combine website design with measurable marketing strategies to drive targeted traffic to your business.\"}}, {\"@type\": \"Question\", \"name\": \"Do you work with local Newcastle businesses of all sizes?\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"We work with Newcastle businesses across all industries and sizes, from startups to established companies. Our approach is customised to your budget and goals, whether you need a simple website or a full e-commerce solution.\"}}]}</script>\n+<script type=\"application/ld+json\">{\"@context\": \"https://schema.org\", \"@type\": \"FAQPage\", \"mainEntity\": [{\"@type\": \"Question\", \"name\": \"What makes Newcastle Hub different from other web design agencies in Newcastle?\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"We focus exclusively on conversion-focused websites paired with measurable marketing strategies tailored to the local Newcastle market, so you can see exactly which efforts are bringing in new customers rather than just getting a pretty website.\"}}, {\"@type\": \"Question\", \"name\": \"Can Newcastle Hub help me if I'm competing with larger businesses in my industry?\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"Yes—our measurable marketing strategies are designed to help local Newcastle businesses compete effectively by targeting the right customers in your area and optimizing your website to convert them into paying customers.\"}}, {\"@type\": \"Question\", \"name\": \"What happens after my website launches—do you provide ongoing support?\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"We build your website with easy-to-use drag-and-drop functionality so you can manage updates independently, but we're also available to help with any changes or optimization needs as your business grows.\"}}]}</script>\n <!-- /AI_SLOT:SCHEMA -->\n           </div>\n         </div>",
+          "chars_delta": 79,
+          "changed_fields": [
+            "content",
+            "modified_gmt"
+          ]
+        }
+      ],
+      "errors": [],
+      "duration_ms": 3354,
+      "timestamp": "2026-04-12T23:10:42.113195+00:00",
+      "task_file": "weekly-output-auto-live-gsc/tasks/86a27e8d-4ddf-4c92-ad16-4719b58c00bc.json"
+    },
+    {
+      "task_id": "9197aaa6-3f1e-41f9-a4ee-7f560bdf0fec",
       "status": "ok",
       "mode": "execute",
       "results": [
         {
           "target": "https://newcastlehub.info:page:403",
           "status": "skipped",
-          "reason": "7d write limit reached (6)"
+          "reason": "cooldown active (12h)"
         }
       ],
       "errors": [],
-      "duration_ms": 154,
-      "timestamp": "2026-02-22T22:10:12.214605+00:00",
-      "task_file": "weekly-output-auto-live-gsc/tasks/78fa9a47-c646-44c3-90c3-7946b3aeaf8c.json"
+      "duration_ms": 1948,
+      "timestamp": "2026-04-12T23:10:45.468234+00:00",
+      "task_file": "weekly-output-auto-live-gsc/tasks/9197aaa6-3f1e-41f9-a4ee-7f560bdf0fec.json"
     },
     {
-      "task_id": "841920a8-f5f8-42d2-bf6e-2a92de7fdf10",
-      "status": "ok",
-      "mode": "execute",
-      "results": [
-        {
-          "target": "https://newcastlehub.info:page:39",
-          "status": "skipped",
-          "reason": "7d write limit reached (5)"
-        }
-      ],
-      "errors": [],
-      "duration_ms": 60,
-      "timestamp": "2026-02-22T22:10:12.368512+00:00",
-      "task_file": "weekly-output-auto-live-gsc/tasks/841920a8-f5f8-42d2-bf6e-2a92de7fdf10.json"
-    },
-    {
-      "task_id": "92753e17-50d1-4eb7-b0aa-2333b919906b",
-      "status": "ok",
-      "mode": "execute",
-      "results": [
-        {
-          "target": "https://newcastlehub.info:page:39",
-          "status": "skipped",
-          "reason": "7d write limit reached (5)"
-        }
-      ],
-      "errors": [],
-      "duration_ms": 82,
-      "timestamp": "2026-02-22T22:10:12.430002+00:00",
-      "task_file": "weekly-output-auto-live-gsc/tasks/92753e17-50d1-4eb7-b0aa-2333b919906b.json"
-    },
-    {
-      "task_id": "a4942af6-2859-40f0-b2ab-480d63eb8859",
+      "task_id": "93d19773-72cd-486a-b9d8-50f3721fb9a6",
       "status": "ok",
       "mode": "execute",
       "results": [
         {
           "target": "https://newcastlehub.info:page:403",
           "status": "skipped",
-          "reason": "7d write limit reached (6)"
+          "reason": "cooldown active (12h)"
         }
       ],
       "errors": [],
-      "duration_ms": 156,
-      "timestamp": "2026-02-22T22:10:12.512492+00:00",
-      "task_file": "weekly-output-auto-live-gsc/tasks/a4942af6-2859-40f0-b2ab-480d63eb8859.json"
+      "duration_ms": 2056,
+      "timestamp": "2026-04-12T23:10:47.416917+00:00",
+      "task_file": "weekly-output-auto-live-gsc/tasks/93d19773-72cd-486a-b9d8-50f3721fb9a6.json"
     },
     {
-      "task_id": "af3ba11d-9a66-4c49-bb46-c0e3ed8ce780",
+      "task_id": "c2096b89-154b-4d51-867a-20df7f1acd54",
       "status": "ok",
       "mode": "execute",
       "results": [
         {
-          "target": "https://newcastlehub.info:page:28",
+          "target": "https://newcastlehub.info:page:713",
           "status": "skipped",
-          "reason": "cooldown active (16h)"
+          "reason": "cooldown active (18h)"
         }
       ],
       "errors": [],
-      "duration_ms": 86,
-      "timestamp": "2026-02-22T22:10:12.669481+00:00",
-      "task_file": "weekly-output-auto-live-gsc/tasks/af3ba11d-9a66-4c49-bb46-c0e3ed8ce780.json"
+      "duration_ms": 1192,
+      "timestamp": "2026-04-12T23:10:49.473799+00:00",
+      "task_file": "weekly-output-auto-live-gsc/tasks/c2096b89-154b-4d51-867a-20df7f1acd54.json"
     },
     {
-      "task_id": "bd058c7b-b7f9-4fd2-b168-8e22c0fa7d4b",
+      "task_id": "eb260e61-03c9-41d9-962f-5fe2ba590535",
       "status": "ok",
       "mode": "execute",
       "results": [
         {
-          "target": "https://newcastlehub.info:page:28",
+          "target": "https://newcastlehub.info:page:713",
           "status": "skipped",
-          "reason": "cooldown active (16h)"
+          "reason": "cooldown active (18h)"
         }
       ],
       "errors": [],
-      "duration_ms": 110,
-      "timestamp": "2026-02-22T22:10:12.771117+00:00",
-      "task_file": "weekly-output-auto-live-gsc/tasks/bd058c7b-b7f9-4fd2-b168-8e22c0fa7d4b.json"
-    },
-    {
-      "task_id": "da35a50f-8c5d-41f4-96ef-7d657534e1d3",
-      "status": "ok",
-      "mode": "execute",
-      "results": [
-        {
-          "target": "https://newcastlehub.info:page:718",
-          "status": "skipped",
-          "reason": "7d write limit reached (5)"
-        }
-      ],
-      "errors": [],
-      "duration_ms": 77,
-      "timestamp": "2026-02-22T22:10:12.874710+00:00",
-      "task_file": "weekly-output-auto-live-gsc/tasks/da35a50f-8c5d-41f4-96ef-7d657534e1d3.json"
-    },
-    {
-      "task_id": "fe3acd76-7bf4-4467-a8cb-756e7d41ad35",
-      "status": "ok",
-      "mode": "execute",
-      "results": [
-        {
-          "target": "https://newcastlehub.info:page:28",
-          "status": "skipped",
-          "reason": "cooldown active (16h)"
-        }
-      ],
-      "errors": [],
-      "duration_ms": 105,
-      "timestamp": "2026-02-22T22:10:12.950188+00:00",
-      "task_file": "weekly-output-auto-live-gsc/tasks/fe3acd76-7bf4-4467-a8cb-756e7d41ad35.json"
+      "duration_ms": 1340,
+      "timestamp": "2026-04-12T23:10:50.666412+00:00",
+      "task_file": "weekly-output-auto-live-gsc/tasks/eb260e61-03c9-41d9-962f-5fe2ba590535.json"
     }
   ],
   "telegram_sent": true

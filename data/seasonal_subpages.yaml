@@ -1,0 +1,30 @@
+pages:
+  - slug: christmas-sweets
+    title: "Christmas Sweets & Candy Australia | SweetsWorld"
+    status: publish
+    generate_content: true
+    prompt_hint: "Christmas sweets and candy page for SweetsWorld.com.au. Australia-wide $16.5 flat shipping. Cover: Christmas gift boxes, festive lolly hampers, Christmas-themed candy from America and UK, stocking stuffers. H1 must include 'Australia'. Link naturally to /seasonal-sweets/. Include a short FAQ section."
+
+  - slug: easter-sweets
+    title: "Easter Chocolate & Sweets Australia | SweetsWorld"
+    status: publish
+    generate_content: true
+    prompt_hint: "Easter chocolate and sweets page for SweetsWorld.com.au. Australia-wide $16.5 flat shipping. Cover: Easter egg alternatives, American Easter candy, bulk Easter lollies for egg hunts, gift boxes for kids. H1 must include 'Australia'. Link naturally to /seasonal-sweets/. Include a short FAQ section."
+
+  - slug: halloween-sweets
+    title: "Halloween Lollies & Candy Australia | SweetsWorld"
+    status: publish
+    generate_content: true
+    prompt_hint: "Halloween lollies and candy page for SweetsWorld.com.au. Australia-wide $16.5 flat shipping. Cover: Halloween candy bags, American Halloween classics (Reese's, Hershey's, candy corn), bulk trick-or-treat lollies, themed gift bags. H1 must include 'Australia'. Link naturally to /seasonal-sweets/ and /candy/american-candy/. Include a short FAQ section."
+
+  - slug: valentines-day-sweets
+    title: "Valentine's Day Sweets & Chocolate Australia | SweetsWorld"
+    status: publish
+    generate_content: true
+    prompt_hint: "Valentine's Day sweets and chocolate page for SweetsWorld.com.au. Australia-wide $16.5 flat shipping. Cover: romantic chocolate gift boxes, personalised lolly bags, American candy for couples, heart-shaped chocolates. H1 must include 'Australia'. Link naturally to /seasonal-sweets/ and /gift/chocolate-box/. Include a short FAQ section."
+
+  - slug: mothers-day-sweets
+    title: "Mother's Day Sweets & Chocolate Gifts Australia | SweetsWorld"
+    status: publish
+    generate_content: true
+    prompt_hint: "Mother's Day sweets and chocolate gift page for SweetsWorld.com.au. Australia-wide $16.5 flat shipping from Maitland NSW. Cover: premium chocolate gift boxes, lolly hampers, luxury sweet gift sets, same-week delivery options. H1 must include 'Australia'. Link naturally to /seasonal-sweets/ and /gift/chocolate-box/. Include a short FAQ section."

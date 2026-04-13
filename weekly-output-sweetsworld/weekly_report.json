@@ -1,0 +1,174 @@
+{
+  "generated_at": "2026-03-27T03:51:34.811097+00:00",
+  "inputs": {
+    "gsc_csv": "weekly-output-sweetsworld/gsc_auto.csv",
+    "ga_csv": "weekly-output-sweetsworld/ga_empty.csv"
+  },
+  "site": {
+    "base_url": "https://sweetsworld.com.au",
+    "weekly_limits": {
+      "default": {
+        "cooldown_hours": 168,
+        "max_write_per_target": 1
+      },
+      "groups": {},
+      "core_paths": [],
+      "service_path_patterns": []
+    },
+    "bootstrap_urls": []
+  },
+  "bootstrap_used": false,
+  "selected_pages": [
+    {
+      "url": "https://sweetsworld.com.au/candy-guides/powerade/",
+      "score": 5,
+      "reasons": [
+        "high_impressions_low_ctr",
+        "rank_5_15"
+      ],
+      "impressions": 4321.0,
+      "clicks": 5.0,
+      "ctr": 0.0012,
+      "position": 5.3,
+      "bounce_rate": 0.0
+    },
+    {
+      "url": "https://sweetsworld.com.au/candy-guides/overeating-takis/",
+      "score": 5,
+      "reasons": [
+        "high_impressions_low_ctr",
+        "rank_5_15"
+      ],
+      "impressions": 476.0,
+      "clicks": 0.0,
+      "ctr": 0.0,
+      "position": 5.3,
+      "bounce_rate": 0.0
+    },
+    {
+      "url": "https://sweetsworld.com.au/candy-guides/jolly-ranchers/",
+      "score": 5,
+      "reasons": [
+        "high_impressions_low_ctr",
+        "rank_5_15"
+      ],
+      "impressions": 384.0,
+      "clicks": 3.0,
+      "ctr": 0.0078,
+      "position": 7.4,
+      "bounce_rate": 0.0
+    }
+  ],
+  "generated_tasks": [
+    {
+      "task_id": "a0835071-e83c-489f-bae9-c068c83e7c23",
+      "task_type": "update_post_or_page",
+      "target_url": "https://sweetsworld.com.au/candy-guides/powerade/",
+      "reasons": [
+        "high_impressions_low_ctr",
+        "rank_5_15"
+      ]
+    },
+    {
+      "task_id": "409146d9-d211-4fdd-8968-32699231f5b4",
+      "task_type": "inject_schema_faq",
+      "target_url": "https://sweetsworld.com.au/candy-guides/powerade/",
+      "reasons": [
+        "high_impressions_low_ctr",
+        "rank_5_15"
+      ]
+    },
+    {
+      "task_id": "91c2e284-f9cf-496f-8384-f8e8579f6c41",
+      "task_type": "append_internal_links",
+      "target_url": "https://sweetsworld.com.au/candy-guides/powerade/",
+      "reasons": [
+        "high_impressions_low_ctr",
+        "rank_5_15"
+      ]
+    },
+    {
+      "task_id": "b19ff1db-52e4-41b7-8087-ed0cf44fb99f",
+      "task_type": "set_meta",
+      "target_url": "https://sweetsworld.com.au/candy-guides/powerade/",
+      "reasons": [
+        "high_impressions_low_ctr",
+        "rank_5_15"
+      ]
+    },
+    {
+      "task_id": "c8ab5fae-21fa-4c6c-bf0d-1e282ab2f059",
+      "task_type": "update_post_or_page",
+      "target_url": "https://sweetsworld.com.au/candy-guides/overeating-takis/",
+      "reasons": [
+        "high_impressions_low_ctr",
+        "rank_5_15"
+      ]
+    },
+    {
+      "task_id": "9688ce71-d4de-4fd1-a59f-76a3c909dcb7",
+      "task_type": "inject_schema_faq",
+      "target_url": "https://sweetsworld.com.au/candy-guides/overeating-takis/",
+      "reasons": [
+        "high_impressions_low_ctr",
+        "rank_5_15"
+      ]
+    },
+    {
+      "task_id": "02d957cf-f431-4ca1-8608-bae43b80bf31",
+      "task_type": "append_internal_links",
+      "target_url": "https://sweetsworld.com.au/candy-guides/overeating-takis/",
+      "reasons": [
+        "high_impressions_low_ctr",
+        "rank_5_15"
+      ]
+    },
+    {
+      "task_id": "3dbf570b-a3e3-46e1-9d3a-4117f076eb4d",
+      "task_type": "set_meta",
+      "target_url": "https://sweetsworld.com.au/candy-guides/overeating-takis/",
+      "reasons": [
+        "high_impressions_low_ctr",
+        "rank_5_15"
+      ]
+    },
+    {
+      "task_id": "bea75008-1c39-48e1-957e-54abd15bd64b",
+      "task_type": "update_post_or_page",
+      "target_url": "https://sweetsworld.com.au/candy-guides/jolly-ranchers/",
+      "reasons": [
+        "high_impressions_low_ctr",
+        "rank_5_15"
+      ]
+    },
+    {
+      "task_id": "b1dfc7b8-1a0e-465c-b4a8-9daaa38cae6e",
+      "task_type": "inject_schema_faq",
+      "target_url": "https://sweetsworld.com.au/candy-guides/jolly-ranchers/",
+      "reasons": [
+        "high_impressions_low_ctr",
+        "rank_5_15"
+      ]
+    },
+    {
+      "task_id": "bc9048b3-936c-4eb8-95a7-256f69a9d3e0",
+      "task_type": "append_internal_links",
+      "target_url": "https://sweetsworld.com.au/candy-guides/jolly-ranchers/",
+      "reasons": [
+        "high_impressions_low_ctr",
+        "rank_5_15"
+      ]
+    },
+    {
+      "task_id": "3eb9edc1-fa21-40ab-8c10-2013e741d0c9",
+      "task_type": "set_meta",
+      "target_url": "https://sweetsworld.com.au/candy-guides/jolly-ranchers/",
+      "reasons": [
+        "high_impressions_low_ctr",
+        "rank_5_15"
+      ]
+    }
+  ],
+  "tasks_dir": "weekly-output-sweetsworld/tasks",
+  "execution_results": []
+}

@@ -1,0 +1,26 @@
+pages:
+  - slug: returns-refunds
+    title: "Returns & Refunds Policy | SweetsWorld Australia"
+    status: publish
+    generate_content: true
+    prompt_hint: "Returns and refunds policy for SweetsWorld.com.au. Food items, Maitland NSW warehouse, flat $16.5 shipping across Australia. Include: what can be returned, food safety policy, contact placeholder, processing time 3-5 business days."
+  - slug: store-locator
+    title: "Find SweetsWorld Near You | Store Locator"
+    status: publish
+    generate_content: true
+    prompt_hint: "Store locator page for SweetsWorld.com.au. Physical partner store: Kards & Kandy (Maitland NSW). Also online with $16.5 flat shipping Australia-wide. Include: online ordering section, physical store section, delivery coverage."
+  - slug: seasonal-sweets
+    title: "Seasonal Sweets & Holiday Candy Australia | SweetsWorld"
+    status: publish
+    generate_content: true
+    prompt_hint: "Seasonal sweets hub for SweetsWorld.com.au. Australia-wide delivery. Cover Christmas candy, Easter chocolate, Halloween lollies, Valentine's Day sweets, Mother's Day gift boxes. Each with H2 heading and 2-3 sentences."
+  - slug: australian-lollies
+    title: "Australian Lollies & Local Sweets | SweetsWorld"
+    status: publish
+    generate_content: true
+    prompt_hint: "Static landing page hub for Australian lollies at SweetsWorld.com.au, not a WooCommerce category archive. Purpose: capture broad Australian lollies intent and route users into shopping pages. Include: short intro, quick links, H2 sections for classic favourites, party lollies, gifts, and FAQs. Link naturally to /candy/old-fashion-lollies/, /chocolate/darrell-lea/, /party-lollies/, /party-lollies/lolly-buffet/, /party-lollies/birthday/, /gift/baskets/, /gift/chocolate-box/, /candy/sour-lollies/, and /store-locator/. Mention Australia-wide delivery without hard delivery-time promises. H1 must contain 'Australia'."
+  - slug: party-sweets
+    title: "Party Sweets & Bulk Lollies for Events Australia | SweetsWorld"
+    status: publish
+    generate_content: true
+    prompt_hint: "Party sweets and bulk lollies page for SweetsWorld.com.au. Target: party planners, kids birthday parties, school events. Bulk lolly bags, candy buffet ideas, delivery lead times."

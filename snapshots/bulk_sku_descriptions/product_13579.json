@@ -1,0 +1,28 @@
+{
+  "id": 13579,
+  "name": "White Knights Chocolate Mint Chews- 120g",
+  "slug": "white-knights-chocolate-mint-chews",
+  "short_description": "<p>We know you miss White Knight chocolate. We do too. However &#8211; just because these sweets have been discontinued doesn’t mean we can’t still experience the flavour we love! These choc mint chews taste just like the original White Knight chocolate. They have a firm yet chewy peppermint centre with a delicious coating of milk chocolate. These choc mint chews are made in Australia from high-quality ingredients. Order a bag today and experience the flavour of your younger days!</p>\n",
+  "description": "<h2><strong>White Knights Chocolate Mint Chews- 120g</strong></h2>\n<p data-start=\"22\" data-end=\"286\">Freshen up your snack time with the cool and chewy goodness of <strong data-start=\"85\" data-end=\"130\">White Knights Chocolate Mint Chews – 120g</strong>, now at Sweets World! These classic Aussie favourites are a perfect mix of smooth peppermint-flavoured chew covered in a thin layer of rich dark chocolate.</p>\n<p data-start=\"288\" data-end=\"539\">Each bite of <strong data-start=\"301\" data-end=\"346\">White Knights Chocolate Mint Chews </strong>offers a refreshing minty flavour with a satisfying chewy texture, making them a great treat for after meals, movie nights, or whenever you're in the mood for something sweet with a cool kick.</p>\n<p data-start=\"541\" data-end=\"774\">Packed in a handy 120g bag, they’re great for sharing with friends or keeping in your bag for a quick treat on the go. Whether you’re a long-time fan or trying them for the first time, these mint chews are sure to become a favourite.</p>\n<p data-start=\"776\" data-end=\"985\">At Sweets World, we bring you the best chocolates, lollies, and snacks from around the globe – and <strong data-start=\"875\" data-end=\"920\">White Knights Chocolate Mint Chews</strong> are a must-try for anyone who loves mint and chocolate together.</p>\n<p data-start=\"987\" data-end=\"1074\" data-is-last-node=\"\" data-is-only-node=\"\">Add a pack to your cart today and enjoy that classic minty chew with a chocolate twist!</p>\n",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sweetsworld.com.au/wp-json/wc/v3/products/13579",
+        "targetHints": {
+          "allow": [
+            "GET",
+            "POST",
+            "PUT",
+            "PATCH",
+            "DELETE"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sweetsworld.com.au/wp-json/wc/v3/products"
+      }
+    ]
+  }
+}

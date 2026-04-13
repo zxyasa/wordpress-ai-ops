@@ -1,0 +1,189 @@
+[20260308T221004Z] start auto-weekly execute
+[20260308T221004Z] primary_auth_failed status=401; trying backup credentials
+[20260308T221004Z] backup_auth_ok status=200
+[20260308T221004Z] auth_precheck_ok status=200 slot=backup
+{
+  "generated_at": "2026-03-08T22:10:10.024998+00:00",
+  "inputs": {
+    "gsc_csv": "weekly-output-auto-live-gsc/gsc_auto.csv",
+    "ga_csv": "weekly-output-auto-live-gsc/ga_empty.csv"
+  },
+  "site": {
+    "base_url": "https://newcastlehub.info",
+    "weekly_limits": {
+      "default": {
+        "cooldown_hours": 24,
+        "max_write_per_target": 3
+      },
+      "groups": {
+        "homepage": {
+          "cooldown_hours": 12,
+          "max_write_per_target": 6
+        },
+        "core": {
+          "cooldown_hours": 16,
+          "max_write_per_target": 5
+        },
+        "service": {
+          "cooldown_hours": 18,
+          "max_write_per_target": 4
+        },
+        "other": {
+          "cooldown_hours": 24,
+          "max_write_per_target": 3
+        }
+      },
+      "core_paths": [
+        "/about/",
+        "/services/",
+        "/contact/",
+        "/free-newcastle-business-audit/"
+      ],
+      "service_path_patterns": [
+        ".*-solutions/?$",
+        ".*-newcastle/?$",
+        "^/services/.*"
+      ]
+    },
+    "bootstrap_urls": [
+      "https://newcastlehub.info/",
+      "https://newcastlehub.info/services/",
+      "https://newcastlehub.info/contact/",
+      "https://newcastlehub.info/free-newcastle-business-audit/"
+    ]
+  },
+  "bootstrap_used": false,
+  "selected_pages": [
+    {
+      "url": "https://newcastlehub.info/beauty-salon-solutions/",
+      "score": 2,
+      "reasons": [
+        "rank_5_15"
+      ],
+      "impressions": 2.0,
+      "clicks": 0.0,
+      "ctr": 0.0,
+      "position": 6.5,
+      "bounce_rate": 0.0
+    }
+  ],
+  "generated_tasks": [
+    {
+      "task_id": "0b05d357-d55b-406f-a44b-49e8d4365db8",
+      "task_type": "update_post_or_page",
+      "target_url": "https://newcastlehub.info/beauty-salon-solutions/",
+      "reasons": [
+        "rank_5_15"
+      ]
+    },
+    {
+      "task_id": "0fe4729b-d002-455b-bca7-5db992041ecc",
+      "task_type": "inject_schema_faq",
+      "target_url": "https://newcastlehub.info/beauty-salon-solutions/",
+      "reasons": [
+        "rank_5_15"
+      ]
+    },
+    {
+      "task_id": "0bc002b2-1a3d-4a30-99b7-57eb0b0abe2e",
+      "task_type": "append_internal_links",
+      "target_url": "https://newcastlehub.info/beauty-salon-solutions/",
+      "reasons": [
+        "rank_5_15"
+      ]
+    },
+    {
+      "task_id": "d882e6b2-6636-4a04-a6b6-4d7ba0a0151f",
+      "task_type": "set_meta",
+      "target_url": "https://newcastlehub.info/beauty-salon-solutions/",
+      "reasons": [
+        "rank_5_15"
+      ]
+    }
+  ],
+  "tasks_dir": "weekly-output-auto-live-gsc/tasks",
+  "execution_results": [
+    {
+      "task_id": "0b05d357-d55b-406f-a44b-49e8d4365db8",
+      "status": "ok",
+      "mode": "execute",
+      "results": [
+        {
+          "target": "https://newcastlehub.info:page:713",
+          "status": "updated",
+          "warnings": [],
+          "diff_summary": "--- before\n+++ after\n@@ -1,4 +1,6 @@\n-<!-- wp:html --><section class=\"section\" style=\"padding-top:56px;padding-bottom:56px;\"><div class=\"section-content relative\"><div class=\"row\"><div class=\"col small-12 large-12\"><div class=\"col-inner\"><!-- AI_SLOT:INTRO --><h1>Beauty & Hair Salon Solutions</h1><p><strong>Convert DMs into a reliable booking and client-retention system.</strong></p><!-- /AI_SLOT:INTRO --><h2>Are you facing these issues?</h2><ul><li>Booking requests are scattered in DMs</li><li>No reminder workflow and high no-show risk</li><li>No structured client database</li></ul><h2>How we help</h2><ul><li>Booking system setup</li><li>SMS reminder flow</li><li>CRM setup for repeat clients</li><li>Google local SEO for salon search</li></ul><h2>Expected outcomes</h2><ul><li>Fewer no-shows</li><li>Higher rebooking rate</li><li>Better local visibility</li></ul><!-- AI_SLOT:CTA -->\n+<!-- wp:html --><section class=\"section\" style=\"padding-top:56px;padding-bottom:56px;\"><div class=\"section-content relative\"><div class=\"row\"><div class=\"col small-12 large-12\"><div class=\"col-inner\"><!-- AI_SLOT:INTRO -->\n+<p>This section was refreshed by WordPress AI Ops to improve click-through and first-screen clarity. Signals: rank_5_15.</p>\n+<!-- /AI_SLOT:INTRO --><h2>Are you facing these issues?</h2><ul><li>Booking requests are scattered in DMs</li><li>No reminder workflow and high no-show risk</li><li>No structured client database</li></ul><h2>How we help</h2><ul><li>Booking system setup</li><li>SMS reminder flow</li><li>CRM setup for repeat clients</li><li>Google local SEO for salon search</li></ul><h2>Expected outcomes</h2><ul><li>Fewer no-shows</li><li>Higher rebooking rate</li><li>Better local visibility</li></ul><!-- AI_SLOT:CTA -->\n <p><a class=\"button primary is-large\" href=\"https://newcastlehub.info/booking-system-newcastle/\">I Provide Services — Build My Booking System</a> <a class=\"button secondary is-large\" href=\"https://newcastlehub.info/free-newcastle-business-audit/\">Get Free Business Audit</a></p><p>Service path: <a href=\"https://newcastlehub.info/booking-system-newcastle/\">Booking System</a> + <a href=\"https://newcastlehub.info/google-business-optimisation-newcastle/\">Google Growth</a> + <a href=\"https://newcastlehub.info/website-service/\">Website</a></p>\n <p>Related reads: <a href=\"https://newcastlehub.info/ecommerce-setup-newcastle/\">Ecommerce Setup Newcastle</a></p>\n <!-- /AI_SLOT:CTA --><!-- AI_SLOT:SCHEMA --><script type=\"application/ld+json\">{\"@context\":\"https://schema.org\",\"@type\":\"Service\",\"name\":\"Beauty & Hair Salon Solutions\",\"provider\":{\"@type\":\"Organization\",\"name\":\"Newcastle Hub\"},\"areaServed\":\"Newcastle\"}</script><!-- /AI_SLOT:SCHEMA --></div></div></div></div></div></section><!-- /wp:html -->\\n\\n<section class=\"section\" id=\"ai-beauty-salon-solutions-faq\" style=\"padding-top:48px;padding-bottom:48px;background:#f6f8fb;\"><div class=\"section-content relative\"><div class=\"row\"><div class=\"col small-12 large-12\"><div class=\"col-inner\"><!-- AI_SLOT:FAQ --><h2>Beauty & Hair Salon FAQ</h2><style>.ai-faq-accordion details{margin:0 0 18px;border:1px solid #dfe5ee;border-radius:12px;background:#fff;overflow:hidden}.ai-faq-accordion summary{cursor:pointer;list-style:none;padding:16px 18px;font-weight:700;line-height:1.6}.ai-faq-accordion summary::-webkit-details-marker{display:none}.ai-faq-accordion details[open] summary{border-bottom:1px solid #e8edf5}.ai-faq-accordion p{margin:0;padding:16px 18px 18px;line-height:1.8;color:#334155}</style><div class=\"ai-faq-accordion\"><details><summary><strong>Can this reduce no-shows?</strong></summary><p>Yes. Booking flow cleanup with reminders and follow-up logic usually lowers no-show rates.</p></details><details><summary><strong>Do I need to replace my current tools?</strong></summary><p>Not always. We can often improve process and conversion around your existing tools first.</p></details><details><summary><strong>What should we prioritize first?</strong></summary><p>A clear booking funnel and profile optimisation, then retention and rebooking workflow.</p></details></div><!-- /AI_SLOT:FAQ --><!-- AI_SLOT:CTA --><p><a class=\"button primary is-large\" href=\"https://newcastlehub.info/free-newcastle-business-audit/\">Get Salon Growth Audit</a></p><p>Related: <a href=\"https://newcastlehub.info/services/\">Our Services</a> | <a href=\"https://newcastlehub.info/contact/\">Book a Strategy Call</a></p><!-- /AI_SLOT:CTA --><!-- AI_SLOT:SCHEMA --><script type=\"application/ld+json\">{\"@context\": \"https://schema.org\", \"@type\": \"FAQPage\", \"mainEntity\": [{\"@type\": \"Question\", \"name\": \"Can this reduce no-shows?\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"Yes. Booking flow cleanup with reminders and follow-up logic usually lowers no-show rates.\"}}, {\"@type\": \"Question\", \"name\": \"Do I need to replace my current tools?\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"Not always. We can often improve process and conversion around your existing tools first.\"}}, {\"@type\": \"Question\", \"name\": \"What should we prioritize first?\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"A clear booking funnel and profile optimisation, then retention and rebooking workflow.\"}}]}</script><!-- /AI_SLOT:SCHEMA --></div></div></div></div></section>\\n",
+          "chars_delta": 0,
+          "changed_fields": [
+            "content",
+            "modified_gmt"
+          ]
+        }
+      ],
+      "errors": [],
+      "duration_ms": 1244,
+      "timestamp": "2026-03-08T22:10:08.545024+00:00",
+      "task_file": "weekly-output-auto-live-gsc/tasks/0b05d357-d55b-406f-a44b-49e8d4365db8.json"
+    },
+    {
+      "task_id": "0bc002b2-1a3d-4a30-99b7-57eb0b0abe2e",
+      "status": "ok",
+      "mode": "execute",
+      "results": [
+        {
+          "target": "https://newcastlehub.info:page:713",
+          "status": "skipped",
+          "reason": "cooldown active (18h)"
+        }
+      ],
+      "errors": [],
+      "duration_ms": 82,
+      "timestamp": "2026-03-08T22:10:09.793037+00:00",
+      "task_file": "weekly-output-auto-live-gsc/tasks/0bc002b2-1a3d-4a30-99b7-57eb0b0abe2e.json"
+    },
+    {
+      "task_id": "0fe4729b-d002-455b-bca7-5db992041ecc",
+      "status": "ok",
+      "mode": "execute",
+      "results": [
+        {
+          "target": "https://newcastlehub.info:page:713",
+          "status": "skipped",
+          "reason": "cooldown active (18h)"
+        }
+      ],
+      "errors": [],
+      "duration_ms": 67,
+      "timestamp": "2026-03-08T22:10:09.875676+00:00",
+      "task_file": "weekly-output-auto-live-gsc/tasks/0fe4729b-d002-455b-bca7-5db992041ecc.json"
+    },
+    {
+      "task_id": "d882e6b2-6636-4a04-a6b6-4d7ba0a0151f",
+      "status": "ok",
+      "mode": "execute",
+      "results": [
+        {
+          "target": "https://newcastlehub.info:page:713",
+          "status": "skipped",
+          "reason": "cooldown active (18h)"
+        }
+      ],
+      "errors": [],
+      "duration_ms": 80,
+      "timestamp": "2026-03-08T22:10:09.944694+00:00",
+      "task_file": "weekly-output-auto-live-gsc/tasks/d882e6b2-6636-4a04-a6b6-4d7ba0a0151f.json"
+    }
+  ],
+  "telegram_sent": true
+}
+{
+  "status": "ok",
+  "source": "weekly-output-auto-live-gsc/weekly_report.json",
+  "output": "weekly-output-auto-live-gsc/weekly_report.md",
+  "chars": 907
+}
+{
+  "status": "ok",
+  "out": "STATUS.md"
+}
+[20260308T221004Z] done

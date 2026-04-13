@@ -1,0 +1,26 @@
+{
+  "id": 14145,
+  "name": "Zing Jelly Fruit 40g",
+  "short_description": "<p><strong>Zing Jelly Fruits</strong> <strong>40g</strong> is a yummy, fruity candy full of juicy, zingy flavour that will zing in your mouth with every bite! Tender, chewy, and bursting with a blast of flavour, they are great on the go or for sharing a chew with your friends. Presented in a handy 40g pack, it’s easy to take with you and enjoy as a tasty snack.</p>\n",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sweetsworld.com.au/wp-json/wc/v3/products/14145",
+        "targetHints": {
+          "allow": [
+            "GET",
+            "POST",
+            "PUT",
+            "PATCH",
+            "DELETE"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sweetsworld.com.au/wp-json/wc/v3/products"
+      }
+    ]
+  }
+}

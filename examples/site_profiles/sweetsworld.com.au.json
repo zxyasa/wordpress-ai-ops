@@ -1,0 +1,40 @@
+{
+  "site": {
+    "base_url": "https://sweetsworld.com.au",
+    "auth_ref": "SWEETSWORLD",
+    "target_type": "post",
+    "use_append_faq": true,
+    "faq_context": "candy_blog",
+    "phone_display": null,
+    "phone_tel": null,
+    "email": null,
+    "contact_path": "/contact/"
+  },
+  "scan_policy": {
+    "resource_bases": [
+      "posts"
+    ],
+    "required_slots": {
+      "posts": []
+    },
+    "require_schema": {
+      "posts": false
+    },
+    "email_check_resource_bases": [],
+    "phone_check_resource_bases": [],
+    "link_check_resource_bases": [
+      "posts"
+    ],
+    "ignored_resources": []
+  },
+  "weekly_limits": {
+    "default": {
+      "cooldown_hours": 168,
+      "max_write_per_target": 4
+    },
+    "groups": {},
+    "core_paths": [],
+    "service_path_patterns": []
+  },
+  "bootstrap_urls": []
+}

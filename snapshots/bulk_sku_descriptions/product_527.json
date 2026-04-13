@@ -1,0 +1,27 @@
+{
+  "id": 527,
+  "name": "Darrell Lea Dad's Bag 2025",
+  "short_description": "<div class=\"flex-1 overflow-hidden\">\n<div class=\"react-scroll-to-bottom--css-kgsdr-79elbk h-full\">\n<div class=\"react-scroll-to-bottom--css-kgsdr-1n7m0yu\">\n<div class=\"flex flex-col text-sm gizmo:pb-9 dark:bg-gray-800 gizmo:dark:bg-transparent\">\n<div class=\"w-full text-token-text-primary border-b border-black/10 gizmo:border-0 dark:border-gray-900/50 gizmo:dark:border-0 bg-gray-50 gizmo:bg-transparent dark:bg-[#444654] gizmo:dark:bg-transparent\" data-testid=\"conversation-turn-17\">\n<div class=\"p-4 gizmo:py-2 justify-center text-base md:gap-6 md:py-6 m-auto\">\n<div class=\"flex flex-1 gap-4 text-base mx-auto md:gap-6 gizmo:gap-3 gizmo:md:px-5 gizmo:lg:px-1 gizmo:xl:px-5 md:max-w-2xl lg:max-w-[38rem] gizmo:md:max-w-3xl gizmo:lg:max-w-[40rem] gizmo:xl:max-w-[48rem] xl:max-w-3xl } group final-completion\">\n<div class=\"relative flex w-[calc(100%-50px)] flex-col gizmo:w-full lg:w-[calc(100%-115px)] agent-turn\">\n<div class=\"flex-col gap-1 md:gap-3\">\n<div class=\"flex flex-grow flex-col max-w-full gap-3 gizmo:gap-0\">\n<div class=\"min-h-[20px] text-message peer flex flex-col items-start gap-3 whitespace-pre-wrap break-words peer-[.text-message]:mt-5 overflow-x-auto\" data-message-author-role=\"assistant\" data-message-id=\"94060aae-5acb-4200-a8a8-55a7103cebce\">\n<div class=\"markdown prose w-full break-words dark:prose-invert dark\">\n<p>Darrell Lea Father&#8217;s Dad’s Bag, exclusively available at Sweetsworld, offers a delectable journey through a variety of premium lollies, chocolates, and licorice. With quality, variety, and accessibility, it&#8217;s the perfect choice for satisfying your sweet cravings or sharing with loved ones. Elevate your lolly experience with Darrell Lea Dad’s Bag!</p>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n",
+  "description": "<div class=\"css-1oteowz\">\n<ul id=\"sublist\">\n<li>Darrell Lea Father's Day Confectionery Dad's Bag</li>\n<li>Pack contents: </li>\n<ul id=\"sublist\">\n<li>Rocklea Road Milk Chocolate Block 170g</li>\n<li>Bullets Milk Chocolate Liquorice 204g</li>\n<li>Allsorts Liquorice 270g</li>\n<li>Batch 37 Fresh Liquorice 260g</li>\n<li>Lifesavers Fruit Pastilles 34g</li>\n</ul>\n<li>Comes with Darrell Lea branded Dad's Bag</li>\n<li>Palm oil free</li>\n<li>Aussie made</li>\n<li><strong>Please note:</strong> contains milk, peanuts, soy, sulphites and gluten (wheat, barley). May contain egg and tree nuts.</li>\n</ul>\n</div>\n<div class=\"css-1458lp3\">\n<div class=\"css-17nm2ad\">\n<div role=\"button\" aria-expanded=\"false\" class=\"css-1suvo10\">\n<div class=\"css-f3pdb3\">\n<p> </p>\n</div>\n</div>\n</div>\n</div>\n",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sweetsworld.com.au/wp-json/wc/v3/products/527",
+        "targetHints": {
+          "allow": [
+            "GET",
+            "POST",
+            "PUT",
+            "PATCH",
+            "DELETE"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sweetsworld.com.au/wp-json/wc/v3/products"
+      }
+    ]
+  }
+}

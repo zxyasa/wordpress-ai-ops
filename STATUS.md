@@ -1,4 +1,4 @@
-# Project Status (2026-02-22 22:10:14Z)
+# Project Status (2026-04-12 23:10:53Z)
 
 ## Environment
 - base_url: `https://newcastlehub.info`
@@ -7,30 +7,30 @@
 
 ## State Files
 - audit_log: `.wp-ai-ops-state-live/audit_log.jsonl`
-- executed_tasks: `.wp-ai-ops-state-live/executed_tasks.json` (count=0)
+- executed_tasks: `.wp-ai-ops-state-live/executed_tasks.json` (count=393)
 - write_limits: `.wp-ai-ops-state-live/write_limits.json`
 
 ## Recent Changes (from audit_log tail)
-- 2026-02-18T06:28:39.192265+00:00 task=f3fcd922-4852-4421-ad46-cc59f8b8bdd9 skipped target=https://newcastlehub.info:page:403
-- 2026-02-18T06:28:39.334416+00:00 task=f96db36d-2de0-4822-a72a-80f8a1ecd52f skipped target=https://newcastlehub.info:page:718
-- 2026-02-18T06:28:39.404340+00:00 task=fac2f86f-dd43-401d-97ff-50b0da382769 skipped target=https://newcastlehub.info:page:39
-- 2026-02-18T06:28:39.473193+00:00 task=ffde4947-03f7-4319-95e8-b4dcd2988acd skipped target=https://newcastlehub.info:page:718
-- 2026-02-22T22:10:08.295138+00:00 task=042e19a7-1f54-46d0-94cc-913f7652705a skipped target=https://newcastlehub.info:page:39
-- 2026-02-22T22:10:08.936885+00:00 task=0f00c574-3ea5-4034-a39b-f9a24627268f skipped target=https://newcastlehub.info:page:403
-- 2026-02-22T22:10:10.219788+00:00 task=17a53398-8d3b-414b-9657-c18fd3370a67 skipped target=https://newcastlehub.info:page:39
-- 2026-02-22T22:10:10.322736+00:00 task=18429911-98f2-4c15-804e-e6f49faf6e08 skipped target=https://newcastlehub.info:page:403
-- 2026-02-22T22:10:10.471552+00:00 task=25339949-24fc-45b4-80e7-b1eb10c30945 skipped target=https://newcastlehub.info:page:718
-- 2026-02-22T22:10:10.996545+00:00 task=356a67d6-3f86-4d7a-9430-dd56c028293b updated target=https://newcastlehub.info:page:28 fields=content,modified_gmt
-- 2026-02-22T22:10:12.062684+00:00 task=52b730a3-da9c-4708-aee7-e3a6cfe6fac1 skipped target=https://newcastlehub.info:page:718
-- 2026-02-22T22:10:12.135817+00:00 task=5a433358-9cdf-4166-a738-dbc65d00c484 skipped target=https://newcastlehub.info:page:718
-- 2026-02-22T22:10:12.214605+00:00 task=78fa9a47-c646-44c3-90c3-7946b3aeaf8c skipped target=https://newcastlehub.info:page:403
-- 2026-02-22T22:10:12.368512+00:00 task=841920a8-f5f8-42d2-bf6e-2a92de7fdf10 skipped target=https://newcastlehub.info:page:39
-- 2026-02-22T22:10:12.430002+00:00 task=92753e17-50d1-4eb7-b0aa-2333b919906b skipped target=https://newcastlehub.info:page:39
-- 2026-02-22T22:10:12.512492+00:00 task=a4942af6-2859-40f0-b2ab-480d63eb8859 skipped target=https://newcastlehub.info:page:403
-- 2026-02-22T22:10:12.669481+00:00 task=af3ba11d-9a66-4c49-bb46-c0e3ed8ce780 skipped target=https://newcastlehub.info:page:28
-- 2026-02-22T22:10:12.771117+00:00 task=bd058c7b-b7f9-4fd2-b168-8e22c0fa7d4b skipped target=https://newcastlehub.info:page:28
-- 2026-02-22T22:10:12.874710+00:00 task=da35a50f-8c5d-41f4-96ef-7d657534e1d3 skipped target=https://newcastlehub.info:page:718
-- 2026-02-22T22:10:12.950188+00:00 task=fe3acd76-7bf4-4467-a8cb-756e7d41ad35 skipped target=https://newcastlehub.info:page:28
+- 2026-03-29T22:10:25.887645+00:00 task=b744bf72-ddf0-4f70-916d-7b2a5a8eea5b updated target=https://newcastlehub.info:page:684 fields=content,modified_gmt
+- 2026-03-29T22:10:26.518654+00:00 task=d31ed2c3-b1c2-4c4a-98d1-e6c0787c6699 skipped target=https://newcastlehub.info:page:403
+- 2026-03-29T22:10:26.668836+00:00 task=defc69a8-d7fc-4037-82d7-f4d8e3182d49 skipped target=https://newcastlehub.info:page:684
+- 2026-03-29T22:10:26.742211+00:00 task=f05c68e6-8b28-4eaf-94e6-fba5786d796a skipped target=https://newcastlehub.info:page:30
+- 2026-03-29T22:10:26.812793+00:00 task=f51fccd8-dae9-474d-a416-d3eb976f46bb skipped target=https://newcastlehub.info:page:684
+- 2026-04-05T23:10:14.742980+00:00 task=5deffef3-fc80-453e-b436-f3d949d2f9ce updated target=https://newcastlehub.info:page:403 fields=rank_math_description,rank_math_focus_keyword,rank_math_title
+- 2026-04-05T23:10:16.657147+00:00 task=76dfcf36-2cb7-499f-8a61-0c956f15d4d2 skipped target=https://newcastlehub.info:page:403
+- 2026-04-05T23:10:16.843335+00:00 task=7b5538b6-4d94-473e-b7ab-e04a266b0cf0 skipped target=https://newcastlehub.info:page:403
+- 2026-04-05T23:10:17.049995+00:00 task=c9c7bc17-9401-4016-b74f-74c0ce566dd3 skipped target=https://newcastlehub.info:page:403
+- 2026-04-12T23:10:29.061592+00:00 task=023fefd8-ffa9-412b-9f36-76bdb856c28d updated target=https://newcastlehub.info:page:30 fields=content,modified_gmt
+- 2026-04-12T23:10:31.954866+00:00 task=2f7776fa-c0d5-4ef0-baa1-8906c9ba3ba8 skipped target=https://newcastlehub.info:page:30
+- 2026-04-12T23:10:33.521848+00:00 task=3799d485-cd50-43ad-a6a2-12eda409a59c updated target=https://newcastlehub.info:page:713 fields=content,modified_gmt
+- 2026-04-12T23:10:36.146196+00:00 task=4a08a9cb-af51-4bec-b435-1f06b77856ba skipped target=https://newcastlehub.info:page:30
+- 2026-04-12T23:10:37.470957+00:00 task=579430b0-7508-45c2-87b2-5b416c6bfc43 skipped target=https://newcastlehub.info:page:713
+- 2026-04-12T23:10:40.744867+00:00 task=73748d1b-200e-423f-8a6c-dc06bda5fe10 skipped target=https://newcastlehub.info:page:30
+- 2026-04-12T23:10:42.113195+00:00 task=86a27e8d-4ddf-4c92-ad16-4719b58c00bc updated target=https://newcastlehub.info:page:403 fields=content,modified_gmt
+- 2026-04-12T23:10:45.468234+00:00 task=9197aaa6-3f1e-41f9-a4ee-7f560bdf0fec skipped target=https://newcastlehub.info:page:403
+- 2026-04-12T23:10:47.416917+00:00 task=93d19773-72cd-486a-b9d8-50f3721fb9a6 skipped target=https://newcastlehub.info:page:403
+- 2026-04-12T23:10:49.473799+00:00 task=c2096b89-154b-4d51-867a-20df7f1acd54 skipped target=https://newcastlehub.info:page:713
+- 2026-04-12T23:10:50.666412+00:00 task=eb260e61-03c9-41d9-962f-5fe2ba590535 skipped target=https://newcastlehub.info:page:713
 
 ## Next Actions (suggested)
 1. Run plan-only before any write:

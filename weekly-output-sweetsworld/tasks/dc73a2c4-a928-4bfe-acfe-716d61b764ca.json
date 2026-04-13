@@ -1,0 +1,70 @@
+{
+  "task_id": "dc73a2c4-a928-4bfe-acfe-716d61b764ca",
+  "created_at": "2026-03-27T03:51:08.049829+00:00",
+  "mode": "plan",
+  "site": {
+    "base_url": "https://sweetsworld.com.au",
+    "weekly_limits": {
+      "default": {
+        "cooldown_hours": 168,
+        "max_write_per_target": 1
+      },
+      "groups": {},
+      "core_paths": [],
+      "service_path_patterns": []
+    },
+    "bootstrap_urls": []
+  },
+  "task_type": "inject_schema_faq",
+  "priority": "medium",
+  "targets": [
+    {
+      "type": "page",
+      "match": {
+        "by": "url",
+        "value": "https://sweetsworld.com.au/candy-guides/powerade/"
+      }
+    }
+  ],
+  "operations": [
+    {
+      "op": "replace",
+      "scope": "content",
+      "selector": {
+        "kind": "html_comment",
+        "value": "AI_SLOT:FAQ"
+      },
+      "content": {
+        "format": "json",
+        "value": {
+          "faqs": [
+            {
+              "question": "Is Powerade suitable for everyday drinking or just for sports?",
+              "answer": "Powerade is specifically formulated for athletes and intense physical activity rather than everyday consumption. Due to its high sugar content (34g per 20oz bottle), it's best reserved for during or after workouts, not as a regular beverage."
+            },
+            {
+              "question": "Does Powerade contain caffeine like other energy drinks?",
+              "answer": "No, Powerade does not contain caffeine, making it a safer choice for those sensitive to caffeine or who don't want to disrupt their sleep patterns before evening workouts."
+            },
+            {
+              "question": "What electrolytes does Powerade contain and why do I need them?",
+              "answer": "Powerade contains sodium, potassium, and magnesium that help replenish fluids and minerals lost through sweat during intense exercise, making it beneficial for athletes engaged in prolonged physical activity or sports."
+            }
+          ],
+          "inject_json_ld": true,
+          "schema_slot": "AI_SLOT:SCHEMA"
+        }
+      },
+      "safety": {
+        "max_chars_change": 1600,
+        "dry_run_diff": true,
+        "allow_full_replace": false
+      }
+    }
+  ],
+  "limits": {
+    "cooldown_hours": 168,
+    "max_write_per_target": 1
+  },
+  "notes": "auto-cycle faq/schema refresh for https://sweetsworld.com.au/candy-guides/powerade/ (limit_group=other)"
+}

@@ -1,0 +1,88 @@
+{
+  "task_id": "4a08a9cb-af51-4bec-b435-1f06b77856ba",
+  "created_at": "2026-04-12T23:10:15.105996+00:00",
+  "mode": "execute",
+  "site": {
+    "base_url": "https://newcastlehub.info",
+    "weekly_limits": {
+      "default": {
+        "cooldown_hours": 24,
+        "max_write_per_target": 3
+      },
+      "groups": {
+        "homepage": {
+          "cooldown_hours": 12,
+          "max_write_per_target": 6
+        },
+        "core": {
+          "cooldown_hours": 16,
+          "max_write_per_target": 5
+        },
+        "service": {
+          "cooldown_hours": 18,
+          "max_write_per_target": 4
+        },
+        "other": {
+          "cooldown_hours": 24,
+          "max_write_per_target": 3
+        }
+      },
+      "core_paths": [
+        "/about/",
+        "/services/",
+        "/contact/",
+        "/free-newcastle-business-audit/"
+      ],
+      "service_path_patterns": [
+        ".*-solutions/?$",
+        ".*-newcastle/?$",
+        "^/services/.*"
+      ]
+    },
+    "bootstrap_urls": [
+      "https://newcastlehub.info/",
+      "https://newcastlehub.info/services/",
+      "https://newcastlehub.info/contact/",
+      "https://newcastlehub.info/free-newcastle-business-audit/"
+    ]
+  },
+  "task_type": "set_meta",
+  "priority": "medium",
+  "targets": [
+    {
+      "type": "page",
+      "match": {
+        "by": "url",
+        "value": "https://newcastlehub.info/home/"
+      }
+    }
+  ],
+  "operations": [
+    {
+      "op": "set_meta",
+      "scope": "meta",
+      "selector": {
+        "kind": "html_comment",
+        "value": "AI_SLOT:SCHEMA"
+      },
+      "content": {
+        "format": "json",
+        "value": {
+          "rank_math_title": "Fast, Conversion-Focused Website Design Newcastle",
+          "rank_math_description": "Newcastle Hub builds fast websites & measurable marketing for local businesses. Get more customers in 2-4 weeks with proven results.",
+          "rank_math_focus_keyword": "website design Newcastle"
+        }
+      },
+      "safety": {
+        "max_chars_change": 500,
+        "dry_run_diff": true,
+        "allow_full_replace": false
+      }
+    }
+  ],
+  "limits": {
+    "cooldown_hours": 24,
+    "max_write_per_target": 3
+  },
+  "notes": "auto-cycle meta refresh for https://newcastlehub.info/home/ (limit_group=other)"
+}

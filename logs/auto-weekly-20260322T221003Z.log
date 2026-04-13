@@ -1,0 +1,196 @@
+[20260322T221003Z] start auto-weekly execute
+[20260322T221003Z] primary_auth_failed status=401; trying backup credentials
+[20260322T221003Z] backup_auth_ok status=200
+[20260322T221003Z] auth_precheck_ok status=200 slot=backup
+{
+  "generated_at": "2026-03-22T22:10:15.906608+00:00",
+  "inputs": {
+    "gsc_csv": "weekly-output-auto-live-gsc/gsc_auto.csv",
+    "ga_csv": "weekly-output-auto-live-gsc/ga_empty.csv"
+  },
+  "site": {
+    "base_url": "https://newcastlehub.info",
+    "weekly_limits": {
+      "default": {
+        "cooldown_hours": 24,
+        "max_write_per_target": 3
+      },
+      "groups": {
+        "homepage": {
+          "cooldown_hours": 12,
+          "max_write_per_target": 6
+        },
+        "core": {
+          "cooldown_hours": 16,
+          "max_write_per_target": 5
+        },
+        "service": {
+          "cooldown_hours": 18,
+          "max_write_per_target": 4
+        },
+        "other": {
+          "cooldown_hours": 24,
+          "max_write_per_target": 3
+        }
+      },
+      "core_paths": [
+        "/about/",
+        "/services/",
+        "/contact/",
+        "/free-newcastle-business-audit/"
+      ],
+      "service_path_patterns": [
+        ".*-solutions/?$",
+        ".*-newcastle/?$",
+        "^/services/.*"
+      ]
+    },
+    "bootstrap_urls": [
+      "https://newcastlehub.info/",
+      "https://newcastlehub.info/services/",
+      "https://newcastlehub.info/contact/",
+      "https://newcastlehub.info/free-newcastle-business-audit/"
+    ]
+  },
+  "bootstrap_used": false,
+  "selected_pages": [
+    {
+      "url": "https://newcastlehub.info/",
+      "score": 2,
+      "reasons": [
+        "rank_5_15"
+      ],
+      "impressions": 6.0,
+      "clicks": 0.0,
+      "ctr": 0.0,
+      "position": 7.2,
+      "bounce_rate": 0.0
+    }
+  ],
+  "generated_tasks": [
+    {
+      "task_id": "e6208f43-70c9-41c4-a7cc-0fa98ba190f9",
+      "task_type": "update_post_or_page",
+      "target_url": "https://newcastlehub.info/",
+      "reasons": [
+        "rank_5_15"
+      ]
+    },
+    {
+      "task_id": "c8f74ffe-01cd-48bd-a57e-95010c35763d",
+      "task_type": "inject_schema_faq",
+      "target_url": "https://newcastlehub.info/",
+      "reasons": [
+        "rank_5_15"
+      ]
+    },
+    {
+      "task_id": "2f564ccd-f520-43b4-8172-0293e38516d1",
+      "task_type": "append_internal_links",
+      "target_url": "https://newcastlehub.info/",
+      "reasons": [
+        "rank_5_15"
+      ]
+    },
+    {
+      "task_id": "a02f2335-7941-4e9d-95d1-b3da6f226365",
+      "task_type": "set_meta",
+      "target_url": "https://newcastlehub.info/",
+      "reasons": [
+        "rank_5_15"
+      ]
+    }
+  ],
+  "tasks_dir": "weekly-output-auto-live-gsc/tasks",
+  "execution_results": [
+    {
+      "task_id": "2f564ccd-f520-43b4-8172-0293e38516d1",
+      "status": "ok",
+      "mode": "execute",
+      "results": [
+        {
+          "target": "https://newcastlehub.info:page:403",
+          "status": "noop",
+          "warnings": [
+            "no new links inserted for slot AI_SLOT:CTA"
+          ]
+        }
+      ],
+      "errors": [],
+      "duration_ms": 1536,
+      "timestamp": "2026-03-22T22:10:08.787259+00:00",
+      "task_file": "weekly-output-auto-live-gsc/tasks/2f564ccd-f520-43b4-8172-0293e38516d1.json"
+    },
+    {
+      "task_id": "a02f2335-7941-4e9d-95d1-b3da6f226365",
+      "status": "failed",
+      "mode": "execute",
+      "results": [],
+      "errors": [
+        {
+          "target": {
+            "type": "page",
+            "match": {
+              "by": "url",
+              "value": "https://newcastlehub.info/"
+            }
+          },
+          "error": "POST https://newcastlehub.info/wp-json/wp/v2/pages/403 failed: 403 {\"code\":\"rest_cannot_update\",\"message\":\"Sorry, you are not allowed to edit the rank_math_title custom field.\",\"data\":{\"key\":\"rank_math_focus_keyword\",\"status\":403},\"additional_data\":[{\"key\":\"rank_math_title\",\"status\":403},{\"key\":\"rank_math_description\",\"status\":403}],\"additional_errors\":[{\"code\":\"rest_cannot_update\",\"message\":\"Sorry, you are not allowed to edit the rank_math_description custom field.\",\"data\":{\"key\":\"rank_math_focus_keyword\",\"status\":403},\"additional_data\":[{\"key\":\"rank_math_titl"
+        }
+      ],
+      "duration_ms": 4708,
+      "timestamp": "2026-03-22T22:10:10.324492+00:00",
+      "task_file": "weekly-output-auto-live-gsc/tasks/a02f2335-7941-4e9d-95d1-b3da6f226365.json"
+    },
+    {
+      "task_id": "c8f74ffe-01cd-48bd-a57e-95010c35763d",
+      "status": "ok",
+      "mode": "execute",
+      "results": [
+        {
+          "target": "https://newcastlehub.info:page:403",
+          "status": "updated",
+          "warnings": [],
+          "diff_summary": "--- before\n+++ after\n@@ -741,9 +741,9 @@\n             <!-- AI_SLOT:FAQ -->\n <style>.ai-faq-accordion details{margin:0 0 18px;border:1px solid #dfe5ee;border-radius:12px;background:#fff;overflow:hidden}.ai-faq-accordion summary{cursor:pointer;list-style:none;padding:16px 18px;font-weight:700;line-height:1.6}.ai-faq-accordion summary::-webkit-details-marker{display:none}.ai-faq-accordion details[open] summary{border-bottom:1px solid #e8edf5}.ai-faq-accordion p{margin:0;padding:16px 18px 18px;line-height:1.8;color:#334155}</style>\n <div class=\"ai-faq-accordion\">\n-<details><summary><strong>What is included in the free business audit?</strong></summary><p>We review your current website, Google visibility, conversion flow, and recommend a clear 30-day action plan.</p></details>\n-<details><summary><strong>Can you reduce reliance on delivery apps?</strong></summary><p>Yes. We help you own online ordering, customer data, and repeat marketing so more revenue stays in your business.</p></details>\n-<details><summary><strong>Do you only work with Newcastle businesses?</strong></summary><p>Our focus is local Newcastle businesses because local market understanding improves conversion and support outcomes.</p></details>\n+<details><summary><strong>What will I learn on this page?</strong></summary><p>You will get a concise overview, practical steps, and links to related guides.</p></details>\n+<details><summary><strong>Who is this content for?</strong></summary><p>Readers looking for a practical starting point and deeper follow-up resources.</p></details>\n+<details><summary><strong>What should I read next?</strong></summary><p>Use the related links section for the next best article in the topic cluster.</p></details>\n </div>\n <!-- /AI_SLOT:FAQ -->\n \n\n--- before\n+++ after\n@@ -752,7 +752,7 @@\n <!-- /AI_SLOT:CTA -->\n \n             <!-- AI_SLOT:SCHEMA -->\n-<script type=\"application/ld+json\">{\"@context\": \"https://schema.org\", \"@type\": \"FAQPage\", \"mainEntity\": [{\"@type\": \"Question\", \"name\": \"What is included in the free business audit?\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"We review your current website, Google visibility, conversion flow, and recommend a clear 30-day action plan.\"}}, {\"@type\": \"Question\", \"name\": \"Can you reduce reliance on delivery apps?\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"Yes. We help you own online ordering, customer data, and repeat marketing so more revenue stays in your business.\"}}, {\"@type\": \"Question\", \"name\": \"Do you only work with Newcastle businesses?\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"Our focus is local Newcastle businesses because local market understanding improves conversion and support outcomes.\"}}]}</script>\n+<script type=\"application/ld+json\">{\"@context\": \"https://schema.org\", \"@type\": \"FAQPage\", \"mainEntity\": [{\"@type\": \"Question\", \"name\": \"What will I learn on this page?\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"You will get a concise overview, practical steps, and links to related guides.\"}}, {\"@type\": \"Question\", \"name\": \"Who is this content for?\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"Readers looking for a practical starting point and deeper follow-up resources.\"}}, {\"@type\": \"Question\", \"name\": \"What should I read next?\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"Use the related links section for the next best article in the topic cluster.\"}}]}</script>\n <!-- /AI_SLOT:SCHEMA -->\n           </div>\n         </div>",
+          "chars_delta": -308,
+          "changed_fields": [
+            "content",
+            "modified_gmt"
+          ]
+        }
+      ],
+      "errors": [],
+      "duration_ms": 730,
+      "timestamp": "2026-03-22T22:10:15.035742+00:00",
+      "task_file": "weekly-output-auto-live-gsc/tasks/c8f74ffe-01cd-48bd-a57e-95010c35763d.json"
+    },
+    {
+      "task_id": "e6208f43-70c9-41c4-a7cc-0fa98ba190f9",
+      "status": "ok",
+      "mode": "execute",
+      "results": [
+        {
+          "target": "https://newcastlehub.info:page:403",
+          "status": "skipped",
+          "reason": "cooldown active (12h)"
+        }
+      ],
+      "errors": [],
+      "duration_ms": 140,
+      "timestamp": "2026-03-22T22:10:15.765961+00:00",
+      "task_file": "weekly-output-auto-live-gsc/tasks/e6208f43-70c9-41c4-a7cc-0fa98ba190f9.json"
+    }
+  ],
+  "telegram_sent": true
+}
+{
+  "status": "ok",
+  "source": "weekly-output-auto-live-gsc/weekly_report.json",
+  "output": "weekly-output-auto-live-gsc/weekly_report.md",
+  "chars": 895
+}
+{
+  "status": "ok",
+  "out": "STATUS.md"
+}
+[20260322T221003Z] done

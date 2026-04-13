@@ -1,0 +1,70 @@
+{
+  "task_id": "b1dfc7b8-1a0e-465c-b4a8-9daaa38cae6e",
+  "created_at": "2026-03-27T03:51:34.808335+00:00",
+  "mode": "plan",
+  "site": {
+    "base_url": "https://sweetsworld.com.au",
+    "weekly_limits": {
+      "default": {
+        "cooldown_hours": 168,
+        "max_write_per_target": 1
+      },
+      "groups": {},
+      "core_paths": [],
+      "service_path_patterns": []
+    },
+    "bootstrap_urls": []
+  },
+  "task_type": "inject_schema_faq",
+  "priority": "medium",
+  "targets": [
+    {
+      "type": "page",
+      "match": {
+        "by": "url",
+        "value": "https://sweetsworld.com.au/candy-guides/jolly-ranchers/"
+      }
+    }
+  ],
+  "operations": [
+    {
+      "op": "replace",
+      "scope": "content",
+      "selector": {
+        "kind": "html_comment",
+        "value": "AI_SLOT:FAQ"
+      },
+      "content": {
+        "format": "json",
+        "value": {
+          "faqs": [
+            {
+              "question": "Are Jolly Ranchers certified Halal in Australia?",
+              "answer": "Yes, Jolly Ranchers are Halal-certified and meet strict Islamic dietary requirements for ingredients, preparation methods, and manufacturing equipment. This certification is recognized and trusted by Muslim consumers in Australia and worldwide."
+            },
+            {
+              "question": "Where can I buy Halal-certified Jolly Ranchers in Australia?",
+              "answer": "You can find Halal-certified Jolly Ranchers through Sweet's World's candy guides and recommendations for Australian retailers. We help you locate trusted suppliers that stock verified Halal candies in your area."
+            },
+            {
+              "question": "What flavors of Jolly Ranchers are available and are they all Halal?",
+              "answer": "Popular Jolly Ranchers flavors include watermelon, green apple, and cherry, and all of these varieties are Halal-certified. Be sure to check the packaging when purchasing to confirm Halal certification on your specific flavor choice."
+            }
+          ],
+          "inject_json_ld": true,
+          "schema_slot": "AI_SLOT:SCHEMA"
+        }
+      },
+      "safety": {
+        "max_chars_change": 1600,
+        "dry_run_diff": true,
+        "allow_full_replace": false
+      }
+    }
+  ],
+  "limits": {
+    "cooldown_hours": 168,
+    "max_write_per_target": 1
+  },
+  "notes": "auto-cycle faq/schema refresh for https://sweetsworld.com.au/candy-guides/jolly-ranchers/ (limit_group=other)"
+}

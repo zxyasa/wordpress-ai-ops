@@ -1,0 +1,62 @@
+{
+  "generated_at": "2026-03-27T05:18:04.268560+00:00",
+  "inputs": {
+    "gsc_csv": "weekly-output-sweetsworld-live/gsc_auto.csv",
+    "ga_csv": "weekly-output-sweetsworld-live/ga_empty.csv"
+  },
+  "site": {
+    "base_url": "https://sweetsworld.com.au",
+    "weekly_limits": {
+      "default": {
+        "cooldown_hours": 168,
+        "max_write_per_target": 4
+      },
+      "groups": {},
+      "core_paths": [],
+      "service_path_patterns": []
+    },
+    "bootstrap_urls": [],
+    "auth_ref": "SWEETSWORLD",
+    "target_type": "post",
+    "use_append_faq": true,
+    "faq_context": "candy_blog"
+  },
+  "bootstrap_used": false,
+  "selected_pages": [
+    {
+      "url": "https://sweetsworld.com.au/candy-guides/powerade/",
+      "score": 5,
+      "reasons": [
+        "high_impressions_low_ctr",
+        "rank_5_15"
+      ],
+      "impressions": 6275.0,
+      "clicks": 9.0,
+      "ctr": 0.0014,
+      "position": 5.7,
+      "bounce_rate": 0.0
+    }
+  ],
+  "generated_tasks": [
+    {
+      "task_id": "1723910b-364d-433e-865c-10d9dd222c98",
+      "task_type": "set_meta",
+      "target_url": "https://sweetsworld.com.au/candy-guides/powerade/",
+      "reasons": [
+        "high_impressions_low_ctr",
+        "rank_5_15"
+      ]
+    },
+    {
+      "task_id": "a3948de6-57d9-4f43-9821-4e3d11b474ec",
+      "task_type": "append_faq",
+      "target_url": "https://sweetsworld.com.au/candy-guides/powerade/",
+      "reasons": [
+        "high_impressions_low_ctr",
+        "rank_5_15"
+      ]
+    }
+  ],
+  "tasks_dir": "weekly-output-sweetsworld-live/tasks",
+  "execution_results": []
+}

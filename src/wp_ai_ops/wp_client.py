@@ -3,9 +3,10 @@ from __future__ import annotations
 import base64
 import mimetypes
 import json
+import os
 import time
 from pathlib import Path
-from typing import Any
+from typing import Any, Optional
 from urllib import error as urlerror
 from urllib import request as urlrequest
 from urllib.parse import urlencode
@@ -140,6 +141,37 @@ class WPClient:
         resource = _resource_path(resource_type)
         row = self._request("POST", f"{resource}/{resource_id}", json_payload=payload)
         return row if isinstance(row, dict) else {}
+
+    def write_meta_via_db(
+        self,
+        site_base_url: str,
+        post_id: int,
+        meta: dict[str, str],
+        token: Optional[str] = None,
+    ) -> bool:
+        """Write post meta fields via server-side PHP endpoint (bypasses REST API 403).
+        Returns True on success, False on any error (non-fatal)."""
+        if token is None:
+            token = os.environ.get('WP_SEO_BRIDGE_TOKEN')
+        if not token:
+            logger.warning("WP_SEO_BRIDGE_TOKEN not set, skipping meta write for post %d", post_id)
+            return False
+        base = site_base_url.rstrip("/")
+        url = f"{base}/wp-seo-meta.php"
+        params = urlencode({
+            "token": token,
+            "post_id": post_id,
+            "keyword": meta.get("rank_math_focus_keyword", ""),
+            "title": meta.get("rank_math_title", ""),
+            "description": meta.get("rank_math_description", ""),
+        })
+        try:
+            req = urlrequest.Request(f"{url}?{params}")
+            with urlrequest.urlopen(req, timeout=15) as resp:
+                data = json.loads(resp.read())
+                return bool(data.get("ok"))
+        except Exception:
+            return False
 
     def create_resource(self, resource_type: str, payload: dict) -> dict:
         resource = _resource_path(resource_type)

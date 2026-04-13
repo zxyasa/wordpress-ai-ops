@@ -1,0 +1,70 @@
+{
+  "task_id": "76691fb1-7643-4971-b80d-74afe6f18f6d",
+  "created_at": "2026-03-27T03:51:12.129686+00:00",
+  "mode": "plan",
+  "site": {
+    "base_url": "https://sweetsworld.com.au",
+    "weekly_limits": {
+      "default": {
+        "cooldown_hours": 168,
+        "max_write_per_target": 1
+      },
+      "groups": {},
+      "core_paths": [],
+      "service_path_patterns": []
+    },
+    "bootstrap_urls": []
+  },
+  "task_type": "inject_schema_faq",
+  "priority": "medium",
+  "targets": [
+    {
+      "type": "page",
+      "match": {
+        "by": "url",
+        "value": "https://sweetsworld.com.au/candy-guides/overeating-takis/"
+      }
+    }
+  ],
+  "operations": [
+    {
+      "op": "replace",
+      "scope": "content",
+      "selector": {
+        "kind": "html_comment",
+        "value": "AI_SLOT:FAQ"
+      },
+      "content": {
+        "format": "json",
+        "value": {
+          "faqs": [
+            {
+              "question": "How much sodium is too much when eating Takis?",
+              "answer": "While Takis are high in sodium, the key is moderation—consuming them occasionally as part of a balanced diet is fine, but regular overconsumption can lead to high blood pressure and increase your risk of heart disease. Most health experts recommend limiting daily sodium intake to under 2,300mg, so checking the nutrition label on Takis packets can help you make informed choices."
+            },
+            {
+              "question": "Can eating too many Takis cause digestive problems?",
+              "answer": "Yes, overeating Takis can cause digestive issues like bloating and diarrhea due to their high fat content and lack of fiber. If you experience these symptoms after consuming Takis, it's best to reduce your intake and ensure you're eating plenty of whole foods rich in fiber and nutrients."
+            },
+            {
+              "question": "Are Takis safe for people with food allergies?",
+              "answer": "Takis contain artificial flavors and colors that can trigger allergic reactions in sensitive individuals, so those with food allergies should check the ingredient label carefully. If you have a history of food sensitivities, it's advisable to consult with a healthcare provider before consuming Takis or similar heavily seasoned snacks."
+            }
+          ],
+          "inject_json_ld": true,
+          "schema_slot": "AI_SLOT:SCHEMA"
+        }
+      },
+      "safety": {
+        "max_chars_change": 1600,
+        "dry_run_diff": true,
+        "allow_full_replace": false
+      }
+    }
+  ],
+  "limits": {
+    "cooldown_hours": 168,
+    "max_write_per_target": 1
+  },
+  "notes": "auto-cycle faq/schema refresh for https://sweetsworld.com.au/candy-guides/overeating-takis/ (limit_group=other)"
+}

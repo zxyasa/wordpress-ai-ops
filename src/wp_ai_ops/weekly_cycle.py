@@ -2,6 +2,7 @@ from __future__ import annotations
 
 import csv
 import json
+import os
 import re
 import uuid
 from dataclasses import dataclass
@@ -11,6 +12,7 @@ from typing import Any
 from urllib.parse import urlparse
 
 from .batch_runner import run_task_batch
+from .faq_generator import fetch_page_content, generate_faqs, generate_intro, generate_meta
 from .reporting import build_weekly_markdown
 
 
@@ -207,14 +209,26 @@ def _score_row(url: str, gsc: dict, ga: dict) -> OpportunityRow:
     )
 
 
-def _build_update_task(site: dict, row: OpportunityRow, mode: str, limits: dict[str, int], limit_group: str) -> dict:
-    intro_text = (
-        "<p>This section was refreshed by WordPress AI Ops to improve click-through and first-screen clarity. "
-        f"Signals: {', '.join(row.reasons)}.</p>"
-    )
+def _target_type(site: dict) -> str:
+    """Return the WP resource type to use for targets. Defaults to 'page'."""
+    return site.get("target_type", "page")
+
+
+def _build_update_task(
+    site: dict,
+    row: OpportunityRow,
+    mode: str,
+    limits: dict[str, int],
+    limit_group: str,
+    faqs: list[dict] | None = None,
+    page_title: str = "",
+    page_text: str = "",
+) -> dict:
+    site_context = site.get("faq_context", "business")
+    intro_text = generate_intro(row.url, page_title, page_text, site_context=site_context)
 
     faq_payload = {
-        "faqs": [
+        "faqs": faqs or [
             {
                 "question": "What will I learn on this page?",
                 "answer": "You will get a concise overview, practical steps, and links to related guides.",
@@ -239,7 +253,7 @@ def _build_update_task(site: dict, row: OpportunityRow, mode: str, limits: dict[
         "site": site,
         "task_type": "update_post_or_page",
         "priority": "high",
-        "targets": [{"type": "page", "match": {"by": "url", "value": row.url}}],
+        "targets": [{"type": _target_type(site), "match": {"by": "url", "value": row.url}}],
         "operations": [
             {
                 "op": "replace",
@@ -269,7 +283,7 @@ def _build_faq_task(site: dict, row: OpportunityRow, mode: str, faq_op: dict, li
         "site": site,
         "task_type": "inject_schema_faq",
         "priority": "medium",
-        "targets": [{"type": "page", "match": {"by": "url", "value": row.url}}],
+        "targets": [{"type": _target_type(site), "match": {"by": "url", "value": row.url}}],
         "operations": [faq_op],
         "limits": limits,
         "notes": f"auto-cycle faq/schema refresh for {row.url} (limit_group={limit_group})",
@@ -283,8 +297,11 @@ def _build_links_task(
     for peer in top_rows:
         if peer.url == row.url:
             continue
-        slug = peer.url.rstrip("/").split("/")[-1].replace("-", " ").strip() or "Related guide"
-        links.append({"url": peer.url, "anchor": slug.title()})
+        path = peer.url.rstrip("/").split("/")[-1].replace("-", " ").strip()
+        # Avoid linking to root or /home/ — not useful anchor targets
+        if not path or path.lower() in ("home", "home-2", "home-2-2"):
+            continue
+        links.append({"url": peer.url, "anchor": path.title()})
         if len(links) >= 3:
             break
 
@@ -295,7 +312,7 @@ def _build_links_task(
         "site": site,
         "task_type": "append_internal_links",
         "priority": "medium",
-        "targets": [{"type": "page", "match": {"by": "url", "value": row.url}}],
+        "targets": [{"type": _target_type(site), "match": {"by": "url", "value": row.url}}],
         "operations": [
             {
                 "op": "append",
@@ -310,11 +327,20 @@ def _build_links_task(
     }
 
 
-def _build_meta_task(site: dict, row: OpportunityRow, mode: str, limits: dict[str, int], limit_group: str) -> dict:
-    slug = row.url.rstrip("/").split("/")[-1].replace("-", " ").strip() or "guide"
-    title = f"{slug.title()} | Updated Guide"
-    desc = f"Updated quick guide for {slug}. Clear answers, better structure, and next-step resources."
-    keyword = slug
+def _build_meta_task(
+    site: dict,
+    row: OpportunityRow,
+    mode: str,
+    limits: dict[str, int],
+    limit_group: str,
+    page_title: str = "",
+    page_text: str = "",
+) -> dict:
+    site_context = site.get("faq_context", "business")
+    meta = generate_meta(row.url, page_title, page_text, site_context=site_context)
+    title = meta["title"]
+    desc = meta["description"]
+    keyword = meta["keyword"]
 
     return {
         "task_id": str(uuid.uuid4()),
@@ -323,7 +349,7 @@ def _build_meta_task(site: dict, row: OpportunityRow, mode: str, limits: dict[st
         "site": site,
         "task_type": "set_meta",
         "priority": "medium",
-        "targets": [{"type": "page", "match": {"by": "url", "value": row.url}}],
+        "targets": [{"type": _target_type(site), "match": {"by": "url", "value": row.url}}],
         "operations": [
             {
                 "op": "set_meta",
@@ -380,18 +406,42 @@ def plan_weekly_from_csv(
     generated_tasks: list[Path] = []
     task_meta: list[dict] = []
 
+    wp_username = os.environ.get("WP_USERNAME", "")
+    wp_password = os.environ.get("WP_APP_PASSWORD", "")
+
     for row in selected:
         limits, limit_group = _resolve_limits_for_url(site, row.url)
-        update_task = _build_update_task(site, row, mode, limits, limit_group)
-        faq_op = update_task.pop("_faq_operation")
+        page_title, page_text = fetch_page_content(row.url, wp_username, wp_password)
 
-        bundle = [
-            update_task,
-            _build_faq_task(site, row, mode, faq_op, limits, limit_group),
-            _build_links_task(site, row, mode, selected, limits, limit_group),
-        ]
-        if include_meta:
-            bundle.append(_build_meta_task(site, row, mode, limits, limit_group))
+        if site.get("meta_only") or site.get("use_append_faq"):
+            bundle = [_build_meta_task(site, row, mode, limits, limit_group, page_title=page_title, page_text=page_text)]
+            if site.get("use_append_faq"):
+                site_context = site.get("faq_context", "business")
+                faqs = generate_faqs(row.url, page_title, page_text, site_context=site_context)
+                bundle.append({
+                    "task_id": str(uuid.uuid4()),
+                    "created_at": datetime.now(timezone.utc).isoformat(),
+                    "mode": mode,
+                    "site": site,
+                    "task_type": "append_faq",
+                    "priority": "medium",
+                    "targets": [{"type": _target_type(site), "match": {"by": "url", "value": row.url}}],
+                    "operations": [],
+                    "_faqs": faqs,
+                    "limits": limits,
+                    "notes": f"append FAQ for {row.url}",
+                })
+        else:
+            faqs = generate_faqs(row.url, page_title, page_text)
+            update_task = _build_update_task(site, row, mode, limits, limit_group, faqs=faqs, page_title=page_title, page_text=page_text)
+            faq_op = update_task.pop("_faq_operation")
+            bundle = [
+                update_task,
+                _build_faq_task(site, row, mode, faq_op, limits, limit_group),
+                _build_links_task(site, row, mode, selected, limits, limit_group),
+            ]
+            if include_meta:
+                bundle.append(_build_meta_task(site, row, mode, limits, limit_group, page_title=page_title, page_text=page_text))
 
         for task in bundle:
             task_path = tasks_dir / f"{task['task_id']}.json"

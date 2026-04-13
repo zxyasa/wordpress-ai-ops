@@ -1,0 +1,57 @@
+{
+  "task_id": "449785e6-1689-4cfd-9902-808e5d4109f5",
+  "created_at": "2026-03-27T03:52:22.646788+00:00",
+  "mode": "plan",
+  "site": {
+    "base_url": "https://sweetsworld.com.au",
+    "weekly_limits": {
+      "default": {
+        "cooldown_hours": 168,
+        "max_write_per_target": 1
+      },
+      "groups": {},
+      "core_paths": [],
+      "service_path_patterns": []
+    },
+    "bootstrap_urls": []
+  },
+  "task_type": "set_meta",
+  "priority": "medium",
+  "targets": [
+    {
+      "type": "page",
+      "match": {
+        "by": "url",
+        "value": "https://sweetsworld.com.au/candy-guides/jolly-ranchers/"
+      }
+    }
+  ],
+  "operations": [
+    {
+      "op": "set_meta",
+      "scope": "meta",
+      "selector": {
+        "kind": "html_comment",
+        "value": "AI_SLOT:SCHEMA"
+      },
+      "content": {
+        "format": "json",
+        "value": {
+          "rank_math_title": "Jolly Ranchers | Updated Guide",
+          "rank_math_description": "Updated quick guide for jolly ranchers. Clear answers, better structure, and next-step resources.",
+          "rank_math_focus_keyword": "jolly ranchers"
+        }
+      },
+      "safety": {
+        "max_chars_change": 500,
+        "dry_run_diff": true,
+        "allow_full_replace": false
+      }
+    }
+  ],
+  "limits": {
+    "cooldown_hours": 168,
+    "max_write_per_target": 1
+  },
+  "notes": "auto-cycle meta refresh for https://sweetsworld.com.au/candy-guides/jolly-ranchers/ (limit_group=other)"
+}

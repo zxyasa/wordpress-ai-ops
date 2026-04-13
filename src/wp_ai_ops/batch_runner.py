@@ -38,9 +38,15 @@ def run_task_batch(
             if not continue_on_error:
                 break
 
+    success_count = sum(1 for summary in results if summary.get("status") == "success")
     status = "ok"
-    if failed:
-        status = "partial" if results else "failed"
+    if results:
+        if success_count == 0:
+            status = "failed"
+        elif success_count < len(results):
+            status = "partial"
+        else:
+            status = "success"
 
     return {
         "status": status,

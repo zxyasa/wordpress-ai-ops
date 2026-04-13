@@ -418,6 +418,129 @@ def handle_set_meta(before: dict, operations: list[Operation]) -> HandlerResult:
     )
 
 
+def _extract_dl_faqs(content: str) -> list[dict]:
+    """Extract Q&A pairs from existing <dl><dt><dd> FAQ structure."""
+    faqs = []
+    for block in re.findall(r"<dl[^>]*>(.*?)</dl>", content, re.DOTALL):
+        dts = re.findall(r"<dt[^>]*>(.*?)</dt>", block, re.DOTALL)
+        dds = re.findall(r"<dd[^>]*>(.*?)</dd>", block, re.DOTALL)
+        for q, a in zip(dts, dds):
+            q_text = re.sub(r"<[^>]+>", "", q).strip()
+            a_text = re.sub(r"<[^>]+>", "", a).strip()
+            if q_text and a_text:
+                faqs.append({"question": q_text, "answer": a_text})
+    return faqs
+
+
+def _extract_h3p_faqs(content: str) -> list[dict]:
+    """Extract Q&A pairs from <h2>FAQ...</h2><h3>Q</h3><p>A</p> structure."""
+    faqs = []
+    # Find FAQ section: everything after an h2 containing FAQ/faq
+    faq_section = re.search(
+        r"<h2[^>]*>[^<]*(?:FAQ|Frequently Asked|Questions)[^<]*</h2>(.*?)(?:<h2|$)",
+        content, re.DOTALL | re.IGNORECASE
+    )
+    if not faq_section:
+        return faqs
+    section = faq_section.group(1)
+    # Extract h3/p pairs
+    questions = re.findall(r"<h3[^>]*>(.*?)</h3>", section, re.DOTALL)
+    answers = re.findall(r"<p[^>]*>(.*?)</p>", section, re.DOTALL)
+    for q, a in zip(questions, answers):
+        q_text = re.sub(r"<[^>]+>", "", q).strip()
+        a_text = re.sub(r"<[^>]+>", "", a).strip()
+        if q_text and a_text:
+            faqs.append({"question": q_text, "answer": a_text})
+    return faqs
+
+
+def _build_schema_block(faqs: list[dict]) -> str:
+    """Build <!-- AI_SLOT:SCHEMA --> marker + FAQPage JSON-LD."""
+    json_ld = {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+            {
+                "@type": "Question",
+                "name": faq.get("question", faq.get("q", "")),
+                "acceptedAnswer": {"@type": "Answer", "text": faq.get("answer", faq.get("a", ""))},
+            }
+            for faq in faqs
+        ],
+    }
+    return (
+        '\n<!-- AI_SLOT:SCHEMA -->\n'
+        f'<script type="application/ld+json">\n{json.dumps(json_ld, ensure_ascii=False, indent=2)}\n</script>\n'
+    )
+
+
+def handle_append_faq(before: dict, faqs: list[dict]) -> HandlerResult:
+    """Append FAQPage JSON-LD (+ HTML accordion if no existing FAQ) to post content.
+
+    - If the post already has <dl><dt><dd> FAQ content: extract those Q&As and
+      inject only the <!-- AI_SLOT:SCHEMA --> + JSON-LD (no duplicate HTML).
+    - Otherwise: append a new FAQ accordion section + schema.
+    - Always includes <!-- AI_SLOT:SCHEMA --> marker before the JSON-LD.
+    """
+    if not faqs:
+        return HandlerResult(False, {}, ["no faqs provided"], "", 0)
+
+    before_content = _extract_rendered_content(before)
+
+    if "FAQPage" in before_content:
+        return HandlerResult(False, {}, ["FAQPage schema already present"], "", 0)
+
+    # If existing <dl> FAQ found, reuse those Q&As — only inject schema
+    dl_faqs = _extract_dl_faqs(before_content)
+    if dl_faqs:
+        schema_block = _build_schema_block(dl_faqs)
+        new_content = before_content + schema_block
+        return HandlerResult(
+            changed=True,
+            patch_payload={"content": new_content},
+            warnings=[],
+            diff_summary=f"injected FAQPage schema from existing <dl> ({len(dl_faqs)} questions)",
+            chars_delta=len(schema_block),
+        )
+
+    # If existing <h3>/<p> FAQ found, reuse those Q&As — only inject schema
+    h3p_faqs = _extract_h3p_faqs(before_content)
+    if h3p_faqs:
+        schema_block = _build_schema_block(h3p_faqs)
+        new_content = before_content + schema_block
+        return HandlerResult(
+            changed=True,
+            patch_payload={"content": new_content},
+            warnings=[],
+            diff_summary=f"injected FAQPage schema from existing <h3>/<p> ({len(h3p_faqs)} questions)",
+            chars_delta=len(schema_block),
+        )
+
+    # No existing FAQ — append full accordion HTML + schema
+    faq_html = '\n\n<section class="ai-faq-block" style="margin-top:40px">\n'
+    faq_html += "<h2>Frequently Asked Questions</h2>\n"
+    for faq in faqs:
+        q = escape(faq.get("question", faq.get("q", "")))
+        a = escape(faq.get("answer", faq.get("a", "")))
+        faq_html += (
+            f'<details style="margin-bottom:18px;border:1px solid #e5e5e5;border-radius:6px">\n'
+            f'<summary style="padding:16px 18px;font-weight:600;cursor:pointer;line-height:1.6">{q}</summary>\n'
+            f'<div style="padding:16px 18px 18px;line-height:1.8">{a}</div>\n'
+            f'</details>\n'
+        )
+    faq_html += "</section>\n"
+    faq_html += _build_schema_block(faqs)
+
+    new_content = before_content + faq_html
+    return HandlerResult(
+        changed=True,
+        patch_payload={"content": new_content},
+        warnings=[],
+        diff_summary=f"appended FAQ section ({len(faqs)} questions) + FAQPage JSON-LD",
+        chars_delta=len(faq_html),
+    )
+
+
 def handle_report_only(task: Task) -> HandlerResult:
     note = task.notes or "report_only mode"
     return HandlerResult(

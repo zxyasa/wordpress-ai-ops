@@ -100,6 +100,31 @@ PYTHONPATH=src python3 -m wp_ai_ops.cli run --task examples/tasks/publish_post.j
 PYTHONPATH=src python3 -m wp_ai_ops.cli run --task examples/tasks/upload_media.json
 ```
 
+## Site Profile 变量化（配置中心）
+
+任务 JSON 可通过 `site_profile_ref` 或内联 `site_profile` 引入站点配置，并在任意字符串字段中使用模板变量：
+
+```json
+{
+  "site_profile_ref": "../../site_profiles/newcastlehub.info.json",
+  "site": { "base_url": "{{site.base_url}}" },
+  "operations": [
+    {
+      "content": { "format": "text", "value": "tel:{{site.phone_tel}}" }
+    }
+  ]
+}
+```
+
+说明：
+
+- 占位符格式：`{{site.xxx}}`（支持点路径）
+- `site_profile_ref` 路径默认相对任务文件目录解析
+- 若同时存在 `site_profile_ref` 与 `site_profile`，内联 `site_profile` 会覆盖同名字段
+- 未定义变量会直接报错，避免静默错误写入
+
+示例配置见：`examples/site_profiles/newcastlehub.info.json`
+
 ## 周循环（自进化系统 1.0）
 
 根据本地 GSC/GA CSV 自动生成机会页任务与周报：
@@ -109,6 +134,7 @@ PYTHONPATH=src python3 -m wp_ai_ops.cli plan-weekly \
   --gsc-csv examples/csv/gsc_sample.csv \
   --ga-csv examples/csv/ga_sample.csv \
   --base-url https://example.com \
+  --site-profile examples/site_profiles/newcastlehub.info.json \
   --auth-ref WP_MAIN \
   --top-n 3 \
   --mode plan \
@@ -122,6 +148,7 @@ PYTHONPATH=src python3 -m wp_ai_ops.cli plan-weekly \
   --gsc-csv examples/csv/gsc_sample.csv \
   --ga-csv examples/csv/ga_sample.csv \
   --base-url https://example.com \
+  --site-profile examples/site_profiles/newcastlehub.info.json \
   --auth-ref WP_MAIN \
   --top-n 3 \
   --mode execute \
@@ -144,6 +171,62 @@ PYTHONPATH=src python3 -m wp_ai_ops.cli run-batch \
 - `weekly-output/tasks/*.json`
 - `weekly-output/weekly_report.json`
 - `weekly-output/weekly_report.md`
+
+`--site-profile` 可注入分级限流策略（`weekly_limits`），按 URL 分组动态设置 `cooldown_hours/max_write_per_target`，减少关键页面长期被统一限流规则跳过。
+
+冷启动支持：当 GSC 数据不足导致 `selected_pages=0` 时，若 `site_profile` 中配置了 `bootstrap_urls`，系统会自动选取这些核心页面生成任务（reason=`no_gsc_data_bootstrap`），避免自动流程空跑。
+
+## 全站一致性巡检（report-only）
+
+扫描 `pages/posts/ux-blocks/template-parts`，检查：
+
+- 旧联系方式是否残留（基于 `site_profile` 的 `deprecated_emails/deprecated_phones`）
+- `AI_SLOT` 标记缺失
+- JSON-LD schema 缺失
+- （可选）内部死链
+
+```bash
+PYTHONPATH=src python3 -m wp_ai_ops.cli consistency-scan \
+  --base-url https://newcastlehub.info \
+  --site-profile examples/site_profiles/newcastlehub.info.json \
+  --out-dir consistency-output
+```
+
+可选死链检查：
+
+```bash
+PYTHONPATH=src python3 -m wp_ai_ops.cli consistency-scan \
+  --base-url https://newcastlehub.info \
+  --site-profile examples/site_profiles/newcastlehub.info.json \
+  --check-links \
+  --max-link-checks 200 \
+  --out-dir consistency-output
+```
+
+从巡检结果自动生成修复任务（仅产出任务 JSON，不直接执行）：
+
+```bash
+PYTHONPATH=src python3 -m wp_ai_ops.cli consistency-scan \
+  --base-url https://newcastlehub.info \
+  --site-profile examples/site_profiles/newcastlehub.info.json \
+  --emit-fix-tasks \
+  --out-dir consistency-output
+```
+
+输出产物：
+
+- `consistency-output/consistency_scan_<timestamp>.json`
+- `consistency-output/consistency_scan_<timestamp>.md`
+- `consistency-output/fix_tasks/fix_tasks_manifest.json`
+- `consistency-output/fix_tasks/tasks/*.json`
+
+`scan_policy` 支持按资源类型配置规则（见 `examples/site_profiles/newcastlehub.info.json`）：
+
+- `required_slots`: 哪些资源必须包含哪些 `AI_SLOT`
+- `require_schema`: 哪些资源必须包含 JSON-LD
+- `email_check_resource_bases` / `phone_check_resource_bases`
+- `link_check_resource_bases`
+- `ignored_resources`
 
 从 JSON 重新渲染 Markdown 周报：
 
@@ -203,6 +286,11 @@ PYTHONPATH=src python3 -m wp_ai_ops.cli prepare-openclaw-jobs \
 - 默认禁止全量覆盖 `content`
 - `max_chars_change` 超限直接失败
 - 丢失 `ux_` / `<script` / `<style` 关键片段直接失败
+
+目标类型支持：
+
+- 标准：`post/page/category/tag/media`
+- 扩展：`ux-blocks/menu-items/template-parts`（可直接作为 `targets[].type`）
 
 ## 审计与回滚
 

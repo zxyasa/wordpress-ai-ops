@@ -1,0 +1,27 @@
+{
+  "id": 16924,
+  "name": "Bertie Beetle 10g",
+  "short_description": "<p><strong>Bertie Beetle 10g</strong> – Australia&#8217;s Most Iconic Edible Insects!</p>\n<p>Experience the delightful crunch and rich chocolate flavour of Bertie Beetles, the beloved Australian treat that&#8217;s been bringing smiles since 1993. These charming little chocolate-covered beetles offer a uniquely satisfying texture – crispy on the outside with a smooth, creamy chocolate coating that melts beautifully on your tongue.</p>\n<p>What makes Bertie Beetles so special? Each 10g piece delivers an unexpected textural adventure that keeps taste buds intrigued. The combination of crunchy insect body and premium chocolate creates a perfect balance of playful fun and genuine deliciousness.</p>\n<p><strong>Perfect for Every Occasion:</strong></p>\n<p>Throw an unforgettable party with Bertie Beetles as your quirky conversation starter – guests will love the fun factor! These eye-catching treats make fantastic gifts for chocolate lovers and adventure seekers who appreciate Australia&#8217;s unique confectionery culture. Toss a few into your school lunchbox for a memorable mid-day pick-me-up that&#8217;ll have your classmates talking.</p>\n<p>SweetsWorld Australia proudly stocks authentic Bertie Beetles, bringing you genuine Australian candy magic in every bite. Discover why these cheeky little creatures have become a national treasure!</p>\n",
+  "description": "",
+  "_links": {
+    "self": [
+      {
+        "href": "https://sweetsworld.com.au/wp-json/wc/v3/products/16924",
+        "targetHints": {
+          "allow": [
+            "GET",
+            "POST",
+            "PUT",
+            "PATCH",
+            "DELETE"
+          ]
+        }
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://sweetsworld.com.au/wp-json/wc/v3/products"
+      }
+    ]
+  }
+}

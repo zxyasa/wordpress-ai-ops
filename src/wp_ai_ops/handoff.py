@@ -79,7 +79,9 @@ def write_handoff(opts: HandoffOptions) -> Path:
     if executed_path.exists():
         try:
             executed = json.loads(executed_path.read_text(encoding="utf-8"))
-            if isinstance(executed, dict):
+            if isinstance(executed, list):
+                executed_count = len(executed)
+            elif isinstance(executed, dict):
                 executed_count = len(executed.keys())
         except Exception:
             pass

@@ -1,11 +1,34 @@
-# WordPress AI Ops — Claude 行为约束协议
+# wordpress-ai-ops — WordPress 批量 SEO 操作
+
+> **全局计划**: `apps/website-os/CLAUDE.md` — 开工前必读，了解当前阶段和跨项目进度
+> **本项目当前阶段**: P1 进行中 → Sprint T2-T11 dry-run 待完成（计划：`ai/plans/current_plan.json`）
 
 ## 项目简介
-API-first WordPress 内容与 SEO 自动化系统。Python 3.10+，无外部依赖。
-源码在 `src/wp_ai_ops/`，测试在 `tests/`，示例任务在 `examples/tasks/`。
+
+sweetsworld.com.au 的批量 WordPress 操作工具。负责 FAQ 注入、内链织入、Google Indexing API 提交等一次性或定期批量任务。
+
+## 已完成操作（2026-03-27～29）
+
+- **106 篇**：FAQPage JSON-LD + RankMath meta（Claude Haiku 生成）+ Google Indexing API 提交
+- **53 篇旧内容**：内部链接注入（Claude 重写织入 2-5 条内链）+ 再次提交 Indexing API
+
+## 目录结构
+
+```
+src/wp_ai_ops/
+  cli.py                        # 任务执行入口
+  action_queue_consumer.py      # 消费 growth-graph 的 auto 行动队列
+scripts/
+  bulk_faq_meta.py              # 批量 FAQ + RankMath meta 注入
+  bulk_internal_links.py        # 批量内链注入
+  submit_indexing.py            # Google Indexing API 批量提交
+```
 
 ## 运行命令
+
 ```bash
+cd /Users/michaelzhao/agents/apps/wordpress-ai-ops
+
 # 运行测试
 PYTHONPATH=src ../venv/bin/python -m pytest --tb=short -q
 
@@ -15,6 +38,12 @@ PYTHONPATH=src ../venv/bin/python -m wp_ai_ops.cli run --task <task.json> --stat
 # 执行任务 (live)
 PYTHONPATH=src ../venv/bin/python -m wp_ai_ops.cli run --task <task.json> --state-dir .wp-ai-ops-state --confirm
 ```
+
+## 注意事项
+
+- RankMath meta 必须通过 `wp-seo-meta.php` DB 端点写入，REST API 返回 403
+- WP 凭证从 sweetsworld-seo-agent 的 `.env` 复制而来
+- 与 growth-graph 的 command_center 集成：auto 类行动由 action_queue_consumer 自动分发
 
 ---
 
@@ -179,3 +208,11 @@ git log --oneline --grep="\[ai:" -20
 - .ai/tasks/<name>/context.md
 并更新 .ai/active-task.json
 ```
+
+## Known Issues (from 2026-04-05 code review)
+
+- [HIGH] [FIXED 2026-04-07] `src/wp_ai_ops/weekly_cycle.py:426` — `append_faq` not in `SUPPORTED_TASK_TYPES` → added `"append_faq"` to `SUPPORTED_TASK_TYPES` set in `models.py`
+- [FIXED 2026-04-07] `src/wp_ai_ops/wp_client.py:149` — bridge token hardcoded → `token: Optional[str] = None`, reads `WP_SEO_BRIDGE_TOKEN` at call time
+- [MED] [FIXED 2026-04-07] `src/wp_ai_ops/task_runner.py:107` — `record_write()` called even on failure → `set_meta`/rank_math branch now guards with `if ok: store.record_write(key)`; unconditional path only reached after successful `update_resource()`
+- [MED] [FIXED 2026-04-07] `src/wp_ai_ops/action_queue_consumer.py:47` — silently skips when `wp_task_json` missing → `dispatch_auto_items()` now emits `logger.warning(...)` with `action_id` and `title` before skipping
+- [FIXED already] `src/wp_ai_ops/openclaw_http.py:40` — `_curl_json` uses Python urllib (not subprocess curl); token in HTTP header, not argv

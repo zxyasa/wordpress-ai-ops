@@ -45,19 +45,27 @@ def export_gsc_csv(
     end_date = datetime.now().date()
     start_date = end_date - timedelta(days=days)
 
+    page_size = 500
     request_body = {
         "startDate": start_date.strftime("%Y-%m-%d"),
         "endDate": end_date.strftime("%Y-%m-%d"),
         "dimensions": ["page"],
-        "rowLimit": 500,
+        "rowLimit": page_size,
         "startRow": 0,
     }
 
-    response = (
-        service.searchanalytics()
-        .query(siteUrl=property_url, body=request_body)
-        .execute()
-    )
+    rows: list[dict] = []
+    while True:
+        response = (
+            service.searchanalytics()
+            .query(siteUrl=property_url, body=request_body)
+            .execute()
+        )
+        page_rows = response.get("rows", [])
+        rows.extend(page_rows)
+        if len(page_rows) < page_size:
+            break
+        request_body["startRow"] += page_size
 
     output_path = Path(output_path)
     output_path.parent.mkdir(parents=True, exist_ok=True)
@@ -65,7 +73,7 @@ def export_gsc_csv(
     with output_path.open("w", newline="", encoding="utf-8") as f:
         writer = csv.writer(f)
         writer.writerow(["url", "clicks", "impressions", "ctr", "position"])
-        for row in response.get("rows", []):
+        for row in rows:
             writer.writerow([
                 row["keys"][0],
                 row.get("clicks", 0),

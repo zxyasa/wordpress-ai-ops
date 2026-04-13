@@ -1,0 +1,57 @@
+{
+  "task_id": "cacac8cd-d187-462d-8613-e1cc69aa5d93",
+  "created_at": "2026-03-27T03:52:18.500339+00:00",
+  "mode": "plan",
+  "site": {
+    "base_url": "https://sweetsworld.com.au",
+    "weekly_limits": {
+      "default": {
+        "cooldown_hours": 168,
+        "max_write_per_target": 1
+      },
+      "groups": {},
+      "core_paths": [],
+      "service_path_patterns": []
+    },
+    "bootstrap_urls": []
+  },
+  "task_type": "set_meta",
+  "priority": "medium",
+  "targets": [
+    {
+      "type": "page",
+      "match": {
+        "by": "url",
+        "value": "https://sweetsworld.com.au/candy-guides/overeating-takis/"
+      }
+    }
+  ],
+  "operations": [
+    {
+      "op": "set_meta",
+      "scope": "meta",
+      "selector": {
+        "kind": "html_comment",
+        "value": "AI_SLOT:SCHEMA"
+      },
+      "content": {
+        "format": "json",
+        "value": {
+          "rank_math_title": "Overeating Takis | Updated Guide",
+          "rank_math_description": "Updated quick guide for overeating takis. Clear answers, better structure, and next-step resources.",
+          "rank_math_focus_keyword": "overeating takis"
+        }
+      },
+      "safety": {
+        "max_chars_change": 500,
+        "dry_run_diff": true,
+        "allow_full_replace": false
+      }
+    }
+  ],
+  "limits": {
+    "cooldown_hours": 168,
+    "max_write_per_target": 1
+  },
+  "notes": "auto-cycle meta refresh for https://sweetsworld.com.au/candy-guides/overeating-takis/ (limit_group=other)"
+}

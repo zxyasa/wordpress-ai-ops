@@ -1,26 +1,26 @@
 {
-  "generated_at": "2026-02-22T22:10:13.055777+00:00",
+  "generated_at": "2026-04-12T23:10:52.006980+00:00",
   "base_url": "https://newcastlehub.info",
-  "selected_pages": 4,
-  "generated_tasks": 16,
-  "execution_items": 16,
+  "selected_pages": 3,
+  "generated_tasks": 12,
+  "execution_items": 11,
   "target_status": {
-    "skipped": 15,
-    "updated": 1
+    "updated": 3,
+    "skipped": 8
   },
   "skip_reasons_top": [
     [
-      "7d write limit reached (5)",
-      8
-    ],
-    [
-      "7d write limit reached (6)",
-      4
-    ],
-    [
-      "cooldown active (16h)",
+      "cooldown active (24h)",
       3
+    ],
+    [
+      "cooldown active (18h)",
+      3
+    ],
+    [
+      "cooldown active (12h)",
+      2
     ]
   ],
-  "bootstrap_used": true
+  "bootstrap_used": false
 }

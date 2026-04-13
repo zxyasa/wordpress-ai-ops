@@ -8,7 +8,9 @@ from pathlib import Path
 
 from .config import resolve_auth, resolve_site
 from .exceptions import TargetNotFoundError, TaskValidationError
+from .rollback import pre_run_snapshot
 from .handlers import (
+    handle_append_faq,
     handle_append_internal_links,
     handle_generate_topic_hub,
     handle_inject_schema_faq,
@@ -32,7 +34,7 @@ def _target_key(site_base: str, resource_type: str, resource_id: int) -> str:
     return f"{site_base}:{resource_type}:{resource_id}"
 
 
-def _run_single_target(client: WPClient, task: Task, target_idx: int, store: StateStore, apply_changes: bool) -> dict:
+def _run_single_target(client: WPClient, task: Task, target_idx: int, store: StateStore, apply_changes: bool, task_raw: dict | None = None) -> dict:
     target = task.targets[target_idx]
     resource_type, resource = resolve_target(client, target)
     resource_id = int(resource["id"])
@@ -61,6 +63,9 @@ def _run_single_target(client: WPClient, task: Task, target_idx: int, store: Sta
         result = handle_generate_topic_hub(resource, task.operations)
     elif task.task_type == "set_meta":
         result = handle_set_meta(resource, task.operations)
+    elif task.task_type == "append_faq":
+        faqs = (task_raw or {}).get("_faqs", [])
+        result = handle_append_faq(resource, faqs)
     elif task.task_type == "update_taxonomy_term":
         result = handle_update_taxonomy_term(task.operations)
     else:
@@ -91,6 +96,25 @@ def _run_single_target(client: WPClient, task: Task, target_idx: int, store: Sta
             "warnings": result.warnings,
             "chars_delta": result.chars_delta,
         }
+
+    # set_meta with rank_math fields: REST API returns 403, write via PHP DB endpoint instead
+    if task.task_type == "set_meta" and "meta" in result.patch_payload:
+        meta = result.patch_payload["meta"]
+        rank_math_keys = {"rank_math_focus_keyword", "rank_math_title", "rank_math_description"}
+        if rank_math_keys & set(meta.keys()):
+            base_url = task.site.get("base_url", "")
+            ok = client.write_meta_via_db(base_url, resource_id, meta)
+            status = "updated" if ok else "failed"
+            if ok:
+                store.record_write(key)
+            return {
+                "target": key,
+                "status": status,
+                "warnings": result.warnings,
+                "diff_summary": result.diff_summary + (" (via db)" if ok else " (db write failed)"),
+                "chars_delta": result.chars_delta,
+                "changed_fields": sorted(meta.keys()),
+            }
 
     updated = client.update_resource(resource_type, resource_id, result.patch_payload)
     after_content = None
@@ -192,6 +216,35 @@ def _run_create_task(client: WPClient, task: Task, store: StateStore, apply_chan
     raise TaskValidationError(f"Unsupported create-only task_type: {task.task_type}")
 
 
+def _print_op_summary(task: Task, payload: dict) -> None:
+    """Print a human-readable summary of the live write about to be executed."""
+    print("=" * 68)
+    print("  LIVE WRITE — operation summary")
+    print("=" * 68)
+    print(f"  task_id   : {task.task_id}")
+    print(f"  task_type : {task.task_type}")
+    print(f"  mode      : {task.mode}")
+
+    targets = task.targets
+    if targets:
+        print(f"  targets   : {len(targets)} item(s)")
+        for t in targets:
+            print(f"    - {t.type}  match.by={t.match.by}  value={t.match.value}")
+    else:
+        base_url = task.site.get("base_url", "unknown")
+        print(f"  site      : {base_url}  (create-type task, no pre-existing targets)")
+
+    ops = task.operations
+    if ops:
+        print(f"  operations: {len(ops)} item(s)")
+        for op in ops[:5]:  # cap at 5 to avoid noise
+            print(f"    - op={op.op}  scope={op.scope}  selector={op.selector.kind}:{op.selector.value[:40]}")
+        if len(ops) > 5:
+            print(f"    ... (+{len(ops) - 5} more)")
+
+    print("=" * 68)
+
+
 def run_task(task_path: Path, state_dir: Path, *, confirm: bool = False, apply_changes: bool = True) -> dict:
     started = time.time()
     payload = json.loads(task_path.read_text(encoding="utf-8"))
@@ -252,6 +305,21 @@ def run_task(task_path: Path, state_dir: Path, *, confirm: bool = False, apply_c
     auth = resolve_auth(site.auth_ref)
     client = WPClient(site.wp_api_base, auth.username, auth.app_password)
 
+    # ── Write-safety protocol: snapshot + op summary (live execute path only) ──
+    is_live_write = apply_changes and task.mode != "plan"
+    if is_live_write:
+        _print_op_summary(task, payload)
+        snapshot_result = pre_run_snapshot(
+            task_id=task.task_id,
+            targets=[{"type": t.type, "match": {"by": t.match.by, "value": t.match.value}} for t in task.targets],
+            site_payload=task.site,
+            state_dir=state_dir,
+        )
+        snap_dir = store.snapshots_dir / task.task_id
+        print(f"[wp-ai-ops] Snapshot: {snap_dir}  ({snapshot_result['snapshots_taken']} resources captured)")
+        if snapshot_result["errors"]:
+            print(f"[wp-ai-ops] Snapshot warnings: {snapshot_result['errors']}")
+
     results: list[dict] = []
     errors: list[dict] = []
     create_only_types = {"publish_post", "upload_media"}
@@ -263,7 +331,7 @@ def run_task(task_path: Path, state_dir: Path, *, confirm: bool = False, apply_c
     else:
         for idx in range(len(task.targets)):
             try:
-                results.append(_run_single_target(client, task, idx, store, apply_changes=apply_changes))
+                results.append(_run_single_target(client, task, idx, store, apply_changes=apply_changes, task_raw=payload))
             except (TaskValidationError, TargetNotFoundError, Exception) as exc:
                 target_hint = asdict(task.targets[idx]) if idx < len(task.targets) else {}
                 errors.append({"target": target_hint, "error": str(exc)})

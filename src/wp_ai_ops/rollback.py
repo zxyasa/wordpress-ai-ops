@@ -10,6 +10,87 @@ from .storage import StateStore
 from .wp_client import WPClient
 
 
+def pre_run_snapshot(
+    *,
+    task_id: str,
+    targets: list[dict],
+    site_payload: dict,
+    state_dir: Path,
+) -> dict:
+    """Proactively snapshot WP resources BEFORE a bulk task runs.
+
+    Useful for scripted batch operations that want a pre-flight safety net
+    independent of the task_runner's built-in before-snapshot.
+
+    Args:
+        task_id:      Identifier for the pending task (used as snapshot dir name).
+        targets:      List of target dicts from the task JSON:
+                      [{"type": "post", "match": {"by": "id", "value": 123}}, ...]
+        site_payload: Site config dict with auth_ref / base_url.
+        state_dir:    Path to the state directory (same as used by task_runner).
+
+    Returns:
+        {"task_id": str, "snapshots_taken": int, "errors": list[dict]}
+    """
+    site = resolve_site(site_payload)
+    auth = resolve_auth(site.auth_ref)
+    client = WPClient(site.wp_api_base, auth.username, auth.app_password)
+    store = StateStore(state_dir)
+
+    snapshots_taken = 0
+    errors: list[dict] = []
+
+    for target in targets:
+        resource_type = target.get("type", "post")
+        match = target.get("match", {})
+        by = match.get("by", "")
+        value = match.get("value")
+
+        if not value:
+            continue
+
+        try:
+            if by == "id":
+                resource_id = int(value)
+                resource = client.get_resource(resource_type, resource_id)
+            else:
+                # For slug/url matches: resolve via list query
+                params: dict = {}
+                if by == "slug":
+                    params["slug"] = str(value)
+                elif by == "url":
+                    slug = str(value).rstrip("/").split("/")[-1]
+                    params["slug"] = slug
+                else:
+                    errors.append({"target": target, "error": f"unsupported match.by={by}"})
+                    continue
+
+                rows = client.list_resources(resource_type, params=params)
+                if not rows:
+                    errors.append({"target": target, "error": f"no resource found matching {by}={value}"})
+                    continue
+                resource = rows[0]
+                resource_id = resource["id"]
+
+            key = f"{site.auth_ref}:{resource_type}:{resource_id}"
+            before_content = (
+                resource.get("content", {}).get("raw")
+                or resource.get("content", {}).get("rendered")
+            )
+            store.write_snapshot(task_id, "before", key, resource, before_content)
+            snapshots_taken += 1
+
+        except Exception as exc:
+            errors.append({"target": target, "error": str(exc)})
+
+    return {
+        "task_id": task_id,
+        "snapshots_taken": snapshots_taken,
+        "errors": errors,
+        "timestamp": datetime.now(timezone.utc).isoformat(),
+    }
+
+
 def _load_manifest(task_dir: Path) -> dict[str, str]:
     manifest_path = task_dir / "manifest.json"
     if manifest_path.exists():

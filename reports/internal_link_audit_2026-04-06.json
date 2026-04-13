@@ -1,0 +1,3764 @@
+{
+  "generated_at": "2026-04-06",
+  "scope": "all",
+  "total_scanned": 184,
+  "core_topics_checked": 12,
+  "coverage_summary": [
+    {
+      "topic": "American Candy",
+      "slug": "american-candy",
+      "url": "/american-candy/",
+      "linked_in": 0,
+      "total": 184,
+      "coverage_pct": 0.0
+    },
+    {
+      "topic": "UK Sweets",
+      "slug": "uk-sweets",
+      "url": "/uk-sweets/",
+      "linked_in": 0,
+      "total": 184,
+      "coverage_pct": 0.0
+    },
+    {
+      "topic": "Australian Lollies",
+      "slug": "australian-lollies",
+      "url": "/australian-lollies/",
+      "linked_in": 2,
+      "total": 184,
+      "coverage_pct": 1.1
+    },
+    {
+      "topic": "Bulk Lollies",
+      "slug": "bulk-lollies",
+      "url": "/bulk-lollies/",
+      "linked_in": 0,
+      "total": 184,
+      "coverage_pct": 0.0
+    },
+    {
+      "topic": "Gift Boxes",
+      "slug": "gift-boxes",
+      "url": "/gift-boxes/",
+      "linked_in": 0,
+      "total": 184,
+      "coverage_pct": 0.0
+    },
+    {
+      "topic": "Chocolate",
+      "slug": "chocolate",
+      "url": "/chocolate/",
+      "linked_in": 1,
+      "total": 184,
+      "coverage_pct": 0.5
+    },
+    {
+      "topic": "Party Sweets",
+      "slug": "party-sweets",
+      "url": "/party-sweets/",
+      "linked_in": 2,
+      "total": 184,
+      "coverage_pct": 1.1
+    },
+    {
+      "topic": "Seasonal Sweets",
+      "slug": "seasonal-sweets",
+      "url": "/seasonal-sweets/",
+      "linked_in": 2,
+      "total": 184,
+      "coverage_pct": 1.1
+    },
+    {
+      "topic": "Store Locator",
+      "slug": "store-locator",
+      "url": "/store-locator/",
+      "linked_in": 9,
+      "total": 184,
+      "coverage_pct": 4.9
+    },
+    {
+      "topic": "Returns Policy",
+      "slug": "returns-refunds",
+      "url": "/returns-refunds/",
+      "linked_in": 6,
+      "total": 184,
+      "coverage_pct": 3.3
+    },
+    {
+      "topic": "FAQ",
+      "slug": "faq",
+      "url": "/faq/",
+      "linked_in": 0,
+      "total": 184,
+      "coverage_pct": 0.0
+    },
+    {
+      "topic": "Shipping Info",
+      "slug": "shipping",
+      "url": "/shipping/",
+      "linked_in": 0,
+      "total": 184,
+      "coverage_pct": 0.0
+    }
+  ],
+  "gaps": [
+    {
+      "id": 71043,
+      "title": "Jolly Rancher Australia: Buy Hard Candy and Gummies Online",
+      "url": "https://sweetsworld.com.au/candy-types/jolly-rancher-australia/",
+      "missing_topics": [
+        "American Candy",
+        "UK Sweets",
+        "Australian Lollies",
+        "Bulk Lollies",
+        "Gift Boxes",
+        "Chocolate",
+        "Party Sweets",
+        "Seasonal Sweets",
+        "Store Locator",
+        "Returns Policy",
+        "FAQ",
+        "Shipping Info"
+      ],
+      "missing_count": 12
+    },
+    {
+      "id": 71031,
+      "title": "Mexican Candy Australia: Buy Takis Pulparindo and More Online",
+      "url": "https://sweetsworld.com.au/candy-categories/mexican-candy-australia/",
+      "missing_topics": [
+        "American Candy",
+        "UK Sweets",
+        "Australian Lollies",
+        "Bulk Lollies",
+        "Gift Boxes",
+        "Chocolate",
+        "Party Sweets",
+        "Seasonal Sweets",
+        "Store Locator",
+        "Returns Policy",
+        "FAQ",
+        "Shipping Info"
+      ],
+      "missing_count": 12
+    },
+    {
+      "id": 71020,
+      "title": "Turkish Candy Australia: Turkish Delight and Sweet Treats Online",
+      "url": "https://sweetsworld.com.au/candy-categories/turkish-candy-australia/",
+      "missing_topics": [
+        "American Candy",
+        "UK Sweets",
+        "Australian Lollies",
+        "Bulk Lollies",
+        "Gift Boxes",
+        "Chocolate",
+        "Party Sweets",
+        "Seasonal Sweets",
+        "Store Locator",
+        "Returns Policy",
+        "FAQ",
+        "Shipping Info"
+      ],
+      "missing_count": 12
+    },
+    {
+      "id": 71009,
+      "title": "German Candy Australia: Buy Haribo and German Sweets Online",
+      "url": "https://sweetsworld.com.au/candy-categories/german-candy-australia/",
+      "missing_topics": [
+        "American Candy",
+        "UK Sweets",
+        "Australian Lollies",
+        "Bulk Lollies",
+        "Gift Boxes",
+        "Chocolate",
+        "Party Sweets",
+        "Seasonal Sweets",
+        "Store Locator",
+        "Returns Policy",
+        "FAQ",
+        "Shipping Info"
+      ],
+      "missing_count": 12
+    },
+    {
+      "id": 70997,
+      "title": "Dutch Candy Australia: Buy Holland Sweets and Licorice Online",
+      "url": "https://sweetsworld.com.au/candy-categories/dutch-candy-australia/",
+      "missing_topics": [
+        "American Candy",
+        "UK Sweets",
+        "Australian Lollies",
+        "Bulk Lollies",
+        "Gift Boxes",
+        "Chocolate",
+        "Party Sweets",
+        "Seasonal Sweets",
+        "Store Locator",
+        "Returns Policy",
+        "FAQ",
+        "Shipping Info"
+      ],
+      "missing_count": 12
+    },
+    {
+      "id": 70908,
+      "title": "Allergy Friendly Lollies Australia: Nut Free Gluten Free Dairy Free Options",
+      "url": "https://sweetsworld.com.au/candy-guides/allergy-friendly-lollies-australia/",
+      "missing_topics": [
+        "American Candy",
+        "UK Sweets",
+        "Australian Lollies",
+        "Bulk Lollies",
+        "Gift Boxes",
+        "Chocolate",
+        "Party Sweets",
+        "Seasonal Sweets",
+        "Store Locator",
+        "Returns Policy",
+        "FAQ",
+        "Shipping Info"
+      ],
+      "missing_count": 12
+    },
+    {
+      "id": 70881,
+      "title": "Nut Free Candy Australia: Safe Lollies for Nut Allergy Kids",
+      "url": "https://sweetsworld.com.au/where-to-buy/nut-free-candy-australia/",
+      "missing_topics": [
+        "American Candy",
+        "UK Sweets",
+        "Australian Lollies",
+        "Bulk Lollies",
+        "Gift Boxes",
+        "Chocolate",
+        "Party Sweets",
+        "Seasonal Sweets",
+        "Store Locator",
+        "Returns Policy",
+        "FAQ",
+        "Shipping Info"
+      ],
+      "missing_count": 12
+    },
+    {
+      "id": 70879,
+      "title": "Natural Lollies Australia: No Artificial Colours or Flavours",
+      "url": "https://sweetsworld.com.au/where-to-buy/no-artificial-colours-lollies/",
+      "missing_topics": [
+        "American Candy",
+        "UK Sweets",
+        "Australian Lollies",
+        "Bulk Lollies",
+        "Gift Boxes",
+        "Chocolate",
+        "Party Sweets",
+        "Seasonal Sweets",
+        "Store Locator",
+        "Returns Policy",
+        "FAQ",
+        "Shipping Info"
+      ],
+      "missing_count": 12
+    },
+    {
+      "id": 70877,
+      "title": "Sugar Free Lollies Australia: Best Low-Sugar Candy Online",
+      "url": "https://sweetsworld.com.au/where-to-buy/sugar-free-lollies-australia/",
+      "missing_topics": [
+        "American Candy",
+        "UK Sweets",
+        "Australian Lollies",
+        "Bulk Lollies",
+        "Gift Boxes",
+        "Chocolate",
+        "Party Sweets",
+        "Seasonal Sweets",
+        "Store Locator",
+        "Returns Policy",
+        "FAQ",
+        "Shipping Info"
+      ],
+      "missing_count": 12
+    },
+    {
+      "id": 70875,
+      "title": "European Chocolate Australia: Belgian and Swiss Choc Online",
+      "url": "https://sweetsworld.com.au/products/european-chocolate-australia/",
+      "missing_topics": [
+        "American Candy",
+        "UK Sweets",
+        "Australian Lollies",
+        "Bulk Lollies",
+        "Gift Boxes",
+        "Chocolate",
+        "Party Sweets",
+        "Seasonal Sweets",
+        "Store Locator",
+        "Returns Policy",
+        "FAQ",
+        "Shipping Info"
+      ],
+      "missing_count": 12
+    },
+    {
+      "id": 70873,
+      "title": "Korean Snacks Australia: Buy K-Snacks and Pepero Online",
+      "url": "https://sweetsworld.com.au/products/korean-snacks-australia/",
+      "missing_topics": [
+        "American Candy",
+        "UK Sweets",
+        "Australian Lollies",
+        "Bulk Lollies",
+        "Gift Boxes",
+        "Chocolate",
+        "Party Sweets",
+        "Seasonal Sweets",
+        "Store Locator",
+        "Returns Policy",
+        "FAQ",
+        "Shipping Info"
+      ],
+      "missing_count": 12
+    },
+    {
+      "id": 70871,
+      "title": "British Chocolate Australia: Buy Cadbury UK and More Online",
+      "url": "https://sweetsworld.com.au/where-to-buy/british-chocolate-australia/",
+      "missing_topics": [
+        "American Candy",
+        "UK Sweets",
+        "Australian Lollies",
+        "Bulk Lollies",
+        "Gift Boxes",
+        "Chocolate",
+        "Party Sweets",
+        "Seasonal Sweets",
+        "Store Locator",
+        "Returns Policy",
+        "FAQ",
+        "Shipping Info"
+      ],
+      "missing_count": 12
+    },
+    {
+      "id": 70869,
+      "title": "Baby Shower Candy Australia: Cute Sweet Treats for the Big Day",
+      "url": "https://sweetsworld.com.au/candy-guides/baby-shower-candy-australia/",
+      "missing_topics": [
+        "American Candy",
+        "UK Sweets",
+        "Australian Lollies",
+        "Bulk Lollies",
+        "Gift Boxes",
+        "Chocolate",
+        "Party Sweets",
+        "Seasonal Sweets",
+        "Store Locator",
+        "Returns Policy",
+        "FAQ",
+        "Shipping Info"
+      ],
+      "missing_count": 12
+    },
+    {
+      "id": 70867,
+      "title": "Engagement Party Lollies: Sweet Ideas for Your Celebration",
+      "url": "https://sweetsworld.com.au/candy-guides/engagement-party-lollies/",
+      "missing_topics": [
+        "American Candy",
+        "UK Sweets",
+        "Australian Lollies",
+        "Bulk Lollies",
+        "Gift Boxes",
+        "Chocolate",
+        "Party Sweets",
+        "Seasonal Sweets",
+        "Store Locator",
+        "Returns Policy",
+        "FAQ",
+        "Shipping Info"
+      ],
+      "missing_count": 12
+    },
+    {
+      "id": 70865,
+      "title": "Father&#8217;s Day Candy Australia: Sweet and Savoury Gift Ideas",
+      "url": "https://sweetsworld.com.au/candy-guides/fathers-day-candy-australia/",
+      "missing_topics": [
+        "American Candy",
+        "UK Sweets",
+        "Australian Lollies",
+        "Bulk Lollies",
+        "Gift Boxes",
+        "Chocolate",
+        "Party Sweets",
+        "Seasonal Sweets",
+        "Store Locator",
+        "Returns Policy",
+        "FAQ",
+        "Shipping Info"
+      ],
+      "missing_count": 12
+    },
+    {
+      "id": 70863,
+      "title": "Mother&#8217;s Day Chocolate Australia: Sweet Gifts Mum Will Love",
+      "url": "https://sweetsworld.com.au/candy-guides/mothers-day-chocolate-australia/",
+      "missing_topics": [
+        "American Candy",
+        "UK Sweets",
+        "Australian Lollies",
+        "Bulk Lollies",
+        "Gift Boxes",
+        "Chocolate",
+        "Party Sweets",
+        "Seasonal Sweets",
+        "Store Locator",
+        "Returns Policy",
+        "FAQ",
+        "Shipping Info"
+      ],
+      "missing_count": 12
+    },
+    {
+      "id": 70842,
+      "title": "Valentine&#8217;s Day Candy Australia: Sweet Gifts for Your Partner",
+      "url": "https://sweetsworld.com.au/candy-guides/valentines-day-candy-australia/",
+      "missing_topics": [
+        "American Candy",
+        "UK Sweets",
+        "Australian Lollies",
+        "Bulk Lollies",
+        "Gift Boxes",
+        "Chocolate",
+        "Party Sweets",
+        "Seasonal Sweets",
+        "Store Locator",
+        "Returns Policy",
+        "FAQ",
+        "Shipping Info"
+      ],
+      "missing_count": 12
+    },
+    {
+      "id": 70840,
+      "title": "Darrell Lea Liquorice Australia: Buy Soft Eating Liquorice Online",
+      "url": "https://sweetsworld.com.au/where-to-buy/darrell-lea-liquorice-australia/",
+      "missing_topics": [
+        "American Candy",
+        "UK Sweets",
+        "Australian Lollies",
+        "Bulk Lollies",
+        "Gift Boxes",
+        "Chocolate",
+        "Party Sweets",
+        "Seasonal Sweets",
+        "Store Locator",
+        "Returns Policy",
+        "FAQ",
+        "Shipping Info"
+      ],
+      "missing_count": 12
+    },
+    {
+      "id": 70838,
+      "title": "How to Set Up a Candy Bar: DIY Lolly Buffet Guide for Parties",
+      "url": "https://sweetsworld.com.au/candy-guides/how-to-set-up-candy-bar/",
+      "missing_topics": [
+        "American Candy",
+        "UK Sweets",
+        "Australian Lollies",
+        "Bulk Lollies",
+        "Gift Boxes",
+        "Chocolate",
+        "Party Sweets",
+        "Seasonal Sweets",
+        "Store Locator",
+        "Returns Policy",
+        "FAQ",
+        "Shipping Info"
+      ],
+      "missing_count": 12
+    },
+    {
+      "id": 70836,
+      "title": "Most Popular Candy in Australia: Best Selling Lollies and Sweets",
+      "url": "https://sweetsworld.com.au/candy-guides/most-popular-candy-australia/",
+      "missing_topics": [
+        "American Candy",
+        "UK Sweets",
+        "Australian Lollies",
+        "Bulk Lollies",
+        "Gift Boxes",
+        "Chocolate",
+        "Party Sweets",
+        "Seasonal Sweets",
+        "Store Locator",
+        "Returns Policy",
+        "FAQ",
+        "Shipping Info"
+      ],
+      "missing_count": 12
+    },
+    {
+      "id": 70834,
+      "title": "No Gelatine Candy Australia: Gelatine Free Lollies and Sweets",
+      "url": "https://sweetsworld.com.au/where-to-buy/no-gelatine-candy-australia/",
+      "missing_topics": [
+        "American Candy",
+        "UK Sweets",
+        "Australian Lollies",
+        "Bulk Lollies",
+        "Gift Boxes",
+        "Chocolate",
+        "Party Sweets",
+        "Seasonal Sweets",
+        "Store Locator",
+        "Returns Policy",
+        "FAQ",
+        "Shipping Info"
+      ],
+      "missing_count": 12
+    },
+    {
+      "id": 70832,
+      "title": "Bulk Candy for Events Australia: Weddings Parties and Corporates",
+      "url": "https://sweetsworld.com.au/where-to-buy/bulk-candy-for-events-australia/",
+      "missing_topics": [
+        "American Candy",
+        "UK Sweets",
+        "Australian Lollies",
+        "Bulk Lollies",
+        "Gift Boxes",
+        "Chocolate",
+        "Party Sweets",
+        "Seasonal Sweets",
+        "Store Locator",
+        "Returns Policy",
+        "FAQ",
+        "Shipping Info"
+      ],
+      "missing_count": 12
+    },
+    {
+      "id": 70830,
+      "title": "Wholesale Candy Australia: Bulk Lolly Suppliers for Events and Retail",
+      "url": "https://sweetsworld.com.au/where-to-buy/wholesale-candy-australia/",
+      "missing_topics": [
+        "American Candy",
+        "UK Sweets",
+        "Australian Lollies",
+        "Bulk Lollies",
+        "Gift Boxes",
+        "Chocolate",
+        "Party Sweets",
+        "Seasonal Sweets",
+        "Store Locator",
+        "Returns Policy",
+        "FAQ",
+        "Shipping Info"
+      ],
+      "missing_count": 12
+    },
+    {
+      "id": 70828,
+      "title": "Sour Straps Australia: Buy Sour Straps Lollies in Bulk Online",
+      "url": "https://sweetsworld.com.au/where-to-buy/sour-straps-australia/",
+      "missing_topics": [
+        "American Candy",
+        "UK Sweets",
+        "Australian Lollies",
+        "Bulk Lollies",
+        "Gift Boxes",
+        "Chocolate",
+        "Party Sweets",
+        "Seasonal Sweets",
+        "Store Locator",
+        "Returns Policy",
+        "FAQ",
+        "Shipping Info"
+      ],
+      "missing_count": 12
+    },
+    {
+      "id": 70826,
+      "title": "Jelly Beans Australia: Buy Jelly Belly and Bulk Jelly Beans Online",
+      "url": "https://sweetsworld.com.au/where-to-buy/jelly-beans-australia/",
+      "missing_topics": [
+        "American Candy",
+        "UK Sweets",
+        "Australian Lollies",
+        "Bulk Lollies",
+        "Gift Boxes",
+        "Chocolate",
+        "Party Sweets",
+        "Seasonal Sweets",
+        "Store Locator",
+        "Returns Policy",
+        "FAQ",
+        "Shipping Info"
+      ],
+      "missing_count": 12
+    },
+    {
+      "id": 70824,
+      "title": "Rocky Road Australia: Buy Rocky Road Chocolate Blocks Online",
+      "url": "https://sweetsworld.com.au/where-to-buy/rocky-road-australia/",
+      "missing_topics": [
+        "American Candy",
+        "UK Sweets",
+        "Australian Lollies",
+        "Bulk Lollies",
+        "Gift Boxes",
+        "Chocolate",
+        "Party Sweets",
+        "Seasonal Sweets",
+        "Store Locator",
+        "Returns Policy",
+        "FAQ",
+        "Shipping Info"
+      ],
+      "missing_count": 12
+    },
+    {
+      "id": 70805,
+      "title": "Stocking Fillers Australia: Best Candy and Sweet Stocking Stuffers",
+      "url": "https://sweetsworld.com.au/candy-guides/stocking-fillers-australia/",
+      "missing_topics": [
+        "American Candy",
+        "UK Sweets",
+        "Australian Lollies",
+        "Bulk Lollies",
+        "Gift Boxes",
+        "Chocolate",
+        "Party Sweets",
+        "Seasonal Sweets",
+        "Store Locator",
+        "Returns Policy",
+        "FAQ",
+        "Shipping Info"
+      ],
+      "missing_count": 12
+    },
+    {
+      "id": 70803,
+      "title": "Candy Advent Calendar Australia: Sweet Christmas Countdown Calendars",
+      "url": "https://sweetsworld.com.au/where-to-buy/candy-advent-calendar-australia/",
+      "missing_topics": [
+        "American Candy",
+        "UK Sweets",
+        "Australian Lollies",
+        "Bulk Lollies",
+        "Gift Boxes",
+        "Chocolate",
+        "Party Sweets",
+        "Seasonal Sweets",
+        "Store Locator",
+        "Returns Policy",
+        "FAQ",
+        "Shipping Info"
+      ],
+      "missing_count": 12
+    },
+    {
+      "id": 70801,
+      "title": "American Soda Australia: Buy US Soft Drinks and Sodas Online",
+      "url": "https://sweetsworld.com.au/products/american-soda-australia/",
+      "missing_topics": [
+        "American Candy",
+        "UK Sweets",
+        "Australian Lollies",
+        "Bulk Lollies",
+        "Gift Boxes",
+        "Chocolate",
+        "Party Sweets",
+        "Seasonal Sweets",
+        "Store Locator",
+        "Returns Policy",
+        "FAQ",
+        "Shipping Info"
+      ],
+      "missing_count": 12
+    },
+    {
+      "id": 70799,
+      "title": "Australian Candy Brands: Best Made in Australia Lollies and Sweets",
+      "url": "https://sweetsworld.com.au/products/australian-candy-brands/",
+      "missing_topics": [
+        "American Candy",
+        "UK Sweets",
+        "Australian Lollies",
+        "Bulk Lollies",
+        "Gift Boxes",
+        "Chocolate",
+        "Party Sweets",
+        "Seasonal Sweets",
+        "Store Locator",
+        "Returns Policy",
+        "FAQ",
+        "Shipping Info"
+      ],
+      "missing_count": 12
+    },
+    {
+      "id": 70797,
+      "title": "Australian Made Chocolate: Best Locally Made Chocolate Brands",
+      "url": "https://sweetsworld.com.au/products/australian-made-chocolate/",
+      "missing_topics": [
+        "American Candy",
+        "UK Sweets",
+        "Australian Lollies",
+        "Bulk Lollies",
+        "Gift Boxes",
+        "Chocolate",
+        "Party Sweets",
+        "Seasonal Sweets",
+        "Store Locator",
+        "Returns Policy",
+        "FAQ",
+        "Shipping Info"
+      ],
+      "missing_count": 12
+    },
+    {
+      "id": 70795,
+      "title": "Lolly Shop Online Australia: Best Place to Buy Lollies and Candy",
+      "url": "https://sweetsworld.com.au/where-to-buy/lolly-shop-online-australia/",
+      "missing_topics": [
+        "American Candy",
+        "UK Sweets",
+        "Australian Lollies",
+        "Bulk Lollies",
+        "Gift Boxes",
+        "Chocolate",
+        "Party Sweets",
+        "Seasonal Sweets",
+        "Store Locator",
+        "Returns Policy",
+        "FAQ",
+        "Shipping Info"
+      ],
+      "missing_count": 12
+    },
+    {
+      "id": 70793,
+      "title": "Candy Subscription Box Australia: Monthly Lolly Box Delivered",
+      "url": "https://sweetsworld.com.au/where-to-buy/candy-subscription-box-australia/",
+      "missing_topics": [
+        "American Candy",
+        "UK Sweets",
+        "Australian Lollies",
+        "Bulk Lollies",
+        "Gift Boxes",
+        "Chocolate",
+        "Party Sweets",
+        "Seasonal Sweets",
+        "Store Locator",
+        "Returns Policy",
+        "FAQ",
+        "Shipping Info"
+      ],
+      "missing_count": 12
+    },
+    {
+      "id": 70791,
+      "title": "Buy Lollies Online Australia: Best Online Lolly Shop",
+      "url": "https://sweetsworld.com.au/where-to-buy/buy-lollies-online-australia/",
+      "missing_topics": [
+        "American Candy",
+        "UK Sweets",
+        "Australian Lollies",
+        "Bulk Lollies",
+        "Gift Boxes",
+        "Chocolate",
+        "Party Sweets",
+        "Seasonal Sweets",
+        "Store Locator",
+        "Returns Policy",
+        "FAQ",
+        "Shipping Info"
+      ],
+      "missing_count": 12
+    },
+    {
+      "id": 70789,
+      "title": "Pick and Mix Lollies Online Australia: Build Your Own Lolly Bag",
+      "url": "https://sweetsworld.com.au/where-to-buy/pick-and-mix-lollies-online/",
+      "missing_topics": [
+        "American Candy",
+        "UK Sweets",
+        "Australian Lollies",
+        "Bulk Lollies",
+        "Gift Boxes",
+        "Chocolate",
+        "Party Sweets",
+        "Seasonal Sweets",
+        "Store Locator",
+        "Returns Policy",
+        "FAQ",
+        "Shipping Info"
+      ],
+      "missing_count": 12
+    },
+    {
+      "id": 70787,
+      "title": "Chocolate Bars Australia: Best Chocolate Bars to Buy Online",
+      "url": "https://sweetsworld.com.au/products/chocolate-bars-australia/",
+      "missing_topics": [
+        "American Candy",
+        "UK Sweets",
+        "Australian Lollies",
+        "Bulk Lollies",
+        "Gift Boxes",
+        "Chocolate",
+        "Party Sweets",
+        "Seasonal Sweets",
+        "Store Locator",
+        "Returns Policy",
+        "FAQ",
+        "Shipping Info"
+      ],
+      "missing_count": 12
+    },
+    {
+      "id": 70770,
+      "title": "Licorice Australia: Buy Black and Red Licorice Twists Online",
+      "url": "https://sweetsworld.com.au/products/licorice-australia/",
+      "missing_topics": [
+        "American Candy",
+        "UK Sweets",
+        "Australian Lollies",
+        "Bulk Lollies",
+        "Gift Boxes",
+        "Chocolate",
+        "Party Sweets",
+        "Seasonal Sweets",
+        "Store Locator",
+        "Returns Policy",
+        "FAQ",
+        "Shipping Info"
+      ],
+      "missing_count": 12
+    },
+    {
+      "id": 70768,
+      "title": "Gummy Bears Australia: Buy Haribo and Bulk Gummy Bears Online",
+      "url": "https://sweetsworld.com.au/where-to-buy/gummy-bears-australia/",
+      "missing_topics": [
+        "American Candy",
+        "UK Sweets",
+        "Australian Lollies",
+        "Bulk Lollies",
+        "Gift Boxes",
+        "Chocolate",
+        "Party Sweets",
+        "Seasonal Sweets",
+        "Store Locator",
+        "Returns Policy",
+        "FAQ",
+        "Shipping Info"
+      ],
+      "missing_count": 12
+    },
+    {
+      "id": 70766,
+      "title": "Lollipops Australia: Buy Giant Lollipops and Bulk Lollipops Online",
+      "url": "https://sweetsworld.com.au/products/lollipops-australia/",
+      "missing_topics": [
+        "American Candy",
+        "UK Sweets",
+        "Australian Lollies",
+        "Bulk Lollies",
+        "Gift Boxes",
+        "Chocolate",
+        "Party Sweets",
+        "Seasonal Sweets",
+        "Store Locator",
+        "Returns Policy",
+        "FAQ",
+        "Shipping Info"
+      ],
+      "missing_count": 12
+    },
+    {
+      "id": 70764,
+      "title": "Peanut Butter Candy Australia: Buy Peanut Butter Cups and Sweets Online",
+      "url": "https://sweetsworld.com.au/products/peanut-butter-candy-australia/",
+      "missing_topics": [
+        "American Candy",
+        "UK Sweets",
+        "Australian Lollies",
+        "Bulk Lollies",
+        "Gift Boxes",
+        "Chocolate",
+        "Party Sweets",
+        "Seasonal Sweets",
+        "Store Locator",
+        "Returns Policy",
+        "FAQ",
+        "Shipping Info"
+      ],
+      "missing_count": 12
+    },
+    {
+      "id": 70762,
+      "title": "Caramel Chocolate Australia: Buy Caramel Chews and Caramel Chocolate",
+      "url": "https://sweetsworld.com.au/products/caramel-chocolate-australia/",
+      "missing_topics": [
+        "American Candy",
+        "UK Sweets",
+        "Australian Lollies",
+        "Bulk Lollies",
+        "Gift Boxes",
+        "Chocolate",
+        "Party Sweets",
+        "Seasonal Sweets",
+        "Store Locator",
+        "Returns Policy",
+        "FAQ",
+        "Shipping Info"
+      ],
+      "missing_count": 12
+    },
+    {
+      "id": 70760,
+      "title": "Mint Chocolate Australia: Buy Mint Dark Chocolate and Mint Lollies Online",
+      "url": "https://sweetsworld.com.au/products/mint-chocolate-australia/",
+      "missing_topics": [
+        "American Candy",
+        "UK Sweets",
+        "Australian Lollies",
+        "Bulk Lollies",
+        "Gift Boxes",
+        "Chocolate",
+        "Party Sweets",
+        "Seasonal Sweets",
+        "Store Locator",
+        "Returns Policy",
+        "FAQ",
+        "Shipping Info"
+      ],
+      "missing_count": 12
+    },
+    {
+      "id": 70758,
+      "title": "Chupa Chups Australia: Buy Chupa Chups Lollipops and Bulk Packs",
+      "url": "https://sweetsworld.com.au/where-to-buy/chupa-chups-australia/",
+      "missing_topics": [
+        "American Candy",
+        "UK Sweets",
+        "Australian Lollies",
+        "Bulk Lollies",
+        "Gift Boxes",
+        "Chocolate",
+        "Party Sweets",
+        "Seasonal Sweets",
+        "Store Locator",
+        "Returns Policy",
+        "FAQ",
+        "Shipping Info"
+      ],
+      "missing_count": 12
+    },
+    {
+      "id": 70756,
+      "title": "Allen&#8217;s Snakes Alive Australia: Buy Snakes Lollies in Bulk Online",
+      "url": "https://sweetsworld.com.au/where-to-buy/allens-snakes-alive-australia/",
+      "missing_topics": [
+        "American Candy",
+        "UK Sweets",
+        "Australian Lollies",
+        "Bulk Lollies",
+        "Gift Boxes",
+        "Chocolate",
+        "Party Sweets",
+        "Seasonal Sweets",
+        "Store Locator",
+        "Returns Policy",
+        "FAQ",
+        "Shipping Info"
+      ],
+      "missing_count": 12
+    },
+    {
+      "id": 70754,
+      "title": "Allen&#8217;s Red Frogs Australia: Buy Red Frogs Bulk and Gift Packs",
+      "url": "https://sweetsworld.com.au/where-to-buy/allens-red-frogs-australia/",
+      "missing_topics": [
+        "American Candy",
+        "UK Sweets",
+        "Australian Lollies",
+        "Bulk Lollies",
+        "Gift Boxes",
+        "Chocolate",
+        "Party Sweets",
+        "Seasonal Sweets",
+        "Store Locator",
+        "Returns Policy",
+        "FAQ",
+        "Shipping Info"
+      ],
+      "missing_count": 12
+    },
+    {
+      "id": 70752,
+      "title": "Old Fashioned Lollies Australia: Classic Retro Sweets You Grew Up With",
+      "url": "https://sweetsworld.com.au/products/old-fashioned-lollies-australia/",
+      "missing_topics": [
+        "American Candy",
+        "UK Sweets",
+        "Australian Lollies",
+        "Bulk Lollies",
+        "Gift Boxes",
+        "Chocolate",
+        "Party Sweets",
+        "Seasonal Sweets",
+        "Store Locator",
+        "Returns Policy",
+        "FAQ",
+        "Shipping Info"
+      ],
+      "missing_count": 12
+    },
+    {
+      "id": 69850,
+      "title": "The Ultimate Guide to Candy Bras: Fun and Sweet in 2026",
+      "url": "https://sweetsworld.com.au/candy-guides/ultimate-guide-to-candy-bras-2026/",
+      "missing_topics": [
+        "American Candy",
+        "UK Sweets",
+        "Australian Lollies",
+        "Bulk Lollies",
+        "Gift Boxes",
+        "Chocolate",
+        "Party Sweets",
+        "Seasonal Sweets",
+        "Store Locator",
+        "Returns Policy",
+        "FAQ",
+        "Shipping Info"
+      ],
+      "missing_count": 12
+    },
+    {
+      "id": 70285,
+      "title": "Candy Gift Box Australia: Best Sweet Hampers and Lolly Bags",
+      "url": "https://sweetsworld.com.au/where-to-buy/candy-gift-box-australia/",
+      "missing_topics": [
+        "American Candy",
+        "UK Sweets",
+        "Australian Lollies",
+        "Bulk Lollies",
+        "Gift Boxes",
+        "Chocolate",
+        "Party Sweets",
+        "Seasonal Sweets",
+        "Store Locator",
+        "Returns Policy",
+        "FAQ",
+        "Shipping Info"
+      ],
+      "missing_count": 12
+    },
+    {
+      "id": 70538,
+      "title": "Cheetos Australia: Buy Cheetos Flamin Hot and Crunchy Online",
+      "url": "https://sweetsworld.com.au/where-to-buy/cheetos-australia/",
+      "missing_topics": [
+        "American Candy",
+        "UK Sweets",
+        "Australian Lollies",
+        "Bulk Lollies",
+        "Gift Boxes",
+        "Chocolate",
+        "Party Sweets",
+        "Seasonal Sweets",
+        "Store Locator",
+        "Returns Policy",
+        "FAQ",
+        "Shipping Info"
+      ],
+      "missing_count": 12
+    },
+    {
+      "id": 70536,
+      "title": "Pop Tarts Australia: Buy Pop Tarts All Flavours Online",
+      "url": "https://sweetsworld.com.au/where-to-buy/pop-tarts-australia/",
+      "missing_topics": [
+        "American Candy",
+        "UK Sweets",
+        "Australian Lollies",
+        "Bulk Lollies",
+        "Gift Boxes",
+        "Chocolate",
+        "Party Sweets",
+        "Seasonal Sweets",
+        "Store Locator",
+        "Returns Policy",
+        "FAQ",
+        "Shipping Info"
+      ],
+      "missing_count": 12
+    },
+    {
+      "id": 70534,
+      "title": "Allen&#8217;s Lollies Australia: Buy Allen&#8217;s Red Frogs Snakes and More",
+      "url": "https://sweetsworld.com.au/where-to-buy/allens-lollies-australia/",
+      "missing_topics": [
+        "American Candy",
+        "UK Sweets",
+        "Australian Lollies",
+        "Bulk Lollies",
+        "Gift Boxes",
+        "Chocolate",
+        "Party Sweets",
+        "Seasonal Sweets",
+        "Store Locator",
+        "Returns Policy",
+        "FAQ",
+        "Shipping Info"
+      ],
+      "missing_count": 12
+    },
+    {
+      "id": 70532,
+      "title": "TNT Sour Candy Australia: Buy TNT Sour Straps and Turbo Tubes Online",
+      "url": "https://sweetsworld.com.au/where-to-buy/tnt-sour-candy-australia/",
+      "missing_topics": [
+        "American Candy",
+        "UK Sweets",
+        "Australian Lollies",
+        "Bulk Lollies",
+        "Gift Boxes",
+        "Chocolate",
+        "Party Sweets",
+        "Seasonal Sweets",
+        "Store Locator",
+        "Returns Policy",
+        "FAQ",
+        "Shipping Info"
+      ],
+      "missing_count": 12
+    },
+    {
+      "id": 70530,
+      "title": "Takis Australia: Buy Takis Fuego and All Flavours Online",
+      "url": "https://sweetsworld.com.au/where-to-buy/takis-australia/",
+      "missing_topics": [
+        "American Candy",
+        "UK Sweets",
+        "Australian Lollies",
+        "Bulk Lollies",
+        "Gift Boxes",
+        "Chocolate",
+        "Party Sweets",
+        "Seasonal Sweets",
+        "Store Locator",
+        "Returns Policy",
+        "FAQ",
+        "Shipping Info"
+      ],
+      "missing_count": 12
+    },
+    {
+      "id": 70528,
+      "title": "Ferrero Rocher Australia: Buy Ferrero Gift Boxes Online",
+      "url": "https://sweetsworld.com.au/where-to-buy/ferrero-rocher-australia/",
+      "missing_topics": [
+        "American Candy",
+        "UK Sweets",
+        "Australian Lollies",
+        "Bulk Lollies",
+        "Gift Boxes",
+        "Chocolate",
+        "Party Sweets",
+        "Seasonal Sweets",
+        "Store Locator",
+        "Returns Policy",
+        "FAQ",
+        "Shipping Info"
+      ],
+      "missing_count": 12
+    },
+    {
+      "id": 70526,
+      "title": "Kinder Chocolate Australia: Buy Kinder Surprise and Bueno Online",
+      "url": "https://sweetsworld.com.au/where-to-buy/kinder-chocolate-australia/",
+      "missing_topics": [
+        "American Candy",
+        "UK Sweets",
+        "Australian Lollies",
+        "Bulk Lollies",
+        "Gift Boxes",
+        "Chocolate",
+        "Party Sweets",
+        "Seasonal Sweets",
+        "Store Locator",
+        "Returns Policy",
+        "FAQ",
+        "Shipping Info"
+      ],
+      "missing_count": 12
+    },
+    {
+      "id": 70524,
+      "title": "Sour Patch Kids Australia: Where to Buy Sour Patch Kids Online",
+      "url": "https://sweetsworld.com.au/where-to-buy/sour-patch-kids-australia/",
+      "missing_topics": [
+        "American Candy",
+        "UK Sweets",
+        "Australian Lollies",
+        "Bulk Lollies",
+        "Gift Boxes",
+        "Chocolate",
+        "Party Sweets",
+        "Seasonal Sweets",
+        "Store Locator",
+        "Returns Policy",
+        "FAQ",
+        "Shipping Info"
+      ],
+      "missing_count": 12
+    },
+    {
+      "id": 70522,
+      "title": "Lindt Chocolate Australia: Buy Lindt Balls and Gift Boxes Online",
+      "url": "https://sweetsworld.com.au/where-to-buy/lindt-chocolate-australia/",
+      "missing_topics": [
+        "American Candy",
+        "UK Sweets",
+        "Australian Lollies",
+        "Bulk Lollies",
+        "Gift Boxes",
+        "Chocolate",
+        "Party Sweets",
+        "Seasonal Sweets",
+        "Store Locator",
+        "Returns Policy",
+        "FAQ",
+        "Shipping Info"
+      ],
+      "missing_count": 12
+    },
+    {
+      "id": 70520,
+      "title": "Cadbury Favourites Australia: Buy Cadbury Chocolate Gift Boxes",
+      "url": "https://sweetsworld.com.au/where-to-buy/cadbury-favourites-australia/",
+      "missing_topics": [
+        "American Candy",
+        "UK Sweets",
+        "Australian Lollies",
+        "Bulk Lollies",
+        "Gift Boxes",
+        "Chocolate",
+        "Party Sweets",
+        "Seasonal Sweets",
+        "Store Locator",
+        "Returns Policy",
+        "FAQ",
+        "Shipping Info"
+      ],
+      "missing_count": 12
+    },
+    {
+      "id": 70502,
+      "title": "Kit Kat Australia: Buy Kit Kat Flavours Including Japan Varieties",
+      "url": "https://sweetsworld.com.au/where-to-buy/kit-kat-australia/",
+      "missing_topics": [
+        "American Candy",
+        "UK Sweets",
+        "Australian Lollies",
+        "Bulk Lollies",
+        "Gift Boxes",
+        "Chocolate",
+        "Party Sweets",
+        "Seasonal Sweets",
+        "Store Locator",
+        "Returns Policy",
+        "FAQ",
+        "Shipping Info"
+      ],
+      "missing_count": 12
+    },
+    {
+      "id": 70500,
+      "title": "M&#038;Ms Australia: All Flavours and Varieties to Buy Online",
+      "url": "https://sweetsworld.com.au/where-to-buy/m-and-ms-australia/",
+      "missing_topics": [
+        "American Candy",
+        "UK Sweets",
+        "Australian Lollies",
+        "Bulk Lollies",
+        "Gift Boxes",
+        "Chocolate",
+        "Party Sweets",
+        "Seasonal Sweets",
+        "Store Locator",
+        "Returns Policy",
+        "FAQ",
+        "Shipping Info"
+      ],
+      "missing_count": 12
+    },
+    {
+      "id": 70498,
+      "title": "Lolly Bag Ideas for Kids: What to Put in Party Bags Australia",
+      "url": "https://sweetsworld.com.au/candy-guides/lolly-bag-ideas-kids/",
+      "missing_topics": [
+        "American Candy",
+        "UK Sweets",
+        "Australian Lollies",
+        "Bulk Lollies",
+        "Gift Boxes",
+        "Chocolate",
+        "Party Sweets",
+        "Seasonal Sweets",
+        "Store Locator",
+        "Returns Policy",
+        "FAQ",
+        "Shipping Info"
+      ],
+      "missing_count": 12
+    },
+    {
+      "id": 70496,
+      "title": "Candy Hamper Australia: Sweet Gift Hampers for Every Occasion",
+      "url": "https://sweetsworld.com.au/where-to-buy/candy-hamper-australia/",
+      "missing_topics": [
+        "American Candy",
+        "UK Sweets",
+        "Australian Lollies",
+        "Bulk Lollies",
+        "Gift Boxes",
+        "Chocolate",
+        "Party Sweets",
+        "Seasonal Sweets",
+        "Store Locator",
+        "Returns Policy",
+        "FAQ",
+        "Shipping Info"
+      ],
+      "missing_count": 12
+    },
+    {
+      "id": 70494,
+      "title": "Jelly Belly Australia: Buy Jelly Beans and Gift Boxes Online",
+      "url": "https://sweetsworld.com.au/where-to-buy/jelly-belly-australia/",
+      "missing_topics": [
+        "American Candy",
+        "UK Sweets",
+        "Australian Lollies",
+        "Bulk Lollies",
+        "Gift Boxes",
+        "Chocolate",
+        "Party Sweets",
+        "Seasonal Sweets",
+        "Store Locator",
+        "Returns Policy",
+        "FAQ",
+        "Shipping Info"
+      ],
+      "missing_count": 12
+    },
+    {
+      "id": 70492,
+      "title": "Skittles Australia: All Flavours and Varieties to Buy Online",
+      "url": "https://sweetsworld.com.au/where-to-buy/skittles-australia/",
+      "missing_topics": [
+        "American Candy",
+        "UK Sweets",
+        "Australian Lollies",
+        "Bulk Lollies",
+        "Gift Boxes",
+        "Chocolate",
+        "Party Sweets",
+        "Seasonal Sweets",
+        "Store Locator",
+        "Returns Policy",
+        "FAQ",
+        "Shipping Info"
+      ],
+      "missing_count": 12
+    },
+    {
+      "id": 70490,
+      "title": "Reese&#8217;s Australia: Buy Peanut Butter Cups and Reese&#8217;s Candy Online",
+      "url": "https://sweetsworld.com.au/where-to-buy/reeses-australia/",
+      "missing_topics": [
+        "American Candy",
+        "UK Sweets",
+        "Australian Lollies",
+        "Bulk Lollies",
+        "Gift Boxes",
+        "Chocolate",
+        "Party Sweets",
+        "Seasonal Sweets",
+        "Store Locator",
+        "Returns Policy",
+        "FAQ",
+        "Shipping Info"
+      ],
+      "missing_count": 12
+    },
+    {
+      "id": 70488,
+      "title": "Haribo Australia: Buy Goldbears and Haribo Gummies Online",
+      "url": "https://sweetsworld.com.au/where-to-buy/haribo-australia/",
+      "missing_topics": [
+        "American Candy",
+        "UK Sweets",
+        "Australian Lollies",
+        "Bulk Lollies",
+        "Gift Boxes",
+        "Chocolate",
+        "Party Sweets",
+        "Seasonal Sweets",
+        "Store Locator",
+        "Returns Policy",
+        "FAQ",
+        "Shipping Info"
+      ],
+      "missing_count": 12
+    },
+    {
+      "id": 70486,
+      "title": "Belgian Chocolate Australia: Buy Authentic Belgian Choc Online",
+      "url": "https://sweetsworld.com.au/where-to-buy/belgian-chocolate-australia/",
+      "missing_topics": [
+        "American Candy",
+        "UK Sweets",
+        "Australian Lollies",
+        "Bulk Lollies",
+        "Gift Boxes",
+        "Chocolate",
+        "Party Sweets",
+        "Seasonal Sweets",
+        "Store Locator",
+        "Returns Policy",
+        "FAQ",
+        "Shipping Info"
+      ],
+      "missing_count": 12
+    },
+    {
+      "id": 70483,
+      "title": "Dairy Free Chocolate Australia: Milk-Free Choc and Candy Online",
+      "url": "https://sweetsworld.com.au/where-to-buy/dairy-free-chocolate-australia/",
+      "missing_topics": [
+        "American Candy",
+        "UK Sweets",
+        "Australian Lollies",
+        "Bulk Lollies",
+        "Gift Boxes",
+        "Chocolate",
+        "Party Sweets",
+        "Seasonal Sweets",
+        "Store Locator",
+        "Returns Policy",
+        "FAQ",
+        "Shipping Info"
+      ],
+      "missing_count": 12
+    },
+    {
+      "id": 70465,
+      "title": "Gluten Free Lollies Australia: Safe Candy for Coeliac and Gluten Intolerant",
+      "url": "https://sweetsworld.com.au/where-to-buy/gluten-free-lollies-australia/",
+      "missing_topics": [
+        "American Candy",
+        "UK Sweets",
+        "Australian Lollies",
+        "Bulk Lollies",
+        "Gift Boxes",
+        "Chocolate",
+        "Party Sweets",
+        "Seasonal Sweets",
+        "Store Locator",
+        "Returns Policy",
+        "FAQ",
+        "Shipping Info"
+      ],
+      "missing_count": 12
+    },
+    {
+      "id": 70463,
+      "title": "Bulk Lollies Australia: Wholesale Candy for Parties and Events",
+      "url": "https://sweetsworld.com.au/where-to-buy/bulk-lollies-australia/",
+      "missing_topics": [
+        "American Candy",
+        "UK Sweets",
+        "Australian Lollies",
+        "Bulk Lollies",
+        "Gift Boxes",
+        "Chocolate",
+        "Party Sweets",
+        "Seasonal Sweets",
+        "Store Locator",
+        "Returns Policy",
+        "FAQ",
+        "Shipping Info"
+      ],
+      "missing_count": 12
+    },
+    {
+      "id": 70461,
+      "title": "Lolly Buffet Ideas Australia: How to Set Up the Perfect Sweet Table",
+      "url": "https://sweetsworld.com.au/candy-guides/lolly-buffet-ideas-australia/",
+      "missing_topics": [
+        "American Candy",
+        "UK Sweets",
+        "Australian Lollies",
+        "Bulk Lollies",
+        "Gift Boxes",
+        "Chocolate",
+        "Party Sweets",
+        "Seasonal Sweets",
+        "Store Locator",
+        "Returns Policy",
+        "FAQ",
+        "Shipping Info"
+      ],
+      "missing_count": 12
+    },
+    {
+      "id": 70459,
+      "title": "Vegan Lollies Australia: Gelatine-Free and Plant-Based Candy",
+      "url": "https://sweetsworld.com.au/where-to-buy/vegan-lollies-australia/",
+      "missing_topics": [
+        "American Candy",
+        "UK Sweets",
+        "Australian Lollies",
+        "Bulk Lollies",
+        "Gift Boxes",
+        "Chocolate",
+        "Party Sweets",
+        "Seasonal Sweets",
+        "Store Locator",
+        "Returns Policy",
+        "FAQ",
+        "Shipping Info"
+      ],
+      "missing_count": 12
+    },
+    {
+      "id": 70455,
+      "title": "Halal Candy Australia: Gelatine-Free Lollies and Sweets",
+      "url": "https://sweetsworld.com.au/where-to-buy/halal-candy-australia/",
+      "missing_topics": [
+        "American Candy",
+        "UK Sweets",
+        "Australian Lollies",
+        "Bulk Lollies",
+        "Gift Boxes",
+        "Chocolate",
+        "Party Sweets",
+        "Seasonal Sweets",
+        "Store Locator",
+        "Returns Policy",
+        "FAQ",
+        "Shipping Info"
+      ],
+      "missing_count": 12
+    },
+    {
+      "id": 70453,
+      "title": "UK Sweets Australia: British Lollies and Candy to Buy Online",
+      "url": "https://sweetsworld.com.au/products/uk-sweets-australia/",
+      "missing_topics": [
+        "American Candy",
+        "UK Sweets",
+        "Australian Lollies",
+        "Bulk Lollies",
+        "Gift Boxes",
+        "Chocolate",
+        "Party Sweets",
+        "Seasonal Sweets",
+        "Store Locator",
+        "Returns Policy",
+        "FAQ",
+        "Shipping Info"
+      ],
+      "missing_count": 12
+    },
+    {
+      "id": 70451,
+      "title": "Birthday Candy Australia: Fun Lolly Bags and Party Sweets",
+      "url": "https://sweetsworld.com.au/candy-guides/birthday-candy-australia/",
+      "missing_topics": [
+        "American Candy",
+        "UK Sweets",
+        "Australian Lollies",
+        "Bulk Lollies",
+        "Gift Boxes",
+        "Chocolate",
+        "Party Sweets",
+        "Seasonal Sweets",
+        "Store Locator",
+        "Returns Policy",
+        "FAQ",
+        "Shipping Info"
+      ],
+      "missing_count": 12
+    },
+    {
+      "id": 70449,
+      "title": "Wedding Candy Australia: Lolly Buffets and Bonbonniere Ideas",
+      "url": "https://sweetsworld.com.au/candy-guides/wedding-candy-australia/",
+      "missing_topics": [
+        "American Candy",
+        "UK Sweets",
+        "Australian Lollies",
+        "Bulk Lollies",
+        "Gift Boxes",
+        "Chocolate",
+        "Party Sweets",
+        "Seasonal Sweets",
+        "Store Locator",
+        "Returns Policy",
+        "FAQ",
+        "Shipping Info"
+      ],
+      "missing_count": 12
+    },
+    {
+      "id": 70447,
+      "title": "Easter Candy Australia: Chocolate Eggs and Easter Lollies",
+      "url": "https://sweetsworld.com.au/candy-guides/easter-candy-australia/",
+      "missing_topics": [
+        "American Candy",
+        "UK Sweets",
+        "Australian Lollies",
+        "Bulk Lollies",
+        "Gift Boxes",
+        "Chocolate",
+        "Party Sweets",
+        "Seasonal Sweets",
+        "Store Locator",
+        "Returns Policy",
+        "FAQ",
+        "Shipping Info"
+      ],
+      "missing_count": 12
+    },
+    {
+      "id": 70445,
+      "title": "Halloween Candy Australia: Best Trick or Treat Lollies",
+      "url": "https://sweetsworld.com.au/candy-guides/halloween-candy-australia/",
+      "missing_topics": [
+        "American Candy",
+        "UK Sweets",
+        "Australian Lollies",
+        "Bulk Lollies",
+        "Gift Boxes",
+        "Chocolate",
+        "Party Sweets",
+        "Seasonal Sweets",
+        "Store Locator",
+        "Returns Policy",
+        "FAQ",
+        "Shipping Info"
+      ],
+      "missing_count": 12
+    },
+    {
+      "id": 70425,
+      "title": "Christmas Candy Australia: Festive Lollies and Sweet Gifts",
+      "url": "https://sweetsworld.com.au/candy-guides/christmas-candy-australia/",
+      "missing_topics": [
+        "American Candy",
+        "UK Sweets",
+        "Australian Lollies",
+        "Bulk Lollies",
+        "Gift Boxes",
+        "Chocolate",
+        "Party Sweets",
+        "Seasonal Sweets",
+        "Store Locator",
+        "Returns Policy",
+        "FAQ",
+        "Shipping Info"
+      ],
+      "missing_count": 12
+    },
+    {
+      "id": 70353,
+      "title": "Ultimate Guide to Candy in Australia 2026: Lollies Sweets and More",
+      "url": "https://sweetsworld.com.au/candy-guides/candy-australia-guide-2026/",
+      "missing_topics": [
+        "American Candy",
+        "UK Sweets",
+        "Australian Lollies",
+        "Bulk Lollies",
+        "Gift Boxes",
+        "Chocolate",
+        "Party Sweets",
+        "Seasonal Sweets",
+        "Store Locator",
+        "Returns Policy",
+        "FAQ",
+        "Shipping Info"
+      ],
+      "missing_count": 12
+    },
+    {
+      "id": 70352,
+      "title": "Healthy Candy Alternatives Australia: Low Sugar and Natural Sweets",
+      "url": "https://sweetsworld.com.au/where-to-buy/healthy-candy-alternatives-australia/",
+      "missing_topics": [
+        "American Candy",
+        "UK Sweets",
+        "Australian Lollies",
+        "Bulk Lollies",
+        "Gift Boxes",
+        "Chocolate",
+        "Party Sweets",
+        "Seasonal Sweets",
+        "Store Locator",
+        "Returns Policy",
+        "FAQ",
+        "Shipping Info"
+      ],
+      "missing_count": 12
+    },
+    {
+      "id": 70351,
+      "title": "Best Candy in Australia 2026: Top Lollies and Sweets",
+      "url": "https://sweetsworld.com.au/candy-guides/best-candy-australia-2026/",
+      "missing_topics": [
+        "American Candy",
+        "UK Sweets",
+        "Australian Lollies",
+        "Bulk Lollies",
+        "Gift Boxes",
+        "Chocolate",
+        "Party Sweets",
+        "Seasonal Sweets",
+        "Store Locator",
+        "Returns Policy",
+        "FAQ",
+        "Shipping Info"
+      ],
+      "missing_count": 12
+    },
+    {
+      "id": 70298,
+      "title": "Japanese Candy Australia: Where to Buy Dagashi and Pocky",
+      "url": "https://sweetsworld.com.au/products/japanese-candy-australia/",
+      "missing_topics": [
+        "American Candy",
+        "UK Sweets",
+        "Australian Lollies",
+        "Bulk Lollies",
+        "Gift Boxes",
+        "Chocolate",
+        "Party Sweets",
+        "Seasonal Sweets",
+        "Store Locator",
+        "Returns Policy",
+        "FAQ",
+        "Shipping Info"
+      ],
+      "missing_count": 12
+    },
+    {
+      "id": 70301,
+      "title": "Cheap Candy Online Australia: Best Value Lolly Deals",
+      "url": "https://sweetsworld.com.au/where-to-buy/cheap-candy-online-australia/",
+      "missing_topics": [
+        "American Candy",
+        "UK Sweets",
+        "Australian Lollies",
+        "Bulk Lollies",
+        "Gift Boxes",
+        "Chocolate",
+        "Party Sweets",
+        "Seasonal Sweets",
+        "Store Locator",
+        "Returns Policy",
+        "FAQ",
+        "Shipping Info"
+      ],
+      "missing_count": 12
+    },
+    {
+      "id": 70306,
+      "title": "Buy Bulk Candy Online Australia: Cheapest Lolly Packs",
+      "url": "https://sweetsworld.com.au/where-to-buy/buy-bulk-candy-online-australia/",
+      "missing_topics": [
+        "American Candy",
+        "UK Sweets",
+        "Australian Lollies",
+        "Bulk Lollies",
+        "Gift Boxes",
+        "Chocolate",
+        "Party Sweets",
+        "Seasonal Sweets",
+        "Store Locator",
+        "Returns Policy",
+        "FAQ",
+        "Shipping Info"
+      ],
+      "missing_count": 12
+    },
+    {
+      "id": 70299,
+      "title": "Sour Lollies Australia: Best Sour Candy to Buy Online",
+      "url": "https://sweetsworld.com.au/products/sour-lollies-australia/",
+      "missing_topics": [
+        "American Candy",
+        "UK Sweets",
+        "Australian Lollies",
+        "Bulk Lollies",
+        "Gift Boxes",
+        "Chocolate",
+        "Party Sweets",
+        "Seasonal Sweets",
+        "Store Locator",
+        "Returns Policy",
+        "FAQ",
+        "Shipping Info"
+      ],
+      "missing_count": 12
+    },
+    {
+      "id": 70300,
+      "title": "American Candy Guide: Popular US Sweets Explained",
+      "url": "https://sweetsworld.com.au/products/american-candy-guide/",
+      "missing_topics": [
+        "American Candy",
+        "UK Sweets",
+        "Australian Lollies",
+        "Bulk Lollies",
+        "Gift Boxes",
+        "Chocolate",
+        "Party Sweets",
+        "Seasonal Sweets",
+        "Store Locator",
+        "Returns Policy",
+        "FAQ",
+        "Shipping Info"
+      ],
+      "missing_count": 12
+    },
+    {
+      "id": 70305,
+      "title": "American Candy Australia: Buy US Sweets Online",
+      "url": "https://sweetsworld.com.au/where-to-buy/american-candy-australia/",
+      "missing_topics": [
+        "American Candy",
+        "UK Sweets",
+        "Australian Lollies",
+        "Bulk Lollies",
+        "Gift Boxes",
+        "Chocolate",
+        "Party Sweets",
+        "Seasonal Sweets",
+        "Store Locator",
+        "Returns Policy",
+        "FAQ",
+        "Shipping Info"
+      ],
+      "missing_count": 12
+    },
+    {
+      "id": 70304,
+      "title": "Best Candy for Movie Night Australia: Sweet and Salty Picks",
+      "url": "https://sweetsworld.com.au/candy-guides/best-candy-for-movie-night/",
+      "missing_topics": [
+        "American Candy",
+        "UK Sweets",
+        "Australian Lollies",
+        "Bulk Lollies",
+        "Gift Boxes",
+        "Chocolate",
+        "Party Sweets",
+        "Seasonal Sweets",
+        "Store Locator",
+        "Returns Policy",
+        "FAQ",
+        "Shipping Info"
+      ],
+      "missing_count": 12
+    },
+    {
+      "id": 70303,
+      "title": "Best Lollies for Party Bags Australia: Bulk Picks Under Budget",
+      "url": "https://sweetsworld.com.au/candy-guides/best-lollies-for-party-bags/",
+      "missing_topics": [
+        "American Candy",
+        "UK Sweets",
+        "Australian Lollies",
+        "Bulk Lollies",
+        "Gift Boxes",
+        "Chocolate",
+        "Party Sweets",
+        "Seasonal Sweets",
+        "Store Locator",
+        "Returns Policy",
+        "FAQ",
+        "Shipping Info"
+      ],
+      "missing_count": 12
+    },
+    {
+      "id": 70302,
+      "title": "Best Candy for Kids Australia: Safe and Fun Lolly Picks",
+      "url": "https://sweetsworld.com.au/candy-guides/best-candy-for-kids-australia/",
+      "missing_topics": [
+        "American Candy",
+        "UK Sweets",
+        "Australian Lollies",
+        "Bulk Lollies",
+        "Gift Boxes",
+        "Chocolate",
+        "Party Sweets",
+        "Seasonal Sweets",
+        "Store Locator",
+        "Returns Policy",
+        "FAQ",
+        "Shipping Info"
+      ],
+      "missing_count": 12
+    },
+    {
+      "id": 70296,
+      "title": "Nilla Wafers in Australia: Where to Buy and Best Alternatives",
+      "url": "https://sweetsworld.com.au/where-to-buy/nilla-wafers-australia-where-to-buy/",
+      "missing_topics": [
+        "American Candy",
+        "UK Sweets",
+        "Australian Lollies",
+        "Bulk Lollies",
+        "Gift Boxes",
+        "Chocolate",
+        "Party Sweets",
+        "Seasonal Sweets",
+        "Store Locator",
+        "Returns Policy",
+        "FAQ",
+        "Shipping Info"
+      ],
+      "missing_count": 12
+    },
+    {
+      "id": 70297,
+      "title": "Are Jolly Ranchers Halal? Ingredients, Gelatine, and What to Check",
+      "url": "https://sweetsworld.com.au/candy-guides/are-jolly-ranchers-halal/",
+      "missing_topics": [
+        "American Candy",
+        "UK Sweets",
+        "Australian Lollies",
+        "Bulk Lollies",
+        "Gift Boxes",
+        "Chocolate",
+        "Party Sweets",
+        "Seasonal Sweets",
+        "Store Locator",
+        "Returns Policy",
+        "FAQ",
+        "Shipping Info"
+      ],
+      "missing_count": 12
+    },
+    {
+      "id": 70268,
+      "title": "Fantales Lollies Buying Guide: Where to Buy, 1kg Options, and Best Alternatives",
+      "url": "https://sweetsworld.com.au/candy-guides/fantales-lollies-buying-guide/",
+      "missing_topics": [
+        "American Candy",
+        "UK Sweets",
+        "Australian Lollies",
+        "Bulk Lollies",
+        "Gift Boxes",
+        "Chocolate",
+        "Party Sweets",
+        "Seasonal Sweets",
+        "Store Locator",
+        "Returns Policy",
+        "FAQ",
+        "Shipping Info"
+      ],
+      "missing_count": 12
+    },
+    {
+      "id": 70141,
+      "title": "Wholesale Candy Australia: Supplier Guide (2026)",
+      "url": "https://sweetsworld.com.au/where-to-buy/wholesale-candy-australia-guide/",
+      "missing_topics": [
+        "American Candy",
+        "UK Sweets",
+        "Australian Lollies",
+        "Bulk Lollies",
+        "Gift Boxes",
+        "Chocolate",
+        "Party Sweets",
+        "Seasonal Sweets",
+        "Store Locator",
+        "Returns Policy",
+        "FAQ",
+        "Shipping Info"
+      ],
+      "missing_count": 12
+    },
+    {
+      "id": 69968,
+      "title": "Top Candy Bra Trends for Unforgettable Parties in 2026",
+      "url": "https://sweetsworld.com.au/candy-guides/top-candy-bra-trends-2026/",
+      "missing_topics": [
+        "American Candy",
+        "UK Sweets",
+        "Australian Lollies",
+        "Bulk Lollies",
+        "Gift Boxes",
+        "Chocolate",
+        "Party Sweets",
+        "Seasonal Sweets",
+        "Store Locator",
+        "Returns Policy",
+        "FAQ",
+        "Shipping Info"
+      ],
+      "missing_count": 12
+    },
+    {
+      "id": 69865,
+      "title": "2026 Valentine&#8217;s Day: Last Chance to Grab Sweet &#038; Sour Treats!",
+      "url": "https://sweetsworld.com.au/trending/valentines-sweet-sour-treats/",
+      "missing_topics": [
+        "American Candy",
+        "UK Sweets",
+        "Australian Lollies",
+        "Bulk Lollies",
+        "Gift Boxes",
+        "Chocolate",
+        "Party Sweets",
+        "Seasonal Sweets",
+        "Store Locator",
+        "Returns Policy",
+        "FAQ",
+        "Shipping Info"
+      ],
+      "missing_count": 12
+    },
+    {
+      "id": 68308,
+      "title": "How to Make Dubai Chocolate Australia — A Complete Step-by-Step Guide",
+      "url": "https://sweetsworld.com.au/trending/how-to-make-dubai-chocolate-australia/",
+      "missing_topics": [
+        "American Candy",
+        "UK Sweets",
+        "Australian Lollies",
+        "Bulk Lollies",
+        "Gift Boxes",
+        "Chocolate",
+        "Party Sweets",
+        "Seasonal Sweets",
+        "Store Locator",
+        "Returns Policy",
+        "FAQ",
+        "Shipping Info"
+      ],
+      "missing_count": 12
+    },
+    {
+      "id": 62550,
+      "title": "Nerds Gummy Clusters",
+      "url": "https://sweetsworld.com.au/candy-guides/nerds-gummy-clusters/",
+      "missing_topics": [
+        "American Candy",
+        "UK Sweets",
+        "Australian Lollies",
+        "Bulk Lollies",
+        "Gift Boxes",
+        "Chocolate",
+        "Party Sweets",
+        "Seasonal Sweets",
+        "Store Locator",
+        "Returns Policy",
+        "FAQ",
+        "Shipping Info"
+      ],
+      "missing_count": 12
+    },
+    {
+      "id": 62543,
+      "title": "Are Nerds Vegan?",
+      "url": "https://sweetsworld.com.au/candy-guides/are-nerds-vegan/",
+      "missing_topics": [
+        "American Candy",
+        "UK Sweets",
+        "Australian Lollies",
+        "Bulk Lollies",
+        "Gift Boxes",
+        "Chocolate",
+        "Party Sweets",
+        "Seasonal Sweets",
+        "Store Locator",
+        "Returns Policy",
+        "FAQ",
+        "Shipping Info"
+      ],
+      "missing_count": 12
+    },
+    {
+      "id": 59803,
+      "title": "The Sweet History of Bertie Beetle Chocolate",
+      "url": "https://sweetsworld.com.au/candy-guides/bertie-beetle-2/",
+      "missing_topics": [
+        "American Candy",
+        "UK Sweets",
+        "Australian Lollies",
+        "Bulk Lollies",
+        "Gift Boxes",
+        "Chocolate",
+        "Party Sweets",
+        "Seasonal Sweets",
+        "Store Locator",
+        "Returns Policy",
+        "FAQ",
+        "Shipping Info"
+      ],
+      "missing_count": 12
+    },
+    {
+      "id": 59736,
+      "title": "The History and Controversy of Candy Corn",
+      "url": "https://sweetsworld.com.au/candy-guides/the-history-and-controversy-of-candy-corn/",
+      "missing_topics": [
+        "American Candy",
+        "UK Sweets",
+        "Australian Lollies",
+        "Bulk Lollies",
+        "Gift Boxes",
+        "Chocolate",
+        "Party Sweets",
+        "Seasonal Sweets",
+        "Store Locator",
+        "Returns Policy",
+        "FAQ",
+        "Shipping Info"
+      ],
+      "missing_count": 12
+    },
+    {
+      "id": 59714,
+      "title": "Takis Blue Heat Extreme Tortilla Chips",
+      "url": "https://sweetsworld.com.au/candy-guides/takis-blue-heat-extreme-tortilla-chips/",
+      "missing_topics": [
+        "American Candy",
+        "UK Sweets",
+        "Australian Lollies",
+        "Bulk Lollies",
+        "Gift Boxes",
+        "Chocolate",
+        "Party Sweets",
+        "Seasonal Sweets",
+        "Store Locator",
+        "Returns Policy",
+        "FAQ",
+        "Shipping Info"
+      ],
+      "missing_count": 12
+    },
+    {
+      "id": 59706,
+      "title": "What exactly is a brain licker?",
+      "url": "https://sweetsworld.com.au/candy-guides/brain-licker-2/",
+      "missing_topics": [
+        "American Candy",
+        "UK Sweets",
+        "Australian Lollies",
+        "Bulk Lollies",
+        "Gift Boxes",
+        "Chocolate",
+        "Party Sweets",
+        "Seasonal Sweets",
+        "Store Locator",
+        "Returns Policy",
+        "FAQ",
+        "Shipping Info"
+      ],
+      "missing_count": 12
+    },
+    {
+      "id": 59700,
+      "title": "Uncovering the Most Popular Nerds Flavours",
+      "url": "https://sweetsworld.com.au/candy-guides/popular-nerds-flavours/",
+      "missing_topics": [
+        "American Candy",
+        "UK Sweets",
+        "Australian Lollies",
+        "Bulk Lollies",
+        "Gift Boxes",
+        "Chocolate",
+        "Party Sweets",
+        "Seasonal Sweets",
+        "Store Locator",
+        "Returns Policy",
+        "FAQ",
+        "Shipping Info"
+      ],
+      "missing_count": 12
+    },
+    {
+      "id": 59699,
+      "title": "Nerd Gummy Clusters: A Sweet Treat",
+      "url": "https://sweetsworld.com.au/candy-guides/nerd-gummy-clusters/",
+      "missing_topics": [
+        "American Candy",
+        "UK Sweets",
+        "Australian Lollies",
+        "Bulk Lollies",
+        "Gift Boxes",
+        "Chocolate",
+        "Party Sweets",
+        "Seasonal Sweets",
+        "Store Locator",
+        "Returns Policy",
+        "FAQ",
+        "Shipping Info"
+      ],
+      "missing_count": 12
+    },
+    {
+      "id": 59698,
+      "title": "The Best Deals on Bulk Lollies",
+      "url": "https://sweetsworld.com.au/candy-guides/bulk-lollies/",
+      "missing_topics": [
+        "American Candy",
+        "UK Sweets",
+        "Australian Lollies",
+        "Bulk Lollies",
+        "Gift Boxes",
+        "Chocolate",
+        "Party Sweets",
+        "Seasonal Sweets",
+        "Store Locator",
+        "Returns Policy",
+        "FAQ",
+        "Shipping Info"
+      ],
+      "missing_count": 12
+    },
+    {
+      "id": 59697,
+      "title": "Top Tips for Shopping at Online Lolly Shops",
+      "url": "https://sweetsworld.com.au/candy-guides/online-lolly-shops/",
+      "missing_topics": [
+        "American Candy",
+        "UK Sweets",
+        "Australian Lollies",
+        "Bulk Lollies",
+        "Gift Boxes",
+        "Chocolate",
+        "Party Sweets",
+        "Seasonal Sweets",
+        "Store Locator",
+        "Returns Policy",
+        "FAQ",
+        "Shipping Info"
+      ],
+      "missing_count": 12
+    },
+    {
+      "id": 59677,
+      "title": "Unveiling the Latest Sensation: Brain Licker Sour Blue Raspberry Soda 500ml",
+      "url": "https://sweetsworld.com.au/candy-guides/brain-licker/",
+      "missing_topics": [
+        "American Candy",
+        "UK Sweets",
+        "Australian Lollies",
+        "Bulk Lollies",
+        "Gift Boxes",
+        "Chocolate",
+        "Party Sweets",
+        "Seasonal Sweets",
+        "Store Locator",
+        "Returns Policy",
+        "FAQ",
+        "Shipping Info"
+      ],
+      "missing_count": 12
+    },
+    {
+      "id": 59583,
+      "title": "UK Sweets",
+      "url": "https://sweetsworld.com.au/candy-guides/uk-sweets/",
+      "missing_topics": [
+        "American Candy",
+        "UK Sweets",
+        "Australian Lollies",
+        "Bulk Lollies",
+        "Gift Boxes",
+        "Chocolate",
+        "Party Sweets",
+        "Seasonal Sweets",
+        "Store Locator",
+        "Returns Policy",
+        "FAQ",
+        "Shipping Info"
+      ],
+      "missing_count": 12
+    },
+    {
+      "id": 52811,
+      "title": "Jolly Ranchers: The Sweetest Halal Delight",
+      "url": "https://sweetsworld.com.au/candy-guides/jolly-ranchers/",
+      "missing_topics": [
+        "American Candy",
+        "UK Sweets",
+        "Australian Lollies",
+        "Bulk Lollies",
+        "Gift Boxes",
+        "Chocolate",
+        "Party Sweets",
+        "Seasonal Sweets",
+        "Store Locator",
+        "Returns Policy",
+        "FAQ",
+        "Shipping Info"
+      ],
+      "missing_count": 12
+    },
+    {
+      "id": 52801,
+      "title": "Powerade: Friend or Foe to Your Health?",
+      "url": "https://sweetsworld.com.au/candy-guides/powerade/",
+      "missing_topics": [
+        "American Candy",
+        "UK Sweets",
+        "Australian Lollies",
+        "Bulk Lollies",
+        "Gift Boxes",
+        "Chocolate",
+        "Party Sweets",
+        "Seasonal Sweets",
+        "Store Locator",
+        "Returns Policy",
+        "FAQ",
+        "Shipping Info"
+      ],
+      "missing_count": 12
+    },
+    {
+      "id": 52798,
+      "title": "Hydration drinks and H2O: Best Buds or Frenemies?",
+      "url": "https://sweetsworld.com.au/candy-guides/hydration-drinks/",
+      "missing_topics": [
+        "American Candy",
+        "UK Sweets",
+        "Australian Lollies",
+        "Bulk Lollies",
+        "Gift Boxes",
+        "Chocolate",
+        "Party Sweets",
+        "Seasonal Sweets",
+        "Store Locator",
+        "Returns Policy",
+        "FAQ",
+        "Shipping Info"
+      ],
+      "missing_count": 12
+    },
+    {
+      "id": 52796,
+      "title": "Effects of Overeating Takis",
+      "url": "https://sweetsworld.com.au/candy-guides/overeating-takis/",
+      "missing_topics": [
+        "American Candy",
+        "UK Sweets",
+        "Australian Lollies",
+        "Bulk Lollies",
+        "Gift Boxes",
+        "Chocolate",
+        "Party Sweets",
+        "Seasonal Sweets",
+        "Store Locator",
+        "Returns Policy",
+        "FAQ",
+        "Shipping Info"
+      ],
+      "missing_count": 12
+    },
+    {
+      "id": 52791,
+      "title": "Polly Waffle Rediscovering",
+      "url": "https://sweetsworld.com.au/candy-guides/polly-waffle/",
+      "missing_topics": [
+        "American Candy",
+        "UK Sweets",
+        "Australian Lollies",
+        "Bulk Lollies",
+        "Gift Boxes",
+        "Chocolate",
+        "Party Sweets",
+        "Seasonal Sweets",
+        "Store Locator",
+        "Returns Policy",
+        "FAQ",
+        "Shipping Info"
+      ],
+      "missing_count": 12
+    },
+    {
+      "id": 52612,
+      "title": "Quench Your Thirst for Adventure with PRIME Hydration Drink!",
+      "url": "https://sweetsworld.com.au/candy-guides/prime-hydration-drink/",
+      "missing_topics": [
+        "American Candy",
+        "UK Sweets",
+        "Australian Lollies",
+        "Bulk Lollies",
+        "Gift Boxes",
+        "Chocolate",
+        "Party Sweets",
+        "Seasonal Sweets",
+        "Store Locator",
+        "Returns Policy",
+        "FAQ",
+        "Shipping Info"
+      ],
+      "missing_count": 12
+    },
+    {
+      "id": 52090,
+      "title": "Taste the Blue Takis!",
+      "url": "https://sweetsworld.com.au/candy-guides/blue-takis/",
+      "missing_topics": [
+        "American Candy",
+        "UK Sweets",
+        "Australian Lollies",
+        "Bulk Lollies",
+        "Gift Boxes",
+        "Chocolate",
+        "Party Sweets",
+        "Seasonal Sweets",
+        "Store Locator",
+        "Returns Policy",
+        "FAQ",
+        "Shipping Info"
+      ],
+      "missing_count": 12
+    },
+    {
+      "id": 52087,
+      "title": "Taste the Rainbow with TNT Sour Straps!",
+      "url": "https://sweetsworld.com.au/candy-guides/sour-straps/",
+      "missing_topics": [
+        "American Candy",
+        "UK Sweets",
+        "Australian Lollies",
+        "Bulk Lollies",
+        "Gift Boxes",
+        "Chocolate",
+        "Party Sweets",
+        "Seasonal Sweets",
+        "Store Locator",
+        "Returns Policy",
+        "FAQ",
+        "Shipping Info"
+      ],
+      "missing_count": 12
+    },
+    {
+      "id": 52080,
+      "title": "ADULT Jelly Willies: A Fun Twist on a Classic!",
+      "url": "https://sweetsworld.com.au/candy-guides/adult-jelly-willies-a-fun-twist-on-a-classic/",
+      "missing_topics": [
+        "American Candy",
+        "UK Sweets",
+        "Australian Lollies",
+        "Bulk Lollies",
+        "Gift Boxes",
+        "Chocolate",
+        "Party Sweets",
+        "Seasonal Sweets",
+        "Store Locator",
+        "Returns Policy",
+        "FAQ",
+        "Shipping Info"
+      ],
+      "missing_count": 12
+    },
+    {
+      "id": 52067,
+      "title": "Flamin&#8217; Hot Cheetos &#8211; a Firework of Flavor!",
+      "url": "https://sweetsworld.com.au/candy-guides/flamin-hot-cheetos-a-firework-of-flavor/",
+      "missing_topics": [
+        "American Candy",
+        "UK Sweets",
+        "Australian Lollies",
+        "Bulk Lollies",
+        "Gift Boxes",
+        "Chocolate",
+        "Party Sweets",
+        "Seasonal Sweets",
+        "Store Locator",
+        "Returns Policy",
+        "FAQ",
+        "Shipping Info"
+      ],
+      "missing_count": 12
+    },
+    {
+      "id": 52061,
+      "title": "Lolly Shop In Newcastle",
+      "url": "https://sweetsworld.com.au/candy-guides/lolly-shop-in-newcastle/",
+      "missing_topics": [
+        "American Candy",
+        "UK Sweets",
+        "Australian Lollies",
+        "Bulk Lollies",
+        "Gift Boxes",
+        "Chocolate",
+        "Party Sweets",
+        "Seasonal Sweets",
+        "Store Locator",
+        "Returns Policy",
+        "FAQ",
+        "Shipping Info"
+      ],
+      "missing_count": 12
+    },
+    {
+      "id": 52057,
+      "title": "Sweet treat for your next special occasion",
+      "url": "https://sweetsworld.com.au/candy-guides/sweet-treat-for-your-next-special-occasion/",
+      "missing_topics": [
+        "American Candy",
+        "UK Sweets",
+        "Australian Lollies",
+        "Bulk Lollies",
+        "Gift Boxes",
+        "Chocolate",
+        "Party Sweets",
+        "Seasonal Sweets",
+        "Store Locator",
+        "Returns Policy",
+        "FAQ",
+        "Shipping Info"
+      ],
+      "missing_count": 12
+    },
+    {
+      "id": 52028,
+      "title": "The Hershey Company",
+      "url": "https://sweetsworld.com.au/candy-guides/the-hershey-company/",
+      "missing_topics": [
+        "American Candy",
+        "UK Sweets",
+        "Australian Lollies",
+        "Bulk Lollies",
+        "Gift Boxes",
+        "Chocolate",
+        "Party Sweets",
+        "Seasonal Sweets",
+        "Store Locator",
+        "Returns Policy",
+        "FAQ",
+        "Shipping Info"
+      ],
+      "missing_count": 12
+    },
+    {
+      "id": 52026,
+      "title": "Salt Wate Taffy",
+      "url": "https://sweetsworld.com.au/candy-guides/salt-wate-taffy/",
+      "missing_topics": [
+        "American Candy",
+        "UK Sweets",
+        "Australian Lollies",
+        "Bulk Lollies",
+        "Gift Boxes",
+        "Chocolate",
+        "Party Sweets",
+        "Seasonal Sweets",
+        "Store Locator",
+        "Returns Policy",
+        "FAQ",
+        "Shipping Info"
+      ],
+      "missing_count": 12
+    },
+    {
+      "id": 52022,
+      "title": "How hot is the hottest chocolate in the world?",
+      "url": "https://sweetsworld.com.au/candy-guides/how-hot-is-the-hottest-chocolate-in-the-world/",
+      "missing_topics": [
+        "American Candy",
+        "UK Sweets",
+        "Australian Lollies",
+        "Bulk Lollies",
+        "Gift Boxes",
+        "Chocolate",
+        "Party Sweets",
+        "Seasonal Sweets",
+        "Store Locator",
+        "Returns Policy",
+        "FAQ",
+        "Shipping Info"
+      ],
+      "missing_count": 12
+    },
+    {
+      "id": 52020,
+      "title": "What is the name of the spicy chocolate?",
+      "url": "https://sweetsworld.com.au/candy-guides/what-is-the-name-of-the-spicy-chocolate/",
+      "missing_topics": [
+        "American Candy",
+        "UK Sweets",
+        "Australian Lollies",
+        "Bulk Lollies",
+        "Gift Boxes",
+        "Chocolate",
+        "Party Sweets",
+        "Seasonal Sweets",
+        "Store Locator",
+        "Returns Policy",
+        "FAQ",
+        "Shipping Info"
+      ],
+      "missing_count": 12
+    },
+    {
+      "id": 52017,
+      "title": "Freeze Dried Candy",
+      "url": "https://sweetsworld.com.au/candy-guides/freeze-dried-candy/",
+      "missing_topics": [
+        "American Candy",
+        "UK Sweets",
+        "Australian Lollies",
+        "Bulk Lollies",
+        "Gift Boxes",
+        "Chocolate",
+        "Party Sweets",
+        "Seasonal Sweets",
+        "Store Locator",
+        "Returns Policy",
+        "FAQ",
+        "Shipping Info"
+      ],
+      "missing_count": 12
+    },
+    {
+      "id": 52008,
+      "title": "Jelly Sticks: A Sweet and Healthy Snack That Everyone Will Love",
+      "url": "https://sweetsworld.com.au/candy-guides/jelly-sticks-a-sweet-and-healthy-snack-that-everyone-will-love/",
+      "missing_topics": [
+        "American Candy",
+        "UK Sweets",
+        "Australian Lollies",
+        "Bulk Lollies",
+        "Gift Boxes",
+        "Chocolate",
+        "Party Sweets",
+        "Seasonal Sweets",
+        "Store Locator",
+        "Returns Policy",
+        "FAQ",
+        "Shipping Info"
+      ],
+      "missing_count": 12
+    },
+    {
+      "id": 43775,
+      "title": "The Best and Extremely Tasty Chili Gummy Bears 18+",
+      "url": "https://sweetsworld.com.au/candy-guides/chili-gummy-bears/",
+      "missing_topics": [
+        "American Candy",
+        "UK Sweets",
+        "Australian Lollies",
+        "Bulk Lollies",
+        "Gift Boxes",
+        "Chocolate",
+        "Party Sweets",
+        "Seasonal Sweets",
+        "Store Locator",
+        "Returns Policy",
+        "FAQ",
+        "Shipping Info"
+      ],
+      "missing_count": 12
+    },
+    {
+      "id": 43652,
+      "title": "Retro Candy: The Memories Linger On",
+      "url": "https://sweetsworld.com.au/candy-guides/retro-candy/",
+      "missing_topics": [
+        "American Candy",
+        "UK Sweets",
+        "Australian Lollies",
+        "Bulk Lollies",
+        "Gift Boxes",
+        "Chocolate",
+        "Party Sweets",
+        "Seasonal Sweets",
+        "Store Locator",
+        "Returns Policy",
+        "FAQ",
+        "Shipping Info"
+      ],
+      "missing_count": 12
+    },
+    {
+      "id": 19849,
+      "title": "Darrell Lea Dad&#8217;s Bag",
+      "url": "https://sweetsworld.com.au/candy-guides/darrell-lea-dads-bag/",
+      "missing_topics": [
+        "American Candy",
+        "UK Sweets",
+        "Australian Lollies",
+        "Bulk Lollies",
+        "Gift Boxes",
+        "Chocolate",
+        "Party Sweets",
+        "Seasonal Sweets",
+        "Store Locator",
+        "Returns Policy",
+        "FAQ",
+        "Shipping Info"
+      ],
+      "missing_count": 12
+    },
+    {
+      "id": 17806,
+      "title": "Cadbury Caramilk",
+      "url": "https://sweetsworld.com.au/candy-guides/cadbury-caramilk/",
+      "missing_topics": [
+        "American Candy",
+        "UK Sweets",
+        "Australian Lollies",
+        "Bulk Lollies",
+        "Gift Boxes",
+        "Chocolate",
+        "Party Sweets",
+        "Seasonal Sweets",
+        "Store Locator",
+        "Returns Policy",
+        "FAQ",
+        "Shipping Info"
+      ],
+      "missing_count": 12
+    },
+    {
+      "id": 17706,
+      "title": "Ass-Kicking Fermented Chilli Sauces",
+      "url": "https://sweetsworld.com.au/candy-guides/fermented-chilli-sauce/",
+      "missing_topics": [
+        "American Candy",
+        "UK Sweets",
+        "Australian Lollies",
+        "Bulk Lollies",
+        "Gift Boxes",
+        "Chocolate",
+        "Party Sweets",
+        "Seasonal Sweets",
+        "Store Locator",
+        "Returns Policy",
+        "FAQ",
+        "Shipping Info"
+      ],
+      "missing_count": 12
+    },
+    {
+      "id": 17447,
+      "title": "BERTIE BEETLE",
+      "url": "https://sweetsworld.com.au/chocolate/bertie-beetle/",
+      "missing_topics": [
+        "American Candy",
+        "UK Sweets",
+        "Australian Lollies",
+        "Bulk Lollies",
+        "Gift Boxes",
+        "Chocolate",
+        "Party Sweets",
+        "Seasonal Sweets",
+        "Store Locator",
+        "Returns Policy",
+        "FAQ",
+        "Shipping Info"
+      ],
+      "missing_count": 12
+    },
+    {
+      "id": 14516,
+      "title": "We are in this together!",
+      "url": "https://sweetsworld.com.au/candy-guides/we-are-in-this-together/",
+      "missing_topics": [
+        "American Candy",
+        "UK Sweets",
+        "Australian Lollies",
+        "Bulk Lollies",
+        "Gift Boxes",
+        "Chocolate",
+        "Party Sweets",
+        "Seasonal Sweets",
+        "Store Locator",
+        "Returns Policy",
+        "FAQ",
+        "Shipping Info"
+      ],
+      "missing_count": 12
+    },
+    {
+      "id": 14374,
+      "title": "Where to buy Darrell Lea Nougat Egg",
+      "url": "https://sweetsworld.com.au/chocolate/easter/where-to-buy-darrell-lea-nougat-egg/",
+      "missing_topics": [
+        "American Candy",
+        "UK Sweets",
+        "Australian Lollies",
+        "Bulk Lollies",
+        "Gift Boxes",
+        "Chocolate",
+        "Party Sweets",
+        "Seasonal Sweets",
+        "Store Locator",
+        "Returns Policy",
+        "FAQ",
+        "Shipping Info"
+      ],
+      "missing_count": 12
+    },
+    {
+      "id": 14296,
+      "title": "Thorntons Chocolate Box",
+      "url": "https://sweetsworld.com.au/chocolate/thorntons-chocolate-box/",
+      "missing_topics": [
+        "American Candy",
+        "UK Sweets",
+        "Australian Lollies",
+        "Bulk Lollies",
+        "Gift Boxes",
+        "Chocolate",
+        "Party Sweets",
+        "Seasonal Sweets",
+        "Store Locator",
+        "Returns Policy",
+        "FAQ",
+        "Shipping Info"
+      ],
+      "missing_count": 12
+    },
+    {
+      "id": 14289,
+      "title": "The Hottest Chilli Sauce in Newcastle",
+      "url": "https://sweetsworld.com.au/candy-guides/hottest-chilli-sauce-newcastle/",
+      "missing_topics": [
+        "American Candy",
+        "UK Sweets",
+        "Australian Lollies",
+        "Bulk Lollies",
+        "Gift Boxes",
+        "Chocolate",
+        "Party Sweets",
+        "Seasonal Sweets",
+        "Store Locator",
+        "Returns Policy",
+        "FAQ",
+        "Shipping Info"
+      ],
+      "missing_count": 12
+    },
+    {
+      "id": 14285,
+      "title": "Fruit Jelly Sticks Tik Tok",
+      "url": "https://sweetsworld.com.au/tiktok/fruit-jelly-sticks/",
+      "missing_topics": [
+        "American Candy",
+        "UK Sweets",
+        "Australian Lollies",
+        "Bulk Lollies",
+        "Gift Boxes",
+        "Chocolate",
+        "Party Sweets",
+        "Seasonal Sweets",
+        "Store Locator",
+        "Returns Policy",
+        "FAQ",
+        "Shipping Info"
+      ],
+      "missing_count": 12
+    },
+    {
+      "id": 14253,
+      "title": "Milk Chocolate Foiled Bilby",
+      "url": "https://sweetsworld.com.au/chocolate/milk-chocolate-foiled-bilby/",
+      "missing_topics": [
+        "American Candy",
+        "UK Sweets",
+        "Australian Lollies",
+        "Bulk Lollies",
+        "Gift Boxes",
+        "Chocolate",
+        "Party Sweets",
+        "Seasonal Sweets",
+        "Store Locator",
+        "Returns Policy",
+        "FAQ",
+        "Shipping Info"
+      ],
+      "missing_count": 12
+    },
+    {
+      "id": 14242,
+      "title": "Dairy-Free Easter Egg",
+      "url": "https://sweetsworld.com.au/chocolate/dairy-free-easter-egg/",
+      "missing_topics": [
+        "American Candy",
+        "UK Sweets",
+        "Australian Lollies",
+        "Bulk Lollies",
+        "Gift Boxes",
+        "Chocolate",
+        "Party Sweets",
+        "Seasonal Sweets",
+        "Store Locator",
+        "Returns Policy",
+        "FAQ",
+        "Shipping Info"
+      ],
+      "missing_count": 12
+    },
+    {
+      "id": 14234,
+      "title": "Easter Chocolate Bunny",
+      "url": "https://sweetsworld.com.au/chocolate/easter-chocolate-bunny/",
+      "missing_topics": [
+        "American Candy",
+        "UK Sweets",
+        "Australian Lollies",
+        "Bulk Lollies",
+        "Gift Boxes",
+        "Chocolate",
+        "Party Sweets",
+        "Seasonal Sweets",
+        "Store Locator",
+        "Returns Policy",
+        "FAQ",
+        "Shipping Info"
+      ],
+      "missing_count": 12
+    },
+    {
+      "id": 14220,
+      "title": "How do you make fruits jelly?",
+      "url": "https://sweetsworld.com.au/candy-guides/make-fruits-jelly/",
+      "missing_topics": [
+        "American Candy",
+        "UK Sweets",
+        "Australian Lollies",
+        "Bulk Lollies",
+        "Gift Boxes",
+        "Chocolate",
+        "Party Sweets",
+        "Seasonal Sweets",
+        "Store Locator",
+        "Returns Policy",
+        "FAQ",
+        "Shipping Info"
+      ],
+      "missing_count": 12
+    },
+    {
+      "id": 14217,
+      "title": "Cobbers &#8211; Chewy Caramel",
+      "url": "https://sweetsworld.com.au/chocolate/cobbers/",
+      "missing_topics": [
+        "American Candy",
+        "UK Sweets",
+        "Australian Lollies",
+        "Bulk Lollies",
+        "Gift Boxes",
+        "Chocolate",
+        "Party Sweets",
+        "Seasonal Sweets",
+        "Store Locator",
+        "Returns Policy",
+        "FAQ",
+        "Shipping Info"
+      ],
+      "missing_count": 12
+    },
+    {
+      "id": 14202,
+      "title": "Aussie  Witchetty Grubs",
+      "url": "https://sweetsworld.com.au/lolly/witchetty-grubs/",
+      "missing_topics": [
+        "American Candy",
+        "UK Sweets",
+        "Australian Lollies",
+        "Bulk Lollies",
+        "Gift Boxes",
+        "Chocolate",
+        "Party Sweets",
+        "Seasonal Sweets",
+        "Store Locator",
+        "Returns Policy",
+        "FAQ",
+        "Shipping Info"
+      ],
+      "missing_count": 12
+    },
+    {
+      "id": 14198,
+      "title": "Darrell Lea Nougat Egg",
+      "url": "https://sweetsworld.com.au/chocolate/darrell-lea-nougat-egg/",
+      "missing_topics": [
+        "American Candy",
+        "UK Sweets",
+        "Australian Lollies",
+        "Bulk Lollies",
+        "Gift Boxes",
+        "Chocolate",
+        "Party Sweets",
+        "Seasonal Sweets",
+        "Store Locator",
+        "Returns Policy",
+        "FAQ",
+        "Shipping Info"
+      ],
+      "missing_count": 12
+    },
+    {
+      "id": 14147,
+      "title": "Zing Jelly Fruits from TIK Tok Hit",
+      "url": "https://sweetsworld.com.au/tiktok/zing-jelly-fruits/",
+      "missing_topics": [
+        "American Candy",
+        "UK Sweets",
+        "Australian Lollies",
+        "Bulk Lollies",
+        "Gift Boxes",
+        "Chocolate",
+        "Party Sweets",
+        "Seasonal Sweets",
+        "Store Locator",
+        "Returns Policy",
+        "FAQ",
+        "Shipping Info"
+      ],
+      "missing_count": 12
+    },
+    {
+      "id": 13760,
+      "title": "Valentine&#8217;s Day Gift",
+      "url": "https://sweetsworld.com.au/trending/valentines-day-gift/",
+      "missing_topics": [
+        "American Candy",
+        "UK Sweets",
+        "Australian Lollies",
+        "Bulk Lollies",
+        "Gift Boxes",
+        "Chocolate",
+        "Party Sweets",
+        "Seasonal Sweets",
+        "Store Locator",
+        "Returns Policy",
+        "FAQ",
+        "Shipping Info"
+      ],
+      "missing_count": 12
+    },
+    {
+      "id": 12821,
+      "title": "Turkish Delight",
+      "url": "https://sweetsworld.com.au/uncategorized/rose-flavour-turkish-delight/",
+      "missing_topics": [
+        "American Candy",
+        "UK Sweets",
+        "Australian Lollies",
+        "Bulk Lollies",
+        "Gift Boxes",
+        "Chocolate",
+        "Party Sweets",
+        "Seasonal Sweets",
+        "Store Locator",
+        "Returns Policy",
+        "FAQ",
+        "Shipping Info"
+      ],
+      "missing_count": 12
+    },
+    {
+      "id": 12565,
+      "title": "Where to find Scorched Peanut Bars?",
+      "url": "https://sweetsworld.com.au/uncategorized/where-to-find-scorched-peanut-bars/",
+      "missing_topics": [
+        "American Candy",
+        "UK Sweets",
+        "Australian Lollies",
+        "Bulk Lollies",
+        "Gift Boxes",
+        "Chocolate",
+        "Party Sweets",
+        "Seasonal Sweets",
+        "Store Locator",
+        "Returns Policy",
+        "FAQ",
+        "Shipping Info"
+      ],
+      "missing_count": 12
+    },
+    {
+      "id": 366,
+      "title": "World Hottest Corn Chips",
+      "url": "https://sweetsworld.com.au/uncategorized/world-hottest-corn-chips/",
+      "missing_topics": [
+        "American Candy",
+        "UK Sweets",
+        "Australian Lollies",
+        "Bulk Lollies",
+        "Gift Boxes",
+        "Chocolate",
+        "Party Sweets",
+        "Seasonal Sweets",
+        "Store Locator",
+        "Returns Policy",
+        "FAQ",
+        "Shipping Info"
+      ],
+      "missing_count": 12
+    },
+    {
+      "id": 71083,
+      "title": "Party Sweets &#038; Bulk Lollies for Events Australia | SweetsWorld",
+      "url": "https://sweetsworld.com.au/party-sweets/",
+      "missing_topics": [
+        "American Candy",
+        "UK Sweets",
+        "Australian Lollies",
+        "Bulk Lollies",
+        "Gift Boxes",
+        "Chocolate",
+        "Party Sweets",
+        "Seasonal Sweets",
+        "Store Locator",
+        "Returns Policy",
+        "FAQ",
+        "Shipping Info"
+      ],
+      "missing_count": 12
+    },
+    {
+      "id": 70152,
+      "title": "Data Deletion",
+      "url": "https://sweetsworld.com.au/data-deletion/",
+      "missing_topics": [
+        "American Candy",
+        "UK Sweets",
+        "Australian Lollies",
+        "Bulk Lollies",
+        "Gift Boxes",
+        "Chocolate",
+        "Party Sweets",
+        "Seasonal Sweets",
+        "Store Locator",
+        "Returns Policy",
+        "FAQ",
+        "Shipping Info"
+      ],
+      "missing_count": 12
+    },
+    {
+      "id": 69872,
+      "title": "Terms of Service",
+      "url": "https://sweetsworld.com.au/terms-of-service/",
+      "missing_topics": [
+        "American Candy",
+        "UK Sweets",
+        "Australian Lollies",
+        "Bulk Lollies",
+        "Gift Boxes",
+        "Chocolate",
+        "Party Sweets",
+        "Seasonal Sweets",
+        "Store Locator",
+        "Returns Policy",
+        "FAQ",
+        "Shipping Info"
+      ],
+      "missing_count": 12
+    },
+    {
+      "id": 69773,
+      "title": "Best Sour Lollies Australia | Top Picks 2025",
+      "url": "https://sweetsworld.com.au/best-sour-lollies-australia/",
+      "missing_topics": [
+        "American Candy",
+        "UK Sweets",
+        "Australian Lollies",
+        "Bulk Lollies",
+        "Gift Boxes",
+        "Chocolate",
+        "Party Sweets",
+        "Seasonal Sweets",
+        "Store Locator",
+        "Returns Policy",
+        "FAQ",
+        "Shipping Info"
+      ],
+      "missing_count": 12
+    },
+    {
+      "id": 69768,
+      "title": "Wholesale &#038; Bulk Candy Australia | SweetsWorld",
+      "url": "https://sweetsworld.com.au/wholesale-candy-australia/",
+      "missing_topics": [
+        "American Candy",
+        "UK Sweets",
+        "Australian Lollies",
+        "Bulk Lollies",
+        "Gift Boxes",
+        "Chocolate",
+        "Party Sweets",
+        "Seasonal Sweets",
+        "Store Locator",
+        "Returns Policy",
+        "FAQ",
+        "Shipping Info"
+      ],
+      "missing_count": 12
+    },
+    {
+      "id": 63141,
+      "title": "Takis Chips: The Ultimate Guide to These Bold and Spicy Tortilla Chips",
+      "url": "https://sweetsworld.com.au/takis-chips-the-ultimate-guide-to-these-bold-and-spicy-tortilla-chips-2/",
+      "missing_topics": [
+        "American Candy",
+        "UK Sweets",
+        "Australian Lollies",
+        "Bulk Lollies",
+        "Gift Boxes",
+        "Chocolate",
+        "Party Sweets",
+        "Seasonal Sweets",
+        "Store Locator",
+        "Returns Policy",
+        "FAQ",
+        "Shipping Info"
+      ],
+      "missing_count": 12
+    },
+    {
+      "id": 63138,
+      "title": "Takis Chips: The Ultimate Guide to These Bold and Spicy Tortilla Chips",
+      "url": "https://sweetsworld.com.au/takis-chips-the-ultimate-guide-to-these-bold-and-spicy-tortilla-chips/",
+      "missing_topics": [
+        "American Candy",
+        "UK Sweets",
+        "Australian Lollies",
+        "Bulk Lollies",
+        "Gift Boxes",
+        "Chocolate",
+        "Party Sweets",
+        "Seasonal Sweets",
+        "Store Locator",
+        "Returns Policy",
+        "FAQ",
+        "Shipping Info"
+      ],
+      "missing_count": 12
+    },
+    {
+      "id": 62540,
+      "title": "Nerds Candy",
+      "url": "https://sweetsworld.com.au/nerds-candy/",
+      "missing_topics": [
+        "American Candy",
+        "UK Sweets",
+        "Australian Lollies",
+        "Bulk Lollies",
+        "Gift Boxes",
+        "Chocolate",
+        "Party Sweets",
+        "Seasonal Sweets",
+        "Store Locator",
+        "Returns Policy",
+        "FAQ",
+        "Shipping Info"
+      ],
+      "missing_count": 12
+    },
+    {
+      "id": 26187,
+      "title": "My Orders",
+      "url": "https://sweetsworld.com.au/my-orders/",
+      "missing_topics": [
+        "American Candy",
+        "UK Sweets",
+        "Australian Lollies",
+        "Bulk Lollies",
+        "Gift Boxes",
+        "Chocolate",
+        "Party Sweets",
+        "Seasonal Sweets",
+        "Store Locator",
+        "Returns Policy",
+        "FAQ",
+        "Shipping Info"
+      ],
+      "missing_count": 12
+    },
+    {
+      "id": 26186,
+      "title": "Store List",
+      "url": "https://sweetsworld.com.au/store-listing/",
+      "missing_topics": [
+        "American Candy",
+        "UK Sweets",
+        "Australian Lollies",
+        "Bulk Lollies",
+        "Gift Boxes",
+        "Chocolate",
+        "Party Sweets",
+        "Seasonal Sweets",
+        "Store Locator",
+        "Returns Policy",
+        "FAQ",
+        "Shipping Info"
+      ],
+      "missing_count": 12
+    },
+    {
+      "id": 22503,
+      "title": "British Lollies",
+      "url": "https://sweetsworld.com.au/british-lollies/",
+      "missing_topics": [
+        "American Candy",
+        "UK Sweets",
+        "Australian Lollies",
+        "Bulk Lollies",
+        "Gift Boxes",
+        "Chocolate",
+        "Party Sweets",
+        "Seasonal Sweets",
+        "Store Locator",
+        "Returns Policy",
+        "FAQ",
+        "Shipping Info"
+      ],
+      "missing_count": 12
+    },
+    {
+      "id": 22499,
+      "title": "New Arrivals",
+      "url": "https://sweetsworld.com.au/new-arrivals/",
+      "missing_topics": [
+        "American Candy",
+        "UK Sweets",
+        "Australian Lollies",
+        "Bulk Lollies",
+        "Gift Boxes",
+        "Chocolate",
+        "Party Sweets",
+        "Seasonal Sweets",
+        "Store Locator",
+        "Returns Policy",
+        "FAQ",
+        "Shipping Info"
+      ],
+      "missing_count": 12
+    },
+    {
+      "id": 21570,
+      "title": "Wishlist",
+      "url": "https://sweetsworld.com.au/wishlist/",
+      "missing_topics": [
+        "American Candy",
+        "UK Sweets",
+        "Australian Lollies",
+        "Bulk Lollies",
+        "Gift Boxes",
+        "Chocolate",
+        "Party Sweets",
+        "Seasonal Sweets",
+        "Store Locator",
+        "Returns Policy",
+        "FAQ",
+        "Shipping Info"
+      ],
+      "missing_count": 12
+    },
+    {
+      "id": 12626,
+      "title": "Imported Sweets Shop",
+      "url": "https://sweetsworld.com.au/imported-sweets-shop/",
+      "missing_topics": [
+        "American Candy",
+        "UK Sweets",
+        "Australian Lollies",
+        "Bulk Lollies",
+        "Gift Boxes",
+        "Chocolate",
+        "Party Sweets",
+        "Seasonal Sweets",
+        "Store Locator",
+        "Returns Policy",
+        "FAQ",
+        "Shipping Info"
+      ],
+      "missing_count": 12
+    },
+    {
+      "id": 507,
+      "title": "On Sale",
+      "url": "https://sweetsworld.com.au/on-sale/",
+      "missing_topics": [
+        "American Candy",
+        "UK Sweets",
+        "Australian Lollies",
+        "Bulk Lollies",
+        "Gift Boxes",
+        "Chocolate",
+        "Party Sweets",
+        "Seasonal Sweets",
+        "Store Locator",
+        "Returns Policy",
+        "FAQ",
+        "Shipping Info"
+      ],
+      "missing_count": 12
+    },
+    {
+      "id": 9,
+      "title": "My account",
+      "url": "https://sweetsworld.com.au/my-account/",
+      "missing_topics": [
+        "American Candy",
+        "UK Sweets",
+        "Australian Lollies",
+        "Bulk Lollies",
+        "Gift Boxes",
+        "Chocolate",
+        "Party Sweets",
+        "Seasonal Sweets",
+        "Store Locator",
+        "Returns Policy",
+        "FAQ",
+        "Shipping Info"
+      ],
+      "missing_count": 12
+    },
+    {
+      "id": 8,
+      "title": "Sweet Checkout",
+      "url": "https://sweetsworld.com.au/sweet-checkout/",
+      "missing_topics": [
+        "American Candy",
+        "UK Sweets",
+        "Australian Lollies",
+        "Bulk Lollies",
+        "Gift Boxes",
+        "Chocolate",
+        "Party Sweets",
+        "Seasonal Sweets",
+        "Store Locator",
+        "Returns Policy",
+        "FAQ",
+        "Shipping Info"
+      ],
+      "missing_count": 12
+    },
+    {
+      "id": 7,
+      "title": "Candy Cart",
+      "url": "https://sweetsworld.com.au/candycart/",
+      "missing_topics": [
+        "American Candy",
+        "UK Sweets",
+        "Australian Lollies",
+        "Bulk Lollies",
+        "Gift Boxes",
+        "Chocolate",
+        "Party Sweets",
+        "Seasonal Sweets",
+        "Store Locator",
+        "Returns Policy",
+        "FAQ",
+        "Shipping Info"
+      ],
+      "missing_count": 12
+    },
+    {
+      "id": 6,
+      "title": "Shop",
+      "url": "https://sweetsworld.com.au/shop/",
+      "missing_topics": [
+        "American Candy",
+        "UK Sweets",
+        "Australian Lollies",
+        "Bulk Lollies",
+        "Gift Boxes",
+        "Chocolate",
+        "Party Sweets",
+        "Seasonal Sweets",
+        "Store Locator",
+        "Returns Policy",
+        "FAQ",
+        "Shipping Info"
+      ],
+      "missing_count": 12
+    },
+    {
+      "id": 3,
+      "title": "Privacy Policy",
+      "url": "https://sweetsworld.com.au/privacy-policy/",
+      "missing_topics": [
+        "American Candy",
+        "UK Sweets",
+        "Australian Lollies",
+        "Bulk Lollies",
+        "Gift Boxes",
+        "Chocolate",
+        "Party Sweets",
+        "Seasonal Sweets",
+        "Store Locator",
+        "Returns Policy",
+        "FAQ",
+        "Shipping Info"
+      ],
+      "missing_count": 12
+    },
+    {
+      "id": 70143,
+      "title": "White Knight Chocolate: Where to Buy in Australia",
+      "url": "https://sweetsworld.com.au/where-to-buy/white-knight-chocolate-where-to-buy-australia/",
+      "missing_topics": [
+        "American Candy",
+        "UK Sweets",
+        "Australian Lollies",
+        "Bulk Lollies",
+        "Gift Boxes",
+        "Party Sweets",
+        "Seasonal Sweets",
+        "Store Locator",
+        "Returns Policy",
+        "FAQ",
+        "Shipping Info"
+      ],
+      "missing_count": 11
+    },
+    {
+      "id": 71089,
+      "title": "Seasonal Sweets &#038; Holiday Candy Australia | SweetsWorld",
+      "url": "https://sweetsworld.com.au/seasonal-sweets/",
+      "missing_topics": [
+        "American Candy",
+        "UK Sweets",
+        "Australian Lollies",
+        "Bulk Lollies",
+        "Gift Boxes",
+        "Chocolate",
+        "Party Sweets",
+        "Seasonal Sweets",
+        "Returns Policy",
+        "FAQ",
+        "Shipping Info"
+      ],
+      "missing_count": 11
+    },
+    {
+      "id": 71080,
+      "title": "Australian Lollies &#038; Local Sweets | SweetsWorld",
+      "url": "https://sweetsworld.com.au/australian-lollies/",
+      "missing_topics": [
+        "American Candy",
+        "UK Sweets",
+        "Australian Lollies",
+        "Bulk Lollies",
+        "Gift Boxes",
+        "Chocolate",
+        "Party Sweets",
+        "Seasonal Sweets",
+        "Returns Policy",
+        "FAQ",
+        "Shipping Info"
+      ],
+      "missing_count": 11
+    },
+    {
+      "id": 71060,
+      "title": "Find SweetsWorld Near You | Store Locator",
+      "url": "https://sweetsworld.com.au/store-locator/",
+      "missing_topics": [
+        "American Candy",
+        "UK Sweets",
+        "Australian Lollies",
+        "Bulk Lollies",
+        "Gift Boxes",
+        "Chocolate",
+        "Party Sweets",
+        "Seasonal Sweets",
+        "Store Locator",
+        "FAQ",
+        "Shipping Info"
+      ],
+      "missing_count": 11
+    },
+    {
+      "id": 25972,
+      "title": "Returns &#038; Refunds Policy | SweetsWorld Australia",
+      "url": "https://sweetsworld.com.au/returns-refunds/",
+      "missing_topics": [
+        "American Candy",
+        "UK Sweets",
+        "Australian Lollies",
+        "Bulk Lollies",
+        "Gift Boxes",
+        "Chocolate",
+        "Party Sweets",
+        "Seasonal Sweets",
+        "Returns Policy",
+        "FAQ",
+        "Shipping Info"
+      ],
+      "missing_count": 11
+    },
+    {
+      "id": 15113,
+      "title": "Our Sponsorships",
+      "url": "https://sweetsworld.com.au/our-sponsorships/",
+      "missing_topics": [
+        "American Candy",
+        "UK Sweets",
+        "Australian Lollies",
+        "Bulk Lollies",
+        "Gift Boxes",
+        "Chocolate",
+        "Party Sweets",
+        "Seasonal Sweets",
+        "Returns Policy",
+        "FAQ",
+        "Shipping Info"
+      ],
+      "missing_count": 11
+    },
+    {
+      "id": 22816,
+      "title": "Faqs",
+      "url": "https://sweetsworld.com.au/faqs/",
+      "missing_topics": [
+        "American Candy",
+        "UK Sweets",
+        "Australian Lollies",
+        "Bulk Lollies",
+        "Gift Boxes",
+        "Chocolate",
+        "Party Sweets",
+        "Seasonal Sweets",
+        "FAQ",
+        "Shipping Info"
+      ],
+      "missing_count": 10
+    },
+    {
+      "id": 22225,
+      "title": "Contact Us",
+      "url": "https://sweetsworld.com.au/contact/",
+      "missing_topics": [
+        "American Candy",
+        "UK Sweets",
+        "Australian Lollies",
+        "Bulk Lollies",
+        "Gift Boxes",
+        "Chocolate",
+        "Party Sweets",
+        "Seasonal Sweets",
+        "FAQ",
+        "Shipping Info"
+      ],
+      "missing_count": 10
+    },
+    {
+      "id": 221,
+      "title": "Shipping Information",
+      "url": "https://sweetsworld.com.au/shipping-information/",
+      "missing_topics": [
+        "American Candy",
+        "UK Sweets",
+        "Australian Lollies",
+        "Bulk Lollies",
+        "Gift Boxes",
+        "Chocolate",
+        "Party Sweets",
+        "Seasonal Sweets",
+        "FAQ",
+        "Shipping Info"
+      ],
+      "missing_count": 10
+    },
+    {
+      "id": 219,
+      "title": "Customer Services",
+      "url": "https://sweetsworld.com.au/customer-services/",
+      "missing_topics": [
+        "American Candy",
+        "UK Sweets",
+        "Australian Lollies",
+        "Bulk Lollies",
+        "Gift Boxes",
+        "Chocolate",
+        "Party Sweets",
+        "Seasonal Sweets",
+        "FAQ",
+        "Shipping Info"
+      ],
+      "missing_count": 10
+    },
+    {
+      "id": 2,
+      "title": "About Us &#8211; Newcastle Candy Store",
+      "url": "https://sweetsworld.com.au/newcastle-candy-store-about-us/",
+      "missing_topics": [
+        "American Candy",
+        "UK Sweets",
+        "Australian Lollies",
+        "Bulk Lollies",
+        "Gift Boxes",
+        "Chocolate",
+        "Party Sweets",
+        "Seasonal Sweets",
+        "FAQ",
+        "Shipping Info"
+      ],
+      "missing_count": 10
+    },
+    {
+      "id": 22232,
+      "title": "Home",
+      "url": "https://sweetsworld.com.au/",
+      "missing_topics": [
+        "American Candy",
+        "UK Sweets",
+        "Bulk Lollies",
+        "Gift Boxes",
+        "Chocolate",
+        "Store Locator",
+        "Returns Policy",
+        "FAQ",
+        "Shipping Info"
+      ],
+      "missing_count": 9
+    },
+    {
+      "id": 15119,
+      "title": "Sweet Stories",
+      "url": "https://sweetsworld.com.au/sweet-stories/",
+      "missing_topics": [
+        "American Candy",
+        "UK Sweets",
+        "Bulk Lollies",
+        "Gift Boxes",
+        "Chocolate",
+        "Store Locator",
+        "Returns Policy",
+        "FAQ",
+        "Shipping Info"
+      ],
+      "missing_count": 9
+    }
+  ]
+}

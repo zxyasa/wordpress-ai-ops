@@ -1,0 +1,37 @@
+pages:
+  - slug: american-candy
+    url: /candy/american-candy/
+    label: American Candy
+  - slug: uk-sweets
+    url: /british-lollies/uk-sweets/
+    label: UK Sweets
+  - slug: australian-lollies
+    url: /australian-lollies/
+    label: Australian Lollies
+  - slug: bulk-lollies
+    url: /wholesale/
+    label: Bulk Lollies
+  - slug: gift-boxes
+    url: /gift/chocolate-box/
+    label: Gift Boxes
+  - slug: chocolate
+    url: /chocolate/
+    label: Chocolate
+  - slug: party-sweets
+    url: /party-sweets/
+    label: Party Sweets
+  - slug: seasonal-sweets
+    url: /seasonal-sweets/
+    label: Seasonal Sweets
+  - slug: store-locator
+    url: /store-locator/
+    label: Store Locator
+  - slug: returns-refunds
+    url: /returns-refunds/
+    label: Returns Policy
+  - slug: faq
+    url: /faq/
+    label: FAQ
+  - slug: shipping
+    url: /shipping/
+    label: Shipping Info
