@@ -1,0 +1,9 @@
+# Runtime state (evolves per run — not source)
+.slug_collision_state.json
+
+# Pre-write backups — timestamped WP JSON dumps, not source
+backups/
+
+# Python cache
+__pycache__/
+*.pyc
